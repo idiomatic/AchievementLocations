@@ -5,6 +5,7 @@ name: Derive
 
 on:
   workflow_dispatch:
+  repository_dispatch:
 
 jobs:
   derive:
@@ -29,5 +30,14 @@ jobs:
       - name: compare
         run: git diff
 
-      - name: commit
-        run: echo nyi
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+
+      #- name: commit
+      #  run: |
+      #    git add -a
+      #    git commit -m "derived from Google Sheets"
+      #    git push origin master
+
