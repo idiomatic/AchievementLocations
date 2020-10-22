@@ -41,7 +41,7 @@ do ->
     outs = {}
     priorAchievementID = {}
 
-    rows = rows.filter (row) -> row.mapfile
+    rows = rows.filter (row) -> row.mapfile and row.category
     rows.sort (a, b) ->
         ma = a.mapfile.toLowerCase()
         mb = b.mapfile.toLowerCase()

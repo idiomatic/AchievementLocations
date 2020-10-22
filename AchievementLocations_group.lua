@@ -3,23 +3,11 @@
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
--- Dungeons & Raids/Cataclysm Raid: Baradin Hold Guild Run
-A{"BaradinHold", 5425} -- Argaloth slain
-A{"BaradinHold", 5425} -- Occu'thar slain
-A{"BaradinHold", 5425} -- Alizabal slain
-
--- undefined: Blackwing Descent Guild Run
-A{"BlackwingDescent", }
-A{"DragonSoul", }
-
 -- Dungeons & Raids/Cataclysm Raid: Only the Penitent...
 A{"Firelands", 5799, 0.500, 0.820, floor=3}
 
 -- Dungeons & Raids: Glory of the Firelands Raider
 A{"Firelands", 5828, 0.500, 0.820, criterion=17582, floor=3} -- Only the Penitent...
-
--- undefined: Firelands Guild Run
-A{"Firelands", , 0.507, 0.153}
 
 -- Dungeons & Raids: Glory of the Hero
 A{"Gundrak", 2136, 0.465, 0.270, criterion=7584} -- Share The Love
@@ -64,14 +52,6 @@ A{"TerraceOfEndlessSpring", 9914, 0.390, 0.480, criterion=27741, note="drop from
 
 -- Garrisons: Full Discography
 A{"TerraceOfEndlessSpring", 10015, 0.390, 0.480, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
-
--- undefined: Heroic: Cho'gall Guild Run
-A{"TheBastionofTwilight", }
-A{"TheBastionofTwilight", , 0.488, 0.337, floor=3}
-A{"TheBastionofTwilight", }
-
--- undefined: Throne of the Four Winds Guild Run
-A{"ThroneoftheFourWinds", 4987}
 
 -- Dungeons & Raids/Lich King Raid: Staying Buffed All Winter (10 player)
 A{"Ulduar", 2969, 0.680, 0.650, floor=3}

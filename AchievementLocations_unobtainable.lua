@@ -3,9 +3,6 @@
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
--- undefined: Warglaives of Azzinoth
-A{"BlackTemple", 426}
-
 -- Legacy: Challenge Conqueror: Bronze
 A{"EastTemple", 6374, criterion=19874} -- Temple of the Jade Serpent
 
@@ -83,12 +80,6 @@ A{"MogushanVaults", 6954}
 
 -- Feats of Strength: Cutting Edge: Will of the Emperor
 A{"MogushanVaults", 7485}
-
--- Feats of Strength: Sulfuras, Hand of Ragnaros
-A{"MoltenCore", 429}
-
--- Feats of Strength: Thunderfury, Blessed Blade of the Windseeker
-A{"MoltenCore", 428}
 
 -- Feats of Strength: Realm First! Conqueror of Naxxramas
 A{"Naxxramas", 1402, 0.370, 0.230, floor=6}
@@ -227,9 +218,6 @@ A{"StormstoutBrewery", 6920, criterion=19863} -- Stormstout Brewery
 
 -- Feats of Strength: Challenge Master: Stormstout Brewery
 A{"StormstoutBrewery", 8431}
-
--- undefined: Thori'dal, the Stars' Fury
-A{"SunwellPlateau", 725}
 
 -- Feats of Strength: Cutting Edge: Sha of Fear
 A{"TerraceOfEndlessSpring", 7487, 0.390, 0.480}
