@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: derive
-        run: node_modules/.bin/coffee make.coffee
+        run: npm run derive
 
       - name: compare
         run: git diff
