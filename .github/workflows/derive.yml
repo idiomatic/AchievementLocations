@@ -1,7 +1,6 @@
 name: Derive
 
 # TODO trigger from Sheets change notification
-# TODO push changed lua into github
 
 on:
   workflow_dispatch:
@@ -35,9 +34,9 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "<>"
 
-      #- name: commit
-      #  run: |
-      #    git add -a
-      #    git commit -m "derived from Google Sheets"
-      #    git push origin master
+      - name: commit
+        run: |
+          git add -a
+          git commit -m "derived from Google Sheets"
+          git push origin master
 
