@@ -81,6 +81,12 @@ A{"MogushanVaults", 6954}
 -- Feats of Strength: Cutting Edge: Will of the Emperor
 A{"MogushanVaults", 7485}
 
+-- Feats of Strength: Sulfuras, Hand of Ragnaros
+A{"MoltenCore", 429}
+
+-- Feats of Strength: Thunderfury, Blessed Blade of the Windseeker
+A{"MoltenCore", 428}
+
 -- Feats of Strength: Realm First! Conqueror of Naxxramas
 A{"Naxxramas", 1402, 0.370, 0.230, floor=6}
 
