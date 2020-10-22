@@ -36,7 +36,6 @@ jobs:
 
       - name: commit
         run: |
-          git add -a
-          git commit -m "derived from Google Sheets"
+          git commit -a -m "derived from Google Sheets"
           git push origin master
 
