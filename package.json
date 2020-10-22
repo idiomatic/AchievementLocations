@@ -1,6 +1,6 @@
 {
   "name": "AchievementLocations",
-  "version": "0.4.20",
+  "version": "0.5.0",
   "description": "Database of World of Warcraft achievements.",
   "repository": {
     "type": "git",
