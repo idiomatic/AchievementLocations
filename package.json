@@ -1,7 +1,7 @@
 {
   "name": "AchievementLocations",
   "version": "0.5.0",
-  "description": "Database of World of Warcraft achievements.",
+  "description": "Geospatial database of World of Warcraft achievements.",
   "repository": {
     "type": "git",
     "url": "https://github.com/idiomatic/AchievementLocations"
