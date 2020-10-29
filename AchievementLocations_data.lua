@@ -4802,7 +4802,7 @@ A{"Westfall", 1676, criterion=15202, side="alliance"} -- Westfall+Duskwood/Silve
 A{"Westfall", 4903, criterion=0, side="alliance"} -- Westfall
 
 -- Exploration: Field Photographer
-A{"Westfall", 9924, criterion=27878} -- The Deadmines
+A{"Westfall", 9924, 0.424, 0.7173, criterion=27878, note="in dungeon"} -- The Deadmines
 A{"Westfall", 9924, 0.300, 0.860, criterion=27961} -- Westfall Lighthouse
 
 -- General: To All The Squirrels I've Loved Before
