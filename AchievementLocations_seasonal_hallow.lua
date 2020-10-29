@@ -446,9 +446,9 @@ A{"TwilightHighlands", 5837, criterion=17687, side="alliance", season="Hallow's 
 A{"TwilightHighlands", 5837, criterion=17689, side="alliance", season="Hallow's End"} -- Twilight Highlands, Victor's Point
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"TwilightHighlands", 5838, criterion=17711, side="horde", season="Hallow's End"} -- Twilight Highlands, The Krazzworks
-A{"TwilightHighlands", 5838, criterion=17708, side="horde", season="Hallow's End"} -- Twilight Highlands, Bloodgulch
-A{"TwilightHighlands", 5838, criterion=17709, side="horde", season="Hallow's End"} -- Twilight Highlands, Crushblow
+A{"TwilightHighlands", 5838, 0.754, 0.165, criterion=17711, side="horde", season="Hallow's End"} -- Twilight Highlands, The Krazzworks
+A{"TwilightHighlands", 5838, 0.534, 0.429, criterion=17708, side="horde", season="Hallow's End"} -- Twilight Highlands, Bloodgulch
+A{"TwilightHighlands", 5838, 0.451, 0.768, criterion=17709, side="horde", season="Hallow's End"} -- Twilight Highlands, Crushblow
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
 A{"Uldum", 5837, criterion=17690, side="alliance", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
