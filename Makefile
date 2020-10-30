@@ -1,6 +1,6 @@
 all: derive
 
 derive:
-	npm run derive
+	@echo deprecated
 
 .PHONY: all derive

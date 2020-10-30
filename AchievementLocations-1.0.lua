@@ -33,6 +33,8 @@ function AchievementLocations:AddLocation(mapFile, achievementID, x, y, options)
         row.side = options.side
     end
 
+    row.trivia = nil
+
     local map = self.byMap[mapFile]
     if not map then
         map = {}
