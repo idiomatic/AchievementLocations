@@ -49,7 +49,7 @@ do ->
         return -1 if ma < mb
         return 1
 
-    for {module, mapfile, mapid, uimapid, area, achievement, criterion, x, y, floor, item, quest, faction, note, criteria, name, category, description, points, side, parent, type, season, assetid} in rows
+    for {module, mapfile, mapID, uiMapID, area, achievement, criterion, x, y, floor, item, quest, faction, note, criteria, name, category, description, points, side, parent, type, season, assetid} in rows
         module or= 'data'
         out = outs[module] or= createModule(module)
 
@@ -73,12 +73,13 @@ do ->
         out.write ", season=#{JSON.stringify season}" if season
 
         some = false
-        trivia = {criteria, module, category, name, description, mapid, uimapid, area, points, parent, type, assetid}
+        trivia = {criteria, module, category, name, description, mapID, uiMapID, area, points, parent, type, assetid}
         for own key, value of trivia
             if value
                 out.write if some then ", " else  ", trivia={"
                 some = true
-                value = JSON.stringify(value) unless /^\d+$/.test(value)
+                # non-exponentiated number
+                value = JSON.stringify(value) unless /^[\+\-]?\d*\.?\d+$/.test(value)
                 out.write "#{key}=#{value}"
         out.write "}" if some
 
