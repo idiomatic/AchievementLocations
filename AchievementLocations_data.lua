@@ -4675,32 +4675,32 @@ A{"ValeOfEternalBlossomsScenario", 6858, 0.5200, 0.6800, criterion=19802} -- Alw
 A{"ValeOfEternalBlossomsScenario", 6858, 0.2600, 0.2100, criterion=19804} -- Together, We Are Strong
 
 -- Quests/Pandaria: One Many Army
-A{"ValeOfEternalBlossomsScenario", 7317, 0.4600, 0.5800, criterion=20517} -- Cracklefang
-A{"ValeOfEternalBlossomsScenario", 7317, 0.6800, 0.5500, criterion=20519} -- General Temuja
-A{"ValeOfEternalBlossomsScenario", 7317, 0.4000, 0.4800, criterion=20520} -- Shadowmaster Sydow
-A{"ValeOfEternalBlossomsScenario", 7317, 0.3500, 0.8900, criterion=20521} -- Aetha
-A{"ValeOfEternalBlossomsScenario", 7317, 0.3000, 0.7900, criterion=20522} -- Quid
-A{"ValeOfEternalBlossomsScenario", 7317, 0.4700, 0.6700, criterion=20523} -- Spirit of Lao-Fe
-A{"ValeOfEternalBlossomsScenario", 7317, 0.3700, 0.4800, criterion=20518} -- Vicejaw
-A{"ValeOfEternalBlossomsScenario", 7317, 0.3700, 0.8100, criterion=20524} -- Baolai the Immolator
-A{"ValeOfEternalBlossomsScenario", 7317, 0.3900, 0.7500, criterion=20525} -- Gaohun the Soul-Severer
-A{"ValeOfEternalBlossomsScenario", 7317, 0.2700, 0.1500, criterion=20526} -- Bloodtip
-A{"ValeOfEternalBlossomsScenario", 7317, 0.2700, 0.2000, criterion=20527} -- Wulon
-A{"ValeOfEternalBlossomsScenario", 7317, 0.2700, 0.2000, criterion=20528} -- Gochao the Ironfist
-A{"ValeOfEternalBlossomsScenario", 7317, 0.2600, 0.1500, criterion=20529} -- Huo-Shuang
-A{"ValeOfEternalBlossomsScenario", 7317, 0.1500, 0.2500, criterion=20530} -- Bai-Jin the Butcher
-A{"ValeOfEternalBlossomsScenario", 7317, 0.0600, 0.5800, criterion=20531} -- Kri'chon
-A{"ValeOfEternalBlossomsScenario", 7317, 0.0700, 0.3300, criterion=20532} -- Vyraxxis
+A{"ValeofEternalBlossoms", 7317, 0.4600, 0.5800, criterion=20517} -- Cracklefang
+A{"ValeofEternalBlossoms", 7317, 0.6800, 0.5500, criterion=20519} -- General Temuja
+A{"ValeofEternalBlossoms", 7317, 0.4000, 0.4800, criterion=20520} -- Shadowmaster Sydow
+A{"ValeofEternalBlossoms", 7317, 0.3500, 0.8900, criterion=20521} -- Aetha
+A{"ValeofEternalBlossoms", 7317, 0.3000, 0.7900, criterion=20522} -- Quid
+A{"ValeofEternalBlossoms", 7317, 0.4700, 0.6700, criterion=20523} -- Spirit of Lao-Fe
+A{"ValeofEternalBlossoms", 7317, 0.3700, 0.4800, criterion=20518} -- Vicejaw
+A{"ValeofEternalBlossoms", 7317, 0.3700, 0.8100, criterion=20524} -- Baolai the Immolator
+A{"ValeofEternalBlossoms", 7317, 0.3900, 0.7500, criterion=20525} -- Gaohun the Soul-Severer
+A{"ValeofEternalBlossoms", 7317, 0.2700, 0.1500, criterion=20526} -- Bloodtip
+A{"ValeofEternalBlossoms", 7317, 0.2700, 0.2000, criterion=20527} -- Wulon
+A{"ValeofEternalBlossoms", 7317, 0.2700, 0.2000, criterion=20528} -- Gochao the Ironfist
+A{"ValeofEternalBlossoms", 7317, 0.2600, 0.1500, criterion=20529} -- Huo-Shuang
+A{"ValeofEternalBlossoms", 7317, 0.1500, 0.2500, criterion=20530} -- Bai-Jin the Butcher
+A{"ValeofEternalBlossoms", 7317, 0.0600, 0.5800, criterion=20531} -- Kri'chon
+A{"ValeofEternalBlossoms", 7317, 0.0700, 0.3300, criterion=20532} -- Vyraxxis
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"ValeOfEternalBlossomsScenario", 7437, 0.3100, 0.9200, criterion="Hozen"} -- Major Nanners
-A{"ValeOfEternalBlossomsScenario", 7437, 0.7000, 0.3100, criterion="Jinyu"} -- Sahn Tidehunter
-A{"ValeOfEternalBlossomsScenario", 7437, 0.1400, 0.5900, criterion="Mantid"} -- Kal'tik the Blight
-A{"ValeOfEternalBlossomsScenario", 7437, 0.1500, 0.3600, criterion="Mogu Sorcerer"} -- Kang the Soul Thief
-A{"ValeOfEternalBlossomsScenario", 7437, 0.4000, 0.2500, criterion="Mogu Warrior"} -- Urgolax
-A{"ValeOfEternalBlossomsScenario", 7437, 0.4300, 0.6900, criterion="Pandaren"} -- Ai-Ran the Shifting Cloud
-A{"ValeOfEternalBlossomsScenario", 7437, 0.3800, 0.5500, criterion="Saurok", note="or thereabouts"} -- Moldo One-Eye
-A{"ValeOfEternalBlossomsScenario", 7437, 0.8800, 0.4500, criterion="Yaungol"} -- Yorik Sharpeye
+A{"ValeofEternalBlossoms", 7437, 0.3100, 0.9200, criterion="Hozen"} -- Major Nanners
+A{"ValeofEternalBlossoms", 7437, 0.7000, 0.3100, criterion="Jinyu"} -- Sahn Tidehunter
+A{"ValeofEternalBlossoms", 7437, 0.1400, 0.5900, criterion="Mantid"} -- Kal'tik the Blight
+A{"ValeofEternalBlossoms", 7437, 0.1500, 0.3600, criterion="Mogu Sorcerer"} -- Kang the Soul Thief
+A{"ValeofEternalBlossoms", 7437, 0.4000, 0.2500, criterion="Mogu Warrior"} -- Urgolax
+A{"ValeofEternalBlossoms", 7437, 0.4300, 0.6900, criterion="Pandaren"} -- Ai-Ran the Shifting Cloud
+A{"ValeofEternalBlossoms", 7437, 0.3800, 0.5500, criterion="Saurok", note="or thereabouts"} -- Moldo One-Eye
+A{"ValeofEternalBlossoms", 7437, 0.8800, 0.4500, criterion="Yaungol"} -- Yorik Sharpeye
 
 -- Exploration/Pandaria: Could We Find More Like That?
 A{"ValeOfEternalBlossomsScenario", 7438, 0.3100, 0.9200, criterion="Hozen"} -- Major Nanners
