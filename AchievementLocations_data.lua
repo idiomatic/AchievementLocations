@@ -20,9 +20,9 @@ A{"Ashenvale", 1678, criterion=15218, side="alliance"} -- Ashenvale
 A{"Ashenvale", 1678, criterion=15231, side="horde"} -- Ashenvale
 
 -- General: Pest Control
-A{"Ashenvale", 2556, 0.8120, 0.5080, criterion=0} -- Maggot
-A{"Ashenvale", 2556, 0.7320, 0.5920, criterion=0} -- Roach
-A{"Ashenvale", 2556, 0.7360, 0.6100, criterion=0} -- Rat
+A{"Ashenvale", 2556, 0.8120, 0.5080, criterion="Maggot"} -- Maggot
+A{"Ashenvale", 2556, 0.7320, 0.5920, criterion="Roach"} -- Roach
+A{"Ashenvale", 2556, 0.7360, 0.6100, criterion="Rat"} -- Rat
 
 -- Quests/Kalimdor: Ashenvale Quests
 A{"Ashenvale", 4925, criterion=13836, side="alliance"} -- Ashenvale
@@ -98,7 +98,7 @@ A{"Barrens", 1206, 0.6140, 0.4480, criterion="Prairie Dog"} -- Prairie Dog
 A{"Barrens", 1678, criterion=15236, side="horde"} -- Bloodmyst/North Barrens
 
 -- General: Pest Control
-A{"Barrens", 2556, 0.5700, 0.1340, criterion=0} -- Adder
+A{"Barrens", 2556, 0.5700, 0.1340, criterion="Adder"} -- Adder
 
 -- Quests/Kalimdor: Northern Barrens Quests
 A{"Barrens", 4933, criterion=13847, side="horde"} -- Northern Barrens
@@ -274,7 +274,7 @@ A{"BrewmasterScenario01", 6931, criterion=21333} -- Derpa Derpa
 A{"BurningSteppes", 1676, criterion=15207} -- Burning Steppes Quests
 
 -- General: Pest Control
-A{"BurningSteppes", 2556, 0.2580, 0.2500, criterion=0} -- Fire Beetle
+A{"BurningSteppes", 2556, 0.2580, 0.2500, criterion="Fire Beetle"} -- Fire Beetle
 
 -- Quests/Eastern Kingdoms: Burning Steppes Quests
 A{"BurningSteppes", 4901, criterion=13709} -- Burning Steppes
@@ -679,7 +679,7 @@ A{"Durotar", 1206, 0.4280, 0.1560, criterion=3759} -- Swine
 A{"Durotar", 1206, 0.4860, 0.2740, criterion="Hare"} -- Hare
 
 -- General: Pest Control
-A{"Durotar", 2556, 0.4440, 0.3340, criterion=0} -- Water Snake
+A{"Durotar", 2556, 0.4440, 0.3340, criterion="Water Snake"} -- Water Snake
 
 -- Legacy: Hordebreaker
 A{"Durotar", 8306, criterion=23534, side="alliance"} -- The Durotar Job
@@ -722,7 +722,7 @@ A{"Dustwallow", 1678, criterion=16678, side="alliance"} -- Dustwallow Marsh
 A{"Dustwallow", 1678, criterion=15233, side="horde"} -- Dustwallow Marsh
 
 -- General: Pest Control
-A{"Dustwallow", 2556, 0.4940, 0.7500, criterion=0} -- Mouse
+A{"Dustwallow", 2556, 0.4940, 0.7500, criterion="Mouse"} -- Mouse
 
 -- Quests/Kalimdor: Dustwallow Marsh Quests
 A{"Dustwallow", 4929, criterion=13975, side="alliance"} -- Dustwallow Marsh
@@ -737,7 +737,7 @@ A{"Dustwallow", 9924, 0.5200, 0.7600, criterion=27865} -- Onyxia's Lair
 A{"EasternPlaguelands", 1676, criterion=15209} -- Eastern Plaguelands Quests
 
 -- General: Pest Control
-A{"EasternPlaguelands", 2556, 0.5000, 0.3500, criterion=0} -- Scorpion
+A{"EasternPlaguelands", 2556, 0.5000, 0.3500, criterion="Scorpion"} -- Scorpion
 
 -- Quests/Eastern Kingdoms: Eastern Plaguelands Quests
 A{"EasternPlaguelands", 4892, criterion=13710} -- Eastern Plaguelands
@@ -781,7 +781,7 @@ A{"Feralas", 1678, criterion=15223, side="alliance"} -- Feralas
 A{"Feralas", 1678, criterion=15235, side="horde"} -- Feralas
 
 -- General: Pest Control
-A{"Feralas", 2556, 0.5060, 0.2400, criterion=0} -- Snake
+A{"Feralas", 2556, 0.5060, 0.2400, criterion="Snake"} -- Snake
 
 -- Quests/Kalimdor: Feralas Quests
 A{"Feralas", 4932, criterion=13980, side="alliance"} -- Feralas
@@ -1007,13 +1007,13 @@ A{"garrisonsmvalliance_tier3", 10016, 0.3400, 0.3640, criterion=27766, side="hor
 A{"Ghostlands", 1676, criterion=15210, side="horde"} -- Loch Modan+Wetlands/Ghostlands
 
 -- General: Pest Control
-A{"Ghostlands", 2556, 0.4540, 0.3160, criterion=0} -- Larva
+A{"Ghostlands", 2556, 0.4540, 0.3160, criterion="Larva"} -- Larva
 
 -- Quests/Eastern Kingdoms: Ghostlands Quests
 A{"Ghostlands", 4908, criterion=13711, side="horde"} -- Ghostlands
 
 -- General: Pest Control
-A{"Gorgrond", 2556, 0.3920, 0.7340, criterion=0} -- Gold Beetle
+A{"Gorgrond", 2556, 0.3920, 0.7340, criterion="Gold Beetle"} -- Gold Beetle
 
 -- Quests/Draenor: Putting the Gore in Gorgrond
 A{"Gorgrond", 8923, criterion=25425, side="alliance"} -- We Need An Outpost
@@ -1443,7 +1443,7 @@ A{"HighmaulRaid", 9838, 0.4530, 0.7520, criterion=27633, note="in Imperator's Ri
 A{"HillsbradFoothills", 1676, criterion=15211, side="horde"} -- Redridge/Hillsbrad
 
 -- General: Pest Control
-A{"HillsbradFoothills", 2556, 0.3140, 0.7140, criterion=0} -- Spider
+A{"HillsbradFoothills", 2556, 0.3140, 0.7140, criterion="Spider"} -- Spider
 
 -- General: To All The Squirrels Who Shared My Life
 A{"HillsbradFoothills", 2557, 0.5660, 0.6120, criterion="Huge Toad"} -- Huge Toad
@@ -1483,8 +1483,8 @@ A{"HowlingFjord", 2257, 0.3100, 0.7100, criterion=8108, note="or thereabouts"} -
 A{"HowlingFjord", 2257, 0.6900, 0.1700, criterion=8106, note="or thereabouts"} -- Perobas the Bloodthirster
 
 -- General: Pest Control
-A{"HowlingFjord", 2556, 0.5620, 0.5680, criterion=0} -- Devouring Maggot
-A{"HowlingFjord", 2556, 0.5920, 0.5000, criterion=0} -- Fjord Rat
+A{"HowlingFjord", 2556, 0.5620, 0.5680, criterion="Devouring Maggot"} -- Devouring Maggot
+A{"HowlingFjord", 2556, 0.5920, 0.5000, criterion="Fjord Rat"} -- Fjord Rat
 
 -- General: To All The Squirrels Who Shared My Life
 A{"HowlingFjord", 2557, 0.1900, 0.5600, criterion=9301} -- Fjord Penguin
@@ -3255,7 +3255,7 @@ A{"Stormwind", 9924, 0.6900, 0.3100, criterion=27873} -- Deeprun Tram
 A{"StormwindCity", 150, criterion=5275} -- Stormwind
 
 -- General: Pest Control
-A{"StormwindCity", 2556, 0.6980, 0.2360, criterion=0, faction=alliance} -- Squirrel
+A{"StormwindCity", 2556, 0.6980, 0.2360, criterion="Squirrel", faction=alliance} -- Squirrel
 
 -- Professions/Cooking: Let's Do Lunch: Stormwind
 A{"StormwindCity", 5474, criterion=15802, side="alliance"} -- A Fisherman's Feast
@@ -4236,7 +4236,7 @@ A{"Tirisfal", 10015, 0.1760, 0.6750, criterion=27761, note="from Faerie Dragon N
 A{"Tirisfal", 10016, 0.1760, 0.6750, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="horde"} -- Faerie Dragon
 
 -- General: Pest Control
-A{"TolBarad", 2556, 0.7360, 0.6080, criterion=0} -- Squirrel
+A{"TolBarad", 2556, 0.7360, 0.6080, criterion="Squirrel"} -- Squirrel
 
 -- Quests/Cataclysm: Breaking Out of Tol Barad
 A{"TolBarad", 4874}
@@ -4866,7 +4866,7 @@ A{"Wetlands", 9924, 0.5100, 0.0900, criterion=27874} -- Thandol Span
 A{"Winterspring", 1678, criterion=15243} -- Winterspring Quests
 
 -- General: Pest Control
-A{"Winterspring", 2556, 0.6940, 0.5240, criterion=0} -- Crystal Spider
+A{"Winterspring", 2556, 0.6940, 0.5240, criterion="Crystal Spider"} -- Crystal Spider
 
 -- Feats of Strength: Winterspring Frostsaber
 A{"Winterspring", 3356, 0.4660, 0.1760, side="alliance"}
