@@ -487,16 +487,16 @@ A{"ValleyoftheFourWinds", 7602, criterion=21943, side="horde", season="Hallow's 
 A{"ValleyoftheFourWinds", 7602, criterion=21945, side="horde", season="Hallow's End"} -- Valley of the Four Winds, Stoneplow
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Vashjir", 5837, criterion=17695, side="alliance", season="Hallow's End"} -- Vashj'ir, Tranquil Wash
-A{"Vashjir", 5837, criterion=17694, side="alliance", season="Hallow's End"} -- Vashj'ir, Silver Tide Hollow
-A{"Vashjir", 5837, criterion=17692, side="alliance", season="Hallow's End"} -- Vashj'ir, Darkbreak Cove
-A{"Vashjir", 5837, criterion=17693, side="alliance", season="Hallow's End"} -- Vashj'ir, Deepmist Grotto
+A{"VashjirRuins", 5837, 0.4942, 0.5720, criterion=17695, side="alliance", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Tranquil Wash
+A{"VashjirRuins", 5837, 0.4918, 0.4187, criterion=17694, side="alliance", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Silver Tide Hollow
+A{"VashjirDepths", 5837, 0.5438, 0.7212, criterion=17692, side="alliance", season="Hallow's End"} -- Vashj'ir, Abyssal Depths, Darkbreak Cove
+A{"VashjirKelpForest", 5837, 0.6350, 0.6017, criterion=17693, side="alliance", season="Hallow's End"} -- Vashj'ir, Kelp'thar Forest, Deepmist Grotto
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Vashjir", 5838, criterion=17714, side="horde", season="Hallow's End"} -- Vashj'ir, Legion's Rest
-A{"Vashjir", 5838, criterion=17693, side="horde", season="Hallow's End"} -- Vashj'ir, Deepmist Grotto
-A{"Vashjir", 5838, criterion=17694, side="horde", season="Hallow's End"} -- Vashj'ir, Silver Tide Hollow
-A{"Vashjir", 5838, criterion=17717, side="horde", season="Hallow's End"} -- Vashj'ir, Tenebrous Cavern
+A{"VashjirRuins", 5838, 0.5148, 0.6238, criterion=17714, side="horde", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Legion's Rest
+A{"VashjirKelpForest", 5838, 0.6350, 0.6017, criterion=17693, side="horde", season="Hallow's End"} -- Vashj'ir, Kelp'thar Forest, Deepmist Grotto
+A{"VashjirRuins", 5838, 0.4918, 0.4187, criterion=17694, side="horde", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Silver Tide Hollow
+A{"VashjirDepths", 5838, 0.5134, 0.6054, criterion=17717, side="horde", season="Hallow's End"} -- Vashj'ir, Abyssal Depths, Tenebrous Cavern
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"WesternPlaguelands", 966, 0.4330, 0.8430, criterion=18426, side="alliance", season="Hallow's End"} -- Western Plaguelands, Chillwind Camp
