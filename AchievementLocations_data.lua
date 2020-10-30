@@ -48,6 +48,17 @@ A{"Ashenvale", 10015, 0.5650, 0.4930, criterion=27755, note="from Lost Sentinel'
 -- Garrisons: Full Discography
 A{"Ashenvale", 10016, 0.5650, 0.4930, criterion=27755, note="from Lost Sentinel's Pouch", side="horde"} -- Magic
 
+-- Exploration: Pest Control
+A{"Ashenvale", 2556, 0.736, 0.610, criterion="Rat"}
+A{"Ashenvale", 2556, 0.112, 0.344, criterion="Rat"}
+A{"Ashenvale", 2556, 0.388, 0.306, criterion="Rat"}
+A{"Ashenvale", 2556, 0.812, 0.508, criterion="Maggot"}
+A{"Ashenvale", 2556, 0.196, 0.374, criterion="Maggot"}
+A{"Ashenvale", 2556, 0.196, 0.394, criterion="Maggot"}
+A{"Ashenvale", 2556, 0.732, 0.592, criterion="Roach"}
+A{"Ashenvale", 2556, 0.388, 0.306, criterion="Roach"}
+A{"Ashenvale", 2556, 0.404, 0.326, criterion="Roach"}
+
 -- Professions/Fishing: One That Didn't Get Away
 A{"Aszhara", 878, criterion=1837} -- 103 Pound Mightfish
 
@@ -102,6 +113,11 @@ A{"Barrens", 2556, 0.5700, 0.1340, criterion="Adder"} -- Adder
 
 -- Quests/Kalimdor: Northern Barrens Quests
 A{"Barrens", 4933, criterion=13847, side="horde"} -- Northern Barrens
+
+-- Exploration: Pest Control
+A{"Barrens", 2556, 0.570, 0.134, criterion="Adder"}
+A{"Barrens", 2556, 0.236, 0.336, criterion="Adder"}
+A{"Barrens", 2556, 0.254, 0.332, criterion="Adder"}
 
 -- Professions/Fishing: The Limnologist
 A{"Barrens", 5478, 0.5500, 0.8000, criterion=15827, note="inland rivers and lakes"} -- Deviate Fish
@@ -281,6 +297,13 @@ A{"BurningSteppes", 4901, criterion=13709} -- Burning Steppes
 
 -- Exploration: Field Photographer
 A{"BurningSteppes", 9924, 0.2000, 0.3300, criterion=27968} -- Blackrock Mountain
+
+-- Exploration: Pest Control
+A{"BurningSteppes", 2556, 0.258, 0.250, criterion="Fire Beetle"}
+A{"BurningSteppes", 2556, 0.168, 0.218, criterion="Fire Beetle"}
+A{"Dalaran", 2556, 0.644, 0.376, criterion="Underbelly Rat"}
+A{"Dalaran", 2556, 0.604, 0.496, criterion="Underbelly Rat"}
+A{"Dalaran", 2556, 0.640, 0.360, criterion="Underbelly Rat"}
 
 -- General: To All The Squirrels I've Loved Before
 A{"Dalaran", 1206, 0.4960, 0.6360, criterion="Squirrel"} -- Squirrel
@@ -690,6 +713,14 @@ A{"Durotar", 8307, criterion=23537, side="horde"} -- Durotar Liberation
 -- Exploration: Field Photographer
 A{"Durotar", 9924, 0.6200, 0.8100, criterion=27971} -- Echo Isles
 
+-- Exploration: Pest Control
+A{"Durotar", 2556, 0.456, 0.354, criterion="Adder"}
+A{"Durotar", 2556, 0.414, 0.506, criterion="Adder"}
+A{"Durotar", 2556, 0.426, 0.176, criterion="Adder"}
+A{"Durotar", 2556, 0.444, 0.334, criterion="Water Snake"}
+A{"Durotar", 2556, 0.350, 0.434, criterion="Water Snake"}
+A{"Durotar", 2556, 0.350, 0.490, criterion="Water Snake"}
+
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Duskwood", 1676, criterion=15202, side="alliance"} -- Westfall+Duskwood/Silverpine
 
@@ -732,6 +763,14 @@ A{"Dustwallow", 4978, criterion=13975, side="horde"} -- Dustwallow Marsh
 
 -- Exploration: Field Photographer
 A{"Dustwallow", 9924, 0.5200, 0.7600, criterion=27865} -- Onyxia's Lair
+
+-- Exploration: Pest Control
+A{"Dustwallow", 2556, 0.494, 0.750, criterion="Mouse"}
+A{"Dustwallow", 2556, 0.476, 0.816, criterion="Mouse"}
+A{"Dustwallow", 2556, 0.484, 0.784, criterion="Mouse"}
+A{"EasternPlaguelands", 2556, 0.50, 0.350, criterion="Scorpion"}
+A{"EasternPlaguelands", 2556, 0.54, 0.330, criterion="Scorpion"}
+A{"EasternPlaguelands", 2556, 0.64, 0.314, criterion="Scorpion"}
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"EasternPlaguelands", 1676, criterion=15209} -- Eastern Plaguelands Quests
@@ -794,6 +833,11 @@ A{"Feralas", 5767, 0.6960, 0.7320}
 
 -- Exploration: Field Photographer
 A{"Feralas", 9924, 0.4800, 0.1600, criterion=27963} -- The Twin Colossals
+
+-- Exploration: Pest Control
+A{"Feralas", 2556, 0.506, 0.240, criterion="Snake"}
+A{"Feralas", 2556, 0.396, 0.240, criterion="Snake"}
+A{"Feralas", 2556, 0.398, 0.208, criterion="Snake"}
 
 -- Dungeons & Raids/Draenor Raid: The Steel Has Been Brought
 A{"FoundryRaid", 8929, 0.1950, 0.7680}
@@ -1030,6 +1074,11 @@ A{"Gorgrond", 8924, criterion=0, side="horde"} -- The Iron Approach
 -- Exploration: Explore Draenor
 A{"Gorgrond", 8935, criterion=24633} -- Explore Gorgrond
 
+-- Exploration: Pest Control
+A{"Gorgrond", 2556, 0.392, 0.734, criterion="Gold Beetle"}
+A{"Gorgrond", 2556, 0.366, 0.776, criterion="Gold Beetle"}
+A{"Gorgrond", 2556, 0.376, 0.762, criterion="Gold Beetle"}
+
 -- Exploration/Draenor: Gorgrond Monster Hunter
 A{"Gorgrond", 9400, criterion=25568} -- Biolante
 A{"Gorgrond", 9400, criterion=25569} -- Roardan the Sky Terror
@@ -1247,6 +1296,11 @@ A{"Hellfire", 1312, 0.4520, 0.4060, criterion=4517} -- Mekthorg the Wild
 A{"Hellfire", 1312, 0.6760, 0.7680, criterion=4517} -- Mekthorg the Wild
 A{"Hellfire", 1312, 0.6740, 0.6820, criterion=4517} -- Mekthorg the Wild
 
+-- Exploration: Pest Control
+A{"Hellfire", 2556, 0.592, 0.624, criterion="Scorpion"}
+A{"Hellfire", 2556, 0.136, 0.500, criterion="Scorpion"}
+A{"Hellfire", 2556, 0.146, 0.558, criterion="Scorpion"}
+
 -- Exploration: Field Photographer
 A{"Hellfire", 9924, 0.6400, 0.2100, criterion=27974} -- Throne of Kil'jaeden
 
@@ -1454,6 +1508,14 @@ A{"HillsbradFoothills", 4895, criterion=13712, side="horde"} -- Hillsbrad Foothi
 -- Exploration: Field Photographer
 A{"HillsbradFoothills", 9924, 0.7000, 0.4700, criterion=27970} -- Ravenholdt Manor
 
+-- Exploration: Pest Control
+A{"HillsbradFoothills", 2556, 0.314, 0.714, criterion="Spider"}
+A{"HillsbradFoothills", 2556, 0.300, 0.682, criterion="Spider"}
+A{"HillsbradFoothills", 2556, 0.316, 0.678, criterion="Spider"}
+A{"Hinterlands", 2556, 0.576, 0.426, criterion="Maggot"}
+A{"Hinterlands", 2556, 0.320, 0.580, criterion="Maggot"}
+A{"Hinterlands", 2556, 0.558, 0.434, criterion="Maggot"}
+
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Hinterlands", 1676, criterion=15212} -- Hinterlands Quests
 
@@ -1471,6 +1533,18 @@ A{"HowlingFjord", 41, criterion=83} -- I've Toured the Fjord
 
 -- Quests/Northrend: I've Toured the Fjord
 A{"HowlingFjord", 1356, criterion=75, side="horde"} -- Complete 105 quests in Howling Fjord
+
+-- Exploration: Pest Control
+A{"HowlingFjord", 2556, 0.592, 0.500, criterion="Fjord Rat"}
+A{"HowlingFjord", 2556, 0.304, 0.440, criterion="Fjord Rat"}
+A{"HowlingFjord", 2556, 0.312, 0.420, criterion="Fjord Rat"}
+A{"HowlingFjord", 2556, 0.590, 0.616, criterion="Fjord Rat"}
+A{"HowlingFjord", 2556, 0.300, 0.692, criterion="Fjord Rat"}
+A{"HowlingFjord", 2556, 0.304, 0.590, criterion="Fjord Rat"}
+A{"HowlingFjord", 2556, 0.562, 0.568, criterion="Devouring Maggot"}
+A{"HowlingFjord", 2556, 0.568, 0.540, criterion="Devouring Maggot"}
+A{"HowlingFjord", 2556, 0.570, 0.568, criterion="Devouring Maggot"}
+A{"HowlingFjord", 2556, 0.568, 0.540, criterion="Devouring Maggot"}
 
 -- Exploration/Northrend: Northern Exposure
 A{"HowlingFjord", 2256, 0.7300, 0.5300, criterion=8107, note="or thereabouts"} -- Vigdis the War Maiden
@@ -1496,6 +1570,11 @@ A{"HowlingFjord", 9924, 0.6090, 0.5970, criterion=27973} -- Daggercap Bay
 
 -- Quests/Cataclysm: Coming Down the Mountain
 A{"Hyjal", 4870, criterion=13608} -- Mount Hyjal
+
+-- Exploration: Pest Control
+A{"Hyjal", 2556, 0.614, 0.586, criterion="Fire Beetle"}
+A{"Hyjal", 2556, 0.304, 0.804, criterion="Fire Beetle"}
+A{"Hyjal", 2556, 0.308, 0.784, criterion="Fire Beetle"}
 
 -- Quests/Cataclysm: Loremaster of Cataclysm
 A{"Hyjal", 4875, criterion=13986} -- Coming Down the Mountain
@@ -2531,6 +2610,11 @@ A{"Orgrimmar", 5851, criterion=17772, side="horde"} -- Fish or Cut Bait: Orgrimm
 -- Exploration: Field Photographer
 A{"Orgrimmar", 9924, criterion=27869, side="horde"} -- Orgrimmar
 
+-- Exploration: Pest Control
+A{"Orgrimmar", 2556, 0.564, 0.524, side="horde", criterion="Water Snake"}
+A{"Orgrimmar", 2556, 0.310, 0.662, side="horde", criterion="Water Snake"}
+A{"Orgrimmar", 2556, 0.328, 0.734, side="horde", criterion="Water Snake"}
+
 -- Dungeons & Raids/Pandaria Raid: Gamon Will Save Us!
 A{"OrgrimmarRaid", 8448, 0.6520, 0.7350, floor=7}
 
@@ -3250,6 +3334,11 @@ A{"Stormwind", 5851, criterion=17771, side="alliance"} -- Fish or Cut Bait: Stor
 
 -- Exploration: Field Photographer
 A{"Stormwind", 9924, 0.6900, 0.3100, criterion=27873} -- Deeprun Tram
+
+-- Exploration: Pest Control
+A{"Stormwind", 2556, 0.698, 0.236, side="alliance", criterion="Squirrel"}
+A{"Stormwind", 2556, 0.442, 0.798, side="alliance", criterion="Squirrel"}
+A{"Stormwind", 2556, 0.442, 0.824, side="alliance", criterion="Squirrel"}
 
 -- Professions/Fishing: The Fishing Diplomat
 A{"StormwindCity", 150, criterion=5275} -- Stormwind
@@ -4238,6 +4327,16 @@ A{"Tirisfal", 10016, 0.1760, 0.6750, criterion=27761, note="from Faerie Dragon N
 -- General: Pest Control
 A{"TolBarad", 2556, 0.7360, 0.6080, criterion="Squirrel"} -- Squirrel
 
+-- Exploration: Pest Control
+A{"Tirisfal", 2556, 0.596, 0.502, criterion="Rat"}
+A{"Tirisfal", 2556, 0.472, 0.534, criterion="Rat"}
+A{"Tirisfal", 2556, 0.476, 0.300, criterion="Rat"}
+
+-- Exploration: Pest Control
+A{"TolBarad", 2556, 0.736, 0.608, criterion="Squirrel"}
+A{"TolBarad", 2556, 0.516, 0.556, criterion="Squirrel"}
+A{"TolBarad", 2556, 0.532, 0.706, criterion="Squirrel"}
+
 -- Quests/Cataclysm: Breaking Out of Tol Barad
 A{"TolBarad", 4874}
 
@@ -4454,6 +4553,11 @@ A{"Uldum", 5548, 0.5160, 0.5040, criterion="Mac Frog", note="zone exclusive"} --
 
 -- Exploration: Field Photographer
 A{"Uldum", 9924, 0.7200, 0.5000, criterion=27978} -- Halls of Origination
+
+-- Exploration: Pest Control
+A{"Undercity", 2556, 0.658, 0.258, criterion="Roach"}
+A{"Undercity", 2556, 0.508, 0.600, criterion="Roach"}
+A{"Undercity", 2556, 0.592, 0.290, criterion="Roach"}
 
 -- Professions/Cooking: A Bunch of Lunch
 A{"Undercity", 5845, criterion=17746, side="horde"} -- Let's Do Lunch: Undercity
@@ -4850,6 +4954,11 @@ A{"Westfall", 4903, criterion=0, side="alliance"} -- Westfall
 A{"Westfall", 9924, 0.4240, 0.7173, criterion=27878, note="in dungeon"} -- The Deadmines
 A{"Westfall", 9924, 0.3000, 0.8600, criterion=27961} -- Westfall Lighthouse
 
+-- Exploration: Pest Control
+A{"Westfall", 2556, 0.542, 0.492, criterion="Mouse"}
+A{"Westfall", 2556, 0.412, 0.716, criterion="Mouse"}
+A{"Westfall", 2556, 0.436, 0.694, criterion="Mouse"}
+
 -- General: To All The Squirrels I've Loved Before
 A{"Wetlands", 1206, 0.4860, 0.7000, criterion="Ram"} -- Ram
 
@@ -4861,6 +4970,14 @@ A{"Wetlands", 4899, side="alliance"}
 
 -- Exploration: Field Photographer
 A{"Wetlands", 9924, 0.5100, 0.0900, criterion=27874} -- Thandol Span
+
+-- Exploration: Pest Control
+A{"Winterspring", 2556, 0.694, 0.524, criterion="Crystal Spider"}
+A{"Winterspring", 2556, 0.480, 0.548, criterion="Crystal Spider"}
+A{"Winterspring", 2556, 0.480, 0.566, criterion="Crystal Spider"}
+A{"Winterspring", 2556, 0.532, 0.548, criterion="Crystal Spider"}
+A{"Winterspring", 2556, 0.480, 0.548, criterion="Crystal Spider"}
+A{"Winterspring", 2556, 0.480, 0.564, criterion="Crystal Spider"}
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Winterspring", 1678, criterion=15243} -- Winterspring Quests
@@ -4954,6 +5071,11 @@ A{"Zangarmarsh", 1312, 0.6300, 0.3800, criterion=4507} -- Coilfang Emissary
 A{"Zangarmarsh", 1312, 0.6200, 0.6960, criterion=4507} -- Coilfang Emissary
 A{"Zangarmarsh", 1312, 0.7220, 0.7600, criterion=4507} -- Coilfang Emissary
 A{"Zangarmarsh", 1312, 0.7360, 0.8220, criterion=4507} -- Coilfang Emissary
+
+-- Exploration: Pest Control
+A{"ZulDrak", 2556, 0.422, 0.634, criterion="Zul'Drak Rat"}
+A{"ZulDrak", 2556, 0.408, 0.626, criterion="Zul'Drak Rat"}
+A{"ZulDrak", 2556, 0.410, 0.564, criterion="Zul'Drak Rat"}
 
 -- Quests/Northrend: The Empire of Zul'Drak
 A{"ZulDrak", 36, criterion=77} -- Complete 100 Zul'Drak Quests
