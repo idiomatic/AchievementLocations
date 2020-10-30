@@ -114,12 +114,12 @@ A{"Dragonblight", 5836, 0.4810, 0.7460, criterion=17666, side="alliance", season
 A{"Dragonblight", 5836, 0.6010, 0.5340, criterion=17669, side="alliance", season="Hallow's End"} -- Dragonblight, Wyrmrest Temple
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"DreadWastes", 7601, criterion=21927, side="alliance", season="Hallow's End"} -- Dread Wastes, Klaxxi'vess
-A{"DreadWastes", 7601, criterion=21928, side="alliance", season="Hallow's End"} -- Dread Wastes, Soggy's Gamble
+A{"DreadWastes", 7601, 0.5592, 0.3227, criterion=21927, side="alliance", season="Hallow's End"} -- Dread Wastes, Klaxxi'vess
+A{"DreadWastes", 7601, 0.5519, 0.7116, criterion=21928, side="alliance", season="Hallow's End"} -- Dread Wastes, Soggy's Gamble
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"DreadWastes", 7602, criterion=21927, side="horde", season="Hallow's End"} -- Dread Wastes, Klaxxi'vess
-A{"DreadWastes", 7602, criterion=21928, side="horde", season="Hallow's End"} -- Dread Wastes, Soggy's Gamble
+A{"DreadWastes", 7602, 0.5592, 0.3227, criterion=21927, side="horde", season="Hallow's End"} -- Dread Wastes, Klaxxi'vess
+A{"DreadWastes", 7602, 0.5519, 0.7116, criterion=21928, side="horde", season="Hallow's End"} -- Dread Wastes, Soggy's Gamble
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"DunMorogh", 966, 0.5440, 0.5070, criterion=2132, side="alliance", season="Hallow's End"} -- Dun Morogh, Kharanos
@@ -171,6 +171,10 @@ A{"Feralas", 963, 0.5100, 0.1780, criterion=18399, side="alliance", season="Hall
 A{"Feralas", 965, 0.7480, 0.4510, criterion=2111, side="horde", season="Hallow's End"} -- Feralas, Camp Mojache
 A{"Feralas", 965, 0.4140, 0.1560, criterion=17616, side="horde", season="Hallow's End"} -- Feralas, Camp Ataya
 A{"Feralas", 965, 0.5190, 0.4760, criterion=17617, side="horde", season="Hallow's End"} -- Feralas, Stonemaul Hold
+
+-- World Events/Hallow's End: A Frightening Friend
+A{"garrisonsmvalliance_tier1", 10356, 0.3989, 0.6987, criterion=4787, side="alliance", season="Hallow's End"} -- Shadowmoon Valley, Lunarfall
+A{"garrisonffhorde_tier1", 10365, 0.7044, 0.8924, criterion=4787, side="horde", season="Hallow's End"} -- Frostfire Ridge, Frostwall
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Ghostlands", 967, 0.4860, 0.3190, criterion=2151, side="horde", season="Hallow's End"} -- Ghostlands, Tranquillien
@@ -232,28 +236,28 @@ A{"Ironforge", 966, 0.1830, 0.5090, criterion=2137, note="/chicken", side="allia
 A{"Kalimdor", 971, criterion=2225, season="Hallow's End"} -- Tricks and Treats of Kalimdor
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"Krasarang", 7601, criterion=21934, side="alliance", season="Hallow's End"} -- Krasarang Wilds, Marista
-A{"Krasarang", 7601, criterion=21935, side="alliance", season="Hallow's End"} -- Krasarang Wilds, Zhu's Watch
+A{"Krasarang", 0.5354, 0.7651, 7601, criterion=21934, side="alliance", season="Hallow's End"} -- Krasarang Wilds, Marista
+A{"Krasarang", 0.7981, 0.0085, 7601, criterion=21935, side="alliance", season="Hallow's End"} -- Krasarang Wilds, Zhu's Watch
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"Krasarang", 7602, criterion=21934, side="horde", season="Hallow's End"} -- Krasarang Wilds, Marista
-A{"Krasarang", 7602, criterion=21935, side="horde", season="Hallow's End"} -- Krasarang Wilds, Zhu's Watch
-A{"Krasarang", 7602, criterion=21948, side="horde", season="Hallow's End"} -- Krasarang Wilds, Dawnchaser Retreat
-A{"Krasarang", 7602, criterion=21951, side="horde", season="Hallow's End"} -- Krasarang Wilds, Thunder Cleft
+A{"Krasarang", 7602, 0.5354, 0.7651, criterion=21934, side="horde", season="Hallow's End"} -- Krasarang Wilds, Marista
+A{"Krasarang", 7602, 0.7981, 0.0085, criterion=21935, side="horde", season="Hallow's End"} -- Krasarang Wilds, Zhu's Watch
+A{"Krasarang", 7602, 0.2853, 0.4792, criterion=21948, side="horde", season="Hallow's End"} -- Krasarang Wilds, Dawnchaser Retreat
+A{"Krasarang", 7602, 0.6378, 0.2031, criterion=21951, side="horde", season="Hallow's End"} -- Krasarang Wilds, Thunder Cleft
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"KunLaiSummit", 7601, criterion=21925, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, Westwind Rest
-A{"KunLaiSummit", 7601, criterion=21936, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, Binan Village
-A{"KunLaiSummit", 7601, criterion=21937, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, One Keg
-A{"KunLaiSummit", 7601, criterion=21938, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, The Grummle Bazaar
-A{"KunLaiSummit", 7601, criterion=21939, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, Zouchin Village
+A{"KunLaiSummit", 7601, 0.5290, 0.7880, criterion=21925, side="alliance", season="Hallow's End", note="need completed Challenge Accepted quest"} -- Kun-Lai Summit, Westwind Rest
+A{"KunLaiSummit", 7601, 0.7269, 0.9221, criterion=21936, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, Binan Village
+A{"KunLaiSummit", 7601, 0.5740, 0.5990, criterion=21937, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, One Keg
+A{"KunLaiSummit", 7601, 0.6420, 0.6130, criterion=21938, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, The Grummle Bazaar
+A{"KunLaiSummit", 7601, 0.6250, 0.2890, criterion=21939, side="alliance", season="Hallow's End"} -- Kun-Lai Summit, Zouchin Village
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"KunLaiSummit", 7602, criterion=21936, side="horde", season="Hallow's End"} -- Kun-Lai Summit, Binan Village
-A{"KunLaiSummit", 7602, criterion=21938, side="horde", season="Hallow's End"} -- Kun-Lai Summit, The Grummle Bazaar
-A{"KunLaiSummit", 7602, criterion=21937, side="horde", season="Hallow's End"} -- Kun-Lai Summit, One Keg
-A{"KunLaiSummit", 7602, criterion=21939, side="horde", season="Hallow's End"} -- Kun-Lai Summit, Zouchin Village
-A{"KunLaiSummit", 7602, criterion=21949, side="horde", season="Hallow's End"} -- Kun-Lai Summit, Eastwind Rest
+A{"KunLaiSummit", 7602, 0.7269, 0.9221, criterion=21936, side="horde", season="Hallow's End"} -- Kun-Lai Summit, Binan Village
+A{"KunLaiSummit", 7602, 0.6420, 0.6130, criterion=21938, side="horde", season="Hallow's End"} -- Kun-Lai Summit, The Grummle Bazaar
+A{"KunLaiSummit", 7602, 0.5740, 0.5990, criterion=21937, side="horde", season="Hallow's End"} -- Kun-Lai Summit, One Keg
+A{"KunLaiSummit", 7602, 0.6250, 0.2890, criterion=21939, side="horde", season="Hallow's End"} -- Kun-Lai Summit, Zouchin Village
+A{"KunLaiSummit", 7602, 0.6280, 0.8050, criterion=21949, side="horde", season="Hallow's End", note="need completed Challenge Accepted quest"} -- Kun-Lai Summit, Eastwind Rest
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"LochModan", 966, 0.3550, 0.4850, criterion=2138, side="alliance", season="Hallow's End"} -- Loch Modan, Thelsamar
@@ -392,28 +396,28 @@ A{"TheCapeOfStranglethorn", 967, 0.3500, 0.2720, criterion=17633, side="horde", 
 A{"TheExodar", 963, 0.5920, 0.1840, criterion=2079, side="alliance", season="Hallow's End"} -- Exodar, Seat of the Naaru
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"TheHiddenPass", 7601, criterion=21940, side="alliance", season="Hallow's End"} -- The Veiled Stair, Tavern in the Mists
+A{"TheHiddenPass", 7601, 0.5511, 0.7222, criterion=21940, side="alliance", season="Hallow's End"} -- The Veiled Stair, Tavern in the Mists
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"TheHiddenPass", 7602, criterion=21940, side="horde", season="Hallow's End"} -- The Veiled Stair, Tavern in the Mists
+A{"TheHiddenPass", 7602, 0.5511, 0.7222, criterion=21940, side="horde", season="Hallow's End"} -- The Veiled Stair, Tavern in the Mists
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"TheJadeForest", 7601, criterion=21923, side="alliance", season="Hallow's End"} -- Jade Forest, Paw'don Village
-A{"TheJadeForest", 7601, criterion=21924, side="alliance", season="Hallow's End"} -- Jade Forest, Pearlfin Village
-A{"TheJadeForest", 7601, criterion=21929, side="alliance", season="Hallow's End"} -- Jade Forest, Dawn's Blossom
-A{"TheJadeForest", 7601, criterion=21930, side="alliance", season="Hallow's End"} -- Jade Forest, Greenstone Village
-A{"TheJadeForest", 7601, criterion=21931, side="alliance", season="Hallow's End"} -- Jade Forest, Jade Temple Grounds
-A{"TheJadeForest", 7601, criterion=21932, side="alliance", season="Hallow's End"} -- Jade Forest, Sri-La Village
-A{"TheJadeForest", 7601, criterion=21933, side="alliance", season="Hallow's End"} -- Jade Forest, Tian Monastery
+A{"TheJadeForest", 7601, 0.4480, 0.8440, criterion=21923, side="alliance", season="Hallow's End"} -- Jade Forest, Paw'don Village
+A{"TheJadeForest", 7601, 0.5960, 0.8320, criterion=21924, side="alliance", season="Hallow's End"} -- Jade Forest, Pearlfin Village
+A{"TheJadeForest", 7601, 0.4577, 0.4360, criterion=21929, side="alliance", season="Hallow's End"} -- Jade Forest, Dawn's Blossom
+A{"TheJadeForest", 7601, 0.4808, 0.3461, criterion=21930, side="alliance", season="Hallow's End"} -- Jade Forest, Greenstone Village
+A{"TheJadeForest", 7601, 0.5460, 0.6332, criterion=21931, side="alliance", season="Hallow's End"} -- Jade Forest, Jade Temple Grounds
+A{"TheJadeForest", 7601, 0.5571, 0.2440, criterion=21932, side="alliance", season="Hallow's End"} -- Jade Forest, Sri-La Village
+A{"TheJadeForest", 7601, 0.4168, 0.2314, criterion=21933, side="alliance", season="Hallow's End"} -- Jade Forest, Tian Monastery
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"TheJadeForest", 7602, criterion=21929, side="horde", season="Hallow's End"} -- Jade Forest, Dawn's Blossom
-A{"TheJadeForest", 7602, criterion=21930, side="horde", season="Hallow's End"} -- Jade Forest, Greenstone Village
-A{"TheJadeForest", 7602, criterion=21931, side="horde", season="Hallow's End"} -- Jade Forest, Jade Temple Grounds
-A{"TheJadeForest", 7602, criterion=21932, side="horde", season="Hallow's End"} -- Jade Forest, Sri-La Village
-A{"TheJadeForest", 7602, criterion=21933, side="horde", season="Hallow's End"} -- Jade Forest, Tian Monastery
-A{"TheJadeForest", 7602, criterion=21946, side="horde", season="Hallow's End"} -- Jade Forest, Grookin Hill
-A{"TheJadeForest", 7602, criterion=21947, side="horde", season="Hallow's End"} -- Jade Forest, Honeydew Village
+A{"TheJadeForest", 7602, 0.4577, 0.4360, criterion=21929, side="horde", season="Hallow's End"} -- Jade Forest, Dawn's Blossom
+A{"TheJadeForest", 7602, 0.4808, 0.3461, criterion=21930, side="horde", season="Hallow's End"} -- Jade Forest, Greenstone Village
+A{"TheJadeForest", 7602, 0.5460, 0.6332, criterion=21931, side="horde", season="Hallow's End"} -- Jade Forest, Jade Temple Grounds
+A{"TheJadeForest", 7602, 0.5571, 0.2440, criterion=21932, side="horde", season="Hallow's End"} -- Jade Forest, Sri-La Village
+A{"TheJadeForest", 7602, 0.4168, 0.2314, criterion=21933, side="horde", season="Hallow's End"} -- Jade Forest, Tian Monastery
+A{"TheJadeForest", 7602, 0.2801, 0.4738, criterion=21946, side="horde", season="Hallow's End"} -- Jade Forest, Grookin Hill
+A{"TheJadeForest", 7602, 0.2844, 0.1326, criterion=21947, side="horde", season="Hallow's End"} -- Jade Forest, Honeydew Village
 
 -- World Events/Hallow's End: Tricks and Treats of Northrend
 A{"TheStormPeaks", 5835, 0.3700, 0.4950, criterion=17656, side="horde", season="Hallow's End"} -- Storm Peaks, Grom'arsh Crash Site
@@ -434,10 +438,10 @@ A{"Tirisfal", 967, 0.6090, 0.5140, criterion=2159, side="horde", season="Hallow'
 A{"Tirisfal", 967, 0.8300, 0.7200, criterion=17634, side="horde", season="Hallow's End"} -- Tirisfal Glades, The Bulwark
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"TownlongWastes", 7601, criterion=21941, side="alliance", season="Hallow's End"} -- Townlong Steppes, Longying Outpost
+A{"TownlongWastes", 7601, 0.7109, 0.5781, criterion=21941, side="alliance", season="Hallow's End"} -- Townlong Steppes, Longying Outpost
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"TownlongWastes", 7602, criterion=21941, side="horde", season="Hallow's End"} -- Townlong Steppes, Longying Outpost
+A{"TownlongWastes", 7602, 0.7109, 0.5781, criterion=21941, side="horde", season="Hallow's End"} -- Townlong Steppes, Longying Outpost
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
 A{"TwilightHighlands", 5837, criterion=17686, side="alliance", season="Hallow's End"} -- Twilight Highlands, Firebeard's Patrol
@@ -471,20 +475,20 @@ A{"UngoroCrater", 963, 0.5520, 0.6210, criterion=18417, side="alliance", season=
 A{"UngoroCrater", 965, 0.5520, 0.6210, criterion=18417, side="horde", season="Hallow's End"} -- Un'Goro Crater, Marshal's Stand
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"ValeOfEternalBlossomsScenario", 7601, criterion=21926, side="alliance", season="Hallow's End"} -- Vale of Eternal Blossoms, Shrine of Seven Stars
-A{"ValeOfEternalBlossomsScenario", 7601, criterion=21942, side="alliance", season="Hallow's End"} -- Vale of Eternal Blossoms, Mistfall Village
+A{"ValeofEternalBlossoms", 7601, 0.5111, 0.3516, criterion=21926, side="alliance", season="Hallow's End"} -- Vale of Eternal Blossoms, Shrine of Seven Stars
+A{"ValeofEternalBlossoms", 7601, 0.3512, 0.7759, criterion=21942, side="alliance", season="Hallow's End"} -- Vale of Eternal Blossoms, Mistfall Village
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"ValeOfEternalBlossomsScenario", 7602, criterion=21942, side="horde", season="Hallow's End"} -- Vale of Eternal Blossoms, Mistfall Village
-A{"ValeOfEternalBlossomsScenario", 7602, criterion=21950, side="horde", season="Hallow's End"} -- Vale of Eternal Blossoms, Shrine of Two Moons
+A{"ValeofEternalBlossoms", 7602, 0.3512, 0.7759, criterion=21942, side="horde", season="Hallow's End"} -- Vale of Eternal Blossoms, Mistfall Village
+A{"ValeofEternalBlossoms", 7602, 0.5853, 0.7730, criterion=21950, side="horde", season="Hallow's End"} -- Vale of Eternal Blossoms, Shrine of Two Moons
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"ValleyoftheFourWinds", 7601, criterion=21943, side="alliance", season="Hallow's End"} -- Valley of the Four Winds, Pang's Stead
-A{"ValleyoftheFourWinds", 7601, criterion=21945, side="alliance", season="Hallow's End"} -- Valley of the Four Winds, Stoneplow
+A{"ValleyoftheFourWinds", 7601, 0.8364, 0.2013, criterion=21943, side="alliance", season="Hallow's End"} -- Valley of the Four Winds, Pang's Stead
+A{"ValleyoftheFourWinds", 7601, 0.1987, 0.5579, criterion=21945, side="alliance", season="Hallow's End"} -- Valley of the Four Winds, Stoneplow
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
-A{"ValleyoftheFourWinds", 7602, criterion=21943, side="horde", season="Hallow's End"} -- Valley of the Four Winds, Pang's Stead
-A{"ValleyoftheFourWinds", 7602, criterion=21945, side="horde", season="Hallow's End"} -- Valley of the Four Winds, Stoneplow
+A{"ValleyoftheFourWinds", 7602, 0.8364, 0.2013, criterion=21943, side="horde", season="Hallow's End"} -- Valley of the Four Winds, Pang's Stead
+A{"ValleyoftheFourWinds", 7602, 0.1987, 0.5579, criterion=21945, side="horde", season="Hallow's End"} -- Valley of the Four Winds, Stoneplow
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
 A{"Vashjir", 5837, criterion=17695, side="alliance", season="Hallow's End"} -- Vashj'ir, Tranquil Wash
