@@ -451,12 +451,12 @@ A{"TwilightHighlands", 5838, 0.5342, 0.4229, criterion=17708, side="horde", seas
 A{"TwilightHighlands", 5838, 0.4509, 0.7680, criterion=17709, side="horde", season="Hallow's End"} -- Twilight Highlands, Crushblow
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Uldum", 5837, criterion=17690, side="alliance", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
-A{"Uldum", 5837, criterion=17691, side="alliance", season="Hallow's End"} -- Uldum, Ramkahen
+A{"Uldum", 5837, 0.2658, 0.0723, criterion=17690, side="alliance", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
+A{"Uldum", 5837, 0.5468, 0.3300, criterion=17691, side="alliance", season="Hallow's End"} -- Uldum, Ramkahen
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Uldum", 5838, criterion=17690, side="horde", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
-A{"Uldum", 5838, criterion=17691, side="horde", season="Hallow's End"} -- Uldum, Ramkahen
+A{"Uldum", 5838, 0.2658, 0.0723, criterion=17690, side="horde", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
+A{"Uldum", 5838, 0.5468, 0.3300, criterion=17691, side="horde", season="Hallow's End"} -- Uldum, Ramkahen
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Undercity", 967, 0.6770, 0.3730, criterion=2160, side="horde", season="Hallow's End"} -- Undercity, The Trade Quarter
