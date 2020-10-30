@@ -88,10 +88,10 @@ A{"Darkshore", 963, 0.5090, 0.1890, criterion=2075, side="alliance", season="Hal
 A{"Darnassus", 963, 0.6220, 0.3310, criterion=2076, note="/dance", side="alliance", season="Hallow's End"} -- Darnassus, Craftsmen's Terrace
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Deepholm", 5837, criterion=17682, side="alliance", season="Hallow's End"} -- Deepholm, Temple of Earth
+A{"Deepholm", 5837, 0.5118, 0.4990, criterion=17682, side="alliance", season="Hallow's End"} -- Deepholm, Temple of Earth
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Deepholm", 5838, criterion=17704, side="horde", season="Hallow's End"} -- Deepholm, Temple of Earth
+A{"Deepholm", 5838, 0.5118, 0.4990, criterion=17704, side="horde", season="Hallow's End"} -- Deepholm, Temple of Earth
 
 -- World Events/Hallow's End: Tricks and Treats of Kalimdor
 A{"Desolace", 963, 0.6630, 0.0650, criterion=2077, side="alliance", season="Hallow's End"} -- Desolace, Nijel's Point
@@ -216,14 +216,14 @@ A{"HowlingFjord", 5836, 0.5830, 0.6280, criterion=17674, side="alliance", season
 A{"HowlingFjord", 5836, 0.2540, 0.5980, criterion=17673, side="alliance", season="Hallow's End"} -- Howling Fjord, Kamagua
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Hyjal", 5837, criterion=17685, side="alliance", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
-A{"Hyjal", 5837, criterion=17684, side="alliance", season="Hallow's End"} -- Mount Hyjal, Nordrassil
-A{"Hyjal", 5837, criterion=17683, side="alliance", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
+A{"Hyjal", 5837, 0.4268, 0.4565, criterion=17685, side="alliance", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
+A{"Hyjal", 5837, 0.6303, 0.2408, criterion=17684, side="alliance", season="Hallow's End"} -- Mount Hyjal, Nordrassil
+A{"Hyjal", 5837, 0.1865, 0.3730, criterion=17683, side="alliance", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Hyjal", 5838, criterion=17684, side="horde", season="Hallow's End"} -- Mount Hyjal, Nordrassil
-A{"Hyjal", 5838, criterion=17683, side="horde", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
-A{"Hyjal", 5838, criterion=17685, side="horde", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
+A{"Hyjal", 5838, 0.6303, 0.2408, criterion=17684, side="horde", season="Hallow's End"} -- Mount Hyjal, Nordrassil
+A{"Hyjal", 5838, 0.1865, 0.3730, criterion=17683, side="horde", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
+A{"Hyjal", 5838, 0.4268, 0.4565, criterion=17685, side="horde", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Ironforge", 966, 0.1830, 0.5090, criterion=2137, note="/chicken", side="alliance", season="Hallow's End"} -- Ironforge, The Commons
@@ -451,12 +451,12 @@ A{"TwilightHighlands", 5838, 0.5342, 0.4229, criterion=17708, side="horde", seas
 A{"TwilightHighlands", 5838, 0.4509, 0.7680, criterion=17709, side="horde", season="Hallow's End"} -- Twilight Highlands, Crushblow
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Uldum", 5837, criterion=17690, side="alliance", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
-A{"Uldum", 5837, criterion=17691, side="alliance", season="Hallow's End"} -- Uldum, Ramkahen
+A{"Uldum", 5837, 0.2658, 0.0723, criterion=17690, side="alliance", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
+A{"Uldum", 5837, 0.5468, 0.3300, criterion=17691, side="alliance", season="Hallow's End"} -- Uldum, Ramkahen
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Uldum", 5838, criterion=17690, side="horde", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
-A{"Uldum", 5838, criterion=17691, side="horde", season="Hallow's End"} -- Uldum, Ramkahen
+A{"Uldum", 5838, 0.2658, 0.0723, criterion=17690, side="horde", season="Hallow's End"} -- Uldum, Oasis of Vir'sar
+A{"Uldum", 5838, 0.5468, 0.3300, criterion=17691, side="horde", season="Hallow's End"} -- Uldum, Ramkahen
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Undercity", 967, 0.6770, 0.3730, criterion=2160, side="horde", season="Hallow's End"} -- Undercity, The Trade Quarter
@@ -487,16 +487,16 @@ A{"ValleyoftheFourWinds", 7602, criterion=21943, side="horde", season="Hallow's 
 A{"ValleyoftheFourWinds", 7602, criterion=21945, side="horde", season="Hallow's End"} -- Valley of the Four Winds, Stoneplow
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Vashjir", 5837, criterion=17695, side="alliance", season="Hallow's End"} -- Vashj'ir, Tranquil Wash
-A{"Vashjir", 5837, criterion=17694, side="alliance", season="Hallow's End"} -- Vashj'ir, Silver Tide Hollow
-A{"Vashjir", 5837, criterion=17692, side="alliance", season="Hallow's End"} -- Vashj'ir, Darkbreak Cove
-A{"Vashjir", 5837, criterion=17693, side="alliance", season="Hallow's End"} -- Vashj'ir, Deepmist Grotto
+A{"VashjirRuins", 5837, 0.4942, 0.5720, criterion=17695, side="alliance", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Tranquil Wash
+A{"VashjirRuins", 5837, 0.4918, 0.4187, criterion=17694, side="alliance", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Silver Tide Hollow
+A{"VashjirDepths", 5837, 0.5438, 0.7212, criterion=17692, side="alliance", season="Hallow's End"} -- Vashj'ir, Abyssal Depths, Darkbreak Cove
+A{"VashjirKelpForest", 5837, 0.6350, 0.6017, criterion=17693, side="alliance", season="Hallow's End"} -- Vashj'ir, Kelp'thar Forest, Deepmist Grotto
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Vashjir", 5838, criterion=17714, side="horde", season="Hallow's End"} -- Vashj'ir, Legion's Rest
-A{"Vashjir", 5838, criterion=17693, side="horde", season="Hallow's End"} -- Vashj'ir, Deepmist Grotto
-A{"Vashjir", 5838, criterion=17694, side="horde", season="Hallow's End"} -- Vashj'ir, Silver Tide Hollow
-A{"Vashjir", 5838, criterion=17717, side="horde", season="Hallow's End"} -- Vashj'ir, Tenebrous Cavern
+A{"VashjirRuins", 5838, 0.5148, 0.6238, criterion=17714, side="horde", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Legion's Rest
+A{"VashjirKelpForest", 5838, 0.6350, 0.6017, criterion=17693, side="horde", season="Hallow's End"} -- Vashj'ir, Kelp'thar Forest, Deepmist Grotto
+A{"VashjirRuins", 5838, 0.4918, 0.4187, criterion=17694, side="horde", season="Hallow's End"} -- Vashj'ir, Shimmering Expanse, Silver Tide Hollow
+A{"VashjirDepths", 5838, 0.5134, 0.6054, criterion=17717, side="horde", season="Hallow's End"} -- Vashj'ir, Abyssal Depths, Tenebrous Cavern
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"WesternPlaguelands", 966, 0.4330, 0.8430, criterion=18426, side="alliance", season="Hallow's End"} -- Western Plaguelands, Chillwind Camp
