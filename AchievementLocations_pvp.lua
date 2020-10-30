@@ -267,34 +267,34 @@ A{"Ashran", 9714, side="alliance"}
 A{"Ashran", 9715, side="horde"}
 
 -- Player vs. Player/Arena: World Wide Winner
-A{"BladesEdgeMountains", 699, 0.530, 0.440, criterion=5739} -- Blade's Edge Arena
+A{"BladesEdgeMountains", 699, 0.5300, 0.4400, criterion=5739} -- Blade's Edge Arena
 A{"Dalaran", 699, criterion=8587, floor=2} -- Dalaran Sewers
 
 -- Player vs. Player: Wrath of the Horde
 A{"Darnassus", 603, criterion=6638, side="horde"} -- Darnassus
 
 -- Player vs. Player: Immortal No More
-A{"Darnassus", 617, 0.430, 0.790, side="horde"}
+A{"Darnassus", 617, 0.4300, 0.7900, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"Darnassus", 619, 0.430, 0.790, criterion=494, side="horde"} -- Immortal No More
+A{"Darnassus", 619, 0.4300, 0.7900, criterion=494, side="horde"} -- Immortal No More
 
 -- Player vs. Player: Grizzled Veteran
-A{"GrizzlyHills", 2016, 0.397, 0.434, criterion=7279, side="alliance"} -- Pieces Parts
-A{"GrizzlyHills", 2016, 0.405, 0.427, criterion=7280, side="alliance"} -- Life or Death
-A{"GrizzlyHills", 2016, 0.395, 0.436, criterion=7281, side="alliance"} -- Shredder Repair
-A{"GrizzlyHills", 2016, 0.221, 0.813, criterion=7283, side="alliance"} -- Keep Them at Bay!
-A{"GrizzlyHills", 2016, 0.221, 0.813, criterion=7284, side="alliance"} -- Down With Captain Zorna!
-A{"GrizzlyHills", 2016, 0.299, 0.598, criterion=7278, side="alliance"} -- Blackriver Skirmish
-A{"GrizzlyHills", 2016, 0.220, 0.807, criterion=7285, side="alliance"} -- Smoke 'Em Out
-A{"GrizzlyHills", 2016, 0.148, 0.866, criterion=7286, side="alliance"} -- Riding the Red Rocket
-A{"GrizzlyHills", 2016, 0.394, 0.439, criterion=7282, side="alliance"} -- Kick 'Em While They're Down
+A{"GrizzlyHills", 2016, 0.3970, 0.4340, criterion=7279, side="alliance"} -- Pieces Parts
+A{"GrizzlyHills", 2016, 0.4050, 0.4270, criterion=7280, side="alliance"} -- Life or Death
+A{"GrizzlyHills", 2016, 0.3950, 0.4360, criterion=7281, side="alliance"} -- Shredder Repair
+A{"GrizzlyHills", 2016, 0.2210, 0.8130, criterion=7283, side="alliance"} -- Keep Them at Bay!
+A{"GrizzlyHills", 2016, 0.2210, 0.8130, criterion=7284, side="alliance"} -- Down With Captain Zorna!
+A{"GrizzlyHills", 2016, 0.2990, 0.5980, criterion=7278, side="alliance"} -- Blackriver Skirmish
+A{"GrizzlyHills", 2016, 0.2200, 0.8070, criterion=7285, side="alliance"} -- Smoke 'Em Out
+A{"GrizzlyHills", 2016, 0.1480, 0.8660, criterion=7286, side="alliance"} -- Riding the Red Rocket
+A{"GrizzlyHills", 2016, 0.3940, 0.4390, criterion=7282, side="alliance"} -- Kick 'Em While They're Down
 
 -- Player vs. Player: Grizzled Veteran
 A{"GrizzlyHills", 2017, criterion=7294, side="horde"} -- Keep Them at Bay
 A{"GrizzlyHills", 2017, criterion=7288, side="horde"} -- Shred the Alliance
 A{"GrizzlyHills", 2017, criterion=7295, side="horde"} -- Smoke 'Em Out
-A{"GrizzlyHills", 2017, 0.264, 0.658, criterion=7287, side="horde"} -- Blackriver Brawl
+A{"GrizzlyHills", 2017, 0.2640, 0.6580, criterion=7287, side="horde"} -- Blackriver Brawl
 A{"GrizzlyHills", 2017, criterion=7289, side="horde"} -- Making Repairs
 A{"GrizzlyHills", 2017, criterion=7292, side="horde"} -- Riding the Red Rocket
 A{"GrizzlyHills", 2017, criterion=7290, side="horde"} -- Keep 'Em on their Heels
@@ -305,10 +305,10 @@ A{"GrizzlyHills", 2017, criterion=7293, side="horde"} -- Crush Captain Brightwat
 A{"Ironforge", 603, criterion=6637, side="horde"} -- Ironforge
 
 -- Player vs. Player: Overthrow the Council
-A{"Ironforge", 616, 0.400, 0.550, side="horde"}
+A{"Ironforge", 616, 0.4000, 0.5500, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"Ironforge", 619, 0.400, 0.550, criterion=493, side="horde"} -- Overthrow the Council
+A{"Ironforge", 619, 0.4000, 0.5500, criterion=493, side="horde"} -- Overthrow the Council
 
 -- Player vs. Player/Isle of Conquest: Isle of Conquest Victory
 A{"IsleofConquest", 3776}
@@ -521,28 +521,28 @@ A{"NetherstormArena", 1258}
 A{"Orgrimmar", 604, criterion=6635, side="alliance"} -- Orgrimmar
 
 -- Player vs. Player: Death to the Warchief!
-A{"Orgrimmar", 610, 0.480, 0.710, side="alliance"}
+A{"Orgrimmar", 610, 0.4800, 0.7100, side="alliance"}
 
 -- Player vs. Player: For The Alliance!
-A{"Orgrimmar", 614, 0.480, 0.710, criterion=484, side="alliance"} -- Death to the Warchief!
+A{"Orgrimmar", 614, 0.4800, 0.7100, criterion=484, side="alliance"} -- Death to the Warchief!
 
 -- Player vs. Player: Wrath of the Alliance
 A{"SilvermoonCity", 604, criterion=6634, side="alliance"} -- Silvermoon City
 
 -- Player vs. Player: Killed in Quel'Thalas
-A{"SilvermoonCity", 613, 0.540, 0.210, side="alliance"}
+A{"SilvermoonCity", 613, 0.5400, 0.2100, side="alliance"}
 
 -- Player vs. Player: For The Alliance!
-A{"SilvermoonCity", 614, 0.540, 0.210, criterion=487, side="alliance"} -- Killed in Quel'Thalas
+A{"SilvermoonCity", 614, 0.5400, 0.2100, criterion=487, side="alliance"} -- Killed in Quel'Thalas
 
 -- Player vs. Player: Wrath of the Horde
 A{"StormwindCity", 603, criterion=6640, side="horde"} -- Stormwind City
 
 -- Player vs. Player: Storming Stormwind
-A{"StormwindCity", 615, 0.860, 0.320, side="horde"}
+A{"StormwindCity", 615, 0.8600, 0.3200, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"StormwindCity", 619, 0.860, 0.320, criterion=492, side="horde"} -- Storming Stormwind
+A{"StormwindCity", 619, 0.8600, 0.3200, criterion=492, side="horde"} -- Storming Stormwind
 
 -- Player vs. Player/Strand of the Ancients: Strand of the Ancients Victory
 A{"StrandoftheAncients", 1308}
@@ -608,28 +608,28 @@ A{"StrandoftheAncients", 2194, criterion=7741} -- Defense of the Ancients
 A{"StrandoftheAncients", 2200, side="horde"}
 
 -- Player vs. Player: Gurubashi Arena Master
-A{"TheCapeOfStranglethorn", 389, 0.465, 0.261}
+A{"TheCapeOfStranglethorn", 389, 0.4650, 0.2610}
 
 -- Player vs. Player: Gurubashi Arena Grand Master
-A{"TheCapeOfStranglethorn", 396, 0.450, 0.254}
+A{"TheCapeOfStranglethorn", 396, 0.4500, 0.2540}
 
 -- Player vs. Player: Wrath of the Horde
 A{"TheExodar", 603, criterion=6639, side="horde"} -- The Exodar
 
 -- Player vs. Player: Putting Out the Light
-A{"TheExodar", 618, 0.330, 0.550, side="horde"}
+A{"TheExodar", 618, 0.3300, 0.5500, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"TheExodar", 619, 0.330, 0.550, criterion=495, side="horde"} -- Putting Out the Light
+A{"TheExodar", 619, 0.3300, 0.5500, criterion=495, side="horde"} -- Putting Out the Light
 
 -- Player vs. Player: Wrath of the Alliance
 A{"ThunderBluff", 604, criterion=6633, side="alliance"} -- Thunder Bluff
 
 -- Player vs. Player: Bleeding Bloodhoof
-A{"ThunderBluff", 611, 0.600, 0.520, side="alliance"}
+A{"ThunderBluff", 611, 0.6000, 0.5200, side="alliance"}
 
 -- Player vs. Player: For The Alliance!
-A{"ThunderBluff", 614, 0.600, 0.520, criterion=485, side="alliance"} -- Bleeding Bloodhoof
+A{"ThunderBluff", 614, 0.6000, 0.5200, criterion=485, side="alliance"} -- Bleeding Bloodhoof
 
 -- Player vs. Player: Emissary of Ordos
 A{"TimelessIsle", 8716}
@@ -715,10 +715,10 @@ A{"Uldum", 699, criterion=21042} -- Tol'Viron Arena
 A{"Undercity", 604, criterion=6636, side="alliance"} -- Undercity
 
 -- Player vs. Player: Downing the Dark Lady
-A{"Undercity", 612, 0.580, 0.920, side="alliance"}
+A{"Undercity", 612, 0.5800, 0.9200, side="alliance"}
 
 -- Player vs. Player: For The Alliance!
-A{"Undercity", 614, 0.580, 0.920, criterion=486, side="alliance"} -- Downing the Dark Lady
+A{"Undercity", 614, 0.5800, 0.9200, criterion=486, side="alliance"} -- Downing the Dark Lady
 
 -- Player vs. Player/Warsong Gulch: Warsong Gulch Victory
 A{"WarsongGulch", 166}

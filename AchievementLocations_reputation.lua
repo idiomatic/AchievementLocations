@@ -18,14 +18,14 @@ A{"Barrens", 6742, criterion=982, faction=369, note="Fray Island"} -- Gadgetzan
 A{"BlackTemple", 6742, criterion=982, faction=1012} -- Ashtongue Deathsworn
 
 -- Reputation/The Burning Crusade: A Quest a Day Keeps the Ogres at Bay
-A{"BladesEdgeMountains", 896, 0.285, 0.575, faction=1038}
+A{"BladesEdgeMountains", 896, 0.2850, 0.5750, faction=1038}
 
 -- Reputation: 60 Exalted Reputations
-A{"BladesEdgeMountains", 6742, 0.285, 0.575, criterion=982, faction=1038} -- Ogri'la
-A{"BladesEdgeMountains", 6742, 0.278, 0.527, criterion=982, faction=1031} -- Sha'tari Skyguard
+A{"BladesEdgeMountains", 6742, 0.2850, 0.5750, criterion=982, faction=1038} -- Ogri'la
+A{"BladesEdgeMountains", 6742, 0.2780, 0.5270, criterion=982, faction=1031} -- Sha'tari Skyguard
 A{"BoreanTundra", 6742, criterion=982, faction=1064, side="horde"} -- The Taunka
 A{"CoTHillsbradFoothills", 6742, criterion=982, faction=989} -- Keepers of Time
-A{"CoTTheBlackMorass", 6742, 0.480, 0.745, criterion=982, faction=989} -- Keepers of Time
+A{"CoTTheBlackMorass", 6742, 0.4800, 0.7450, criterion=982, faction=989} -- Keepers of Time
 
 -- Reputation/Wrath of the Lich King: The Kirin Tor
 A{"Dalaran", 1008, faction=1090}
@@ -87,7 +87,7 @@ A{"HillsbradFoothills", 2336, quest=349} -- Ravenholdt
 
 -- Reputation: 60 Exalted Reputations
 A{"HillsbradFoothills", 6742, criterion=982, faction=349, note="may need a level 60 rogue for pickpocketing Heavy Junkbox"} -- Ravenholdt
-A{"HowlingFjord", 6742, 0.308, 0.286, criterion=982, faction=1068, side="alliance"} -- Explorer's League
+A{"HowlingFjord", 6742, 0.3080, 0.2860, criterion=982, faction=1068, side="alliance"} -- Explorer's League
 A{"HowlingFjord", 6742, criterion=982, faction=1067, side="horde"} -- The Hand of Vengeance
 
 -- Reputation/The Burning Crusade: The Scale of the Sands
@@ -109,19 +109,19 @@ A{"IcecrownGlacier", 1010, criterion=4743, faction=1098} -- Knights of the Ebon 
 A{"IcecrownGlacier", 1010, criterion=4737, faction=1106} -- The Argent Crusade
 
 -- World Events/Argent Tournament: Exalted Champion of Darnassus
-A{"IcecrownGlacier", 2760, 0.763, 0.191, criterion=5328, faction=69, side="alliance"} -- Exalted with Darnassus
+A{"IcecrownGlacier", 2760, 0.7630, 0.1910, criterion=5328, faction=69, side="alliance"} -- Exalted with Darnassus
 
 -- World Events/Argent Tournament: Exalted Champion of the Exodar
-A{"IcecrownGlacier", 2761, 0.761, 0.191, criterion=5332, faction=930, side="alliance"} -- Exalted with Exodar
+A{"IcecrownGlacier", 2761, 0.7610, 0.1910, criterion=5332, faction=930, side="alliance"} -- Exalted with Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of Gnomeregan
-A{"IcecrownGlacier", 2762, 0.765, 0.198, criterion=5329, faction=54, side="alliance"} -- Exalted with Gnomeregan Exiles
+A{"IcecrownGlacier", 2762, 0.7650, 0.1980, criterion=5329, faction=54, side="alliance"} -- Exalted with Gnomeregan Exiles
 
 -- World Events/Argent Tournament: Exalted Champion of Ironforge
-A{"IcecrownGlacier", 2763, 0.766, 0.195, criterion=5330, faction=47, side="alliance"} -- Exalted with Ironforge
+A{"IcecrownGlacier", 2763, 0.7660, 0.1950, criterion=5330, faction=47, side="alliance"} -- Exalted with Ironforge
 
 -- World Events/Argent Tournament: Exalted Champion of Stormwind
-A{"IcecrownGlacier", 2764, 0.766, 0.192, criterion=5331, faction=72, side="alliance"} -- Exalted with Stormwind
+A{"IcecrownGlacier", 2764, 0.7660, 0.1920, criterion=5331, faction=72, side="alliance"} -- Exalted with Stormwind
 
 -- World Events/Argent Tournament: Exalted Champion of Orgrimmar
 A{"IcecrownGlacier", 2765, criterion=5314, faction=76, side="horde"} -- Exalted with Orgrimmar
@@ -147,13 +147,13 @@ A{"ManaTombs", 6742, criterion=982, faction=933} -- The Consortium
 A{"MoltenCore", 6742, criterion=982, faction=749} -- Hydraxian Waterlords
 
 -- Reputation/The Burning Crusade: Oh My, Kurenai
-A{"Nagrand", 899, 0.740, 0.670, faction=978, side="alliance"}
+A{"Nagrand", 899, 0.7400, 0.6700, faction=978, side="alliance"}
 
 -- Reputation/The Burning Crusade: Mag'har of Draenor
 A{"Nagrand", 901, faction=941, side="horde"}
 
 -- Reputation: 60 Exalted Reputations
-A{"Nagrand", 6742, 0.740, 0.670, criterion=982, faction=978, side="alliance"} -- Kurenai
+A{"Nagrand", 6742, 0.7400, 0.6700, criterion=982, faction=978, side="alliance"} -- Kurenai
 A{"Nagrand", 6742, criterion=982, faction=941, side="horde"} -- The Mag'har
 A{"NagrandDraenor", 6742, criterion=982, faction=1711} -- Steamwheedle Preservation Society
 
@@ -165,10 +165,10 @@ A{"SearingGorge", 6742, criterion=982, faction=59} -- Thorium Brotherhood
 A{"SethekkHalls", 6742, criterion=982, faction=1011} -- Lower City
 
 -- Reputation/The Burning Crusade: On Wings of Nether
-A{"ShadowmoonValley", 898, 0.660, 0.860, faction=1015}
+A{"ShadowmoonValley", 898, 0.6600, 0.8600, faction=1015}
 
 -- Reputation: 60 Exalted Reputations
-A{"ShadowmoonValley", 6742, 0.660, 0.830, criterion=982, faction=1015} -- Netherwing
+A{"ShadowmoonValley", 6742, 0.6600, 0.8300, criterion=982, faction=1015} -- Netherwing
 A{"ShadowmoonValleyDR", 6742, criterion=982, faction=1731, side="alliance"} -- Council of Exarchs
 A{"ShattrathCity", 6742, criterion=982, faction=932} -- The Aldor
 A{"ShattrathCity", 6742, criterion=982, faction=934} -- The Scryers
@@ -214,14 +214,14 @@ A{"Tanaris", 6742, criterion=982, faction=470} -- Ratchet
 A{"TerokkarForest", 894, faction=1031}
 
 -- Reputation: 60 Exalted Reputations
-A{"TerokkarForest", 6742, 0.645, 0.664, criterion=982, faction=1031} -- Sha'tari Skyguard
+A{"TerokkarForest", 6742, 0.6450, 0.6640, criterion=982, faction=1031} -- Sha'tari Skyguard
 A{"TheArcatraz", 6742, criterion=982, faction=935} -- The Sha'tar
 A{"TheBloodFurnace", 6742, criterion=982, faction=946, side="alliance"} -- Honor Hold
 A{"TheBloodFurnace", 6742, criterion=982, faction=947, side="horde"} -- Thrallmar
 A{"TheBotanica", 6742, criterion=982, faction=935} -- The Sha'tar
 
 -- Feats of Strength: Avast Ye, Admiral!
-A{"TheCapeOfStranglethorn", 871, 0.466, 0.952}
+A{"TheCapeOfStranglethorn", 871, 0.4660, 0.9520}
 
 -- Feats of Strength: Insane in the Membrane
 A{"TheCapeOfStranglethorn", 2336, quest=87} -- Bloodsail Buckaneers
@@ -263,7 +263,7 @@ A{"WarsongGulch", 6742, criterion=982, faction=889, side="horde"} -- Warsong Out
 A{"Winterspring", 6742, criterion=982, faction=589} -- Wintersaber Trainers
 
 -- Reputation/The Burning Crusade: Cenarion War Hippogryph
-A{"Zangarmarsh", 893, 0.792, 0.638}
+A{"Zangarmarsh", 893, 0.7920, 0.6380}
 
 -- Reputation/The Burning Crusade: The Czar of Sporeggar
 A{"Zangarmarsh", 900, faction=970}

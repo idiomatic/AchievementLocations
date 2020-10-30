@@ -31,7 +31,7 @@ A{"SilvermoonCity", 1698, criterion=12843, side="horde", season="Love is in the 
 A{"StormwindCity", 1697, criterion=12841, side="alliance", season="Love is in the Air"} -- A Gift for the King of Stormwind
 
 -- World Events/Love is in the Air: I Pitied The Fool
-A{"StranglethornJungle", 1704, 0.465, 0.261, criterion=6344, season="Love is in the Air"} -- Battle Ring of Gurubashi Arena
+A{"StranglethornJungle", 1704, 0.4650, 0.2610, criterion=6344, season="Love is in the Air"} -- Battle Ring of Gurubashi Arena
 
 -- World Events/Love is in the Air: Nation of Adoration
 A{"TheExodar", 1697, criterion=12839, side="alliance", season="Love is in the Air"} -- A Gift for the Prophet

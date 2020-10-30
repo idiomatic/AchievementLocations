@@ -31,13 +31,13 @@ A{"EastTemple", 6920, criterion=19862} -- Temple of the Jade Serpent
 A{"EastTemple", 8430}
 
 -- Feats of Strength: Boldly, You Sought the Power of Ragnaros
-A{"Firelands", 9550, 0.507, 0.153}
+A{"Firelands", 9550, 0.5070, 0.1530}
 
 -- Feats of Strength: Cutting Edge: Blackhand's Crucible
-A{"FoundryRaid", 9443, 0.484, 0.345}
+A{"FoundryRaid", 9443, 0.4840, 0.3450}
 
 -- Feats of Strength: Ahead of the Curve: Blackhand's Crucible
-A{"FoundryRaid", 9444, 0.484, 0.345}
+A{"FoundryRaid", 9444, 0.4840, 0.3450}
 
 -- Feats of Strength: Cutting Edge: Grand Empress Shek'zeer
 A{"HeartofFear", 7486}
@@ -46,13 +46,13 @@ A{"HeartofFear", 7486}
 A{"HeartofFear", 8246}
 
 -- Feats of Strength: Ahead of the Curve: Imperator's Fall
-A{"HighmaulRaid", 9441, 0.453, 0.752}
+A{"HighmaulRaid", 9441, 0.4530, 0.7520}
 
 -- Feats of Strength: Cutting Edge: Imperator's Fall
-A{"HighmaulRaid", 9442, 0.453, 0.752}
+A{"HighmaulRaid", 9442, 0.4530, 0.7520}
 
 -- Feats of Strength: Realm First! Fall of the Lich King
-A{"IcecrownCitadel", 4576, 0.498, 0.528, floor=8}
+A{"IcecrownCitadel", 4576, 0.4980, 0.5280, floor=8}
 
 -- Feats of Strength: Vampire Hunter
 A{"Karazhan", 2456}
@@ -88,7 +88,7 @@ A{"MoltenCore", 429}
 A{"MoltenCore", 428}
 
 -- Feats of Strength: Realm First! Conqueror of Naxxramas
-A{"Naxxramas", 1402, 0.370, 0.230, floor=6}
+A{"Naxxramas", 1402, 0.3700, 0.2300, floor=6}
 
 -- Legacy: The Immortal
 A{"Naxxramas", 2186}
@@ -97,16 +97,16 @@ A{"Naxxramas", 2186}
 A{"Naxxramas", 2187}
 
 -- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (10 player)
-A{"OrgrimmarRaid", 8398, 0.494, 0.713}
+A{"OrgrimmarRaid", 8398, 0.4940, 0.7130}
 
 -- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (25 player)
-A{"OrgrimmarRaid", 8399, 0.494, 0.713}
+A{"OrgrimmarRaid", 8399, 0.4940, 0.7130}
 
 -- Feats of Strength: Cutting Edge: Garrosh Hellscream (10 player)
-A{"OrgrimmarRaid", 8400, 0.494, 0.713}
+A{"OrgrimmarRaid", 8400, 0.4940, 0.7130}
 
 -- Feats of Strength: Cutting Edge: Garrosh Hellscream (25 player)
-A{"OrgrimmarRaid", 8401, 0.494, 0.713}
+A{"OrgrimmarRaid", 8401, 0.4940, 0.7130}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"ScarletHalls", 6374, criterion=19879} -- Scarlet Halls
@@ -127,40 +127,40 @@ A{"ScarletHalls", 6920, criterion=19867} -- Scarlet Halls
 A{"ScarletHalls", 8436}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"ScarletMonastery", 6374, 0.490, 0.804, criterion=19880, floor=2} -- Scarlet Monastery
+A{"ScarletMonastery", 6374, 0.4900, 0.8040, criterion=19880, floor=2} -- Scarlet Monastery
 
 -- Legacy: Challenge Conqueror: Silver
-A{"ScarletMonastery", 6375, 0.490, 0.804, criterion=19889, floor=2} -- Scarlet Monastery
+A{"ScarletMonastery", 6375, 0.4900, 0.8040, criterion=19889, floor=2} -- Scarlet Monastery
 
 -- Legacy: Challenge Conqueror: Gold
-A{"ScarletMonastery", 6378, 0.490, 0.804, criterion=19898, floor=2} -- Scarlet Monastery
+A{"ScarletMonastery", 6378, 0.4900, 0.8040, criterion=19898, floor=2} -- Scarlet Monastery
 
 -- Legacy: Scarlet Monastery Challenger
-A{"ScarletMonastery", 6896, 0.490, 0.804, floor=2}
+A{"ScarletMonastery", 6896, 0.4900, 0.8040, floor=2}
 
 -- Legacy: Challenge Conqueror
-A{"ScarletMonastery", 6920, 0.490, 0.804, criterion=19868, floor=2} -- Scarlet Monastery
+A{"ScarletMonastery", 6920, 0.4900, 0.8040, criterion=19868, floor=2} -- Scarlet Monastery
 
 -- Feats of Strength: Challenge Master: Scarlet Monastery
-A{"ScarletMonastery", 8437, 0.490, 0.804, floor=2}
+A{"ScarletMonastery", 8437, 0.4900, 0.8040, floor=2}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"Scholomance", 6374, 0.501, 0.326, criterion=19881} -- Scholomance
+A{"Scholomance", 6374, 0.5010, 0.3260, criterion=19881} -- Scholomance
 
 -- Legacy: Challenge Conqueror: Silver
-A{"Scholomance", 6375, 0.501, 0.326, criterion=19890} -- Scholomance
+A{"Scholomance", 6375, 0.5010, 0.3260, criterion=19890} -- Scholomance
 
 -- Legacy: Challenge Conqueror: Gold
-A{"Scholomance", 6378, 0.501, 0.326, criterion=19899} -- Scholomance
+A{"Scholomance", 6378, 0.5010, 0.3260, criterion=19899} -- Scholomance
 
 -- Legacy: Scholomance Challenger
-A{"Scholomance", 6897, 0.501, 0.326}
+A{"Scholomance", 6897, 0.5010, 0.3260}
 
 -- Legacy: Challenge Conqueror
-A{"Scholomance", 6920, 0.501, 0.326, criterion=19869} -- Scholomance
+A{"Scholomance", 6920, 0.5010, 0.3260, criterion=19869} -- Scholomance
 
 -- Feats of Strength: Challenge Master: Scholomance
-A{"Scholomance", 8438, 0.501, 0.326}
+A{"Scholomance", 8438, 0.5010, 0.3260}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"ShadowpanHideout", 6374, criterion=19877} -- Shado-Pan Monastery
@@ -190,22 +190,22 @@ A{"ShadowpanHideout", 6920, criterion=19865} -- Shado-Pan Monastery
 A{"ShadowpanHideout", 8432}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"SiegeofNiuzaoTemple", 6374, 0.570, 0.220, criterion=19882, floor=1} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6374, 0.5700, 0.2200, criterion=19882, floor=1} -- Siege of Niuzao Temple
 
 -- Legacy: Challenge Conqueror: Silver
-A{"SiegeofNiuzaoTemple", 6375, 0.570, 0.220, criterion=19891, floor=1} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6375, 0.5700, 0.2200, criterion=19891, floor=1} -- Siege of Niuzao Temple
 
 -- Legacy: Challenge Conqueror: Gold
-A{"SiegeofNiuzaoTemple", 6378, 0.570, 0.220, criterion=19900, floor=1} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6378, 0.5700, 0.2200, criterion=19900, floor=1} -- Siege of Niuzao Temple
 
 -- Legacy: Siege of Niuzao Temple Challenger
-A{"SiegeofNiuzaoTemple", 6898, 0.570, 0.220, floor=1}
+A{"SiegeofNiuzaoTemple", 6898, 0.5700, 0.2200, floor=1}
 
 -- Legacy: Challenge Conqueror
-A{"SiegeofNiuzaoTemple", 6920, 0.570, 0.220, criterion=19870, floor=1} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6920, 0.5700, 0.2200, criterion=19870, floor=1} -- Siege of Niuzao Temple
 
 -- Feats of Strength: Challenge Master: Siege of Niuzao Temple
-A{"SiegeofNiuzaoTemple", 8439, 0.570, 0.220, floor=1}
+A{"SiegeofNiuzaoTemple", 8439, 0.5700, 0.2200, floor=1}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"StormstoutBrewery", 6374, criterion=19875} -- Stormstout Brewery
@@ -226,10 +226,10 @@ A{"StormstoutBrewery", 6920, criterion=19863} -- Stormstout Brewery
 A{"StormstoutBrewery", 8431}
 
 -- Feats of Strength: Cutting Edge: Sha of Fear
-A{"TerraceOfEndlessSpring", 7487, 0.390, 0.480}
+A{"TerraceOfEndlessSpring", 7487, 0.3900, 0.4800}
 
 -- Feats of Strength: Ahead of the Curve: Sha of Fear
-A{"TerraceOfEndlessSpring", 8248, 0.390, 0.480}
+A{"TerraceOfEndlessSpring", 8248, 0.3900, 0.4800}
 
 -- Legacy: A Tribute to Skill (10 player)
 A{"TheArgentColiseum", 3808}
@@ -262,28 +262,28 @@ A{"TheArgentColiseum", 4080}
 A{"TheArgentColiseum", 4156, criterion=12359, side="alliance"} -- Complete the Trial of the Grand Crusader
 
 -- Feats of Strength: Realm First! Magic Seeker
-A{"TheEyeofEternity", 1400, 0.368, 0.518}
+A{"TheEyeofEternity", 1400, 0.3680, 0.5180}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"TheGreatWall", 6374, 0.490, 0.610, criterion=19878, floor=1} -- Gate of the Setting Sun
+A{"TheGreatWall", 6374, 0.4900, 0.6100, criterion=19878, floor=1} -- Gate of the Setting Sun
 
 -- Legacy: Challenge Conqueror: Silver
-A{"TheGreatWall", 6375, 0.490, 0.610, criterion=19887, floor=1} -- Gate of the Setting Sun
+A{"TheGreatWall", 6375, 0.4900, 0.6100, criterion=19887, floor=1} -- Gate of the Setting Sun
 
 -- Legacy: Challenge Conqueror: Gold
-A{"TheGreatWall", 6378, 0.490, 0.610, criterion=19896, floor=1} -- Gate of the Setting Sun
+A{"TheGreatWall", 6378, 0.4900, 0.6100, criterion=19896, floor=1} -- Gate of the Setting Sun
 
 -- Legacy: Gate of the Setting Sun Challenger
 A{"TheGreatWall", 6894}
 
 -- Legacy: Challenge Conqueror
-A{"TheGreatWall", 6920, 0.490, 0.610, criterion=19866, floor=1} -- Gate of the Setting Sun
+A{"TheGreatWall", 6920, 0.4900, 0.6100, criterion=19866, floor=1} -- Gate of the Setting Sun
 
 -- Feats of Strength: Challenge Master: Gate of the Setting Sun
-A{"TheGreatWall", 8434, 0.490, 0.610, floor=1}
+A{"TheGreatWall", 8434, 0.4900, 0.6100, floor=1}
 
 -- Feats of Strength: Realm First! Obsidian Slayer
-A{"TheObsidianSanctum", 456, 0.508, 0.478}
+A{"TheObsidianSanctum", 456, 0.5080, 0.4780}
 
 -- Feats of Strength: Cutting Edge: Lei Shen
 A{"ThunderKingRaid", 8238}
@@ -295,10 +295,10 @@ A{"ThunderKingRaid", 8249}
 A{"ThunderKingRaid", 8260}
 
 -- Feats of Strength: Realm First! Death's Demise
-A{"Ulduar", 3117, 0.690, 0.410, floor=4}
+A{"Ulduar", 3117, 0.6900, 0.4100, floor=4}
 
 -- Feats of Strength: Realm First! Celestial Defender
-A{"Ulduar", 3259, 0.800, 0.470, floor=2}
+A{"Ulduar", 3259, 0.8000, 0.4700, floor=2}
 
 -- Legacy: Upper Blackrock Spire (Classic)
 A{"UpperBlackrockSpire", 1307}
