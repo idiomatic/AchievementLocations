@@ -88,10 +88,10 @@ A{"Darkshore", 963, 0.5090, 0.1890, criterion=2075, side="alliance", season="Hal
 A{"Darnassus", 963, 0.6220, 0.3310, criterion=2076, note="/dance", side="alliance", season="Hallow's End"} -- Darnassus, Craftsmen's Terrace
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Deepholm", 5837, criterion=17682, side="alliance", season="Hallow's End"} -- Deepholm, Temple of Earth
+A{"Deepholm", 5837, 0.5118, 0.4990, criterion=17682, side="alliance", season="Hallow's End"} -- Deepholm, Temple of Earth
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Deepholm", 5838, criterion=17704, side="horde", season="Hallow's End"} -- Deepholm, Temple of Earth
+A{"Deepholm", 5838, 0.5118, 0.4990, criterion=17704, side="horde", season="Hallow's End"} -- Deepholm, Temple of Earth
 
 -- World Events/Hallow's End: Tricks and Treats of Kalimdor
 A{"Desolace", 963, 0.6630, 0.0650, criterion=2077, side="alliance", season="Hallow's End"} -- Desolace, Nijel's Point
