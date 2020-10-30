@@ -172,6 +172,10 @@ A{"Feralas", 965, 0.7480, 0.4510, criterion=2111, side="horde", season="Hallow's
 A{"Feralas", 965, 0.4140, 0.1560, criterion=17616, side="horde", season="Hallow's End"} -- Feralas, Camp Ataya
 A{"Feralas", 965, 0.5190, 0.4760, criterion=17617, side="horde", season="Hallow's End"} -- Feralas, Stonemaul Hold
 
+-- World Events/Hallow's End: A Frightening Friend
+A{"garrisonsmvalliance_tier1", 10356, 0.3989, 0.6987, criterion=4787, side="alliance", season="Hallow's End"} -- Shadowmoon Valley, Lunarfall
+A{"garrisonffhorde_tier1", 10365, 0.7044, 0.8924, criterion=4787, side="horde", season="Hallow's End"} -- Frostfire Ridge, Frostwall
+
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Ghostlands", 967, 0.4860, 0.3190, criterion=2151, side="horde", season="Hallow's End"} -- Ghostlands, Tranquillien
 
