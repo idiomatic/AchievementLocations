@@ -301,9 +301,6 @@ A{"BurningSteppes", 9924, 0.2000, 0.3300, criterion=27968} -- Blackrock Mountain
 -- Exploration: Pest Control
 A{"BurningSteppes", 2556, 0.258, 0.250, criterion="Fire Beetle"}
 A{"BurningSteppes", 2556, 0.168, 0.218, criterion="Fire Beetle"}
-A{"Dalaran", 2556, 0.644, 0.376, criterion="Underbelly Rat"}
-A{"Dalaran", 2556, 0.604, 0.496, criterion="Underbelly Rat"}
-A{"Dalaran", 2556, 0.640, 0.360, criterion="Underbelly Rat"}
 
 -- General: To All The Squirrels I've Loved Before
 A{"Dalaran", 1206, 0.4960, 0.6360, criterion="Squirrel"} -- Squirrel
@@ -384,7 +381,10 @@ A{"Dalaran", 2096, 0.5250, 0.6750, criterion=7486} -- A Penny For Your Thoughts
 A{"Dalaran", 2096, 0.5250, 0.6750, criterion=7487} -- Silver in the City
 
 -- General: Pest Control
-A{"Dalaran", 2556, 0.6440, 0.3760, criterion=9373} -- Underbelly Rat
+A{"Dalaran", 2556, criterion=9373} -- Underbelly Rat
+A{"Dalaran", 2556, 0.4501, 0.4344, floor=2, criterion=9373} -- Underbelly Rat
+A{"Dalaran", 2556, 0.6185, 0.1408, floor=2, criterion=9373} -- Underbelly Rat
+A{"Dalaran", 2556, 0.640, 0.360, floor=1, side="horde", criterion=9373} -- Underbelly Rat
 
 -- Exploration: Field Photographer
 A{"Dalaran", 9924, criterion=27867} -- Dalaran
@@ -5073,9 +5073,9 @@ A{"Zangarmarsh", 1312, 0.7220, 0.7600, criterion=4507} -- Coilfang Emissary
 A{"Zangarmarsh", 1312, 0.7360, 0.8220, criterion=4507} -- Coilfang Emissary
 
 -- Exploration: Pest Control
-A{"ZulDrak", 2556, 0.422, 0.634, criterion="Zul'Drak Rat"}
-A{"ZulDrak", 2556, 0.408, 0.626, criterion="Zul'Drak Rat"}
-A{"ZulDrak", 2556, 0.410, 0.564, criterion="Zul'Drak Rat"}
+A{"ZulDrak", 2556, 0.422, 0.634, criterion=9374}
+A{"ZulDrak", 2556, 0.408, 0.626, criterion=9374}
+A{"ZulDrak", 2556, 0.410, 0.564, criterion=9374}
 
 -- Quests/Northrend: The Empire of Zul'Drak
 A{"ZulDrak", 36, criterion=77} -- Complete 100 Zul'Drak Quests
