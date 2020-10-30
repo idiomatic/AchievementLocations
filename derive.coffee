@@ -78,7 +78,8 @@ do ->
             if value
                 out.write if some then ", " else  ", trivia={"
                 some = true
-                out.write "#{key}=#{JSON.stringify value}"
+                value = JSON.stringify(value) unless /^\d+$/.test(value)
+                out.write "#{key}=#{value}"
         out.write "}" if some
 
         out.write "}"
