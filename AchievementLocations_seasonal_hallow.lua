@@ -216,14 +216,14 @@ A{"HowlingFjord", 5836, 0.5830, 0.6280, criterion=17674, side="alliance", season
 A{"HowlingFjord", 5836, 0.2540, 0.5980, criterion=17673, side="alliance", season="Hallow's End"} -- Howling Fjord, Kamagua
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Hyjal", 5837, criterion=17685, side="alliance", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
-A{"Hyjal", 5837, criterion=17684, side="alliance", season="Hallow's End"} -- Mount Hyjal, Nordrassil
-A{"Hyjal", 5837, criterion=17683, side="alliance", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
+A{"Hyjal", 5837, 0.4268, 0.4565, criterion=17685, side="alliance", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
+A{"Hyjal", 5837, 0.6303, 0.2408, criterion=17684, side="alliance", season="Hallow's End"} -- Mount Hyjal, Nordrassil
+A{"Hyjal", 5837, 0.1865, 0.3730, criterion=17683, side="alliance", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
 
 -- World Events/Hallow's End: Tricks and Treats of the Cataclysm
-A{"Hyjal", 5838, criterion=17684, side="horde", season="Hallow's End"} -- Mount Hyjal, Nordrassil
-A{"Hyjal", 5838, criterion=17683, side="horde", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
-A{"Hyjal", 5838, criterion=17685, side="horde", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
+A{"Hyjal", 5838, 0.6303, 0.2408, criterion=17684, side="horde", season="Hallow's End"} -- Mount Hyjal, Nordrassil
+A{"Hyjal", 5838, 0.1865, 0.3730, criterion=17683, side="horde", season="Hallow's End"} -- Mount Hyjal, Grove of Aessina
+A{"Hyjal", 5838, 0.4268, 0.4565, criterion=17685, side="horde", season="Hallow's End"} -- Mount Hyjal, Shrine of Aviana
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Ironforge", 966, 0.1830, 0.5090, criterion=2137, note="/chicken", side="alliance", season="Hallow's End"} -- Ironforge, The Commons
