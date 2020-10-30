@@ -4723,7 +4723,7 @@ A{"ValeOfEternalBlossomsScenario", 7439, 0.8800, 0.4500, criterion="Saurok"} -- 
 A{"ValeOfEternalBlossomsScenario", 7439, 0.3800, 0.5500, criterion="Yaungol", note="or thereabouts"} -- Moldo One-Eye
 
 -- Exploration: Field Photographer
-A{"ValeOfEternalBlossomsScenario", 9924, criterion=27870} -- Vale of Eternal Blossoms
+A{"ValeofEternalBlossoms", 9924, criterion=27870} -- Vale of Eternal Blossoms
 
 -- Quests/Pandaria: Rally the Valley
 A{"ValleyoftheFourWinds", 6301, criterion=18820} -- Thunderfoot Fields
