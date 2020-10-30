@@ -1107,6 +1107,9 @@ A{"Karazhan", 10016, 0.1900, 0.3300, criterion=27758, floor=4, note="from Opera 
 -- Dungeons & Raids: Cataclysm Dungeon Hero
 A{"LostCityofTolvir", 4844, criterion=13574} -- Heroic: Lost City of the Tol'vir
 
+-- Exploration: Pest Control
+A{"LostCityofTolvir", 2556, 0.660, 0.616, criterion="Snake"}
+
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"LostCityofTolvir", 4845, 0.6700, 0.7200, criterion=15256} -- Acrocalypse Now
 A{"LostCityofTolvir", 4845, 0.2700, 0.6500, criterion=15255} -- Kill It With Fire!
@@ -2865,6 +2868,11 @@ A{"Ulduar77", 1288, 0.5000, 0.1400, criterion=4048} -- Halls of Stone
 
 -- Dungeons & Raids: Northrend Dungeon Hero
 A{"Ulduar77", 1289, 0.5000, 0.1400, criterion=4064} -- Heroic Halls of Stone
+
+-- Exploration: Pest Control
+A{"Ulduar77", 2556, 0.626, 0.534, criterion="Gold Beetle"}
+A{"Ulduar77", 2556, 0.368, 0.364, criterion="Gold Beetle"}
+A{"Ulduar77", 2556, 0.500, 0.568, criterion="Gold Beetle"}
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
 A{"Ulduar77", 1658, 0.5000, 0.1400, criterion=5615} -- Heroic: Sjonnir the Ironshaper
