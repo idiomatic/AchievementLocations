@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -96,9 +94,6 @@ A{"Barrens", 1206, 0.6140, 0.4480, criterion="Prairie Dog", trivia={criteria="Pr
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Barrens", 1678, criterion=15236, side="horde", trivia={criteria="Bloodmyst/North Barrens", module="data", category="Quests/Kalimdor", name="Loremaster of Kalimdor", description="Complete the Kalimdor quest achievements listed below.", mapID="NorthernBarrens", uiMapID=10, points=10, parent="Quests", type="achievement"}}
-
--- General: Pest Control
-A{"Barrens", 2556, 0.5700, 0.1340, criterion="Adder", trivia={criteria="Adder", module="data", category="General", name="Pest Control", description="Slay the following pests.", points=10, type="slay"}}
 
 -- Quests/Kalimdor: Northern Barrens Quests
 A{"Barrens", 4933, criterion=13847, side="horde", trivia={criteria="Northern Barrens", module="data", category="Quests/Kalimdor", name="Northern Barrens Quests", description="Complete 70 quests in Northern Barrens.", mapID="NorthernBarrens", uiMapID=10, points=10, parent="Quests", type="quests"}}
@@ -362,6 +357,8 @@ A{"Dalaran", 2096, 0.5250, 0.6750, criterion=7487, trivia={criteria="Silver in t
 
 -- General: Pest Control
 A{"Dalaran", 2556, 0.6440, 0.3760, criterion=9373, trivia={criteria="Underbelly Rat", module="data", category="General", name="Pest Control", description="Slay the following pests.", points=10, type="slay"}}
+A{"Dalaran", 2556, 0.4501, 0.4344, criterion=9373, floor=2, trivia={criteria="Underbelly Rat", module="data", category="General", name="Pest Control", description="Slay the following pests.", points=10, type="slay"}}
+A{"Dalaran", 2556, 0.6400, 0.3600, criterion=9373, faction=horde, floor=1, trivia={criteria="Underbelly Rat", module="data", category="General", name="Pest Control", description="Slay the following pests.", points=10, type="slay"}}
 
 -- Exploration: Field Photographer
 A{"Dalaran", 9924, criterion=27867, trivia={criteria="Dalaran", module="data", category="Exploration", name="Field Photographer", description="Take a picture with the S.E.L.F.I.E. camera in all of the locations listed below.", mapID="Dalaran_DalaranCity", uiMapID=125, points=5, type=29}}
@@ -679,6 +676,7 @@ A{"Durotar", 1206, 0.4280, 0.1560, criterion=3759, trivia={criteria="Swine", mod
 A{"Durotar", 1206, 0.4860, 0.2740, criterion="Hare", trivia={criteria="Hare", module="data", category="General", name="To All The Squirrels I've Loved Before", description="Show the critters of Azeroth how much you /love them.", mapID="Durotar", uiMapID=1, points=10, type=54}}
 
 -- General: Pest Control
+A{"Durotar", 2556, 0.4560, 0.3540, criterion="Adder", trivia={criteria="Adder", module="data", category="General", name="Pest Control", description="Slay the following pests.", points=10, type="slay"}}
 A{"Durotar", 2556, 0.4440, 0.3340, criterion="Water Snake", trivia={criteria="Water Snake", module="data", category="General", name="Pest Control", description="Slay the following pests.", points=10, type="slay"}}
 
 -- Legacy: Hordebreaker
@@ -4493,6 +4491,3360 @@ A{"UngoroCrater", 4939, criterion=13850, trivia={criteria="Un'Goro Crater", modu
 
 -- Exploration: Field Photographer
 A{"UngoroCrater", 9924, 0.4800, 0.0900, criterion=27957, trivia={criteria="The Shaper's Terrace", module="data", category="Exploration", name="Field Photographer", description="Take a picture with the S.E.L.F.I.E. camera in all of the locations listed below.", mapID="UnGoroCrater", uiMapID=78, points=5, type=29}}
+
+-- Feats of Strength: Murky
+A{"unknown", 411, trivia={module="data", category="Feats of Strength", name="Murky", description="Proud owner of Murky from the 2005 BlizzCon in Anaheim, California.", points=0}}
+
+-- Feats of Strength: Murloc Costume
+A{"unknown", 412, trivia={module="data", category="Feats of Strength", name="Murloc Costume", description="Proud owner of the Murloc Costume from the 2007 BlizzCon in Anaheim, California.", points=0}}
+
+-- Feats of Strength: Tyrael's Hilt
+A{"unknown", 414, trivia={module="data", category="Feats of Strength", name="Tyrael's Hilt", description="Proud owner of Tyrael's Hilt from the 2008 World Wide Invitational in Paris, France.", points=0}}
+
+-- Feats of Strength: Big Blizzard Bear
+A{"unknown", 415, trivia={module="data", category="Feats of Strength", name="Big Blizzard Bear", description="Proud owner of the Big Blizzard Bear from the 2008 BlizzCon.", points=0}}
+
+-- Feats of Strength: Atiesh, Greatstaff of the Guardian
+A{"unknown", 425, trivia={module="data", category="Feats of Strength", name="Atiesh, Greatstaff of the Guardian", description="Wielder of Atiesh, Greatstaff of the Guardian.", points=0}}
+
+-- Feats of Strength: Warglaives of Azzinoth
+A{"unknown", 426, trivia={module="data", category="Feats of Strength", name="Warglaives of Azzinoth", description="Wielder of a set of Warglaives of Azzinoth.", points=0}}
+
+-- Feats of Strength: Thunderfury, Blessed Blade of the Windseeker
+A{"unknown", 428, trivia={module="data", category="Feats of Strength", name="Thunderfury, Blessed Blade of the Windseeker", description="Wielder of Thunderfury, Blessed Blade of the Windseeker.", points=0}}
+
+-- Feats of Strength: Sulfuras, Hand of Ragnaros
+A{"unknown", 429, trivia={module="data", category="Feats of Strength", name="Sulfuras, Hand of Ragnaros", description="Wielder of Sulfuras, Hand of Ragnaros.", points=0}}
+
+-- Feats of Strength: Amani War Bear
+A{"unknown", 430, trivia={module="data", category="Feats of Strength", name="Amani War Bear", description="Owner of Amani War Bear.", points=0}}
+
+-- Legacy: Hand of A'dal
+A{"unknown", 431, trivia={module="data", category="Legacy", name="Hand of A'dal", description="Earned the title, \"Hand of A'dal\".", points=0}}
+
+-- Legacy: Champion of the Naaru
+A{"unknown", 432, trivia={module="data", category="Legacy", name="Champion of the Naaru", description="Earned the title, \"Champion of the Naaru\".", points=0}}
+
+-- General: Shave and a Haircut
+A{"unknown", 545, trivia={module="data", category="General", name="Shave and a Haircut", description="Visit a Barber Shop and get your hair cut.", points=10}}
+
+-- General: Safe Deposit
+A{"unknown", 546, criterion=2002, trivia={criteria="Purchase 7 bank slots", module="data", category="General", name="Safe Deposit", description="Buy 7 additional bank slots.", points=10, type=45}}
+
+-- General: Greedy
+A{"unknown", 558, trivia={module="data", category="General", name="Greedy", description="Win a greed roll on a superior or better item above level 185 by rolling 100.", points=10}}
+
+-- General: Needy
+A{"unknown", 559, trivia={module="data", category="General", name="Needy", description="Win a need roll on a superior or better item above level 185 by rolling 100.", points=10}}
+
+-- Feats of Strength: Collector's Edition: Mini-Diablo
+A{"unknown", 662, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Mini-Diablo", description="Owner of the World of Warcraft Collector's Edition Mini-Diablo pet.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Panda
+A{"unknown", 663, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Panda", description="Owner of the World of Warcraft Collector's Edition Panda pet.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Zergling
+A{"unknown", 664, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Zergling", description="Owner of the World of Warcraft Collector's Edition Zergling pet.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Netherwhelp
+A{"unknown", 665, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Netherwhelp", description="Owner of the The Burning Crusade's Collector's Edition Netherwhelp pet.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Frost Wyrm Whelp
+A{"unknown", 683, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Frost Wyrm Whelp", description="Owner of the Wrath of the Lich King's Collector's Edition Frost Wyrm Whelp pet.", points=0}}
+
+-- Feats of Strength: Thori'dal, the Stars' Fury
+A{"unknown", 725, trivia={module="data", category="Feats of Strength", name="Thori'dal, the Stars' Fury", description="Wielder of Thori'dal, the Stars' Fury.", points=0}}
+
+-- Professions/Fishing: One That Didn't Get Away
+A{"unknown", 878, criterion=1843, trivia={criteria="32 Pound Catfish", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1842, trivia={criteria="68 Pound Grouper", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1844, note="during Stranglethorn Fishing Extravaganza", trivia={criteria="Rockhide Strongfish", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1839, trivia={criteria="15 Pound Mud Snapper", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1841, trivia={criteria="29 Pound Salmon", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1840, trivia={criteria="52 Pound Redgill", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1846, trivia={criteria="Dark Herring", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+A{"unknown", 878, criterion=1835, trivia={criteria="Steelscale Crushfish", module="data", category="Professions/Fishing", name="One That Didn't Get Away", description="Catch one of the rare fish in the list below.", points=10, parent="Professions"}}
+
+-- General: Fast and Furious
+A{"unknown", 889, trivia={module="data", category="General", name="Fast and Furious", description="Learn the journeyman riding skill.", points=10}}
+
+-- General: Into The Wild Blue Yonder
+A{"unknown", 890, trivia={module="data", category="General", name="Into The Wild Blue Yonder", description="Learn the expert riding skill.", points=10}}
+
+-- General: Giddy Up!
+A{"unknown", 891, trivia={module="data", category="General", name="Giddy Up!", description="Learn the apprentice riding skill.", points=10}}
+
+-- General: The Right Stuff
+A{"unknown", 892, trivia={module="data", category="General", name="The Right Stuff", description="Learn the artisan riding skill.", points=10}}
+
+-- Professions/Fishing: Old Man Barlowned
+A{"unknown", 905, criterion=5706, trivia={criteria="Crocolisks in the City", module="data", category="Professions/Fishing", name="Old Man Barlowned", description="Complete each of Old Man Barlo's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 905, criterion=5707, trivia={criteria="Bait Bandits", module="data", category="Professions/Fishing", name="Old Man Barlowned", description="Complete each of Old Man Barlo's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 905, criterion=5708, trivia={criteria="Felblood Fillet", module="data", category="Professions/Fishing", name="Old Man Barlowned", description="Complete each of Old Man Barlo's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 905, criterion=5710, trivia={criteria="Shrimpin' Ain't Easy", module="data", category="Professions/Fishing", name="Old Man Barlowned", description="Complete each of Old Man Barlo's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 905, criterion=5709, trivia={criteria="The One That Got Away", module="data", category="Professions/Fishing", name="Old Man Barlowned", description="Complete each of Old Man Barlo's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Cooking: Kickin' It Up a Notch
+A{"unknown", 906, criterion=5704, trivia={criteria="Manalicious", module="data", category="Professions/Cooking", name="Kickin' It Up a Notch", description="Complete each of The Rokk's 4 cooking daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 906, criterion=5705, trivia={criteria="Soup for the Soul", module="data", category="Professions/Cooking", name="Kickin' It Up a Notch", description="Complete each of The Rokk's 4 cooking daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 906, criterion=5702, trivia={criteria="Revenge is Tasty", module="data", category="Professions/Cooking", name="Kickin' It Up a Notch", description="Complete each of The Rokk's 4 cooking daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 906, criterion=5703, trivia={criteria="Super Hot Stew", module="data", category="Professions/Cooking", name="Kickin' It Up a Notch", description="Complete each of The Rokk's 4 cooking daily quests listed below.", points=10, parent="Professions", type="quest"}}
+
+-- General: Going Down?
+A{"unknown", 964, trivia={module="data", category="General", name="Going Down?", description="Fall 65 yards without dying.", points=10}}
+
+-- Professions/Fishing: Outland Angler
+A{"unknown", 1225, criterion=3623, trivia={criteria="Brackish Mixed School", module="data", category="Professions/Fishing", name="Outland Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1225, criterion=3624, trivia={criteria="Bluefish School", module="data", category="Professions/Fishing", name="Outland Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1225, criterion=3625, trivia={criteria="Mudfish School", module="data", category="Professions/Fishing", name="Outland Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1225, criterion=3626, trivia={criteria="School of Darter", module="data", category="Professions/Fishing", name="Outland Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1225, criterion=3627, trivia={criteria="Highland Mixed School", module="data", category="Professions/Fishing", name="Outland Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1225, criterion=3628, trivia={criteria="Sporefish School", module="data", category="Professions/Fishing", name="Outland Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+
+-- Professions/Fishing: Fish Don't Leave Footprints
+A{"unknown", 1243, trivia={module="data", category="Professions/Fishing", name="Fish Don't Leave Footprints", description="Learn the ability to find fish.", points=10, parent="Professions"}}
+
+-- General: Well Read
+A{"unknown", 1244, criterion=3791, trivia={criteria="The Last Guardian", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3796, trivia={criteria="The Sentinels and the Long Vigil", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3798, trivia={criteria="The Twin Empires", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3799, trivia={criteria="The War of the Ancients", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3803, trivia={criteria="Wrath of Soulflayer", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3792, trivia={criteria="The Lich King Triumphant", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3797, trivia={criteria="The Seven Kingdoms", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3764, trivia={criteria="Arathor and the Troll Wars", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3766, trivia={criteria="Beyond the Dark Portal", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3769, trivia={criteria="Empires' Fall", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3770, trivia={criteria="Exile of the High Elves", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3771, trivia={criteria="Icecrown and the Frozen Throne", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3774, trivia={criteria="Kil'jaeden and the Shadow Pact", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3801, trivia={criteria="War of the Spider", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3786, trivia={criteria="The Dark Portal and the Fall of Stormwind", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3788, trivia={criteria="The Guardians of Tirisfal", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3793, trivia={criteria="The New Horde", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3763, trivia={criteria="Aftermath of the Second War", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3789, trivia={criteria="The Invasion of Draenor", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3768, trivia={criteria="Civil War in the Plaguelands", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3790, trivia={criteria="The Kaldorei and the Well of Eternity", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3762, trivia={criteria="Aegwynn and the Dragon Hunt", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3780, trivia={criteria="Sargeras and the Betrayal", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3787, trivia={criteria="The Founding of Quel'Thalas", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3781, trivia={criteria="Sunwell - The Fall of Quel'Thalas", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3795, trivia={criteria="The Scourge of Lordaeron", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3800, trivia={criteria="The World Tree and the Emerald Dream", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3773, trivia={criteria="Kel'Thuzad and the Forming of the Scourge", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3794, trivia={criteria="The Old Gods and the Ordering of Azeroth", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3765, trivia={criteria="Archimonde's Return and the Flight to Kalimdor", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3775, trivia={criteria="Lethargy of the Orcs", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3802, trivia={criteria="War of the Three Hammers", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3782, trivia={criteria="The Alliance of Lordaeron", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3767, trivia={criteria="Charge of the Dragonflights", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3777, trivia={criteria="Old Hatreds - The Colonization of Kalimdor", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3783, trivia={criteria="The Battle of Grim Batol", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3784, trivia={criteria="The Betrayer Ascendant", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3772, trivia={criteria="Ironforge - the Awakening of the Dwarves", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3776, trivia={criteria="Mount Hyjal and Illidan's Gift", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3778, trivia={criteria="Rise of the Blood Elves", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3779, trivia={criteria="Rise of the Horde", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+A{"unknown", 1244, criterion=3785, trivia={criteria="The Birth of the Lich King", module="data", category="General", name="Well Read", description="Read the books listed below.", points=10, type=68}}
+
+-- General: Friend or Fowl?
+A{"unknown", 1254, trivia={module="data", category="General", name="Friend or Fowl?", description="Slay 15 turkeys in 3 minutes.", points=10}}
+
+-- Professions/Fishing: The Scavenger
+A{"unknown", 1257, criterion=3872, trivia={criteria="Steam Pump Flotsam", module="data", category="Professions/Fishing", name="The Scavenger", description="Successfully fish in each of the junk nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1257, criterion=3873, trivia={criteria="Bloodsail Wreckage", module="data", category="Professions/Fishing", name="The Scavenger", description="Successfully fish in each of the junk nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1257, criterion=3875, trivia={criteria="Waterlogged Wreckage", module="data", category="Professions/Fishing", name="The Scavenger", description="Successfully fish in each of the junk nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1257, criterion=3876, trivia={criteria="Floating Wreckage", module="data", category="Professions/Fishing", name="The Scavenger", description="Successfully fish in each of the junk nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1257, criterion=3874, trivia={criteria="Schooner Wreckage", module="data", category="Professions/Fishing", name="The Scavenger", description="Successfully fish in each of the junk nodes listed below.", points=10, parent="Professions", type=72}}
+
+-- Feats of Strength: Friends In High Places
+A{"unknown", 1436, trivia={module="data", category="Feats of Strength", name="Friends In High Places", description="Obtain a Zhevra mount through the Recruit-a-Friend program.", points=0}}
+
+-- Professions/Fishing: Accomplished Angler
+A{"unknown", 1516, criterion=7495, trivia={criteria="The Coin Master", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5762, trivia={criteria="1000 Fish", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5665, trivia={criteria="The Fishing Diplomat", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5672, trivia={criteria="Outland Angler", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5673, trivia={criteria="Fish Don't Leave Footprints", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5690, trivia={criteria="Northrend Angler", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5664, trivia={criteria="The Scavenger", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5667, trivia={criteria="Mr. Pinchy's Magical Crawdad Box", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5666, trivia={criteria="Master Angler of Azeroth", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5668, trivia={criteria="One That Didn't Get Away", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5669, trivia={criteria="Old Man Barlowned", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5671, trivia={criteria="The Lurker Above", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=845, trivia={criteria="Grand Master Fisherman", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1516, criterion=5663, trivia={criteria="The Old Gnome and the Sea", module="data", category="Professions/Fishing", name="Accomplished Angler", description="Complete the fishing achievements listed below.", points=10, parent="Professions", type="achievement"}}
+
+-- Professions/Fishing: Northrend Angler
+A{"unknown", 1517, criterion=5287, trivia={criteria="Nettlefish School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5286, trivia={criteria="Musselback Sculpin School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5279, trivia={criteria="Deep Sea Monsterbelly School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5280, trivia={criteria="Dragonfin Angelfish School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5281, trivia={criteria="Fangtooth Herring School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5282, trivia={criteria="Glacial Salmon School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5283, trivia={criteria="Glassfin Minnow School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5284, trivia={criteria="Imperial Manta Ray School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+A{"unknown", 1517, criterion=5285, trivia={criteria="Moonglow Cuttlefish School", module="data", category="Professions/Fishing", name="Northrend Angler", description="Catch a fish in each of the specific nodes listed below.", points=10, parent="Professions", type=72}}
+
+-- Professions/Cooking: Hail to the Chef
+A{"unknown", 1563, criterion=847, trivia={criteria="Grand Master Cook", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=5765, trivia={criteria="Kickin' It Up a Notch", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6607, trivia={criteria="Critter Gitter", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6631, trivia={criteria="Dinner Impossible", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6762, trivia={criteria="Captain Rumsey's Lager", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6604, trivia={criteria="The Northrend Gourmet", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6756, trivia={criteria="Sous Chef", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6605, trivia={criteria="Second That Emotion", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6788, trivia={criteria="The Outland Gourmet", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=5764, trivia={criteria="The Cake Is Not A Lie", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6624, side="alliance", trivia={criteria="Our Daily Bread", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 1563, criterion=6625, side="horde", trivia={criteria="Our Daily Bread", module="data", category="Professions/Cooking", name="Hail to the Chef", description="Complete the cooking achievements listed below.", points=10, parent="Professions", type="achievement"}}
+
+-- Feats of Strength: Competitor's Tabard
+A{"unknown", 1636, trivia={module="data", category="Feats of Strength", name="Competitor's Tabard", description="Proud owner of a Competitor's Tabard from the 2008 Spirit of Competition event.", points=0}}
+
+-- Feats of Strength: Spirit of Competition
+A{"unknown", 1637, trivia={module="data", category="Feats of Strength", name="Spirit of Competition", description="Proud owner of a Spirit of Competition pet from the 2008 Spirit of Competition event.", points=0}}
+
+-- Professions/Cooking: The Northrend Gourmet
+A{"unknown", 1777, trivia={module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 15 of the Northrend recipes listed below.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: The Northrend Gourmet
+A{"unknown", 1778, trivia={module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 30 of the Northrend recipes listed below.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: The Northrend Gourmet
+A{"unknown", 1779, criterion=6589, trivia={criteria="Poached Northern Sculpin", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6596, trivia={criteria="Spicy Fried Herring", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6518, trivia={criteria="Imperial Manta Steak", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6591, trivia={criteria="Small Feast", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6488, trivia={criteria="Dalaran Clam Chowder", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6505, trivia={criteria="Tasty Cupcake", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6593, trivia={criteria="Spiced Mammoth Treats", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6597, trivia={criteria="Tender Shoveltusk Steak", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6595, trivia={criteria="Spicy Blue Nettlefish", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6501, trivia={criteria="Shoveltusk Steak", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6503, trivia={criteria="Smoked Salmon", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6588, trivia={criteria="Mighty Rhino Dogs", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6498, trivia={criteria="Roasted Worg", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6510, trivia={criteria="Blackened Worg Steak", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6516, trivia={criteria="Gigantic Feast", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6594, trivia={criteria="Spiced Worm Burger", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6590, trivia={criteria="Rhinolicious Wormsteak", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6599, trivia={criteria="Very Burnt Worg", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6511, trivia={criteria="Critter Bites", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6598, trivia={criteria="Tracker Snacks", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6486, trivia={criteria="Bad Clams", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6490, trivia={criteria="Grilled Sculpin", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6493, trivia={criteria="Mammoth Meal", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6512, trivia={criteria="Cuttlesteak", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6514, trivia={criteria="Firecracker Salmon", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6487, trivia={criteria="Baked Manta Ray", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6507, trivia={criteria="Great Feast", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6587, trivia={criteria="Mega Mammoth Meal", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6515, trivia={criteria="Fish Feast", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6517, trivia={criteria="Hearty Rhino", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6489, trivia={criteria="Grilled Bonescale", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6508, trivia={criteria="Kungaloosh", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6491, trivia={criteria="Haunted Herring", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6506, trivia={criteria="Worm Delight", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6513, trivia={criteria="Dragonfin Filet", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6492, trivia={criteria="Last Week's Mammoth", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6592, trivia={criteria="Snapper Extreme", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6494, trivia={criteria="Northern Stew", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6495, trivia={criteria="Pickled Fangtooth", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6496, trivia={criteria="Poached Nettlefish", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6497, trivia={criteria="Rhino Dogs", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6499, trivia={criteria="Sauteed Goby", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6502, trivia={criteria="Smoked Rockfin", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=6509, trivia={criteria="Blackened Dragonfin", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1779, criterion=9421, trivia={criteria="Worg Tartare", module="data", category="Professions/Cooking", name="The Northrend Gourmet", description="Cook 45 of the Northrend recipes listed below.", points=10, parent="Professions", type=29}}
+
+-- Professions/Cooking: Second That Emotion
+A{"unknown", 1780, criterion=6738, trivia={criteria="Last Week's Mammoth", module="data", category="Professions/Cooking", name="Second That Emotion", description="Eat each one of the \"emotion\" foods listed below.", points=10, parent="Professions", type=41}}
+A{"unknown", 1780, criterion=6450, trivia={criteria="Bad Clams", module="data", category="Professions/Cooking", name="Second That Emotion", description="Eat each one of the \"emotion\" foods listed below.", points=10, parent="Professions", type=41}}
+A{"unknown", 1780, criterion=6715, trivia={criteria="Haunted Herring", module="data", category="Professions/Cooking", name="Second That Emotion", description="Eat each one of the \"emotion\" foods listed below.", points=10, parent="Professions", type=41}}
+A{"unknown", 1780, criterion=7093, trivia={criteria="Tasty Cupcake", module="data", category="Professions/Cooking", name="Second That Emotion", description="Eat each one of the \"emotion\" foods listed below.", points=10, parent="Professions", type=41}}
+
+-- Professions/Cooking: Critter Gitter
+A{"unknown", 1781, trivia={module="data", category="Professions/Cooking", name="Critter Gitter", description="Using Critter Bites, coerce 10 critters to be your pet within 3 minutes or less.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: Our Daily Bread
+A{"unknown", 1782, criterion=12082, side="alliance", trivia={criteria="Cheese for Glowergold", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Katherine Lee in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1782, criterion=12084, side="alliance", trivia={criteria="Mustard Dogs!", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Katherine Lee in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1782, criterion=12078, side="alliance", trivia={criteria="Convention at the Legerdemain", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Katherine Lee in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1782, criterion=11960, side="alliance", trivia={criteria="Infused Mushroom Meatloaf", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Katherine Lee in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1782, criterion=12080, side="alliance", trivia={criteria="Sewer Stew", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Katherine Lee in Dalaran.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Cooking: Our Daily Bread
+A{"unknown", 1783, criterion=12081, side="horde", trivia={criteria="Sewer Stew", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Awilo Lon'gomba in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1783, criterion=12083, side="horde", trivia={criteria="Cheese for Glowergold", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Awilo Lon'gomba in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1783, criterion=11961, side="horde", trivia={criteria="Infused Mushroom Meatloaf", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Awilo Lon'gomba in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1783, criterion=12079, side="horde", trivia={criteria="Convention at the Legerdemain", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Awilo Lon'gomba in Dalaran.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 1783, criterion=12085, side="horde", trivia={criteria="Mustard Dogs!", module="data", category="Professions/Cooking", name="Our Daily Bread", description="Complete each of the cooking daily quests offered by Awilo Lon'gomba in Dalaran.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Cooking: The Outland Gourmet
+A{"unknown", 1800, criterion=6785, trivia={criteria="Spicy Hot Talbuk", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6774, trivia={criteria="Golden Fish Sticks", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6759, trivia={criteria="Blackened Trout", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6775, trivia={criteria="Kibler's Bits", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=1832, trivia={criteria="Delicious Chocolate Cake", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6765, trivia={criteria="Feltail Delight", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6767, trivia={criteria="Stormchops", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6768, trivia={criteria="Blackened Sporefish", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6780, trivia={criteria="Mok'Nathal Shortribs", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6771, trivia={criteria="Grilled Mudfish", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6776, trivia={criteria="Roasted Clefthoof", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6777, trivia={criteria="Talbuk Steak", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6779, trivia={criteria="Crunchy Serpent", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6783, trivia={criteria="Skullfish Soup", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6760, trivia={criteria="Buzzard Bites", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6764, trivia={criteria="Clam Bar", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6773, trivia={criteria="Broiled Bloodfin", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6778, trivia={criteria="Warp Burger", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6781, trivia={criteria="Fisherman's Feast", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6784, trivia={criteria="Spicy Crawdad", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6786, trivia={criteria="Stewed Trout", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6770, trivia={criteria="Blackened Basilisk", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6766, trivia={criteria="Ravager Dog", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6772, trivia={criteria="Poached Bluefish", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+A{"unknown", 1800, criterion=6782, trivia={criteria="Hot Buttered Trout", module="data", category="Professions/Cooking", name="The Outland Gourmet", description="Cook each of the Outland cooking recipes listed below.", points=10, parent="Professions", type=29}}
+
+-- Professions/Cooking: Captain Rumsey's Lager
+A{"unknown", 1801, trivia={module="data", category="Professions/Cooking", name="Captain Rumsey's Lager", description="Brew up some of Captain Rumsey's Lager.", points=10, parent="Professions"}}
+
+-- General: Tastes Like Chicken
+A{"unknown", 1832, trivia={module="data", category="General", name="Tastes Like Chicken", description="Sample 50 different kinds of Azeroth's delectable dishes.", points=10}}
+
+-- General: It's Happy Hour Somewhere
+A{"unknown", 1833, trivia={module="data", category="General", name="It's Happy Hour Somewhere", description="Drink 25 different types of beverages.", points=10}}
+
+-- General: Higher Learning
+A{"unknown", 1956, criterion=7237, trivia={criteria="The Schools of Arcane Magic - Abjuration", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7240, trivia={criteria="The Schools of Arcane Magic - Enchantment", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7241, trivia={criteria="The Schools of Arcane Magic - Illusion", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7242, trivia={criteria="The Schools of Arcane Magic - Necromancy", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7239, trivia={criteria="The Schools of Arcane Magic - Divination", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7236, trivia={criteria="The Schools of Arcane Magic - Introduction", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7243, trivia={criteria="The Schools of Arcane Magic - Transmutation", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+A{"unknown", 1956, criterion=7238, trivia={criteria="The Schools of Arcane Magic - Conjuration", module="data", category="General", name="Higher Learning", description="Read the volumes of \"The Schools of Arcane Magic\" found in Dalaran listed below.", points=10, type=68}}
+
+-- Professions/Cooking: Cooking Award
+A{"unknown", 1998, trivia={module="data", category="Professions/Cooking", name="Cooking Award", description="Obtain a Cooking Award.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: 10 Cooking Awards
+A{"unknown", 1999, trivia={module="data", category="Professions/Cooking", name="10 Cooking Awards", description="Obtain 10 Cooking Awards.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: 25 Cooking Awards
+A{"unknown", 2000, trivia={module="data", category="Professions/Cooking", name="25 Cooking Awards", description="Obtain 25 Cooking Awards.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: 50 Cooking Awards
+A{"unknown", 2001, trivia={module="data", category="Professions/Cooking", name="50 Cooking Awards", description="Obtain 50 Cooking Awards.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: 100 Cooking Awards
+A{"unknown", 2002, trivia={module="data", category="Professions/Cooking", name="100 Cooking Awards", description="Obtain 100 Cooking Awards.", points=10, parent="Professions"}}
+
+-- Legacy: Timear Foresees
+A{"unknown", 2018, criterion=7299, trivia={criteria="Timear Foresees Titanium Vanguards in your Future!", module="data", category="Legacy", name="Timear Foresees", description="Complete the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2018, criterion=7296, trivia={criteria="Timear Foresees Centrifuge Constructs in your Future!", module="data", category="Legacy", name="Timear Foresees", description="Complete the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2018, criterion=7297, trivia={criteria="Timear Foresees Ymirjar Berserkers in your Future!", module="data", category="Legacy", name="Timear Foresees", description="Complete the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2018, criterion=7298, trivia={criteria="Timear Foresees Infinite Agents in your Future!", module="data", category="Legacy", name="Timear Foresees", description="Complete the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+
+-- Legacy: Proof of Demise
+A{"unknown", 2019, criterion=7300, trivia={criteria="Proof of Demise: Ingvar the Plunderer", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7303, trivia={criteria="Proof of Demise: King Ymiron", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7309, trivia={criteria="Proof of Demise: Anub'arak", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7305, trivia={criteria="Proof of Demise: Gal'darah", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7310, trivia={criteria="Proof of Demise: Herald Volazj", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7306, trivia={criteria="Proof of Demise: Mal'Ganis", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7311, trivia={criteria="Proof of Demise: Cyanigosa", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7304, trivia={criteria="Proof of Demise: The Prophet Tharon'ja", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7308, trivia={criteria="Proof of Demise: Loken", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7301, trivia={criteria="Proof of Demise: Keristrasza", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7302, trivia={criteria="Proof of Demise: Ley-Guardian Eregos", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+A{"unknown", 2019, criterion=7307, trivia={criteria="Proof of Demise: Sjonnir The Ironshaper", module="data", category="Legacy", name="Proof of Demise", description="Completed the Northrend daily dungeon quests listed below.", points=0, type="quest"}}
+
+-- Feats of Strength: Tabard of the Protector
+A{"unknown", 2079, trivia={module="data", category="Feats of Strength", name="Tabard of the Protector", description="Obtained a Tabard of the Protector from the Dark Portal event.", points=0}}
+
+-- Feats of Strength: Grand Black War Mammoth
+A{"unknown", 2081, trivia={module="data", category="Feats of Strength", name="Grand Black War Mammoth", description="Obtain a Grand Black War Mammoth.", points=0}}
+
+-- Reputation/Wrath of the Lich King: Ice Mammoth
+A{"unknown", 2082, trivia={module="data", category="Reputation/Wrath of the Lich King", name="Ice Mammoth", description="Obtain an Ice Mammoth.", points=10, parent="Reputation"}}
+
+-- Reputation/Wrath of the Lich King: Grand Ice Mammoth
+A{"unknown", 2083, trivia={module="data", category="Reputation/Wrath of the Lich King", name="Grand Ice Mammoth", description="Obtain a Grand Ice Mammoth.", points=10, parent="Reputation"}}
+
+-- Collections: Ring of the Kirin Tor
+A{"unknown", 2084, trivia={module="data", category="Collections", name="Ring of the Kirin Tor", description="Purchase a Signet of the Kirin Tor, Band of the Kirin Tor, Loop of the Kirin Tor, or Ring of the Kirin Tor in Dalaran.", points=10}}
+
+-- Collections/Mounts: Get to the Choppa!
+A{"unknown", 2097, trivia={module="data", category="Collections/Mounts", name="Get to the Choppa!", description="Obtain a Mekgineer's Chopper or a Mechano-hog.", points=10, parent="Collections"}}
+
+-- Feats of Strength: Tabard of the Argent Dawn
+A{"unknown", 2116, trivia={module="data", category="Feats of Strength", name="Tabard of the Argent Dawn", description="Obtained a Tabard of the Argent Dawn from the Scourge Invasion event.", points=0}}
+
+-- Collections/Mounts: Stable Keeper
+A{"unknown", 2141, criterion=4787, trivia={criteria="Obtain 10 mounts", module="data", category="Collections/Mounts", name="Stable Keeper", description="Obtain 10 mounts.", points=10, parent="Collections", type=75}}
+
+-- Collections/Mounts: Filling Up The Barn
+A{"unknown", 2142, criterion=4787, trivia={criteria="Obtain 25 mounts", module="data", category="Collections/Mounts", name="Filling Up The Barn", description="Obtain 25 mounts.", points=10, parent="Collections", type=75}}
+
+-- Collections/Mounts: Leading the Cavalry
+A{"unknown", 2143, criterion=4787, trivia={criteria="Obtain 50 mounts", module="data", category="Collections/Mounts", name="Leading the Cavalry", description="Obtain 50 mounts.", points=10, parent="Collections", type=75}}
+
+-- World Events: What a Long, Strange Trip It's Been
+A{"unknown", 2144, criterion=7553, season="Lunar Festival", trivia={criteria="To Honor One's Elders", module="data", category="World Events", name="What a Long, Strange Trip It's Been", description="Complete the world events achievements listed below.", points=50, type="achievement"}}
+A{"unknown", 2144, criterion=7563, side="horde", season="Midsummer Fire Festival", trivia={criteria="The Flame Warden", module="data", category="World Events", name="What a Long, Strange Trip It's Been", description="Complete the world events achievements listed below.", points=50, type="achievement"}}
+
+-- Legacy: Dreadsteed of Xoroth
+A{"unknown", 2357, note="Warlock only", trivia={module="data", category="Legacy", name="Dreadsteed of Xoroth", description="Completed the Dreadsteed of Xoroth warlock quest.", points=0}}
+
+-- Legacy: Charger
+A{"unknown", 2358, note="Paladin only", trivia={module="data", category="Legacy", name="Charger", description="Completed the paladin quest to obtain a Charger.", points=0}}
+
+-- Feats of Strength: Swift Flight Form
+A{"unknown", 2359, note="Druid only", trivia={module="data", category="Feats of Strength", name="Swift Flight Form", description="Completed the druid quest to obtain Swift Flight Form.", points=0}}
+
+-- General: Dual Talent Specialization
+A{"unknown", 2716, trivia={module="data", category="General", name="Dual Talent Specialization", description="Visit your class trainer when you are at least level 30 and activate your Dual Talent Specialization.", points=10}}
+
+-- Feats of Strength: Val'anyr, Hammer of Ancient Kings
+A{"unknown", 3142, trivia={module="data", category="Feats of Strength", name="Val'anyr, Hammer of Ancient Kings", description="Wielder of Val'anyr, Hammer of Ancient Kings.", points=0}}
+
+-- Professions/Fishing: Chasing Marcia
+A{"unknown", 3217, criterion=13365, trivia={criteria="Dangerously Delicious", module="data", category="Professions/Fishing", name="Chasing Marcia", description="Complete each of Marcia Chase's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 3217, criterion=13367, trivia={criteria="Blood is Thicker", module="data", category="Professions/Fishing", name="Chasing Marcia", description="Complete each of Marcia Chase's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 3217, criterion=13366, trivia={criteria="Disarmed!", module="data", category="Professions/Fishing", name="Chasing Marcia", description="Complete each of Marcia Chase's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 3217, criterion=13363, trivia={criteria="The Ghostfish", module="data", category="Professions/Fishing", name="Chasing Marcia", description="Complete each of Marcia Chase's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 3217, criterion=13364, trivia={criteria="The Jewel of the Sewers", module="data", category="Professions/Fishing", name="Chasing Marcia", description="Complete each of Marcia Chase's 5 fishing daily quests listed below.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Fishing: Turtles All the Way Down
+A{"unknown", 3218, trivia={module="data", category="Professions/Fishing", name="Turtles All the Way Down", description="Fish up a Sea Turtle mount from any fishing pool in Deepholm, Mount Hyjal, Twilight Highlands, Uldum, Northrend, or Pandaria.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: Cooking with Style
+A{"unknown", 3296, trivia={module="data", category="Professions/Cooking", name="Cooking with Style", description="Obtain a Chef's Hat.", points=10, parent="Professions"}}
+
+-- Feats of Strength: Furious Gladiator
+A{"unknown", 3436, trivia={module="data", category="Feats of Strength", name="Furious Gladiator", description="Achieved Furious Gladiator title.", points=0}}
+
+-- Feats of Strength: The Marine Marine
+A{"unknown", 3536, trivia={module="data", category="Feats of Strength", name="The Marine Marine", description="Proud owner of Grunty's Heavy Murloc Egg from the 2009 BlizzCon.", points=0}}
+
+-- Feats of Strength: Murkimus the Gladiator
+A{"unknown", 3618, trivia={module="data", category="Feats of Strength", name="Murkimus the Gladiator", description="Proud owner of a Murkimus the Gladiator pet.", points=0}}
+
+-- Feats of Strength: Jade Tiger
+A{"unknown", 3636, trivia={module="data", category="Feats of Strength", name="Jade Tiger", description="Logged in during the Jade Tiger giveaway.", points=0}}
+
+-- Feats of Strength: Relentless Gladiator
+A{"unknown", 3758, trivia={module="data", category="Feats of Strength", name="Relentless Gladiator", description="Achieved Relentless Gladiator title.", points=0}}
+
+-- Feats of Strength: Onyx Panther
+A{"unknown", 3896, trivia={module="data", category="Feats of Strength", name="Onyx Panther", description="Proud owner of an Onyx Panther.", points=0}}
+
+-- World Events/Argent Tournament: The Sword in the Skull
+A{"unknown", 4596, trivia={module="data", category="World Events/Argent Tournament", name="The Sword in the Skull", description="Recover the missing hilt of Quel'Delar, draw the blade from its resting place, reforge the weapon, purify it in the Sunwell, and present it for your just reward.", points=10, parent="World Events"}}
+
+-- Feats of Strength: Wrathful Gladiator
+A{"unknown", 4599, trivia={module="data", category="Feats of Strength", name="Wrathful Gladiator", description="Achieved Wrathful Gladiator title.", points=0}}
+
+-- Feats of Strength: Shadowmourne
+A{"unknown", 4623, trivia={module="data", category="Feats of Strength", name="Shadowmourne", description="Wielder of Shadowmourne.", points=0}}
+
+-- Feats of Strength: Green Brewfest Stein
+A{"unknown", 4782, trivia={module="data", category="Feats of Strength", name="Green Brewfest Stein", description="Proud owner of the 2009 Vintage Green Brewfest Stein.", points=0}}
+
+-- Feats of Strength: Operation: Gnomeregan
+A{"unknown", 4786, side="alliance", trivia={module="data", category="Feats of Strength", name="Operation: Gnomeregan", description="You assisted High Tinker Mekkatorque and the Gnomeregan Exiles in the recapture of Gnomeregan's surface.", points=0}}
+
+-- Feats of Strength: Zalazane's Fall
+A{"unknown", 4790, side="horde", trivia={module="data", category="Feats of Strength", name="Zalazane's Fall", description="You assisted Vol'jin in the final defeat of Zalazane, recapturing the Echo Isles for the Darkspear trolls.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Mini Thor
+A{"unknown", 4824, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Mini Thor", description="Owner of the StarCraft II: Wings of Liberty Collector's Edition Mini Thor pet.", points=0}}
+
+-- General: Level 85
+A{"unknown", 4826, trivia={module="data", category="General", name="Level 85", description="Reach level 85.", points=10}}
+
+-- Feats of Strength: Friends In Even Higher Places
+A{"unknown", 4832, trivia={module="data", category="Feats of Strength", name="Friends In Even Higher Places", description="Obtain an X-53 Touring Rocket mount through the Recruit-a-Friend program.", points=0}}
+
+-- Professions/Archaeology: I Had It in My Hand
+A{"unknown", 4854, criterion=16194, trivia={criteria="Find a rare artifact.", module="data", category="Professions/Archaeology", name="I Had It in My Hand", description="Find a rare artifact.", points=10, parent="Professions", type=3}}
+
+-- Professions/Archaeology: What was Briefly Yours is Now Mine
+A{"unknown", 4855, criterion=16194, trivia={criteria="Find 10 rare artifacts.", module="data", category="Professions/Archaeology", name="What was Briefly Yours is Now Mine", description="Find 10 rare artifacts.", points=10, parent="Professions", type=3}}
+
+-- Professions/Archaeology: It Belongs in a Museum!
+A{"unknown", 4856, criterion=16194, trivia={criteria="Find 20 rare artifacts.", module="data", category="Professions/Archaeology", name="It Belongs in a Museum!", description="Find 20 rare artifacts.", points=10, parent="Professions", type=3}}
+
+-- Professions/Archaeology: Journeyman Archaeologist
+A{"unknown", 4857, trivia={module="data", category="Professions/Archaeology", name="Journeyman Archaeologist", description="Obtain 150 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Seven Scepters
+A{"unknown", 4858, criterion=15051, trivia={criteria="Scepter of Charlga Razorflank", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+A{"unknown", 4858, criterion=15092, trivia={criteria="Scepter of Nezar'Azret", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+A{"unknown", 4858, criterion=15096, trivia={criteria="Scepter of Bronzebeard", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+A{"unknown", 4858, criterion=15074, trivia={criteria="Scepter of the Nathrezim", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+A{"unknown", 4858, criterion=15050, trivia={criteria="Atal'ai Scepter", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+A{"unknown", 4858, criterion=15052, trivia={criteria="Scepter of Xavius", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+A{"unknown", 4858, criterion=15071, trivia={criteria="Scepter of Nekros Skullcrusher", module="data", category="Professions/Archaeology", name="Seven Scepters", description="Recover the following scepters from the various races of Azeroth.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: Kings Under the Mountain
+A{"unknown", 4859, criterion=15062, trivia={criteria="Mithril Chain of Angerforge", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+A{"unknown", 4859, criterion=15065, trivia={criteria="Ironstar's Petrified Shield", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+A{"unknown", 4859, criterion=15063, trivia={criteria="Moltenfist's Jeweled Goblet", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+A{"unknown", 4859, criterion=15064, trivia={criteria="Winged Helm of Corehammer", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+A{"unknown", 4859, criterion=15068, trivia={criteria="Spiked Gauntlets of Anvilrage", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+A{"unknown", 4859, criterion=15066, trivia={criteria="Skull Staff of Shadowforge", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+A{"unknown", 4859, criterion=15069, trivia={criteria="Warmaul of Burningeye", module="data", category="Professions/Archaeology", name="Kings Under the Mountain", description="Discover the following artifacts of the Dark Iron thanes.", points=10, parent="Professions", type=36}}
+
+-- Feats of Strength: Tripping the Rifts
+A{"unknown", 4887, trivia={module="data", category="Feats of Strength", name="Tripping the Rifts", description="Destroyed one of each type of elemental rift during the Cataclysm launch event.", points=0}}
+
+-- Collections/Mounts: One Hump or Two?
+A{"unknown", 4888, trivia={module="data", category="Collections/Mounts", name="One Hump or Two?", description="Obtain a camel mount in Uldum (with just one hump).", points=10, parent="Collections"}}
+
+-- Professions: Working Around the Clock
+A{"unknown", 4914, trivia={module="data", category="Professions", name="Working Around the Clock", description="Obtain 525 skill points in two primary professions.", points=10}}
+
+-- Professions: More Skills to Pay the Bills
+A{"unknown", 4915, criterion=5696, trivia={criteria="Illustrious Grand Master Fisherman", module="data", category="Professions", name="More Skills to Pay the Bills", description="Obtain 525 skill points in Fishing, First Aid, Cooking, and Archaeology.", points=10, type=7}}
+A{"unknown", 4915, criterion=5592, trivia={criteria="Illustrious Grand Master Medic", module="data", category="Professions", name="More Skills to Pay the Bills", description="Obtain 525 skill points in Fishing, First Aid, Cooking, and Archaeology.", points=10, type=7}}
+A{"unknown", 4915, criterion=5701, trivia={criteria="Illustrious Grand Master Cook", module="data", category="Professions", name="More Skills to Pay the Bills", description="Obtain 525 skill points in Fishing, First Aid, Cooking, and Archaeology.", points=10, type=7}}
+A{"unknown", 4915, criterion=13812, trivia={criteria="Illustrious Grand Master Archaeologist", module="data", category="Professions", name="More Skills to Pay the Bills", description="Obtain 525 skill points in Fishing, First Aid, Cooking, and Archaeology.", points=10, type=7}}
+
+-- Professions/Cooking: Illustrious Grand Master Cook
+A{"unknown", 4916, trivia={module="data", category="Professions/Cooking", name="Illustrious Grand Master Cook", description="Obtain 525 skill points in cooking.", points=10, parent="Professions"}}
+
+-- Professions/Fishing: Illustrious Grand Master Fisherman
+A{"unknown", 4917, trivia={module="data", category="Professions/Fishing", name="Illustrious Grand Master Fisherman", description="Obtain 525 skill points in fishing.", points=10, parent="Professions"}}
+
+-- Professions/First Aid: Illustrious Grand Master Medic
+A{"unknown", 4918, trivia={module="data", category="Professions/First Aid", name="Illustrious Grand Master Medic", description="Obtain 525 skill points in first aid.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Expert Archaeologist
+A{"unknown", 4919, trivia={module="data", category="Professions/Archaeology", name="Expert Archaeologist", description="Obtain 225 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Artisan Archaeologist
+A{"unknown", 4920, trivia={module="data", category="Professions/Archaeology", name="Artisan Archaeologist", description="Obtain 300 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Master Archaeologist
+A{"unknown", 4921, trivia={module="data", category="Professions/Archaeology", name="Master Archaeologist", description="Obtain 375 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Grand Master Archaeologist
+A{"unknown", 4922, trivia={module="data", category="Professions/Archaeology", name="Grand Master Archaeologist", description="Obtain 450 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Illustrious Grand Master Archaeologist
+A{"unknown", 4923, trivia={module="data", category="Professions/Archaeology", name="Illustrious Grand Master Archaeologist", description="Obtain 525 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions: Professional Illustrious Grand Master
+A{"unknown", 4924, trivia={module="data", category="Professions", name="Professional Illustrious Grand Master", description="Obtain 525 skill points in a profession.", points=10}}
+
+-- Quests: 5 Dungeon Quests Completed
+A{"unknown", 4956, trivia={module="data", category="Quests", name="5 Dungeon Quests Completed", description="Complete 5 dungeon quests.", points=10}}
+
+-- Quests: 20 Dungeon Quests Completed
+A{"unknown", 4957, trivia={module="data", category="Quests", name="20 Dungeon Quests Completed", description="Complete 20 dungeon quests.", points=10}}
+
+-- General: Breaking The Sound Barrier
+A{"unknown", 5180, trivia={module="data", category="General", name="Breaking The Sound Barrier", description="Learn the master riding skill.", points=10}}
+
+-- Professions/Archaeology: Tragedy in Three Acts
+A{"unknown", 5191, criterion=15056, trivia={criteria="Chest of Tiny Glass Animals", module="data", category="Professions/Archaeology", name="Tragedy in Three Acts", description="Recover the following night elf artifacts that tell the fateful story of Pyramond and Theleste.", points=10, parent="Professions", type=36}}
+A{"unknown", 5191, criterion=15053, trivia={criteria="Delicate Music Box", module="data", category="Professions/Archaeology", name="Tragedy in Three Acts", description="Recover the following night elf artifacts that tell the fateful story of Pyramond and Theleste.", points=10, parent="Professions", type=36}}
+A{"unknown", 5191, criterion=15054, trivia={criteria="Cloak Clasp with Antlers", module="data", category="Professions/Archaeology", name="Tragedy in Three Acts", description="Recover the following night elf artifacts that tell the fateful story of Pyramond and Theleste.", points=10, parent="Professions", type=36}}
+A{"unknown", 5191, criterion=15055, trivia={criteria="Hairpin of Silver and Malachite", module="data", category="Professions/Archaeology", name="Tragedy in Three Acts", description="Recover the following night elf artifacts that tell the fateful story of Pyramond and Theleste.", points=10, parent="Professions", type=36}}
+A{"unknown", 5191, criterion=15057, trivia={criteria="Cracked Crystal Vial", module="data", category="Professions/Archaeology", name="Tragedy in Three Acts", description="Recover the following night elf artifacts that tell the fateful story of Pyramond and Theleste.", points=10, parent="Professions", type=36}}
+A{"unknown", 5191, criterion=15099, trivia={criteria="Silver Scroll Case", module="data", category="Professions/Archaeology", name="Tragedy in Three Acts", description="Recover the following night elf artifacts that tell the fateful story of Pyramond and Theleste.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: The Harder they Fall
+A{"unknown", 5192, criterion=15061, trivia={criteria="Tiny Bronze Scorpion", module="data", category="Professions/Archaeology", name="The Harder they Fall", description="Discover how orc Chieftan Hargal was killed by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 5192, criterion=15070, trivia={criteria="Maul of Stone Guard Mur'og", module="data", category="Professions/Archaeology", name="The Harder they Fall", description="Discover how orc Chieftan Hargal was killed by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 5192, criterion=15072, trivia={criteria="Gray Candle Stub", module="data", category="Professions/Archaeology", name="The Harder they Fall", description="Discover how orc Chieftan Hargal was killed by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 5192, criterion=15073, trivia={criteria="Rusted Steak Knife", module="data", category="Professions/Archaeology", name="The Harder they Fall", description="Discover how orc Chieftan Hargal was killed by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: Blue Streak
+A{"unknown", 5193, criterion=15095, trivia={criteria="Silver Kris of Korl", module="data", category="Professions/Archaeology", name="Blue Streak", description="Discover who slew the dread wyrm Kaldrigos by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 5193, criterion=15058, trivia={criteria="Notched Sword of Tunadil the Redeemer", module="data", category="Professions/Archaeology", name="Blue Streak", description="Discover who slew the dread wyrm Kaldrigos by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 5193, criterion=15059, trivia={criteria="Dented Shield of Horuz Killcrow", module="data", category="Professions/Archaeology", name="Blue Streak", description="Discover who slew the dread wyrm Kaldrigos by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 5193, criterion=15060, trivia={criteria="Scorched Staff of Shadow Priest Anund", module="data", category="Professions/Archaeology", name="Blue Streak", description="Discover who slew the dread wyrm Kaldrigos by collecting the following artifacts.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: The Boy Who Would be King
+A{"unknown", 5301, criterion=15101, trivia={criteria="Soapstone Scarab Necklace", module="data", category="Professions/Archaeology", name="The Boy Who Would be King", description="Recover the following tol'vir artifacts that tell of the rise and fall of Emperor Ninjter.", points=10, parent="Professions", type=36}}
+A{"unknown", 5301, criterion=15103, trivia={criteria="Engraved Scimitar Hilt", module="data", category="Professions/Archaeology", name="The Boy Who Would be King", description="Recover the following tol'vir artifacts that tell of the rise and fall of Emperor Ninjter.", points=10, parent="Professions", type=36}}
+A{"unknown", 5301, criterion=15100, trivia={criteria="Cat Statue with Emerald Eyes", module="data", category="Professions/Archaeology", name="The Boy Who Would be King", description="Recover the following tol'vir artifacts that tell of the rise and fall of Emperor Ninjter.", points=10, parent="Professions", type=36}}
+A{"unknown", 5301, criterion=15102, trivia={criteria="Tiny Oasis Mosaic", module="data", category="Professions/Archaeology", name="The Boy Who Would be King", description="Recover the following tol'vir artifacts that tell of the rise and fall of Emperor Ninjter.", points=10, parent="Professions", type=36}}
+A{"unknown", 5301, criterion=15104, trivia={criteria="Sketch of a Desert Palace", module="data", category="Professions/Archaeology", name="The Boy Who Would be King", description="Recover the following tol'vir artifacts that tell of the rise and fall of Emperor Ninjter.", points=10, parent="Professions", type=36}}
+A{"unknown", 5301, criterion=15105, trivia={criteria="Canopic Jar", module="data", category="Professions/Archaeology", name="The Boy Who Would be King", description="Recover the following tol'vir artifacts that tell of the rise and fall of Emperor Ninjter.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: Digger
+A{"unknown", 5315, criterion=16191, trivia={criteria="Find 10 common artifacts.", module="data", category="Professions/Archaeology", name="Digger", description="Find 10 unique common artifacts.", points=10, parent="Professions", type=3}}
+
+-- General: Cataclysmically Epic
+A{"unknown", 5372, criterion=15330, trivia={criteria="Head", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15331, trivia={criteria="Neck", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15332, trivia={criteria="Shoulder", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15333, trivia={criteria="Chest", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15334, trivia={criteria="Waist", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15335, trivia={criteria="Legs", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15336, trivia={criteria="Feet", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15337, trivia={criteria="Wrist", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15338, trivia={criteria="Hands", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15339, trivia={criteria="Left Ring", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15340, trivia={criteria="Right Ring", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15342, trivia={criteria="Second Trinket", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15343, trivia={criteria="Cloak", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15344, trivia={criteria="Weapon", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+A{"unknown", 5372, criterion=15341, trivia={criteria="First Trinket", module="data", category="General", name="Cataclysmically Epic", description="Equip an epic item in every slot with a minimum item level of 359.", points=25, type=49}}
+
+-- General: Cataclysmically Superior
+A{"unknown", 5373, criterion=15346, trivia={criteria="Head", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15347, trivia={criteria="Neck", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15348, trivia={criteria="Shoulder", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15349, trivia={criteria="Chest", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15350, trivia={criteria="Waist", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15351, trivia={criteria="Legs", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15352, trivia={criteria="Feet", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15353, trivia={criteria="Wrist", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15354, trivia={criteria="Hands", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15355, trivia={criteria="Left Ring", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15357, trivia={criteria="First Trinket", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15358, trivia={criteria="Second Trinket", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15359, trivia={criteria="Cloak", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15360, trivia={criteria="Weapon", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+A{"unknown", 5373, criterion=15356, trivia={criteria="Right Ring", module="data", category="General", name="Cataclysmically Superior", description="Equip a superior item in every slot with a minimum item level of 333.", points=10, type=49}}
+
+-- Feats of Strength: Collector's Edition: Lil' Deathwing
+A{"unknown", 5377, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Lil' Deathwing", description="Owner of the Cataclysm Collector's Edition Lil' Deathwing pet.", points=0}}
+
+-- Feats of Strength: Deathy
+A{"unknown", 5378, trivia={module="data", category="Feats of Strength", name="Deathy", description="Proud owner of Deathy's Murloc Egg from the 2010 BlizzCon.", points=0}}
+
+-- Professions/Archaeology: Diggerer
+A{"unknown", 5469, criterion=16191, trivia={criteria="Find 50 common artifacts.", module="data", category="Professions/Archaeology", name="Diggerer", description="Find 50 unique common artifacts.", points=10, parent="Professions", type=3}}
+
+-- Professions/Archaeology: Diggerest
+A{"unknown", 5470, criterion=16191, trivia={criteria="Find 100 common artifacts.", module="data", category="Professions/Archaeology", name="Diggerest", description="Find 100 unique common artifacts.", points=10, parent="Professions", type=3}}
+
+-- Professions/Cooking: Iron Chef
+A{"unknown", 5471, trivia={module="data", category="Professions/Cooking", name="Iron Chef", description="Learn 200 cooking recipes.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: The Cataclysmic Gourmet
+A{"unknown", 5472, trivia={module="data", category="Professions/Cooking", name="The Cataclysmic Gourmet", description="Cook 15 of the Cataclysm recipes listed below.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: The Cataclysmic Gourmet
+A{"unknown", 5473, trivia={module="data", category="Professions/Cooking", name="The Cataclysmic Gourmet", description="Cook 30 of the Cataclysm recipes listed below.", points=10, parent="Professions"}}
+
+-- Professions/Fishing: The Limnologist
+A{"unknown", 5478, criterion=15901, trivia={criteria="Highland Guppy", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15906, trivia={criteria="Striped Lurker", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15899, trivia={criteria="Zangarian Sporefish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15828, trivia={criteria="Crescent-Tail Skullfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15879, trivia={criteria="Goldenscale Vendorfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15904, trivia={criteria="Blackbelly Mudfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15881, trivia={criteria="Icefin Bluefish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15869, trivia={criteria="Dragonfin Angelfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15871, trivia={criteria="Felblood Snapper", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15872, trivia={criteria="Figluster's Mudfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15873, trivia={criteria="Fountain Goldfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15874, trivia={criteria="Furious Crawdad", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15878, trivia={criteria="Golden Darter", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15830, trivia={criteria="Barrelhead Goby", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15876, trivia={criteria="Glacial Salmon", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15880, trivia={criteria="Huge Spotted Feltail", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15884, trivia={criteria="Nettlefish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15893, trivia={criteria="Sewer Carp", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15894, trivia={criteria="Shimmering Minnow", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15896, trivia={criteria="Slippery Eel", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15897, trivia={criteria="Spotted Feltail", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15900, trivia={criteria="Albino Cavefish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15902, trivia={criteria="Mountain Trout", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15905, trivia={criteria="Sharptooth", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15867, trivia={criteria="Bloodfin Catfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15877, trivia={criteria="Glassfin Minnow", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15868, trivia={criteria="Bonescale Snapper", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15883, trivia={criteria="Musselback Sculpin", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15829, trivia={criteria="Barbed Gill Trout", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15870, trivia={criteria="Fangtooth Herring", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15875, trivia={criteria="Giant Darkwater Clam", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5478, criterion=15903, trivia={criteria="Lavascale Catfish", module="data", category="Professions/Fishing", name="The Limnologist", description="Catch 42 different freshwater fish.", points=10, parent="Professions", type=42}}
+
+-- Professions/Fishing: The Oceanographer
+A{"unknown", 5479, criterion=15908, trivia={criteria="Big-Mouth Clam", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15913, trivia={criteria="Darkwater Clam", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15916, trivia={criteria="Firefin Snapper", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15922, trivia={criteria="Moonglow Cuttlefish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15929, trivia={criteria="Slitherskin Mackerel", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15917, trivia={criteria="Giant Sunfish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15920, trivia={criteria="Large Raw Mightfish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15935, trivia={criteria="Stonescale Eel", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15926, trivia={criteria="Rainbow Fin Albacore", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15933, trivia={criteria="Whitescale Salmon", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15938, trivia={criteria="Algaefin Rockfish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15907, trivia={criteria="Oily Blackmouth", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15912, trivia={criteria="Darkclaw Lobster", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15915, trivia={criteria="Deep Sea Monsterbelly", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15918, trivia={criteria="Imperial Manta Ray", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15919, trivia={criteria="Jaggal Clam", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15924, trivia={criteria="Pygmy Suckerfish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15925, trivia={criteria="Glossy Mightfish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15927, trivia={criteria="Redgill", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15930, trivia={criteria="Spotted Yellowtail", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15931, trivia={criteria="Summer Bass", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15932, trivia={criteria="Sunscale Salmon", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15934, trivia={criteria="Rockfin Grouper", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15936, trivia={criteria="Winter Squid", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15937, trivia={criteria="Deepsea Sagefish", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15939, trivia={criteria="Fathom Eel", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15940, trivia={criteria="Murglesnout", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+A{"unknown", 5479, criterion=15928, trivia={criteria="Rockscale Cod", module="data", category="Professions/Fishing", name="The Oceanographer", description="Catch 31 different saltwater fish.", points=10, parent="Professions", type=42}}
+
+-- Professions/First Aid: Preparing for Disaster
+A{"unknown", 5480, trivia={module="data", category="Professions/First Aid", name="Preparing for Disaster", description="Create 500 Dense Embersilk Bandages.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: It's Always in the Last Place You Look
+A{"unknown", 5511, criterion=16197, trivia={criteria="Draenei", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16198, trivia={criteria="Dwarf", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16199, trivia={criteria="Fossil", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16200, trivia={criteria="Nerubian", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16201, trivia={criteria="Night Elf", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16202, trivia={criteria="Orc", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16203, trivia={criteria="Tol'vir", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16204, trivia={criteria="Troll", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+A{"unknown", 5511, criterion=16205, trivia={criteria="Vrykul", module="data", category="Professions/Archaeology", name="It's Always in the Last Place You Look", description="Recover archaeology artifacts from each of the following races.", points=10, parent="Professions", type=3}}
+
+-- Exploration/Cataclysm: Stood in the Fire
+A{"unknown", 5518, note="unobtainable", trivia={module="data", category="Exploration/Cataclysm", name="Stood in the Fire", description="Get killed by Deathwing.", points=10, parent="Exploration"}}
+
+-- Feats of Strength: Veteran of the Shifting Sands
+A{"unknown", 5533, trivia={module="data", category="Feats of Strength", name="Veteran of the Shifting Sands", description="Completed the gates of Ahn'Qiraj quest chain up to and including Treasure of the Timeless One (even if someone else ended up with the mount).", points=0}}
+
+-- Legacy: 1000 Valor Points
+A{"unknown", 5535, trivia={module="data", category="Legacy", name="1000 Valor Points", description="Earn 1000 Valor Points.", points=0}}
+
+-- Legacy: 5000 Valor Points
+A{"unknown", 5536, criterion=16305, trivia={module="data", category="Legacy", name="5000 Valor Points", description="Earn 5000 Valor Points.", points=0}}
+
+-- Legacy: 25,000 Valor Points
+A{"unknown", 5537, trivia={module="data", category="Legacy", name="25,000 Valor Points", description="Earn 25,000 Valor Points.", points=0}}
+
+-- Legacy: 50,000 Valor Points
+A{"unknown", 5538, trivia={module="data", category="Legacy", name="50,000 Valor Points", description="Earn 50,000 Valor Points.", points=0}}
+
+-- Collections/Mounts: Vial of the Sands
+A{"unknown", 5749, trivia={module="data", category="Collections/Mounts", name="Vial of the Sands", description="Learn how to transform into a dragon and carry an ally.", points=10, parent="Collections"}}
+
+-- Quests: 2500 Daily Quests Complete
+A{"unknown", 5751, trivia={module="data", category="Quests", name="2500 Daily Quests Complete", description="Complete 2500 daily quests.", points=10}}
+
+-- Quests: Justly Rewarded
+A{"unknown", 5752, criterion=4092, trivia={module="data", category="Quests", name="Justly Rewarded", description="Make 30,000 gold from quest rewards.", points=10}}
+
+-- General: Cataclysmically Delicious
+A{"unknown", 5753, criterion=17001, trivia={criteria="Baked Rockfish", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16959, trivia={criteria="Buttery Wheat Roll", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16960, trivia={criteria="Chocolate Cookie", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16968, trivia={criteria="Hardtack", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16963, trivia={criteria="Fish Fry", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16964, trivia={criteria="Fortune Cookie", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16966, trivia={criteria="Grilled Dragon", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16967, trivia={criteria="Grilled Shark", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16971, trivia={criteria="Highland Sheep Cheese", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16973, trivia={criteria="Lavascale Minestrone", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16978, trivia={criteria="Oily Giblets", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16981, trivia={criteria="Roasted Beef", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16983, trivia={criteria="Salted Eye", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16984, trivia={criteria="Scalding Murglesnout", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16985, trivia={criteria="Scarlet Polypore", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16989, trivia={criteria="Skewered Eel", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16990, trivia={criteria="Sliced Raw Billfish", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16992, trivia={criteria="Sour Green Apple", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16994, trivia={criteria="Tasty Puffball", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16996, trivia={criteria="Tropical Sunfruit", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16970, trivia={criteria="Highland Pomegranate", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16976, trivia={criteria="Massive Turkey Leg", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16997, trivia={criteria="Unidentifiable Meat Dish", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16999, trivia={criteria="Violet Morel", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=17000, trivia={criteria="Whitecrest Gumbo", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16972, trivia={criteria="Lavascale Fillet", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16991, trivia={criteria="Smoked String Cheese", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16961, trivia={criteria="Crocolisk Au Gratin", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16987, trivia={criteria="Severed Sagefish Head", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16995, trivia={criteria="Tender Baked Turtle", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16979, trivia={criteria="Pickled Guppy", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16988, trivia={criteria="Simmered Squid", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16958, trivia={criteria="Broiled Mountain Trout", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16965, trivia={criteria="Gilnean White", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16977, trivia={criteria="Mushroom Sauce Mudfish", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16982, trivia={criteria="Rock-Hard Biscuit", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16975, trivia={criteria="Lurker Lunch", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16954, trivia={criteria="Basilisk Liverdog", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16962, trivia={criteria="Delicious Sagefish Tail", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16969, trivia={criteria="Hearty Seafood Soup", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16974, trivia={criteria="Lightly Fried Lurker", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16980, trivia={criteria="Pine Nut Bread", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16986, trivia={criteria="Seasoned Crab", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16993, trivia={criteria="Stewed Rabbit", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16998, trivia={criteria="Vile Purple Fungus", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16955, trivia={criteria="Beer-Basted Crocolisk", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16956, trivia={criteria="Blackbelly Sushi", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+A{"unknown", 5753, criterion=16957, trivia={criteria="Blackened Surprise", module="data", category="General", name="Cataclysmically Delicious", description="Sample the following Cataclysm delicacies.", points=20, type=41}}
+
+-- General: Drown Your Sorrows
+A{"unknown", 5754, criterion=16946, trivia={criteria="Fungus Squeezings", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16948, trivia={criteria="Highland Spirits", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16950, trivia={criteria="Murky Water", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16953, trivia={criteria="Starfire Espresso", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=17002, trivia={criteria="Darkbrew Lager", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16947, trivia={criteria="Greasy Whale Milk", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16952, trivia={criteria="Sparkling Oasis Water", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16945, trivia={criteria="Fresh Water", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16949, trivia={criteria="Highland Spring Water", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+A{"unknown", 5754, criterion=16951, trivia={criteria="South Island Iced Tea", module="data", category="General", name="Drown Your Sorrows", description="Drink the following Cataclysm beverages.", points=10, type=41}}
+
+-- Collections: Thirty Tabards
+A{"unknown", 5755, trivia={module="data", category="Collections", name="Thirty Tabards", description="Equip 30 unique tabards.", points=10}}
+
+-- General: You'll Feel Right as Rain
+A{"unknown", 5779, criterion=17003, trivia={criteria="Gain 91 stacks of the Satisfied buff by eating Chocolate Cookies.", module="data", category="General", name="You'll Feel Right as Rain", description="Feel 1000% better by eating Chocolate Cookies.", points=10, type=28}}
+
+-- Feats of Strength: Agent of the Shen'dralar
+A{"unknown", 5788, trivia={module="data", category="Feats of Strength", name="Agent of the Shen'dralar", description="Earn exalted status with the Shen'dralar.", points=0}}
+
+-- Reputation: Time Flies When You're Having Fun
+A{"unknown", 5794, trivia={module="data", category="Reputation", name="Time Flies When You're Having Fun", description="Earn Exalted status with your guild.", points=10}}
+
+-- Feats of Strength: Dragonwrath, Tarecgosa's Rest
+A{"unknown", 5839, trivia={module="data", category="Feats of Strength", name="Dragonwrath, Tarecgosa's Rest", description="Owner of Dragonwrath, Tarecgosa's Rest.", points=0}}
+
+-- Professions/Cooking: Let's Do Lunch: Ironforge
+A{"unknown", 5841, criterion=17723, side="alliance", trivia={criteria="A Round for the Guards", module="data", category="Professions/Cooking", name="Let's Do Lunch: Ironforge", description="Complete each of the Ironforge cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5841, criterion=17724, side="alliance", trivia={criteria="A Fowl Shortage", module="data", category="Professions/Cooking", name="Let's Do Lunch: Ironforge", description="Complete each of the Ironforge cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5841, criterion=17725, side="alliance", trivia={criteria="Keepin' the Haggis Flowin'", module="data", category="Professions/Cooking", name="Let's Do Lunch: Ironforge", description="Complete each of the Ironforge cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5841, criterion=17726, side="alliance", trivia={criteria="Can't Get Enough Spice Bread", module="data", category="Professions/Cooking", name="Let's Do Lunch: Ironforge", description="Complete each of the Ironforge cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5841, criterion=17727, side="alliance", trivia={criteria="I Need to Cask a Favor", module="data", category="Professions/Cooking", name="Let's Do Lunch: Ironforge", description="Complete each of the Ironforge cooking daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Cooking: Let's Do Lunch: Darnassus
+A{"unknown", 5842, criterion=17731, side="alliance", trivia={criteria="Ribs for the Sentinels", module="data", category="Professions/Cooking", name="Let's Do Lunch: Darnassus", description="Complete each of the Darnassus cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5842, criterion=17728, side="alliance", trivia={criteria="The Secret to Perfect Kimchi", module="data", category="Professions/Cooking", name="Let's Do Lunch: Darnassus", description="Complete each of the Darnassus cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5842, criterion=17729, side="alliance", trivia={criteria="Remembering the Ancestors", module="data", category="Professions/Cooking", name="Let's Do Lunch: Darnassus", description="Complete each of the Darnassus cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5842, criterion=17732, side="alliance", trivia={criteria="Spice Bread Aplenty", module="data", category="Professions/Cooking", name="Let's Do Lunch: Darnassus", description="Complete each of the Darnassus cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5842, criterion=17730, side="alliance", trivia={criteria="Back to Basics", module="data", category="Professions/Cooking", name="Let's Do Lunch: Darnassus", description="Complete each of the Darnassus cooking daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Cooking: Let's Do Lunch: Thunder Bluff
+A{"unknown", 5843, criterion=17737, side="horde", trivia={criteria="Perfectly Picked Portions", module="data", category="Professions/Cooking", name="Let's Do Lunch: Thunder Bluff", description="Complete each of the Thunder Bluff cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5843, criterion=17733, side="horde", trivia={criteria="Pining for Nuts", module="data", category="Professions/Cooking", name="Let's Do Lunch: Thunder Bluff", description="Complete each of the Thunder Bluff cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5843, criterion=17735, side="horde", trivia={criteria="Mulgore Spice Bread", module="data", category="Professions/Cooking", name="Let's Do Lunch: Thunder Bluff", description="Complete each of the Thunder Bluff cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5843, criterion=17736, side="horde", trivia={criteria="Corn Mash", module="data", category="Professions/Cooking", name="Let's Do Lunch: Thunder Bluff", description="Complete each of the Thunder Bluff cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5843, criterion=17734, side="horde", trivia={criteria="\"Magic\" Mushrooms", module="data", category="Professions/Cooking", name="Let's Do Lunch: Thunder Bluff", description="Complete each of the Thunder Bluff cooking daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Cooking: Let's Do Lunch: Undercity
+A{"unknown", 5844, criterion=17741, side="horde", trivia={criteria="Roach Coach", module="data", category="Professions/Cooking", name="Let's Do Lunch: Undercity", description="Complete each of the Undercity cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5844, criterion=17739, side="horde", trivia={criteria="Lily, Oh Lily", module="data", category="Professions/Cooking", name="Let's Do Lunch: Undercity", description="Complete each of the Undercity cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5844, criterion=17740, side="horde", trivia={criteria="Escargot A Go-Go", module="data", category="Professions/Cooking", name="Let's Do Lunch: Undercity", description="Complete each of the Undercity cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5844, criterion=17738, side="horde", trivia={criteria="Fungus Among Us", module="data", category="Professions/Cooking", name="Let's Do Lunch: Undercity", description="Complete each of the Undercity cooking daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5844, criterion=17742, side="horde", trivia={criteria="Would You Like Some Flies With That?", module="data", category="Professions/Cooking", name="Let's Do Lunch: Undercity", description="Complete each of the Undercity cooking daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Fishing: Fish or Cut Bait: Ironforge
+A{"unknown", 5847, criterion=17749, side="alliance", trivia={criteria="Cold Water Fishing", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Ironforge", description="Complete each of the Ironforge fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5847, criterion=17750, side="alliance", trivia={criteria="One fer the Ages", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Ironforge", description="Complete each of the Ironforge fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5847, criterion=17751, side="alliance", trivia={criteria="Fish fer Squirky", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Ironforge", description="Complete each of the Ironforge fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5847, criterion=17752, side="alliance", trivia={criteria="Live Bait", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Ironforge", description="Complete each of the Ironforge fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5847, criterion=17753, side="alliance", trivia={criteria="The Gnomish Bait-o-Matic", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Ironforge", description="Complete each of the Ironforge fishing daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Fishing: Fish or Cut Bait: Darnassus
+A{"unknown", 5848, criterion=17754, side="alliance", trivia={criteria="Happy as a Clam Digger", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Darnassus", description="Complete each of the Darnassus fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5848, criterion=17755, side="alliance", trivia={criteria="Stocking Up", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Darnassus", description="Complete each of the Darnassus fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5848, criterion=17757, side="alliance", trivia={criteria="A Slippery Snack", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Darnassus", description="Complete each of the Darnassus fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5848, criterion=17758, side="alliance", trivia={criteria="An Old Favorite", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Darnassus", description="Complete each of the Darnassus fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5848, criterion=17756, side="alliance", trivia={criteria="The Sister's Pendant", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Darnassus", description="Complete each of the Darnassus fishing daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Fishing: Fish or Cut Bait: Thunder Bluff
+A{"unknown", 5849, criterion=17760, side="horde", trivia={criteria="The Ring's the Thing", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Thunder Bluff", description="Complete each of the Thunder Bluff fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5849, criterion=17761, side="horde", trivia={criteria="The Race to Restock", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Thunder Bluff", description="Complete each of the Thunder Bluff fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5849, criterion=17763, side="horde", trivia={criteria="Shiny Baubles", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Thunder Bluff", description="Complete each of the Thunder Bluff fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5849, criterion=17759, side="horde", trivia={criteria="Pond Predators", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Thunder Bluff", description="Complete each of the Thunder Bluff fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5849, criterion=17762, side="horde", trivia={criteria="Craving Crayfish", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Thunder Bluff", description="Complete each of the Thunder Bluff fishing daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Fishing: Fish or Cut Bait: Undercity
+A{"unknown", 5850, criterion=17764, side="horde", trivia={criteria="Fish Head", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Undercity", description="Complete each of the Undercity fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5850, criterion=17765, side="horde", trivia={criteria="Tadpole Terror", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Undercity", description="Complete each of the Undercity fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5850, criterion=17766, side="horde", trivia={criteria="Like Pike?", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Undercity", description="Complete each of the Undercity fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5850, criterion=17767, side="horde", trivia={criteria="Time for Slime", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Undercity", description="Complete each of the Undercity fishing daily quests.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 5850, criterion=17768, side="horde", trivia={criteria="Moat Monster!", module="data", category="Professions/Fishing", name="Fish or Cut Bait: Undercity", description="Complete each of the Undercity fishing daily quests.", points=10, parent="Professions", type="quest"}}
+
+-- Quests/Cataclysm: And the Meek Shall Inherit Kalimdor
+A{"unknown", 5868, criterion=17826, trivia={criteria="Alpine Songbird", module="data", category="Quests/Cataclysm", name="And the Meek Shall Inherit Kalimdor", description="Help each of the following critters get revenge on the mean old fire elementals.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 5868, criterion=17825, trivia={criteria="Hyjal Bear Cub", module="data", category="Quests/Cataclysm", name="And the Meek Shall Inherit Kalimdor", description="Help each of the following critters get revenge on the mean old fire elementals.", points=10, parent="Quests", type=28}}
+A{"unknown", 5868, criterion=17827, trivia={criteria="Child of Tortolla", module="data", category="Quests/Cataclysm", name="And the Meek Shall Inherit Kalimdor", description="Help each of the following critters get revenge on the mean old fire elementals.", points=10, parent="Quests", type=28}}
+A{"unknown", 5868, criterion=17824, trivia={criteria="Angry Little Squirrel", module="data", category="Quests/Cataclysm", name="And the Meek Shall Inherit Kalimdor", description="Help each of the following critters get revenge on the mean old fire elementals.", points=10, parent="Quests", type=28}}
+
+-- Quests/Cataclysm: Master of the Molten Flow
+A{"unknown", 5871, criterion=17836, trivia={criteria="Kill a Flamewaker Sentinel while it is carrying someone", module="data", category="Quests/Cataclysm", name="Master of the Molten Flow", description="Complete the following challenges within the Molten Flow.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 5871, criterion=17835, trivia={criteria="Kill a Flamewaker Shaman with his own Flamewave", module="data", category="Quests/Cataclysm", name="Master of the Molten Flow", description="Complete the following challenges within the Molten Flow.", points=10, parent="Quests", type=28}}
+A{"unknown", 5871, criterion=17837, trivia={criteria="Survive a Flamewaker Hunter's Wild Barrage without getting hit", module="data", category="Quests/Cataclysm", name="Master of the Molten Flow", description="Complete the following challenges within the Molten Flow.", points=10, parent="Quests", type=28}}
+
+-- Quests/Cataclysm: King of the Spider-Hill
+A{"unknown", 5872, criterion=17812, trivia={criteria="Reach the highest point in the Widow's Clutch", module="data", category="Quests/Cataclysm", name="King of the Spider-Hill", description="Reach the highest point in the Widow's Clutch within the Molten Front.", points=10, parent="Quests", type=73}}
+
+-- Quests/Cataclysm: Veteran of the Molten Front
+A{"unknown", 5879, criterion=17869, trivia={criteria="And the Meek Shall Inherit Kalimdor", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17874, trivia={criteria="Master of the Molten Flow", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17873, trivia={criteria="Flawless Victory", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17864, trivia={criteria="Legacy of Leyara", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17870, trivia={criteria="Gang War", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17871, trivia={criteria="Have... Have We Met?", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17865, trivia={criteria="The Molten Front Offensive", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17866, trivia={criteria="The Fiery Lords of Sethria's Roost", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17875, trivia={criteria="King of the Spider-Hill", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+A{"unknown", 5879, criterion=17867, trivia={criteria="Fireside Chat", module="data", category="Quests/Cataclysm", name="Veteran of the Molten Front", description="Complete the Regrowth and Molten Front achievements listed below.", points=10, parent="Quests", type="achievement"}}
+
+-- Feats of Strength: Vicious Gladiator
+A{"unknown", 6002, trivia={module="data", category="Feats of Strength", name="Vicious Gladiator", description="Achieved Vicious Gladiator title.", points=0}}
+
+-- Feats of Strength: Vicious Gladiator's Twilight Drake
+A{"unknown", 6003, trivia={module="data", category="Feats of Strength", name="Vicious Gladiator's Twilight Drake", description="Obtain the Vicious Gladiator's Twilight Drake from Arena Season 9 of Cataclysm.", points=0}}
+
+-- Feats of Strength: Red Rider Air Rifle
+A{"unknown", 6059, trivia={module="data", category="Feats of Strength", name="Red Rider Air Rifle", description="Proud owner of the 2009 Vintage Winter Veil gift, the Red Rider Air Rifle.", points=0}}
+
+-- Feats of Strength: MiniZep Controller
+A{"unknown", 6060, trivia={module="data", category="Feats of Strength", name="MiniZep Controller", description="Proud owner of the 2010 Vintage Winter Veil gift, the MiniZep Controller.", points=0}}
+
+-- Feats of Strength: Gaudy Winter Veil Sweater
+A{"unknown", 6061, trivia={module="data", category="Feats of Strength", name="Gaudy Winter Veil Sweater", description="Proud owner of the 2011 Vintage Winter Veil gift, the Gaudy Winter Veil Sweater.", points=0}}
+
+-- Feats of Strength: Ruthless Gladiator
+A{"unknown", 6124, trivia={module="data", category="Feats of Strength", name="Ruthless Gladiator", description="Achieved Ruthless Gladiator title.", points=0}}
+
+-- Feats of Strength: Fangs of the Father
+A{"unknown", 6181, trivia={module="data", category="Feats of Strength", name="Fangs of the Father", description="Wielder of the Fangs of the Father.", points=0}}
+
+-- Feats of Strength: Murkablo
+A{"unknown", 6185, trivia={module="data", category="Feats of Strength", name="Murkablo", description="Proud owner of Murkablo from the 2011 BlizzCon.", points=0}}
+
+-- General: Level 90
+A{"unknown", 6193, trivia={module="data", category="General", name="Level 90", description="Reach level 90.", points=10}}
+
+-- Professions/Cooking: Zen Master Cook
+A{"unknown", 6365, trivia={module="data", category="Professions/Cooking", name="Zen Master Cook", description="Obtain 600 skill points in cooking.", points=10, parent="Professions"}}
+
+-- Feats of Strength: Collector's Edition: Lucky Quilen Cub
+A{"unknown", 6848, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Lucky Quilen Cub", description="Owner of the Mists of Pandaria Collector's Edition Lucky Quilen Cub pet.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Imperial Quilen
+A{"unknown", 6849, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Imperial Quilen", description="Owner of the Mists of Pandaria Collector's Edition Imperial Quilen mount.", points=0}}
+
+-- Scenarios/Mists of Pandaria: Scenaturday
+A{"unknown", 6874, criterion=21499, side="alliance", trivia={criteria="A Brewing Storm", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 6874, criterion=21500, side="alliance", trivia={criteria="Greenstone Village", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 6874, criterion=21501, side="alliance", trivia={criteria="Unga Ingoo", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 6874, criterion=21502, side="alliance", trivia={criteria="Brewmoon Festival", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 6874, criterion=21503, side="alliance", trivia={criteria="Crypt of Forgotten Kings", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 6874, criterion=21504, side="alliance", trivia={criteria="Arena of Annihilation", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 6874, criterion=21023, side="alliance", trivia={criteria="Theramore's Fall", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+
+-- Scenarios/Mists of Pandaria: Brewmoon Festival
+A{"unknown", 6923, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Brewmoon Festival", description="Defeat Warbringer Qobi in the Brewmoon Festival scenario.", points=10, parent="Scenarios"}}
+
+-- Legacy: 100,000 Valor Points
+A{"unknown", 6924, trivia={module="data", category="Legacy", name="100,000 Valor Points", description="Earn 100,000 Valor Points.", points=0}}
+
+-- Scenarios/Mists of Pandaria: Yaungolian Barbecue
+A{"unknown", 6930, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Yaungolian Barbecue", description="Complete the Brewmoon Festival scenario without any Bataari invaders setting the village on fire.", points=10, parent="Scenarios"}}
+
+-- Feats of Strength: Cataclysmic Gladiator
+A{"unknown", 6938, trivia={module="data", category="Feats of Strength", name="Cataclysmic Gladiator", description="Achieved Cataclysmic Gladiator title.", points=0}}
+
+-- Scenarios: Queuing Spree
+A{"unknown", 6943, criterion=20060, trivia={module="data", category="Scenarios", name="Queuing Spree", description="Complete 100 scenarios.", points=10}}
+
+-- Scenarios/Mists of Pandaria: Spill No Evil
+A{"unknown", 7231, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Spill No Evil", description="Complete Stage 2 of Unga Ingoo without any brew being stolen from the cauldron.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: The Keg Runner
+A{"unknown", 7232, trivia={module="data", category="Scenarios/Mists of Pandaria", name="The Keg Runner", description="Complete Stage 2 of Unga Ingoo in less than four minutes.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Monkey in the Middle
+A{"unknown", 7239, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Monkey in the Middle", description="Defeat Captain Ook without him getting an orange.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Monkey See, Monkey Kill
+A{"unknown", 7248, criterion=20696, trivia={criteria="Captain Ook", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7248, criterion=19858, trivia={criteria="Ba-Bam", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7248, criterion=19823, trivia={criteria="Ookie", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7248, criterion=19857, trivia={criteria="Chihozen Binono", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7248, criterion=20585, trivia={criteria="Protected Unga Keg", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type=68}}
+A{"unknown", 7248, criterion=19822, trivia={criteria="Grooka Grooka", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7248, criterion=19821, trivia={criteria="Rik Rik", module="data", category="Scenarios/Mists of Pandaria", name="Monkey See, Monkey Kill", description="Defeat all bosses of Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: Unga Ingoo
+A{"unknown", 7249, criterion=20696, trivia={criteria="Defeat Captain Ook", module="data", category="Scenarios/Mists of Pandaria", name="Unga Ingoo", description="Defeat Captain Ook in Unga Ingoo.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: A Brewing Storm
+A{"unknown", 7252, criterion=19565, trivia={criteria="Defeat Borokhula the Destroyer", module="data", category="Scenarios/Mists of Pandaria", name="A Brewing Storm", description="Defeat Borokhula the Destroyer in A Brewing Storm.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: Don't Shake the Keg
+A{"unknown", 7257, criterion=20693, trivia={criteria="Survive the fight without getting hit by Swamp Smash.", module="data", category="Scenarios/Mists of Pandaria", name="Don't Shake the Keg", description="Defeat Borokhula the Destroyer in A Brewing Storm without getting hit by his Swamp Smash.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: Party of Six
+A{"unknown", 7258, criterion=20694, trivia={criteria="All six Thunderpaw Guardians still alive", module="data", category="Scenarios/Mists of Pandaria", name="Party of Six", description="Finish A Brewing Storm with all six Thunderpaw Guardians still alive.", points=10, parent="Scenarios", type=28}}
+
+-- Scenarios/Mists of Pandaria: The Perfect Pour
+A{"unknown", 7261, criterion=19563, trivia={criteria="Lightning successfully dodged.", module="data", category="Scenarios/Mists of Pandaria", name="The Perfect Pour", description="Brew the Boomer Brew without anyone in your party being hit by lightning during A Brewing Storm.", points=10, parent="Scenarios", type=28}}
+
+-- Scenarios/Mists of Pandaria: Greenstone Village
+A{"unknown", 7265, criterion=19205, trivia={criteria="Kill Vengeful Hui", module="data", category="Scenarios/Mists of Pandaria", name="Greenstone Village", description="Defeat Vengeful Hui in the Greenstone Village scenario.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: Save it for Later
+A{"unknown", 7266, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Save it for Later", description="Complete the Greenstone Village scenario without using any Volatile Greenstone Brew.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Perfect Delivery
+A{"unknown", 7267, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Perfect Delivery", description="Return six stolen kegs without any being damaged in the Greenstone Village scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Arena of Annihilation
+A{"unknown", 7271, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Arena of Annihilation", description="Complete the Arena of Annihilation scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: In the Eye of the Tiger
+A{"unknown", 7272, criterion=19342, trivia={criteria="Kill Cloudbender Kobo", module="data", category="Scenarios/Mists of Pandaria", name="In the Eye of the Tiger", description="Defeat all final bosses - Cloudbender Kobo, Maki Waterblade, and Satay Byu - in the Arena of Annihilation scenario.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7272, criterion=20432, trivia={criteria="Kill Maki Waterblade", module="data", category="Scenarios/Mists of Pandaria", name="In the Eye of the Tiger", description="Defeat all final bosses - Cloudbender Kobo, Maki Waterblade, and Satay Byu - in the Arena of Annihilation scenario.", points=10, parent="Scenarios", type="slay"}}
+A{"unknown", 7272, criterion=20433, trivia={criteria="Kill Satay Byu", module="data", category="Scenarios/Mists of Pandaria", name="In the Eye of the Tiger", description="Defeat all final bosses - Cloudbender Kobo, Maki Waterblade, and Satay Byu - in the Arena of Annihilation scenario.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: Beat the Heat
+A{"unknown", 7273, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Beat the Heat", description="Defeat Little Liuyang without anyone taking damage from a Flame Wall in the Arena of Annihilation scenario.", points=10, parent="Scenarios"}}
+
+-- Professions/Fishing: Learning from the Best
+A{"unknown", 7274, criterion=20434, trivia={module="data", category="Professions/Fishing", name="Learning from the Best", description="Become best friends with Nat Pagle.", points=10, parent="Professions"}}
+
+-- Scenarios/Mists of Pandaria: It's a Trap!
+A{"unknown", 7275, trivia={module="data", category="Scenarios/Mists of Pandaria", name="It's a Trap!", description="Step on a floor trap in the Crypt of Forgotten Kings scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Fancy Footwork
+A{"unknown", 7276, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Fancy Footwork", description="Defeat the Abomination of Anger in the Crypt of Forgotten Kings scenario without anyone taking damage from the red clouds.", points=10, parent="Scenarios"}}
+
+-- Quests/Pandaria: Every Day I'm Pand-a-ren
+A{"unknown", 7285, criterion=20466, trivia={module="data", category="Quests/Pandaria", name="Every Day I'm Pand-a-ren", description="Complete 25 daily quests in Pandaria in a single daily reset period.", points=10, parent="Quests"}}
+
+-- Professions/Cooking: The Pandaren Gourmet
+A{"unknown", 7326, trivia={module="data", category="Professions/Cooking", name="The Pandaren Gourmet", description="Cook 15 of the Pandaren recipes listed below.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: The Pandaren Gourmet
+A{"unknown", 7327, trivia={module="data", category="Professions/Cooking", name="The Pandaren Gourmet", description="Cook 30 of the Pandaren recipes listed below.", points=10, parent="Professions"}}
+
+-- Professions/Cooking: Ironpaw Chef
+A{"unknown", 7328, trivia={module="data", category="Professions/Cooking", name="Ironpaw Chef", description="Learn 240 cooking recipes.", points=10, parent="Professions"}}
+
+-- General: Pandaren Cuisine
+A{"unknown", 7329, criterion=20592, side="alliance", trivia={criteria="Dried Needle Mushrooms", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, criterion=20593, side="alliance", trivia={criteria="Pounded Rice Cake", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, criterion=20594, side="alliance", trivia={criteria="Yak Cheese Curds", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, criterion=20595, side="alliance", trivia={criteria="Dried Peaches", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, criterion=20599, side="alliance", trivia={criteria="Blanched Needle Mushrooms", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, criterion=20600, side="alliance", trivia={criteria="Red Bean Bun", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, criterion=20605, side="alliance", trivia={criteria="Green Curry Fish", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20593, side="horde", trivia={criteria="Pounded Rice Cake", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20594, side="horde", trivia={criteria="Yak Cheese Curds", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20595, side="horde", trivia={criteria="Dried Peaches", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20596, note="from Mifan", side="horde", trivia={criteria="Boiled Silkworm Pupa", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20599, side="horde", trivia={criteria="Blanched Needle Mushrooms", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20600, side="horde", trivia={criteria="Red Bean Bun", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+A{"unknown", 7329, 0.6250, 0.1390, criterion=20605, side="horde", trivia={criteria="Green Curry Fish", module="data", category="General", name="Pandaren Cuisine", description="Sample the following Pandaren fare.", points=10, type=41}}
+
+-- General: Pandaren Delicacies
+A{"unknown", 7330, criterion=20598, trivia={criteria="Sauteed Carrots", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20607, trivia={criteria="Ginseng Tea", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20608, trivia={criteria="Swirling Mist Soup", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20609, trivia={criteria="Shrimp Dumplings", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20610, trivia={criteria="Wildfowl Roast", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20611, trivia={criteria="Charbroiled Tiger Steak", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20614, trivia={criteria="Valley Stir Fry", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20615, trivia={criteria="Jade Witch Brew", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20617, trivia={criteria="Braised Turtle", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20618, trivia={criteria="Fire Spirit Salmon", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20619, trivia={criteria="Twin Fish Platter", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20620, trivia={criteria="Eternal Blossom Fish", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20621, trivia={criteria="Sea Mist Rice Noodles", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20622, trivia={criteria="Spicy Vegetable Chips", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20623, trivia={criteria="Mad Brewer's Breakfast", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20624, trivia={criteria="Spicy Salmon", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20625, trivia={criteria="Mogu Fish Stew", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20626, trivia={criteria="Steamed Crab Surprise", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20627, trivia={criteria="Chun Tian Spring Rolls", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+A{"unknown", 7330, criterion=20628, trivia={criteria="Black Pepper Ribs and Shrimp", module="data", category="General", name="Pandaren Delicacies", description="Sample the following Pandaren delicacies.", points=10, type=41}}
+
+-- Scenarios/Mists of Pandaria: Pub Crawl
+A{"unknown", 7385, criterion=20680, trivia={criteria="Spell No Evil", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20681, trivia={criteria="Yaungolian Barbecue", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20682, trivia={criteria="Binan Village All-Star", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20683, trivia={criteria="The Keg Runner", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20684, trivia={criteria="Monkey in the Middle", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20685, trivia={criteria="Monkey See, Monkey Kill", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20686, trivia={criteria="Don't Shake the Keg", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20687, trivia={criteria="Party of Six", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20688, trivia={criteria="The Perfect Pour", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20689, trivia={criteria="Save it for Later", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+A{"unknown", 7385, criterion=20690, trivia={criteria="Perfect Delivery", module="data", category="Scenarios/Mists of Pandaria", name="Pub Crawl", description="Complete the Brewmaster scenario achievements listed below.", points=10, parent="Scenarios", type="achievement"}}
+
+-- Feats of Strength: Collector's Edition: Fetish Shaman
+A{"unknown", 7412, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Fetish Shaman", description="Owner of the Diablo III Collector's Edition Fetish Shaman pet.", points=0}}
+
+-- Feats of Strength: Theramore's Fall
+A{"unknown", 7467, side="alliance", trivia={module="data", category="Feats of Strength", name="Theramore's Fall", description="Protected Jaina as she recovered the Focusing Iris from the Horde-ravaged ruins of Theramore.", points=0}}
+
+-- Feats of Strength: Theramore's Fall
+A{"unknown", 7468, side="horde", trivia={module="data", category="Feats of Strength", name="Theramore's Fall", description="Assisted in the covert assault of Theramore Isle and the rescue of Thalen Songweaver.", points=0}}
+
+-- Reputation/Pandaria: The Shado-Master
+A{"unknown", 7479, criterion=19905, trivia={module="data", category="Reputation/Pandaria", name="The Shado-Master", description="Prove your worth to the Shado-Pan elite by completing all of the achievements listed below.", points=10, parent="Reputation"}}
+
+-- Scenarios/Mists of Pandaria: Scenaturday
+A{"unknown", 7509, criterion=21499, side="horde", trivia={criteria="A Brewing Storm", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 7509, criterion=21500, side="horde", trivia={criteria="Greenstone Village", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 7509, criterion=21501, side="horde", trivia={criteria="Unga Ingoo", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 7509, criterion=21502, side="horde", trivia={criteria="Brewmoon Festival", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 7509, criterion=21503, side="horde", trivia={criteria="Crypt of Forgotten Kings", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 7509, criterion=21504, side="horde", trivia={criteria="Arena of Annihilation", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+A{"unknown", 7509, criterion=21506, side="horde", trivia={criteria="Theramore's Fall", module="data", category="Scenarios/Mists of Pandaria", name="Scenaturday", description="Complete all of the scenarios listed below on a Saturday.", points=5, parent="Scenarios", type=152}}
+
+-- Quests: The Loremaster
+A{"unknown", 7520, criterion=6143, trivia={criteria="Loremaster of Eastern Kingdoms", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 7520, criterion=6144, trivia={criteria="Loremaster of Kalimdor", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 7520, criterion=6145, trivia={criteria="Loremaster of Outland", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 7520, criterion=6146, trivia={criteria="Loremaster of Northrend", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 7520, criterion=16021, trivia={criteria="Loremaster of Cataclysm", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 7520, criterion=19386, trivia={criteria="Loremaster of Pandaria", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 7520, criterion=27594, trivia={criteria="Loremaster of Draenor", module="data", category="Quests", name="The Loremaster", description="Complete the quest achievements listed below.", points=10, type="achievement"}}
+
+-- Scenarios/Mists of Pandaria: Crypt of Forgotten Kings
+A{"unknown", 7522, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Crypt of Forgotten Kings", description="Complete the Crypt of Forgotten Kings scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Theramore's Fall
+A{"unknown", 7523, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Theramore's Fall", description="Complete the Theramore's Fall scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Theramore's Fall
+A{"unknown", 7524, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Theramore's Fall", description="Complete the Theramore's Fall scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Kite Fight
+A{"unknown", 7526, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Kite Fight", description="Defeat Gash'nul without destroying any of his totems.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: No Tank You
+A{"unknown", 7527, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="No Tank You", description="Destroy Gatecrusher without anyone being hit by its ram or stone-thrower.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Kite Fight
+A{"unknown", 7529, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Kite Fight", description="Defeat Baldruc without destroying any of his totems.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: No Tank You
+A{"unknown", 7530, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="No Tank You", description="Destroy Big Bessa without anyone being hit by its ram or cannon.", points=10, parent="Scenarios"}}
+
+-- Legacy: Chapter I: Trial of the Black Prince
+A{"unknown", 7533, criterion=21874, trivia={criteria="Complete Quest \"Breath of the Black Prince.\"", module="data", category="Legacy", name="Chapter I: Trial of the Black Prince", description="Prove your worth to Wrathion and acquire a sha-touched gem upgrade.", points=0, type="quest"}}
+
+-- Legacy: Chapter II: Wrathion's War
+A{"unknown", 7534, criterion=21875, side="alliance", trivia={criteria="Complete Quest \"Call of the Packmaster.\"", module="data", category="Legacy", name="Chapter II: Wrathion's War", description="Prove Alliance superiority to Wrathion by completing his trials after your forces land on the beach.", points=0, type="quest"}}
+
+-- Legacy: Chapter III: Two Princes
+A{"unknown", 7535, criterion=21876, trivia={criteria="Complete Quest \"Heart of the Thunder King.\"", module="data", category="Legacy", name="Chapter III: Two Princes", description="Discover the secrets of the mogu with Wrathion, and deliver to him the heart of the Thunder King.", points=0, type="quest"}}
+
+-- Legacy: Chapter IV: Celestial Blessings
+A{"unknown", 7536, criterion=23362, trivia={criteria="Complete Quest \"Cloak of Virtue.\"", module="data", category="Legacy", name="Chapter IV: Celestial Blessings", description="Accompany Wrathion on his journey to obtain blessings from the four August Celestials.", points=0, type="quest"}}
+
+-- Professions/Fishing: Pandarian Angler
+A{"unknown", 7611, criterion=21959, trivia={criteria="Golden Carp", module="data", category="Professions/Fishing", name="Pandarian Angler", description="Catch each type of fish native to Pandaria.", points=10, parent="Professions", type=42}}
+A{"unknown", 7611, criterion=21983, note="rare", trivia={criteria="Flying Tiger Gourami", module="data", category="Professions/Fishing", name="Pandarian Angler", description="Catch each type of fish native to Pandaria.", points=10, parent="Professions", type=42}}
+A{"unknown", 7611, criterion=21984, note="rare\ncoastal waters", trivia={criteria="Mimic Octopus", module="data", category="Professions/Fishing", name="Pandarian Angler", description="Catch each type of fish native to Pandaria.", points=10, parent="Professions", type=42}}
+
+-- Professions/Archaeology: The Seat of Knowledge
+A{"unknown", 7612, criterion=21954, trivia={criteria="Pristine Manacles of Rebellion", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21956, trivia={criteria="Pristine Mogu Runestone", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21958, trivia={criteria="Pristine Terracotta Arm", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21960, trivia={criteria="Pristine Petrified Bone Whip", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21965, trivia={criteria="Pristine Thunder King Insignia", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21967, trivia={criteria="Pristine Edicts of the Thunder King", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21969, trivia={criteria="Pristine Iron Amulet", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21970, trivia={criteria="Pristine Branding Iron", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21971, trivia={criteria="Pristine Mogu Coin", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21972, trivia={criteria="Pristine Monument Ledger", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21973, trivia={criteria="Pristine Pandaren Tea Set", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21974, trivia={criteria="Pristine Game Board", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21975, trivia={criteria="Pristine Twin Stein Set", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21976, trivia={criteria="Pristine Walking Cane", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21977, trivia={criteria="Pristine Empty Keg", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21978, trivia={criteria="Pristine Carved Bronze Mirror", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21979, trivia={criteria="Pristine Gold-Inlaid Figurine", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21980, trivia={criteria="Pristine Apothecary Tins", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21981, trivia={criteria="Pristine Pearl of Yu'lon", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 7612, criterion=21982, trivia={criteria="Pristine Standard of Niuzao", module="data", category="Professions/Archaeology", name="The Seat of Knowledge", description="Restore and display pristine versions of all Pandaren and Mogu artifacts.", points=10, parent="Professions", type="quest"}}
+
+-- Feats of Strength: Collector's Edition: Baneling
+A{"unknown", 7842, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Baneling", description="Owner of the StarCraft II: Heart of the Swarm Collector's Edition Baneling pet.", points=0}}
+
+-- Feats of Strength: They're Both Footballs?
+A{"unknown", 7852, trivia={module="data", category="Feats of Strength", name="They're Both Footballs?", description="Proud owner of the 2012 Vintage Winter Veil gift, the Pigskin and Foot Ball.", points=0}}
+
+-- Exploration/Pandaria: I'm In Your Base, Killing Your Dudes
+A{"unknown", 7932, criterion=0, trivia={criteria="Champion of Arms slain", module="data", category="Exploration/Pandaria", name="I'm In Your Base, Killing Your Dudes", description="Kill all three of the opposing faction's champions in Krasarang Wilds.", points=10, parent="Exploration", type="slay"}}
+A{"unknown", 7932, criterion=0, trivia={criteria="Champion of the Shadows slain", module="data", category="Exploration/Pandaria", name="I'm In Your Base, Killing Your Dudes", description="Kill all three of the opposing faction's champions in Krasarang Wilds.", points=10, parent="Exploration", type="slay"}}
+A{"unknown", 7932, criterion=0, trivia={criteria="Champion of the Light slain", module="data", category="Exploration/Pandaria", name="I'm In Your Base, Killing Your Dudes", description="Kill all three of the opposing faction's champions in Krasarang Wilds.", points=10, parent="Exploration", type="slay"}}
+
+-- Legacy: You Are Not Your $#*@! Legplates (Season 1)
+A{"unknown", 7937, side="alliance", trivia={module="data", category="Legacy", name="You Are Not Your $#*@! Legplates (Season 1)", description="Win a brawl during the Pandaria campaign.", points=0}}
+
+-- Legacy: The Second Rule of Brawler's Guild (Season 1)
+A{"unknown", 7939, side="horde", trivia={module="data", category="Legacy", name="The Second Rule of Brawler's Guild (Season 1)", description="Reach Rank 7 with Brawl'gar Arena during the Pandaria campaign.", points=0}}
+
+-- Legacy: The Second Rule of Brawler's Guild (Season 1)
+A{"unknown", 7940, side="alliance", trivia={module="data", category="Legacy", name="The Second Rule of Brawler's Guild (Season 1)", description="Reach Rank 7 with Bizmo's Brawlpub during the Pandaria campaign.", points=0}}
+
+-- Legacy: Brawlin' and Shot Callin' (Season 1)
+A{"unknown", 7941, side="alliance", trivia={module="data", category="Legacy", name="Brawlin' and Shot Callin' (Season 1)", description="Reach Rank 8 with Bizmo's Brawlpub during the Pandaria campaign.", points=0}}
+
+-- Legacy: Brawlin' and Shot Callin' (Season 1)
+A{"unknown", 7942, side="horde", trivia={module="data", category="Legacy", name="Brawlin' and Shot Callin' (Season 1)", description="Reach Rank 8 with Brawl'gar Arena during the Pandaria campaign.", points=0}}
+
+-- World Events/Brawler's Guild: I'm Your Number One Fan
+A{"unknown", 7943, trivia={module="data", category="World Events/Brawler's Guild", name="I'm Your Number One Fan", description="Cheer a player on after they have won a brawl.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Bottle Service
+A{"unknown", 7944, trivia={module="data", category="World Events/Brawler's Guild", name="Bottle Service", description="Hit an angry spectator in the head with an Expired Blackout Brew.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Haters Gonna Hate
+A{"unknown", 7945, trivia={module="data", category="World Events/Brawler's Guild", name="Haters Gonna Hate", description="Win a brawl with ten stacks of You Stink!", points=10, parent="World Events"}}
+
+-- Legacy: Now You're Just Showing Off (Season 1)
+A{"unknown", 7946, side="alliance", trivia={module="data", category="Legacy", name="Now You're Just Showing Off (Season 1)", description="Defeat the following rare brawl bosses during the Pandaria campaign.", points=0}}
+
+-- World Events/Brawler's Guild: The First Rule of Brawler's Guild
+A{"unknown", 7947, side="alliance", trivia={module="data", category="World Events/Brawler's Guild", name="The First Rule of Brawler's Guild", description="Get invited to brawl at Bizmo's Brawlpub in the Deeprun Tram.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: The First Rule of Brawler's Guild
+A{"unknown", 7948, side="horde", trivia={module="data", category="World Events/Brawler's Guild", name="The First Rule of Brawler's Guild", description="Get invited to brawl at Brawl'gar Arena in The Valley of Honor in Orgrimmar.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Rabble Rabble Rabble
+A{"unknown", 7949, side="alliance", trivia={module="data", category="World Events/Brawler's Guild", name="Rabble Rabble Rabble", description="Take Willard \"Bubbles\" Wilcox's portal to Orgrimmar.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Rabble Rabble Rabble
+A{"unknown", 7950, side="horde", trivia={module="data", category="World Events/Brawler's Guild", name="Rabble Rabble Rabble", description="Take Zippi Gallox's portal to Stormwind.", points=10, parent="World Events"}}
+
+-- Scenarios/Mists of Pandaria: Watery Grave
+A{"unknown", 7984, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Watery Grave", description="Kill 3 of the Darkhatched Lizard-Lord's reinforcements using his Water Jets ability in the Dagger in the Dark Scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: You Mean That Wasn't a Void Zone?
+A{"unknown", 7986, trivia={module="data", category="Scenarios/Mists of Pandaria", name="You Mean That Wasn't a Void Zone?", description="Defeat Rak'gor Bloodrazor without any member of your party standing in a Healing Ward during the encounter in the Dagger in the Dark Scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: No Egg Left Behind
+A{"unknown", 7987, trivia={module="data", category="Scenarios/Mists of Pandaria", name="No Egg Left Behind", description="Destroy all remaining eggs before Broodmaster Noshi reaches 20% health in the Dagger in the Dark Scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: A Little Patience
+A{"unknown", 7988, trivia={module="data", category="Scenarios/Mists of Pandaria", name="A Little Patience", description="Complete the scenario, A Little Patience.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Bubbletrapped!
+A{"unknown", 7989, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Bubbletrapped!", description="Aid in the construction of the Jinyu defenses in the scenario, 'A Little Patience'.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Cannonballer
+A{"unknown", 7990, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Cannonballer", description="Aid in the construction of the Dwarf defenses in the scenario, 'A Little Patience'.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Which Came First?
+A{"unknown", 7991, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Which Came First?", description="Aid in the construction of the Gnome defenses in the scenario, 'A Little Patience'.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: I Used To Love Them
+A{"unknown", 7992, trivia={module="data", category="Scenarios/Mists of Pandaria", name="I Used To Love Them", description="Aid in the construction of the Night Elf defenses in the scenario, 'A Little Patience'.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: We've Been Dancin'
+A{"unknown", 7993, trivia={module="data", category="Scenarios/Mists of Pandaria", name="We've Been Dancin'", description="Aid Master Brownstone in the construction of the Pandaren defenses in the scenario, 'A Little Patience'.", points=10, parent="Scenarios"}}
+
+-- Exploration/Pandaria: Treasure of Pandaria
+A{"unknown", 7994, trivia={module="data", category="Exploration/Pandaria", name="Treasure of Pandaria", description="Find a Treasure of Pandaria.", points=10, parent="Exploration"}}
+
+-- Exploration/Pandaria: Fortune of Pandaria
+A{"unknown", 7995, trivia={module="data", category="Exploration/Pandaria", name="Fortune of Pandaria", description="Find 5 Treasures of Pandaria.", points=10, parent="Exploration"}}
+
+-- Exploration/Pandaria: Bounty of Pandaria
+A{"unknown", 7996, trivia={module="data", category="Exploration/Pandaria", name="Bounty of Pandaria", description="Find 10 Treasures of Pandaria.", points=10, parent="Exploration"}}
+
+-- Exploration/Pandaria: Riches of Pandaria
+A{"unknown", 7997, trivia={module="data", category="Exploration/Pandaria", name="Riches of Pandaria", description="Find all of the Treasures of Pandaria.", points=10, parent="Exploration"}}
+
+-- Legacy: Chapter II: Wrathion's War
+A{"unknown", 8008, criterion=22513, side="horde", trivia={criteria="Complete Quest \"The Soul of the Horde.\"", module="data", category="Legacy", name="Chapter II: Wrathion's War", description="Prove Horde superiority to Wrathion by completing his trials after your forces land on the beach.", points=0, type="quest"}}
+
+-- Scenarios/Mists of Pandaria: Dagger in the Dark
+A{"unknown", 8009, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Dagger in the Dark", description="Complete the Dagger in the Dark scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Lion's Landing
+A{"unknown", 8010, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Lion's Landing", description="Complete the Lion's Landing scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Number Five Is Alive
+A{"unknown", 8011, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Number Five Is Alive", description="All five non-player characters survive the Lion's Landing scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Waste Not, Want Not
+A{"unknown", 8012, criterion=22520, side="alliance", trivia={criteria="Lever-Action Boomstick", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=69}}
+A{"unknown", 8012, criterion=22521, side="alliance", trivia={criteria="Reaver Bomb", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=69}}
+A{"unknown", 8012, criterion=22522, side="alliance", trivia={criteria="Rocket Launcher", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=69}}
+A{"unknown", 8012, criterion=22523, side="alliance", trivia={criteria="Armor Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=28}}
+A{"unknown", 8012, criterion=22524, side="alliance", trivia={criteria="Berserk Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=28}}
+A{"unknown", 8012, criterion=22526, side="alliance", trivia={criteria="Restoration Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=28}}
+A{"unknown", 8012, criterion=22527, side="alliance", trivia={criteria="Speed Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Lion's Landing scenario.", points=10, parent="Scenarios", type=28}}
+
+-- Scenarios/Mists of Pandaria: Domination Point
+A{"unknown", 8013, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Domination Point", description="Complete the Domination Point scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Number Five Is Alive
+A{"unknown", 8014, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Number Five Is Alive", description="All five non-player characters survive the Domination Point scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Waste Not, Want Not
+A{"unknown", 8015, criterion=22520, side="horde", trivia={criteria="Lever-Action Boomstick", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=69}}
+A{"unknown", 8015, criterion=22521, side="horde", trivia={criteria="Reaver Bomb", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=69}}
+A{"unknown", 8015, criterion=22522, side="horde", trivia={criteria="Rocket Launcher", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=69}}
+A{"unknown", 8015, criterion=22523, side="horde", trivia={criteria="Armor Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=28}}
+A{"unknown", 8015, criterion=22524, side="horde", trivia={criteria="Berserk Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=28}}
+A{"unknown", 8015, criterion=22526, side="horde", trivia={criteria="Restoration Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=28}}
+A{"unknown", 8015, criterion=22527, side="horde", trivia={criteria="Speed Power-Up", module="data", category="Scenarios/Mists of Pandaria", name="Waste Not, Want Not", description="Use every weapon and power-up in the Domination Point scenario.", points=10, parent="Scenarios", type=28}}
+
+-- Scenarios/Mists of Pandaria: Assault on Zan'vess
+A{"unknown", 8016, criterion=22299, trivia={criteria="Defeat Commander Tel'vrak", module="data", category="Scenarios/Mists of Pandaria", name="Assault on Zan'vess", description="Defeat Commander Tel'vrak in Assault on Zan'vess.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: For the Swarm
+A{"unknown", 8017, trivia={module="data", category="Scenarios/Mists of Pandaria", name="For the Swarm", description="Defeat Commander Tel'vrak without killing any Zan'thik Swarmers in the Assault on Zan'vess scenario.", points=10, parent="Scenarios"}}
+
+-- Legacy: You Are Not Your $#*@! Legplates (Season 1)
+A{"unknown", 8020, side="horde", trivia={module="data", category="Legacy", name="You Are Not Your $#*@! Legplates (Season 1)", description="Win a brawl during the Pandaria campaign.", points=0}}
+
+-- Legacy: Now You're Just Showing Off (Season 1)
+A{"unknown", 8022, side="horde", trivia={module="data", category="Legacy", name="Now You're Just Showing Off (Season 1)", description="Defeat the following rare brawl bosses during the Pandaria campaign.", points=0}}
+
+-- Reputation/Pandaria: Wakener
+A{"unknown", 8023, criterion=22567, trivia={criteria="Klaxxi", module="data", category="Reputation/Pandaria", name="Wakener", description="Become an honorary Klaxxi Paragon by completing the achievements listed below.", points=10, parent="Reputation", type="achievement"}}
+
+-- Legacy: A Test of Valor
+A{"unknown", 8030, criterion=0, side="alliance", trivia={criteria="Valor Points", module="data", category="Legacy", name="A Test of Valor", description="Start Wrathion's legendary \"Test of Valor\" quest and earn 3000 Valor Points.", points=0, type="earn"}}
+A{"unknown", 8030, criterion=0, side="alliance", trivia={criteria="Valor Points", module="data", category="Legacy", name="A Test of Valor", description="Start Wrathion's legendary \"Test of Valor\" quest and earn 3000 Valor Points.", points=0, type="earn"}}
+
+-- Legacy: A Test of Valor
+A{"unknown", 8031, criterion=0, side="horde", trivia={criteria="Valor Points", module="data", category="Legacy", name="A Test of Valor", description="Start Wrathion's legendary \"Test of Valor\" quest and earn 3000 Valor Points.", points=0, type="earn"}}
+
+-- Exploration/Pandaria: The Zandalari Prophecy
+A{"unknown", 8049, criterion=22708, trivia={criteria="Coming of Age", module="data", category="Exploration/Pandaria", name="The Zandalari Prophecy", description="Discover each of the lore objects in Pandaria that tell of the Zandalari and their dark prophecy.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8049, criterion=22709, trivia={criteria="For Council and King", module="data", category="Exploration/Pandaria", name="The Zandalari Prophecy", description="Discover each of the lore objects in Pandaria that tell of the Zandalari and their dark prophecy.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8049, criterion=22710, trivia={criteria="Shadows of the Loa", module="data", category="Exploration/Pandaria", name="The Zandalari Prophecy", description="Discover each of the lore objects in Pandaria that tell of the Zandalari and their dark prophecy.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8049, criterion=22711, trivia={criteria="The Dark Prophet Zul", module="data", category="Exploration/Pandaria", name="The Zandalari Prophecy", description="Discover each of the lore objects in Pandaria that tell of the Zandalari and their dark prophecy.", points=10, parent="Exploration", type=68}}
+
+-- Exploration/Pandaria: Rumbles of Thunder
+A{"unknown", 8050, criterion=22713, trivia={criteria="Lei Shen", module="data", category="Exploration/Pandaria", name="Rumbles of Thunder", description="Discover each of the lore objects in Pandaria that tell of Lei-Shen, the Thunder King.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8050, criterion=22714, trivia={criteria="The Sacred Mount", module="data", category="Exploration/Pandaria", name="Rumbles of Thunder", description="Discover each of the lore objects in Pandaria that tell of Lei-Shen, the Thunder King.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8050, criterion=22715, trivia={criteria="Unity at a Price", module="data", category="Exploration/Pandaria", name="Rumbles of Thunder", description="Discover each of the lore objects in Pandaria that tell of Lei-Shen, the Thunder King.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8050, criterion=22716, trivia={criteria="The Pandaren Problem", module="data", category="Exploration/Pandaria", name="Rumbles of Thunder", description="Discover each of the lore objects in Pandaria that tell of Lei-Shen, the Thunder King.", points=10, parent="Exploration", type=68}}
+
+-- Exploration/Pandaria: Gods and Monsters
+A{"unknown", 8051, criterion=22717, trivia={criteria="Agents of Order", module="data", category="Exploration/Pandaria", name="Gods and Monsters", description="Discover each of the lore objects in Pandaria that tell of the dark origins of the mogu.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8051, criterion=22718, trivia={criteria="Shadow, Storm, and Stone", module="data", category="Exploration/Pandaria", name="Gods and Monsters", description="Discover each of the lore objects in Pandaria that tell of the dark origins of the mogu.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8051, criterion=22719, trivia={criteria="The Curse and the Silence", module="data", category="Exploration/Pandaria", name="Gods and Monsters", description="Discover each of the lore objects in Pandaria that tell of the dark origins of the mogu.", points=10, parent="Exploration", type=68}}
+A{"unknown", 8051, criterion=22720, trivia={criteria="Age of a Hundred Kings", module="data", category="Exploration/Pandaria", name="Gods and Monsters", description="Discover each of the lore objects in Pandaria that tell of the dark origins of the mogu.", points=10, parent="Exploration", type=68}}
+
+-- Exploration/Pandaria: Zul'Again
+A{"unknown", 8078, criterion=0, trivia={criteria="Zandalari Scouts Slain", module="data", category="Exploration/Pandaria", name="Zul'Again", description="Kill 10 Zandalari Warscouts and 5 Zandalari Warbringers.", points=10, parent="Exploration", type="slay"}}
+A{"unknown", 8078, criterion=0, trivia={criteria="Zandalari Warbringers Slain", module="data", category="Exploration/Pandaria", name="Zul'Again", description="Kill 10 Zandalari Warscouts and 5 Zandalari Warbringers.", points=10, parent="Exploration", type="slay"}}
+
+-- Feats of Strength: I've Got 9999 Problems but a Bone-White Primal Raptor Ain't One
+A{"unknown", 8092, trivia={module="data", category="Feats of Strength", name="I've Got 9999 Problems but a Bone-White Primal Raptor Ain't One", description="Obtain the reins of the Bone-White Primal Raptor from Ku'ma, the Bone Collector.", points=0}}
+
+-- Legacy: Tyrannical Conquest
+A{"unknown", 8093, side="horde", trivia={module="data", category="Legacy", name="Tyrannical Conquest", description="Earn 25,000 Conquest Points in Season 13.", points=0}}
+
+-- Quests/Pandaria: Thunder Plunder
+A{"unknown", 8104, trivia={module="data", category="Quests/Pandaria", name="Thunder Plunder", description="Find a Trove of the Thunder King.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: The Crumble Bundle
+A{"unknown", 8105, criterion=22867, trivia={criteria="Complete \"The Crumbled Chamberlain\"", module="data", category="Quests/Pandaria", name="The Crumble Bundle", description="Complete the quest \"The Crumbled Chamberlain\" within 10 minutes of accepting it.", points=10, parent="Quests", type="quest"}}
+
+-- Legacy: In the Hall of the Thunder King
+A{"unknown", 8106, criterion=22910, trivia={criteria="Obtain a Handful of Stolen Gems from the Treasure Saurok", module="data", category="Legacy", name="In the Hall of the Thunder King", description="Achieve the following goals within the Troves of the Thunder King.", points=0, type=36}}
+A{"unknown", 8106, criterion=22980, trivia={criteria="Reach Tenwu of the Red Smoke", module="data", category="Legacy", name="In the Hall of the Thunder King", description="Achieve the following goals within the Troves of the Thunder King.", points=0, type=28}}
+A{"unknown", 8106, criterion=22981, trivia={criteria="Slay God-Hulk Gulkan", module="data", category="Legacy", name="In the Hall of the Thunder King", description="Achieve the following goals within the Troves of the Thunder King.", points=0, type="slay"}}
+A{"unknown", 8106, criterion=23207, trivia={criteria="Loot 10 Golden Treasure Chests in one run", module="data", category="Legacy", name="In the Hall of the Thunder King", description="Achieve the following goals within the Troves of the Thunder King.", points=0, type=28}}
+
+-- Quests/Pandaria: Ready for RAAAAIIIIDDD?!?ing
+A{"unknown", 8107, criterion=22831, trivia={criteria="Ihgaluk Roach", module="data", category="Quests/Pandaria", name="Ready for RAAAAIIIIDDD?!?ing", description="Crush 200 Ihgaluk Roaches within 1 minute.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Pandaria: When in Ihgaluk, Do as the Skumblade Do
+A{"unknown", 8108, criterion=22832, trivia={criteria="Kroshik Egg", module="data", category="Quests/Pandaria", name="When in Ihgaluk, Do as the Skumblade Do", description="/bow before the following forms of Kroshik.", points=10, parent="Quests", type=54}}
+A{"unknown", 8108, criterion=22833, trivia={criteria="Baby Kroshik", module="data", category="Quests/Pandaria", name="When in Ihgaluk, Do as the Skumblade Do", description="/bow before the following forms of Kroshik.", points=10, parent="Quests", type=54}}
+A{"unknown", 8108, criterion=22834, trivia={criteria="Adult Kroshik", module="data", category="Quests/Pandaria", name="When in Ihgaluk, Do as the Skumblade Do", description="/bow before the following forms of Kroshik.", points=10, parent="Quests", type=54}}
+A{"unknown", 8108, criterion=22835, trivia={criteria="Sacrificed Kroshik", module="data", category="Quests/Pandaria", name="When in Ihgaluk, Do as the Skumblade Do", description="/bow before the following forms of Kroshik.", points=10, parent="Quests", type=54}}
+
+-- Quests/Pandaria: The Mogu Below-gu
+A{"unknown", 8109, criterion=22836, trivia={criteria="Haqin of the Hundred Spears", module="data", category="Quests/Pandaria", name="The Mogu Below-gu", description="In the Court of Bones, summon and defeat one of the ancient mogu listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 8109, criterion=22837, trivia={criteria="Forgemaster Deng", module="data", category="Quests/Pandaria", name="The Mogu Below-gu", description="In the Court of Bones, summon and defeat one of the ancient mogu listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 8109, criterion=22838, trivia={criteria="Sparkmancer Vu", module="data", category="Quests/Pandaria", name="The Mogu Below-gu", description="In the Court of Bones, summon and defeat one of the ancient mogu listed below.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Pandaria: These Mogu Have Gotta Go-gu
+A{"unknown", 8110, criterion=22836, trivia={criteria="Haqin of the Hundred Spears", module="data", category="Quests/Pandaria", name="These Mogu Have Gotta Go-gu", description="In the Court of Bones, summon and defeat all of the ancient mogu listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 8110, criterion=22837, trivia={criteria="Forgemaster Deng", module="data", category="Quests/Pandaria", name="These Mogu Have Gotta Go-gu", description="In the Court of Bones, summon and defeat all of the ancient mogu listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 8110, criterion=22838, trivia={criteria="Sparkmancer Vu", module="data", category="Quests/Pandaria", name="These Mogu Have Gotta Go-gu", description="In the Court of Bones, summon and defeat all of the ancient mogu listed below.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Pandaria: This Isn't Even My Final Form
+A{"unknown", 8111, trivia={module="data", category="Quests/Pandaria", name="This Isn't Even My Final Form", description="Enjoy the effects of a Zandalari Potion and the Mighty Loa buff at the same time.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: Blue Response
+A{"unknown", 8112, trivia={module="data", category="Quests/Pandaria", name="Blue Response", description="Shoo away the rare blue Hatchling Skyscreamer.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: Platform Hero
+A{"unknown", 8114, trivia={module="data", category="Quests/Pandaria", name="Platform Hero", description="Survive for 90 seconds on the pillars in the Swollen Vault.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: Speed Metal
+A{"unknown", 8115, trivia={module="data", category="Quests/Pandaria", name="Speed Metal", description="Defeat Metal Lord Mono-Han with 10 stacks of Power Surge.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: You Made Me Bleed My Own Blood
+A{"unknown", 8116, trivia={module="data", category="Quests/Pandaria", name="You Made Me Bleed My Own Blood", description="Slay Fleshcrafter Hoku without killing any Possessed Blood.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: For the Ward!
+A{"unknown", 8117, trivia={module="data", category="Quests/Pandaria", name="For the Ward!", description="Use a Sunreaver or Kirin Tor perimeter ward to finish off an opponent.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: Boop
+A{"unknown", 8118, trivia={module="data", category="Quests/Pandaria", name="Boop", description="Knock a Zandalari Beastcaller from his flying mount.", points=10, parent="Quests"}}
+
+-- Quests/Pandaria: Our Powers Combined
+A{"unknown", 8119, criterion=22844, trivia={criteria="All four blessings active", module="data", category="Quests/Pandaria", name="Our Powers Combined", description="Kill Guardian Tak'u in both of the following ways.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 8119, criterion=22845, trivia={criteria="No blessings active", module="data", category="Quests/Pandaria", name="Our Powers Combined", description="Kill Guardian Tak'u in both of the following ways.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Pandaria: Direhorn in a China Shop
+A{"unknown", 8120, trivia={module="data", category="Quests/Pandaria", name="Direhorn in a China Shop", description="Destroy the Priceless Zandalari Vase using the Loa-Infused Bloodhorn's charge attack.", points=10, parent="Quests"}}
+
+-- Feats of Strength: Friends In Places Higher Yet
+A{"unknown", 8213, trivia={module="data", category="Feats of Strength", name="Friends In Places Higher Yet", description="Obtain a Heart of the Nightwing mount through the Recruit-a-Friend program.", points=0}}
+
+-- Feats of Strength: Malevolent Gladiator
+A{"unknown", 8214, trivia={module="data", category="Feats of Strength", name="Malevolent Gladiator", description="Achieved Malevolent Gladiator title.", points=0}}
+
+-- Legacy: Tyrannical Conquest
+A{"unknown", 8218, side="alliance", trivia={module="data", category="Legacy", name="Tyrannical Conquest", description="Earn 25,000 Conquest Points in Season 13.", points=0}}
+
+-- Professions/Archaeology: History of the Mantid
+A{"unknown", 8219, criterion=22947, trivia={criteria="Pristine Banner of the Mantid Empire", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22948, trivia={criteria="Pristine Ancient Sap Feeder", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22949, trivia={criteria="Pristine Praying Mantid", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22950, trivia={criteria="Pristine Sound Beacon", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22951, trivia={criteria="Pristine Remains of a Paragon", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22952, trivia={criteria="Pristine Mantid Lamp", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22953, trivia={criteria="Pristine Pollen Collector", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+A{"unknown", 8219, criterion=22954, trivia={criteria="Pristine Kypari Sap Container", module="data", category="Professions/Archaeology", name="History of the Mantid", description="Restore and display pristine versions of all Mantid artifacts.", points=10, parent="Professions", type="quest"}}
+
+-- Professions/Archaeology: Collector: Banners of the Mantid Empire
+A{"unknown", 8220, criterion=22955, trivia={criteria="Banner of the Mantid Empire", module="data", category="Professions/Archaeology", name="Collector: Banners of the Mantid Empire", description="Restore 5 Banners of the Mantid Empire.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Banners of the Mantid Empire
+A{"unknown", 8221, criterion=22955, trivia={criteria="Banner of the Mantid Empire", module="data", category="Professions/Archaeology", name="Collector: Banners of the Mantid Empire", description="Restore 20 Banners of the Mantid Empire.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Ancient Sap Feeders
+A{"unknown", 8222, criterion=22956, trivia={criteria="Ancient Sap Feeder", module="data", category="Professions/Archaeology", name="Collector: Ancient Sap Feeders", description="Restore 5 Ancient Sap Feeders.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Ancient Sap Feeders
+A{"unknown", 8223, criterion=22956, trivia={criteria="Ancient Sap Feeder", module="data", category="Professions/Archaeology", name="Collector: Ancient Sap Feeders", description="Restore 20 Ancient Sap Feeders.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Praying Mantids
+A{"unknown", 8224, criterion=22957, trivia={criteria="The Praying Mantid", module="data", category="Professions/Archaeology", name="Collector: Praying Mantids", description="Restore 5 Praying Mantids.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Praying Mantids
+A{"unknown", 8225, criterion=22957, trivia={criteria="The Praying Mantid", module="data", category="Professions/Archaeology", name="Collector: Praying Mantids", description="Restore 20 Praying Mantids.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Inert Sound Beacons
+A{"unknown", 8226, criterion=22958, trivia={criteria="Inert Sound Beacon", module="data", category="Professions/Archaeology", name="Collector: Inert Sound Beacons", description="Restore 5 Inert Sound Beacons.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Inert Sound Beacons
+A{"unknown", 8227, criterion=22958, trivia={criteria="Inert Sound Beacon", module="data", category="Professions/Archaeology", name="Collector: Inert Sound Beacons", description="Restore 20 Inert Sound Beacons.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Remains of Paragons
+A{"unknown", 8228, criterion=22959, trivia={criteria="Remains of a Paragon", module="data", category="Professions/Archaeology", name="Collector: Remains of Paragons", description="Restore 5 Remains of Paragons.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Remains of Paragons
+A{"unknown", 8229, criterion=22959, trivia={criteria="Remains of a Paragon", module="data", category="Professions/Archaeology", name="Collector: Remains of Paragons", description="Restore 20 Remains of Paragons.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Mantid Lamps
+A{"unknown", 8230, criterion=22960, trivia={criteria="Mantid Lamp", module="data", category="Professions/Archaeology", name="Collector: Mantid Lamps", description="Restore 5 Mantid Lamps.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Mantid Lamps
+A{"unknown", 8231, criterion=22960, trivia={criteria="Mantid Lamp", module="data", category="Professions/Archaeology", name="Collector: Mantid Lamps", description="Restore 20 Mantid Lamps.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Pollen Collectors
+A{"unknown", 8232, criterion=22961, trivia={criteria="Pollen Collector", module="data", category="Professions/Archaeology", name="Collector: Pollen Collectors", description="Restore 5 Pollen Collectors.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Pollen Collectors
+A{"unknown", 8233, criterion=22961, trivia={criteria="Pollen Collector", module="data", category="Professions/Archaeology", name="Collector: Pollen Collectors", description="Restore 20 Pollen Collectors.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Kypari Sap Containers
+A{"unknown", 8234, criterion=22962, trivia={criteria="Kypari Sap Container", module="data", category="Professions/Archaeology", name="Collector: Kypari Sap Containers", description="Restore 5 Kypari Sap Containers.", points=10, parent="Professions", type=29}}
+
+-- Professions/Archaeology: Collector: Kypari Sap Containers
+A{"unknown", 8235, criterion=22962, trivia={criteria="Kypari Sap Container", module="data", category="Professions/Archaeology", name="Collector: Kypari Sap Containers", description="Restore 20 Kypari Sap Containers.", points=10, parent="Professions", type=29}}
+
+-- Scenarios/Mists of Pandaria: The Secrets of Ragefire
+A{"unknown", 8294, trivia={module="data", category="Scenarios/Mists of Pandaria", name="The Secrets of Ragefire", description="Complete the Secrets of Ragefire scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: The Few, the Proud, the Gob Squad
+A{"unknown", 8295, criterion=23365, trivia={criteria="No member of the Gob Squad has been damaged.", module="data", category="Scenarios/Mists of Pandaria", name="The Few, the Proud, the Gob Squad", description="Complete the Secrets of Ragefire scenario without any member of the Gob Squad taking damage.", points=10, parent="Scenarios", type="slay"}}
+
+-- Collections/Mounts: Mount Parade
+A{"unknown", 8302, criterion=4787, side="horde", trivia={criteria="Obtain 200 mounts", module="data", category="Collections/Mounts", name="Mount Parade", description="Obtain 200 mounts.", points=10, parent="Collections", type=75}}
+
+-- Collections/Mounts: Mount Parade
+A{"unknown", 8304, criterion=4787, side="alliance", trivia={criteria="Obtain 200 mounts", module="data", category="Collections/Mounts", name="Mount Parade", description="Obtain 200 mounts.", points=10, parent="Collections", type=75}}
+
+-- Legacy: Hordebreaker
+A{"unknown", 8306, criterion=23337, side="alliance", trivia={criteria="Battlefield: Barrens (Weekly)", module="data", category="Legacy", name="Hordebreaker", description="Responsible for pitting Vol'jin's troll uprising against Garrosh Hellscream's Horde during Patch 5.3: Escalation.", points=0, type="quest"}}
+A{"unknown", 8306, criterion=23535, side="alliance", trivia={criteria="The Lorewalker's Counsel", module="data", category="Legacy", name="Hordebreaker", description="Responsible for pitting Vol'jin's troll uprising against Garrosh Hellscream's Horde during Patch 5.3: Escalation.", points=0, type="quest"}}
+A{"unknown", 8306, criterion=23361, side="alliance", trivia={criteria="The Path of the Last Emperor", module="data", category="Legacy", name="Hordebreaker", description="Responsible for pitting Vol'jin's troll uprising against Garrosh Hellscream's Horde during Patch 5.3: Escalation.", points=0, type="quest"}}
+
+-- Legacy: Darkspear Revolutionary
+A{"unknown", 8307, criterion=23338, side="horde", trivia={criteria="Battlefield: Barrens (Weekly)", module="data", category="Legacy", name="Darkspear Revolutionary", description="Aided Vol'jin's troll uprising during Patch 5.3: Escalation.", points=0, type="quest"}}
+A{"unknown", 8307, criterion=23361, side="horde", trivia={criteria="The Path of the Last Emperor", module="data", category="Legacy", name="Darkspear Revolutionary", description="Aided Vol'jin's troll uprising during Patch 5.3: Escalation.", points=0, type="quest"}}
+A{"unknown", 8307, criterion=23535, side="horde", trivia={criteria="The Lorewalker's Counsel", module="data", category="Legacy", name="Darkspear Revolutionary", description="Aided Vol'jin's troll uprising during Patch 5.3: Escalation.", points=0, type="quest"}}
+
+-- Scenarios/Mists of Pandaria: Heroic: A Brewing Storm
+A{"unknown", 8310, criterion=23341, trivia={criteria="Defeat Borokhula the Destroyer", module="data", category="Scenarios/Mists of Pandaria", name="Heroic: A Brewing Storm", description="Defeat Borokhula the Destroyer in A Brewing Storm on Heroic Difficulty.", points=10, parent="Scenarios", type="slay"}}
+
+-- Scenarios/Mists of Pandaria: Heroic: Crypt of Forgotten Kings
+A{"unknown", 8311, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heroic: Crypt of Forgotten Kings", description="Complete the Crypt of Forgotten Kings scenario on Heroic Difficulty.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Heroic: Blood in the Snow
+A{"unknown", 8312, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heroic: Blood in the Snow", description="Complete the Blood in the Snow scenario on Heroic Difficulty.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Battle on the High Seas
+A{"unknown", 8314, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Battle on the High Seas", description="Defeat Admiral Hagman in the Battle on the High Seas.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Battle on the High Seas
+A{"unknown", 8315, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Battle on the High Seas", description="Defeat Admiral Hodgson in the Battle on the High Seas.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Blood in the Snow
+A{"unknown", 8316, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Blood in the Snow", description="Complete the Blood in the Snow scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Dark Heart of Pandaria
+A{"unknown", 8317, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Dark Heart of Pandaria", description="Complete the Dark Heart of Pandaria scenario.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Heroic: Dark Heart of Pandaria
+A{"unknown", 8318, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heroic: Dark Heart of Pandaria", description="Complete the Dark Heart of Pandaria scenario on Heroic Difficulty.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Accelerated Archaeology
+A{"unknown", 8319, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Accelerated Archaeology", description="Pick up three special artifacts in a single instance of the Dark Heart of Pandaria scenario.", points=10, parent="Scenarios"}}
+
+-- Legacy: Chapter V: Judgment of the Black Prince
+A{"unknown", 8325, criterion=21877, trivia={criteria="Complete quest: Judgment of the Black Prince", module="data", category="Legacy", name="Chapter V: Judgment of the Black Prince", description="Work with Wrathion to create your legendary-quality cloak and complete his quest to defeat Garrosh Hellscream.", points=0, type="quest"}}
+A{"unknown", 8325, criterion=0, trivia={criteria="Obtain Legendary Cloak", module="data", category="Legacy", name="Chapter V: Judgment of the Black Prince", description="Work with Wrathion to create your legendary-quality cloak and complete his quest to defeat Garrosh Hellscream.", points=0, type=36}}
+
+-- Scenarios/Mists of Pandaria: Heroic: The Secrets of Ragefire
+A{"unknown", 8327, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heroic: The Secrets of Ragefire", description="Complete the Secrets of Ragefire scenario on Heroic Difficulty.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Heed the Weed
+A{"unknown", 8329, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heed the Weed", description="Use every basket of Shimmerweed in a single Blood in the Snow scenario run.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Hekima's Heal-Halter
+A{"unknown", 8330, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Hekima's Heal-Halter", description="Don't let Hekima cast Hekima's Wisdom in the Blood in the Snow scenario.", points=10, parent="Scenarios"}}
+
+-- Legacy: Having a Brawl (Season 1)
+A{"unknown", 8335, side="alliance", trivia={module="data", category="Legacy", name="Having a Brawl (Season 1)", description="Reach Rank 9 with Bizmo's Brawlpub during the Pandaria campaign.", points=0}}
+
+-- Legacy: I've Got the Biggest Brawls of Them All (Season 1)
+A{"unknown", 8336, side="alliance", trivia={module="data", category="Legacy", name="I've Got the Biggest Brawls of Them All (Season 1)", description="Reach Rank 10 with Bizmo's Brawlpub during the Pandaria campaign.", points=0}}
+
+-- Legacy: Having a Brawl (Season 1)
+A{"unknown", 8337, side="horde", trivia={module="data", category="Legacy", name="Having a Brawl (Season 1)", description="Reach Rank 9 with Brawl'gar Arena during the Pandaria campaign.", points=0}}
+
+-- Legacy: I've Got the Biggest Brawls of Them All (Season 1)
+A{"unknown", 8338, side="horde", trivia={module="data", category="Legacy", name="I've Got the Biggest Brawls of Them All (Season 1)", description="Reach Rank 10 with Brawl'gar Arena during the Pandaria campaign.", points=0}}
+
+-- World Events/Brawler's Guild: Collect Your Deck
+A{"unknown", 8339, criterion=23371, side="alliance", trivia={criteria="Grandpa Grumplefloot", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23372, side="alliance", trivia={criteria="Ty'thar", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23373, side="alliance", trivia={criteria="Master Boom Boom", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23374, side="alliance", trivia={criteria="Razorgrin", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23375, side="alliance", trivia={criteria="Splat", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23376, side="alliance", trivia={criteria="Mecha-Bruce", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23377, side="alliance", trivia={criteria="Dippy & Doopy", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23378, side="alliance", trivia={criteria="Blingtron 3000", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23379, side="alliance", trivia={criteria="Ro-Shambo", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23380, side="alliance", trivia={criteria="The Bear and the Lady Fair", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23381, side="alliance", trivia={criteria="Blind Hero", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8339, criterion=23382, side="alliance", trivia={criteria="Mingus Diggs", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+
+-- Legacy: Deck Your Collection (Season 1)
+A{"unknown", 8340, side="alliance", trivia={module="data", category="Legacy", name="Deck Your Collection (Season 1)", description="Defeat the following Brawler's Guild bosses during the Pandaria campaign.", points=0}}
+
+-- World Events/Brawler's Guild: Collect Your Deck
+A{"unknown", 8342, criterion=23371, side="horde", trivia={criteria="Grandpa Grumplefloot", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23372, side="horde", trivia={criteria="Ty'thar", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23373, side="horde", trivia={criteria="Master Boom Boom", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23374, side="horde", trivia={criteria="Razorgrin", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23375, side="horde", trivia={criteria="Splat", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23376, side="horde", trivia={criteria="Mecha-Bruce", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23377, side="horde", trivia={criteria="Dippy & Doopy", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23378, side="horde", trivia={criteria="Blingtron 3000", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23379, side="horde", trivia={criteria="Ro-Shambo", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23380, side="horde", trivia={criteria="The Bear and the Lady Fair", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23382, side="horde", trivia={criteria="Mingus Diggs", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 8342, criterion=23381, side="horde", trivia={criteria="Blind Hero", module="data", category="World Events/Brawler's Guild", name="Collect Your Deck", description="Earn the right to purchase challenge cards for the following Brawler's Guild bosses.", points=10, parent="World Events", type="quest"}}
+
+-- Legacy: Deck Your Collection (Season 1)
+A{"unknown", 8343, side="horde", trivia={module="data", category="Legacy", name="Deck Your Collection (Season 1)", description="Defeat the following Brawler's Guild bosses during the Pandaria campaign.", points=0}}
+
+-- Feats of Strength: Hearthstoned
+A{"unknown", 8345, trivia={module="data", category="Feats of Strength", name="Hearthstoned", description="Owner of the Hearthsteed mount from the Hearthstone promotion.", points=0}}
+
+-- Scenarios/Mists of Pandaria: Keep those Bombs Away! (From Me)
+A{"unknown", 8347, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Keep those Bombs Away! (From Me)", description="Complete the Battle on the High Seas Scenario without any member of your party getting hit by cannon fire at any point.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Heroic: Battle on the High Seas
+A{"unknown", 8364, side="alliance", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heroic: Battle on the High Seas", description="Defeat Admiral Hagman in the Battle on the High Seas on Heroic Difficulty.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Heroic: Battle on the High Seas
+A{"unknown", 8366, side="horde", trivia={module="data", category="Scenarios/Mists of Pandaria", name="Heroic: Battle on the High Seas", description="Defeat Admiral Hodgson in the Battle on the High Seas on Heroic Difficulty.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Mists of Pandaria: Fight Anger with Anger
+A{"unknown", 8368, trivia={module="data", category="Scenarios/Mists of Pandaria", name="Fight Anger with Anger", description="Defeat the Abomination of Anger in the Crypt of Forgotten Kings scenario with 20 stacks of Uncontrolled Anger.", points=10, parent="Scenarios"}}
+
+-- Legacy: Grievous Conquest
+A{"unknown", 8381, side="horde", trivia={module="data", category="Legacy", name="Grievous Conquest", description="Earn 27,000 Conquest Points in Season 14.", points=0}}
+
+-- Legacy: Grievous Conquest
+A{"unknown", 8382, side="alliance", trivia={module="data", category="Legacy", name="Grievous Conquest", description="Earn 27,000 Conquest Points in Season 14.", points=0}}
+
+-- Feats of Strength: Tournament Participation 2013
+A{"unknown", 8391, trivia={module="data", category="Feats of Strength", name="Tournament Participation 2013", description="Participated in the 2013 Tournament Arena Realm.", points=0}}
+
+-- Feats of Strength: Tournament Glory 2013
+A{"unknown", 8392, trivia={module="data", category="Feats of Strength", name="Tournament Glory 2013", description="Rated in the top 1000 of teams participating in the 2013 Tournament Arena Realm.", points=0}}
+
+-- Legacy: Prideful Conquest
+A{"unknown", 8450, side="horde", trivia={module="data", category="Legacy", name="Prideful Conquest", description="Earn 27,000 Conquest Points in Season 15.", points=0}}
+
+-- Legacy: Prideful Conquest
+A{"unknown", 8451, side="alliance", trivia={module="data", category="Legacy", name="Prideful Conquest", description="Earn 27,000 Conquest Points in Season 15.", points=0}}
+
+-- Legacy: Grievous Combatant
+A{"unknown", 8484, criterion=23681, side="horde", trivia={criteria="Win 100 Arena (3v3) matches in Season 14", module="data", category="Legacy", name="Grievous Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 14", points=0, type=37}}
+A{"unknown", 8484, criterion=23682, side="horde", trivia={criteria="Win 40 Rated Battleground Matches in Season 14", module="data", category="Legacy", name="Grievous Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 14", points=0, type=130}}
+
+-- Legacy: Grievous Combatant
+A{"unknown", 8485, criterion=23681, side="alliance", trivia={criteria="Win 100 Arena (3v3) matches in Season 14", module="data", category="Legacy", name="Grievous Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 14", points=0, type=37}}
+A{"unknown", 8485, criterion=23682, side="alliance", trivia={criteria="Win 40 Rated Battleground Matches in Season 14", module="data", category="Legacy", name="Grievous Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 14", points=0, type=130}}
+
+-- Legacy: Proving Yourself: Bronze Damage (Level 90)
+A{"unknown", 8486, trivia={module="data", category="Legacy", name="Proving Yourself: Bronze Damage (Level 90)", description="Successfully complete the Basic Damage (Bronze) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Bronze Tank (Level 90)
+A{"unknown", 8487, trivia={module="data", category="Legacy", name="Proving Yourself: Bronze Tank (Level 90)", description="Successfully complete the Basic Tank (Bronze) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Bronze Healer (Level 90)
+A{"unknown", 8488, trivia={module="data", category="Legacy", name="Proving Yourself: Bronze Healer (Level 90)", description="Successfully complete the Basic Healer (Bronze) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Silver Damage (Level 90)
+A{"unknown", 8491, trivia={module="data", category="Legacy", name="Proving Yourself: Silver Damage (Level 90)", description="Successfully complete the Basic Damage (Silver) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Silver Tank (Level 90)
+A{"unknown", 8492, trivia={module="data", category="Legacy", name="Proving Yourself: Silver Tank (Level 90)", description="Successfully complete the Basic Tank (Silver) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Silver Healer (Level 90)
+A{"unknown", 8493, trivia={module="data", category="Legacy", name="Proving Yourself: Silver Healer (Level 90)", description="Successfully complete the Basic Healer (Silver) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Gold Damage (Level 90)
+A{"unknown", 8496, trivia={module="data", category="Legacy", name="Proving Yourself: Gold Damage (Level 90)", description="Successfully complete the Basic Damage (Gold) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Gold Tank (Level 90)
+A{"unknown", 8497, trivia={module="data", category="Legacy", name="Proving Yourself: Gold Tank (Level 90)", description="Successfully complete the Basic Tank (Gold) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Gold Healer (Level 90)
+A{"unknown", 8498, trivia={module="data", category="Legacy", name="Proving Yourself: Gold Healer (Level 90)", description="Successfully complete the Basic Healer (Gold) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Damage (Wave 10) (Level 90)
+A{"unknown", 8501, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Damage (Wave 10) (Level 90)", description="Successfully complete Wave 10 of the Basic Damage (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Tank (Wave 10) (Level 90)
+A{"unknown", 8502, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Tank (Wave 10) (Level 90)", description="Successfully complete Wave 10 of the Basic Tank (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Healer (Wave 10) (Level 90)
+A{"unknown", 8503, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Healer (Wave 10) (Level 90)", description="Successfully complete Wave 10 of the Basic Healer (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Damage (Wave 20) (Level 90)
+A{"unknown", 8504, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Damage (Wave 20) (Level 90)", description="Successfully complete Wave 20 of the Basic Damage (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Tank (Wave 20) (Level 90)
+A{"unknown", 8505, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Tank (Wave 20) (Level 90)", description="Successfully complete Wave 20 of the Basic Tank (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Healer (Wave 20) (Level 90)
+A{"unknown", 8506, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Healer (Wave 20) (Level 90)", description="Successfully complete Wave 20 of the Basic Healer (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Damage (Wave 30) (Level 90)
+A{"unknown", 8507, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Damage (Wave 30) (Level 90)", description="Successfully complete Wave 30 of the Basic Damage (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Tank (Wave 30) (Level 90)
+A{"unknown", 8508, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Tank (Wave 30) (Level 90)", description="Successfully complete Wave 30 of the Basic Tank (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Proving Yourself: Endless Healer (Wave 30) (Level 90)
+A{"unknown", 8509, trivia={module="data", category="Legacy", name="Proving Yourself: Endless Healer (Wave 30) (Level 90)", description="Successfully complete Wave 30 of the Basic Healer (Endless) trial at the Proving Grounds.", points=0}}
+
+-- Legacy: Prideful Combatant
+A{"unknown", 8641, criterion=23869, side="horde", trivia={criteria="Win 100 Arena (3v3) matches in Season 15", module="data", category="Legacy", name="Prideful Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 15", points=0, type=37}}
+A{"unknown", 8641, criterion=23870, side="horde", trivia={criteria="Win 40 Rated Battleground Matches in Season 15", module="data", category="Legacy", name="Prideful Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 15", points=0, type=130}}
+
+-- Legacy: Prideful Combatant
+A{"unknown", 8642, criterion=23869, side="alliance", trivia={criteria="Win 100 Arena (3v3) matches in Season 15", module="data", category="Legacy", name="Prideful Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 15", points=0, type=37}}
+A{"unknown", 8642, criterion=23870, side="alliance", trivia={criteria="Win 40 Rated Battleground Matches in Season 15", module="data", category="Legacy", name="Prideful Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Season 15", points=0, type=130}}
+
+-- Feats of Strength: Hero of the Alliance: Prideful
+A{"unknown", 8658, side="alliance", trivia={module="data", category="Feats of Strength", name="Hero of the Alliance: Prideful", description="End PvP season 15 in the top .5% of the rated battleground ladder.", points=0}}
+
+-- Feats of Strength: Hero of the Horde: Prideful
+A{"unknown", 8659, side="horde", trivia={module="data", category="Feats of Strength", name="Hero of the Horde: Prideful", description="End PvP season 15 in the top .5% of the rated battleground ladder.", points=0}}
+
+-- Feats of Strength: Prideful Gladiator: Season 15
+A{"unknown", 8666, trivia={module="data", category="Feats of Strength", name="Prideful Gladiator: Season 15", description="End a PvP season in the top 0.1% of the arena ladder (requires 50 games won in Season 15).", points=0}}
+
+-- Feats of Strength: Gladiator: Season 15
+A{"unknown", 8667, trivia={module="data", category="Feats of Strength", name="Gladiator: Season 15", description="End a PvP season in the top 0.5% of the arena ladder (requires 50 games won in Season 15).", points=0}}
+
+-- Feats of Strength: Duelist: Season 15
+A{"unknown", 8668, trivia={module="data", category="Feats of Strength", name="Duelist: Season 15", description="End a PvP season in the top 3% of the arena ladder (requires 50 games won in Season 15).", points=0}}
+
+-- Feats of Strength: Rival: Season 15
+A{"unknown", 8669, trivia={module="data", category="Feats of Strength", name="Rival: Season 15", description="End a PvP season in the top 10% of the arena ladder (requires 50 games won in Season 15).", points=0}}
+
+-- Feats of Strength: Challenger: Season 15
+A{"unknown", 8670, trivia={module="data", category="Feats of Strength", name="Challenger: Season 15", description="End a PvP season in the top 35% of the arena ladder (requires 50 games won in Season 15).", points=0}}
+
+-- Legacy: You're Doing it Wrong (Level 90)
+A{"unknown", 8697, trivia={module="data", category="Legacy", name="You're Doing it Wrong (Level 90)", description="Successfully complete any of the Basic (Silver) trials at the Proving Grounds, while in a specialization not suited for it.", points=0}}
+
+-- Feats of Strength: Tyrannical Gladiator
+A{"unknown", 8791, trivia={module="data", category="Feats of Strength", name="Tyrannical Gladiator", description="Achieved Tyrannical Gladiator title.", points=0}}
+
+-- Feats of Strength: Murkalot
+A{"unknown", 8793, trivia={module="data", category="Feats of Strength", name="Murkalot", description="Proud owner of Murkalot from the 2013 BlizzCon.", points=0}}
+
+-- Feats of Strength: Friends In Places Even Higher Than That
+A{"unknown", 8794, trivia={module="data", category="Feats of Strength", name="Friends In Places Even Higher Than That", description="Obtain an Emerald Hippogryph mount through the Recruit-a-Friend program.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Treasure Goblin
+A{"unknown", 8795, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Treasure Goblin", description="Owner of the Diablo III: Reaper of Souls Collector's Edition Treasure Goblin pet.", points=0}}
+
+-- Dungeons & Raids/Dungeon Challenges: Auchindoun Challenger
+A{"unknown", 8879, trivia={module="data", category="Dungeons & Raids/Dungeon Challenges", name="Auchindoun Challenger", description="Complete the Auchindoun Challenge Mode.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Auchindoun: Bronze
+A{"unknown", 8880, trivia={module="data", category="Dungeons & Raids/Dungeon Challenges", name="Auchindoun: Bronze", description="Complete the Auchindoun Challenge Mode with a rating of Bronze or better.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Auchindoun: Silver
+A{"unknown", 8881, trivia={module="data", category="Dungeons & Raids/Dungeon Challenges", name="Auchindoun: Silver", description="Complete the Auchindoun Challenge Mode with a rating of Silver or better.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Auchindoun: Gold
+A{"unknown", 8882, trivia={module="data", category="Dungeons & Raids/Dungeon Challenges", name="Auchindoun: Gold", description="Complete the Auchindoun Challenge Mode with a rating of Gold.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Challenge Warlord
+A{"unknown", 8895, criterion=24487, trivia={criteria="Skyreach", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=24488, trivia={criteria="Bloodmaul Slag Mines", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=24489, trivia={criteria="Auchindoun", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=24490, trivia={criteria="Shadowmoon Burial Grounds", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=24491, trivia={criteria="Grimrail Depot", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=24492, trivia={criteria="Upper Blackrock Spire", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=26537, trivia={criteria="Iron Docks", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8895, criterion=26538, trivia={criteria="The Everbloom", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion.", points=10, parent="Dungeons & Raids", type="achievement"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Challenge Warlord: Bronze
+A{"unknown", 8897, criterion=24493, trivia={criteria="Skyreach", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=24494, trivia={criteria="Bloodmaul Slag Mines", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=24495, trivia={criteria="Auchindoun", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=24496, trivia={criteria="Shadowmoon Burial Grounds", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=24497, trivia={criteria="Grimrail Depot", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=24498, trivia={criteria="Upper Blackrock Spire", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=26539, trivia={criteria="Iron Docks", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8897, criterion=26540, trivia={criteria="The Everbloom", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Bronze", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Bronze or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Challenge Warlord: Silver
+A{"unknown", 8898, criterion=24499, trivia={criteria="Skyreach", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=24500, trivia={criteria="Bloodmaul Slag Mines", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=24501, trivia={criteria="Auchindoun", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=24502, trivia={criteria="Shadowmoon Burial Grounds", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=24503, trivia={criteria="Grimrail Depot", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=24504, trivia={criteria="Upper Blackrock Spire", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=26535, trivia={criteria="Iron Docks", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8898, criterion=26536, trivia={criteria="The Everbloom", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Silver", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Silver or better.", points=10, parent="Dungeons & Raids", type="achievement"}}
+
+-- Dungeons & Raids/Dungeon Challenges: Challenge Warlord: Gold
+A{"unknown", 8899, criterion=24506, trivia={criteria="Bloodmaul Slag Mines", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=24507, trivia={criteria="Auchindoun", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=24508, trivia={criteria="Shadowmoon Burial Grounds", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=24509, trivia={criteria="Grimrail Depot", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=24510, trivia={criteria="Upper Blackrock Spire", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=24505, trivia={criteria="Skyreach", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=26533, trivia={criteria="Iron Docks", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+A{"unknown", 8899, criterion=26534, trivia={criteria="The Everbloom", module="data", category="Dungeons & Raids/Dungeon Challenges", name="Challenge Warlord: Gold", description="Complete every Challenge Mode dungeon from the Warlords of Draenor expansion with a rating of Gold.", points=10, parent="Dungeons & Raids", type="achievement"}}
+
+-- Feats of Strength: Mistwalker
+A{"unknown", 8903, trivia={module="data", category="Feats of Strength", name="Mistwalker", description="Attained one or more realm-best times during the Mists of Pandaria Challenge Mode season.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Dread Raven
+A{"unknown", 8916, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Dread Raven", description="Owner of the Warlords of Draenor Collector's Edition Dread Raven mount.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Dread Hatchling
+A{"unknown", 8917, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Dread Hatchling", description="Owner of the Warlords of Draenor Collector's Edition Dread Hatchling pet.", points=0}}
+
+-- Quests/Draenor: Welcome to Draenor
+A{"unknown", 8921, side="alliance", trivia={module="data", category="Quests/Draenor", name="Welcome to Draenor", description="Complete the Assault on the Dark Portal.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Welcome to Draenor
+A{"unknown", 8922, side="horde", trivia={module="data", category="Quests/Draenor", name="Welcome to Draenor", description="Complete the Assault on the Dark Portal.", points=10, parent="Quests"}}
+
+-- Garrisons: Staying Regular
+A{"unknown", 8933, trivia={module="data", category="Garrisons", name="Staying Regular", description="Relieve yourself in the garrison outhouse.", points=5}}
+
+-- Dungeons & Raids: Glory of the Draenor Raider
+A{"unknown", 8985, criterion=24658, trivia={criteria="Flame On!", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24659, trivia={criteria="Hurry Up Maggot!", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24660, trivia={criteria="More Like Wrecked-us", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24661, trivia={criteria="A Fungus Among Us", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24662, trivia={criteria="Pair Annihilation", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24663, trivia={criteria="Lineage of Power", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24664, trivia={criteria="Brothers in Arms", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24665, trivia={criteria="The Steel Has Been Brought", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24666, trivia={criteria="Ya, We've Got Time...", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24667, trivia={criteria="Ashes, Ashes...", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24668, trivia={criteria="The Iron Price", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24669, trivia={criteria="He Shoots, He Ores", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24670, trivia={criteria="Stamp Stamp Revolution", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24671, trivia={criteria="Fain Would Lie Down", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24672, trivia={criteria="There's Always a Bigger Train", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24673, trivia={criteria="Would You Give Me a Hand?", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 8985, criterion=24674, trivia={criteria="Be Quick or Be Dead", module="data", category="Dungeons & Raids", name="Glory of the Draenor Raider", description="Complete the Draenor raid achievements listed below.", points=25, type="achievement"}}
+
+-- Feats of Strength: Breaker of the Black Harvest
+A{"unknown", 9016, trivia={module="data", category="Feats of Strength", name="Breaker of the Black Harvest", description="Defeated Kanrethad Ebonlocke and gained command over fel energy before the expedition to Draenor set out.", points=0}}
+
+-- Dungeons & Raids/Draenor Dungeon: Auchindoun
+A{"unknown", 9039, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="Auchindoun", description="Defeat Teron'gor in Auchindoun.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Draenor Dungeon: Heroic: Auchindoun
+A{"unknown", 9049, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="Heroic: Auchindoun", description="Defeat Teron'gor in Auchindoun on Heroic difficulty.", points=10, parent="Dungeons & Raids"}}
+
+-- Professions: Inspector Gadgetzan
+A{"unknown", 9071, criterion=25132, trivia={criteria="Decoded Message 001-003", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25133, trivia={criteria="Decoded Message 001-014", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25134, trivia={criteria="Decoded Message 001-107", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25135, trivia={criteria="Decoded Message 001-111", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25136, trivia={criteria="Decoded Message 001-119", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25137, trivia={criteria="Decoded Message 001-150", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25138, trivia={criteria="Decoded Message 001-159", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+A{"unknown", 9071, criterion=25139, trivia={criteria="Decoded Message 001-168", module="data", category="Professions", name="Inspector Gadgetzan", description="Acquire the following decoded messages from Blingtron 5000.", points=5, type=36}}
+
+-- Reputation/Draenor: Mantle of the Talon King
+A{"unknown", 9072, trivia={module="data", category="Reputation/Draenor", name="Mantle of the Talon King", description="Complete the Terokk's Legacy storyline and earn Exalted status with the Arakkoa Outcasts.", points=5, parent="Reputation"}}
+
+-- Garrisons/Buildings: Choppin' Some Logs
+A{"unknown", 9076, criterion=25174, trivia={criteria="Place 10 Work Orders at the Lumber Mill.", module="data", category="Garrisons/Buildings", name="Choppin' Some Logs", description="Place 10 Work Orders at the Lumber Mill.", points=5, parent="Garrisons", type=29}}
+
+-- Garrisons/Buildings: Choppin' Some More Logs
+A{"unknown", 9077, criterion=25174, trivia={criteria="Place 50 Work Orders at the Lumber Mill.", module="data", category="Garrisons/Buildings", name="Choppin' Some More Logs", description="Place 50 Work Orders at the Lumber Mill.", points=5, parent="Garrisons", type=29}}
+
+-- Garrisons/Buildings: Choppin' Even More Logs
+A{"unknown", 9078, criterion=25174, side="alliance", trivia={criteria="Place 100 Work Orders at the Lumber Mill.", module="data", category="Garrisons/Buildings", name="Choppin' Even More Logs", description="Place 100 Work Orders at the Lumber Mill.", points=5, parent="Garrisons", type=29}}
+
+-- Garrisons/Buildings: Choppin' Even More Logs
+A{"unknown", 9080, criterion=25174, side="horde", trivia={criteria="Place 100 Work Orders at the Lumber Mill.", module="data", category="Garrisons/Buildings", name="Choppin' Even More Logs", description="Place 100 Work Orders at the Lumber Mill.", points=5, parent="Garrisons", type=29}}
+
+-- Garrisons/Buildings: Garrison Architect
+A{"unknown", 9094, criterion=25260, trivia={criteria="Draftsman", module="data", category="Garrisons/Buildings", name="Garrison Architect", description="Complete the garrison building achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9094, criterion=25261, trivia={criteria="Grand Master Draftsman", module="data", category="Garrisons/Buildings", name="Garrison Architect", description="Complete the garrison building achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9094, criterion=25262, trivia={criteria="Master Draftsman", module="data", category="Garrisons/Buildings", name="Garrison Architect", description="Complete the garrison building achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9094, criterion=27204, trivia={criteria="Keepin' Busy", module="data", category="Garrisons/Buildings", name="Garrison Architect", description="Complete the garrison building achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9094, criterion=27210, trivia={criteria="Master Builder", module="data", category="Garrisons/Buildings", name="Garrison Architect", description="Complete the garrison building achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+
+-- Garrisons/Buildings: Builder
+A{"unknown", 9095, criterion=0, trivia={criteria="At least 2 medium buildings activated", module="data", category="Garrisons/Buildings", name="Builder", description="Upgrade all the buildings on your garrison plots to level 2.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9095, criterion=0, trivia={criteria="At least 1 large building activated", module="data", category="Garrisons/Buildings", name="Builder", description="Upgrade all the buildings on your garrison plots to level 2.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9095, criterion=0, trivia={criteria="At least 2 small buildings activated", module="data", category="Garrisons/Buildings", name="Builder", description="Upgrade all the buildings on your garrison plots to level 2.", points=5, parent="Garrisons", type=169}}
+
+-- Garrisons/Buildings: Master Builder
+A{"unknown", 9096, criterion=0, trivia={criteria="At least 3 small buildings activated", module="data", category="Garrisons/Buildings", name="Master Builder", description="Upgrade all the buildings on your garrison plots to level 3.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9096, criterion=0, trivia={criteria="At least 2 medium buildings activated", module="data", category="Garrisons/Buildings", name="Master Builder", description="Upgrade all the buildings on your garrison plots to level 3.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9096, criterion=0, trivia={criteria="At least 2 large buildings activated", module="data", category="Garrisons/Buildings", name="Master Builder", description="Upgrade all the buildings on your garrison plots to level 3.", points=5, parent="Garrisons", type=169}}
+
+-- Garrisons/Buildings: Keepin' Busy
+A{"unknown", 9097, criterion=25210, trivia={criteria="Fishing Shack", module="data", category="Garrisons/Buildings", name="Keepin' Busy", description="Construct all the preset buildings listed below.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9097, criterion=25211, trivia={criteria="Herb Garden", module="data", category="Garrisons/Buildings", name="Keepin' Busy", description="Construct all the preset buildings listed below.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9097, criterion=25212, trivia={criteria="Mine", module="data", category="Garrisons/Buildings", name="Keepin' Busy", description="Construct all the preset buildings listed below.", points=5, parent="Garrisons", type=169}}
+A{"unknown", 9097, criterion=25213, trivia={criteria="Pet Menagerie", module="data", category="Garrisons/Buildings", name="Keepin' Busy", description="Construct all the preset buildings listed below.", points=5, parent="Garrisons", type=169}}
+
+-- Garrisons/Buildings: Movin' On Up
+A{"unknown", 9098, trivia={module="data", category="Garrisons/Buildings", name="Movin' On Up", description="Upgrade any garrison building to level 3.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Buildings: Time for an Upgrade
+A{"unknown", 9099, trivia={module="data", category="Garrisons/Buildings", name="Time for an Upgrade", description="Upgrade any garrison building to level 2.", points=5, parent="Garrisons"}}
+
+-- Garrisons: More Plots
+A{"unknown", 9100, side="alliance", trivia={module="data", category="Garrisons", name="More Plots", description="Upgrade your garrison to tier 2.", points=5}}
+
+-- Garrisons: Even More Plots
+A{"unknown", 9101, side="alliance", trivia={module="data", category="Garrisons", name="Even More Plots", description="Upgrade your garrison to tier 3.", points=5}}
+
+-- Garrisons/Followers: Follow the Leader
+A{"unknown", 9107, criterion=25256, trivia={criteria="Recruit 5 followers.", module="data", category="Garrisons/Followers", name="Follow the Leader", description="Recruit 5 followers.", points=5, parent="Garrisons", type=175}}
+
+-- Garrisons/Followers: Where You Go, They Will Follow
+A{"unknown", 9108, criterion=25256, trivia={criteria="Recruit 10 followers.", module="data", category="Garrisons/Followers", name="Where You Go, They Will Follow", description="Recruit 10 followers.", points=5, parent="Garrisons", type=175}}
+
+-- Garrisons/Followers: Fearless Leader
+A{"unknown", 9109, criterion=25256, trivia={criteria="Recruit 25 followers.", module="data", category="Garrisons/Followers", name="Fearless Leader", description="Recruit 25 followers.", points=5, parent="Garrisons", type=175}}
+
+-- Garrisons/Followers: Following Up
+A{"unknown", 9110, trivia={module="data", category="Garrisons/Followers", name="Following Up", description="Raise a follower to level 100.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Followers: Raising the Bar
+A{"unknown", 9111, criterion=25258, trivia={criteria="Raise 10 garrison followers to level 100.", module="data", category="Garrisons/Followers", name="Raising the Bar", description="Raise 10 garrison followers to level 100.", points=5, parent="Garrisons", type=184}}
+
+-- Garrisons/Buildings: Draftsman
+A{"unknown", 9125, criterion=25259, trivia={criteria="Learn 20 Garrison Blueprints.", module="data", category="Garrisons/Buildings", name="Draftsman", description="Learn 20 garrison blueprints.", points=5, parent="Garrisons", type=178}}
+
+-- Garrisons/Buildings: Master Draftsman
+A{"unknown", 9126, criterion=25259, trivia={criteria="Learn 40 garrison blueprints.", module="data", category="Garrisons/Buildings", name="Master Draftsman", description="Learn 40 garrison blueprints.", points=5, parent="Garrisons", type=178}}
+
+-- Garrisons/Buildings: Grand Master Draftsman
+A{"unknown", 9128, criterion=25259, trivia={criteria="Learn 60 garrison blueprints.", module="data", category="Garrisons/Buildings", name="Grand Master Draftsman", description="Learn 60 garrison blueprints.", points=5, parent="Garrisons", type=178}}
+
+-- Garrisons/Followers: Filling the Ranks
+A{"unknown", 9129, criterion=25258, trivia={criteria="Raise 20 garrison followers to level 100.", module="data", category="Garrisons/Followers", name="Filling the Ranks", description="Raise 20 garrison followers to level 100.", points=5, parent="Garrisons", type=184}}
+
+-- Garrisons/Followers: A Rare Friend
+A{"unknown", 9130, trivia={module="data", category="Garrisons/Followers", name="A Rare Friend", description="Recruit a Rare follower.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Followers: An Epic Buddy
+A{"unknown", 9131, trivia={module="data", category="Garrisons/Followers", name="An Epic Buddy", description="Recruit an Epic follower.", points=5, parent="Garrisons"}}
+
+-- Garrisons: Garrison Buddies
+A{"unknown", 9132, side="horde", trivia={module="data", category="Garrisons", name="Garrison Buddies", description="Visit a friend's garrison and /wave.", points=5}}
+
+-- Garrisons/Missions: On a Mission
+A{"unknown", 9133, criterion=25269, trivia={criteria="Complete 10 garrison missions.", module="data", category="Garrisons/Missions", name="On a Mission", description="Complete 10 garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: On a Few Missions
+A{"unknown", 9134, criterion=25269, trivia={criteria="Complete 50 garrison missions.", module="data", category="Garrisons/Missions", name="On a Few Missions", description="Complete 50 garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: On a Lot of Missions
+A{"unknown", 9138, criterion=25269, trivia={criteria="Complete 100 garrison missions.", module="data", category="Garrisons/Missions", name="On a Lot of Missions", description="Complete 100 garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: On a Massive Number of Missions
+A{"unknown", 9139, criterion=25269, trivia={criteria="Complete 500 garrison missions.", module="data", category="Garrisons/Missions", name="On a Massive Number of Missions", description="Complete 500 garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: On a Metric Ton of Missions
+A{"unknown", 9140, criterion=25269, trivia={criteria="Complete 1000 garrison missions.", module="data", category="Garrisons/Missions", name="On a Metric Ton of Missions", description="Complete 1000 garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: A Rare Mission
+A{"unknown", 9141, trivia={module="data", category="Garrisons/Missions", name="A Rare Mission", description="Complete a Rare garrison mission.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Missions: Keeping It Rare
+A{"unknown", 9142, criterion=25270, trivia={criteria="Complete 50 Rare garrison missions", module="data", category="Garrisons/Missions", name="Keeping It Rare", description="Complete 50 Rare garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: The Rarer the Better
+A{"unknown", 9143, criterion=25270, trivia={criteria="Complete 300 Rare garrison missions.", module="data", category="Garrisons/Missions", name="The Rarer the Better", description="Complete 300 Rare garrison missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: Treasure Mission Specialist
+A{"unknown", 9145, trivia={module="data", category="Garrisons/Missions", name="Treasure Mission Specialist", description="Complete a garrison treasure mission.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Missions: Patrol Mission Specialist
+A{"unknown", 9146, trivia={module="data", category="Garrisons/Missions", name="Patrol Mission Specialist", description="Complete a garrison patrol mission.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Missions: Mission Specialist
+A{"unknown", 9147, criterion=27798, trivia={criteria="Patrol Mission Specialist", module="data", category="Garrisons/Missions", name="Mission Specialist", description="Complete the Mission Specialist achievements listed below.", points=5, parent="Garrisons", type="achievement"}}
+A{"unknown", 9147, criterion=25332, trivia={criteria="Treasure Mission Specialist", module="data", category="Garrisons/Missions", name="Mission Specialist", description="Complete the Mission Specialist achievements listed below.", points=5, parent="Garrisons", type="achievement"}}
+
+-- Garrisons/Missions: Exploration Mission Specialist
+A{"unknown", 9150, trivia={module="data", category="Garrisons/Missions", name="Exploration Mission Specialist", description="Complete a garrison exploration mission.", points=10, parent="Garrisons"}}
+
+-- Garrisons/Invasions: It's an Invasion!
+A{"unknown", 9152, trivia={module="data", category="Garrisons/Invasions", name="It's an Invasion!", description="Successfully complete a garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Bronze Defender
+A{"unknown", 9162, trivia={module="data", category="Garrisons/Invasions", name="Bronze Defender", description="Successfully complete a garrison invasion with a Bronze rating or better.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Silver Defender
+A{"unknown", 9164, trivia={module="data", category="Garrisons/Invasions", name="Silver Defender", description="Successfully complete a garrison invasion with a Silver rating or better.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Golden Defender
+A{"unknown", 9165, trivia={module="data", category="Garrisons/Invasions", name="Golden Defender", description="Successfully complete a garrison invasion with a Gold rating or better.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Invasion Specialist
+A{"unknown", 9167, criterion=0, trivia={criteria="Invasions completed", module="data", category="Garrisons/Invasions", name="Invasion Specialist", description="Successfully complete 10 garrison invasions.", points=5, parent="Garrisons", type=28}}
+
+-- World Events/Brawler's Guild: You Are Not Your $#*@! Legplates
+A{"unknown", 9168, side="alliance", trivia={module="data", category="World Events/Brawler's Guild", name="You Are Not Your $#*@! Legplates", description="Win a brawl.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: The Second Rule of Brawler's Guild
+A{"unknown", 9169, side="alliance", trivia={module="data", category="World Events/Brawler's Guild", name="The Second Rule of Brawler's Guild", description="Reach Rank 4 with Bizmo's Brawlpub.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Brawlin' and Shot Callin'
+A{"unknown", 9170, side="alliance", trivia={module="data", category="World Events/Brawler's Guild", name="Brawlin' and Shot Callin'", description="Reach Rank 8 with Bizmo's Brawlpub.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Now You're Just Showing Off
+A{"unknown", 9171, criterion=22575, side="alliance", trivia={criteria="Disruptron", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=22576, side="alliance", trivia={criteria="Millhouse Manastorm", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=22577, side="alliance", trivia={criteria="Zen'shar", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=22574, side="alliance", trivia={criteria="Epicus Maximus", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25314, side="alliance", trivia={criteria="Dungeon Master Vishas", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25315, side="alliance", trivia={criteria="Crush", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25316, side="alliance", trivia={criteria="Deeken", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25317, side="alliance", trivia={criteria="Fjoll", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25318, side="alliance", trivia={criteria="Leona Earthwind", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25319, side="alliance", trivia={criteria="T440 Dual-Mode Robot", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25320, side="alliance", trivia={criteria="Hexos", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9171, criterion=25321, side="alliance", trivia={criteria="Anthracite", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+
+-- World Events/Brawler's Guild: You Are Not Your $#*@! Legplates
+A{"unknown", 9172, side="horde", trivia={module="data", category="World Events/Brawler's Guild", name="You Are Not Your $#*@! Legplates", description="Win a brawl.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: The Second Rule of Brawler's Guild
+A{"unknown", 9173, side="horde", trivia={module="data", category="World Events/Brawler's Guild", name="The Second Rule of Brawler's Guild", description="Reach Rank 4 with Brawl'gar Arena.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Brawlin' and Shot Callin'
+A{"unknown", 9174, side="horde", trivia={module="data", category="World Events/Brawler's Guild", name="Brawlin' and Shot Callin'", description="Reach Rank 8 with Brawl'gar Arena.", points=10, parent="World Events"}}
+
+-- World Events/Brawler's Guild: Now You're Just Showing Off
+A{"unknown", 9175, criterion=22575, side="horde", trivia={criteria="Disruptron", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=22576, side="horde", trivia={criteria="Millhouse Manastorm", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=22577, side="horde", trivia={criteria="Zen'shar", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=22574, side="horde", trivia={criteria="Epicus Maximus", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25314, side="horde", trivia={criteria="Dungeon Master Vishas", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25315, side="horde", trivia={criteria="Crush", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25316, side="horde", trivia={criteria="Deeken", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25317, side="horde", trivia={criteria="Fjoll", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25318, side="horde", trivia={criteria="Leona Earthwind", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25319, side="horde", trivia={criteria="T440 Dual-Mode Robot", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25320, side="horde", trivia={criteria="Hexos", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+A{"unknown", 9175, criterion=25321, side="horde", trivia={criteria="Anthracite", module="data", category="World Events/Brawler's Guild", name="Now You're Just Showing Off", description="Defeat the following rare brawl bosses.", points=25, parent="World Events", type=28}}
+
+-- World Events/Brawler's Guild: Deck Your Collection
+A{"unknown", 9176, criterion="Grandpa Grumplefloot", side="alliance", trivia={criteria="Grandpa Grumplefloot", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Ty'thar", side="alliance", trivia={criteria="Ty'thar", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Master Boom Boom", side="alliance", trivia={criteria="Master Boom Boom", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Razorgrin", side="alliance", trivia={criteria="Razorgrin", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Splat", side="alliance", trivia={criteria="Splat", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Mecha-Bruce", side="alliance", trivia={criteria="Mecha-Bruce", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Dippy & Doopy", side="alliance", trivia={criteria="Dippy & Doopy", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Blingtron 3000", side="alliance", trivia={criteria="Blingtron 3000", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="The Bear and the Lady Fair", side="alliance", trivia={criteria="The Bear and the Lady Fair", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Ro-Shambo", side="alliance", trivia={criteria="Ro-Shambo", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="Mingus Diggs", side="alliance", trivia={criteria="Mingus Diggs", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9176, criterion="The Blind Hero", side="alliance", trivia={criteria="The Blind Hero", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+
+-- World Events/Brawler's Guild: Deck Your Collection
+A{"unknown", 9177, criterion="Ro-Shambo", side="horde", trivia={criteria="Ro-Shambo", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Mingus Diggs", side="horde", trivia={criteria="Mingus Diggs", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="The Blind Hero", side="horde", trivia={criteria="The Blind Hero", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Grandpa Grumplefloot", side="horde", trivia={criteria="Grandpa Grumplefloot", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Ty'thar", side="horde", trivia={criteria="Ty'thar", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Master Boom Boom", side="horde", trivia={criteria="Master Boom Boom", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Razorgrin", side="horde", trivia={criteria="Razorgrin", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Splat", side="horde", trivia={criteria="Splat", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Mecha-Bruce", side="horde", trivia={criteria="Mecha-Bruce", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Dippy & Doopy", side="horde", trivia={criteria="Dippy & Doopy", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="Blingtron 3000", side="horde", trivia={criteria="Blingtron 3000", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+A{"unknown", 9177, criterion="The Bear and the Lady Fair", side="horde", trivia={criteria="The Bear and the Lady Fair", module="data", category="World Events/Brawler's Guild", name="Deck Your Collection", description="Defeat the following Brawler's Guild bosses.", points=10, parent="World Events", type=28}}
+
+-- Garrisons/Invasions: Save Those Buildings!
+A{"unknown", 9181, criterion=25290, trivia={criteria="Goren", module="data", category="Garrisons/Invasions", name="Save Those Buildings!", description="Complete the invasions listed below without letting any buildings get destroyed.", points=5, parent="Garrisons", type=28}}
+A{"unknown", 9181, criterion=25292, trivia={criteria="Iron Horde", module="data", category="Garrisons/Invasions", name="Save Those Buildings!", description="Complete the invasions listed below without letting any buildings get destroyed.", points=5, parent="Garrisons", type=28}}
+A{"unknown", 9181, criterion=25295, trivia={criteria="Botani", module="data", category="Garrisons/Invasions", name="Save Those Buildings!", description="Complete the invasions listed below without letting any buildings get destroyed.", points=5, parent="Garrisons", type=28}}
+A{"unknown", 9181, criterion=25293, trivia={criteria="Shadow Council", module="data", category="Garrisons/Invasions", name="Save Those Buildings!", description="Complete the invasions listed below without letting any buildings get destroyed.", points=5, parent="Garrisons", type=28}}
+A{"unknown", 9181, criterion=25291, trivia={criteria="Shadowmoon Clan", module="data", category="Garrisons/Invasions", name="Save Those Buildings!", description="Complete the invasions listed below without letting any buildings get destroyed.", points=5, parent="Garrisons", type=28}}
+A{"unknown", 9181, criterion=25294, trivia={criteria="Ogres", module="data", category="Garrisons/Invasions", name="Save Those Buildings!", description="Complete the invasions listed below without letting any buildings get destroyed.", points=5, parent="Garrisons", type=28}}
+
+-- Garrisons/Invasions: Shadow Council Invasion
+A{"unknown", 9203, trivia={module="data", category="Garrisons/Invasions", name="Shadow Council Invasion", description="Successfully complete a Shadow Council garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Ogre Invasion
+A{"unknown", 9204, trivia={module="data", category="Garrisons/Invasions", name="Ogre Invasion", description="Successfully complete an Ogre garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Iron Horde Invasion
+A{"unknown", 9205, trivia={module="data", category="Garrisons/Invasions", name="Iron Horde Invasion", description="Successfully complete an Iron Horde garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Shadowmoon Clan Invasion
+A{"unknown", 9206, trivia={module="data", category="Garrisons/Invasions", name="Shadowmoon Clan Invasion", description="Successfully complete a Shadowmoon Clan garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Goren Invasion
+A{"unknown", 9207, trivia={module="data", category="Garrisons/Invasions", name="Goren Invasion", description="Successfully complete a Goren garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Botani Invasion
+A{"unknown", 9208, trivia={module="data", category="Garrisons/Invasions", name="Botani Invasion", description="Successfully complete a Botani garrison invasion.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Master Defender
+A{"unknown", 9209, criterion=27295, trivia={criteria="Goren", module="data", category="Garrisons/Invasions", name="Master Defender", description="Earn a Gold rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9209, criterion=27296, trivia={criteria="Iron Horde", module="data", category="Garrisons/Invasions", name="Master Defender", description="Earn a Gold rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9209, criterion=27297, trivia={criteria="Ogres", module="data", category="Garrisons/Invasions", name="Master Defender", description="Earn a Gold rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9209, criterion=27298, trivia={criteria="Shadow Council", module="data", category="Garrisons/Invasions", name="Master Defender", description="Earn a Gold rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9209, criterion=27299, trivia={criteria="Shadowmoon", module="data", category="Garrisons/Invasions", name="Master Defender", description="Earn a Gold rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9209, criterion=27294, trivia={criteria="Botani", module="data", category="Garrisons/Invasions", name="Master Defender", description="Earn a Gold rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+
+-- Garrisons: Garrison Buddies
+A{"unknown", 9210, side="alliance", trivia={module="data", category="Garrisons", name="Garrison Buddies", description="Visit a friend's garrison and /wave.", points=5}}
+
+-- Garrisons/Followers: My Item Level Is Higher than Yours
+A{"unknown", 9211, trivia={module="data", category="Garrisons/Followers", name="My Item Level Is Higher than Yours", description="Raise a follower's item level to 625.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Followers: My Item Level Is Way Higher than Yours
+A{"unknown", 9212, trivia={module="data", category="Garrisons/Followers", name="My Item Level Is Way Higher than Yours", description="Raise a follower's item level to 650.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Followers: Item Level Army
+A{"unknown", 9213, trivia={module="data", category="Garrisons/Followers", name="Item Level Army", description="Raise 10 followers' item level to 650.", points=5, parent="Garrisons"}}
+
+-- Feats of Strength: Primal Conquest
+A{"unknown", 9233, side="horde", trivia={module="data", category="Feats of Strength", name="Primal Conquest", description="Earn 27,000 Conquest Points in Warlords Season 1.", points=10}}
+
+-- Feats of Strength: Primal Conquest
+A{"unknown", 9234, side="alliance", trivia={module="data", category="Feats of Strength", name="Primal Conquest", description="Earn 27,000 Conquest Points in Warlords Season 1.", points=10}}
+
+-- Feats of Strength: Primal Combatant
+A{"unknown", 9236, criterion=25352, side="horde", trivia={criteria="Win 100 Arena (3v3) matches in Warlords Season 1", module="data", category="Feats of Strength", name="Primal Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Warlords Season 1", points=15, type=37}}
+A{"unknown", 9236, criterion=25353, side="horde", trivia={criteria="Win 40 Rated Battleground Matches in Warlords Season 1", module="data", category="Feats of Strength", name="Primal Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Warlords Season 1", points=15, type=130}}
+
+-- Feats of Strength: Primal Combatant
+A{"unknown", 9238, criterion=25352, side="alliance", trivia={criteria="Win 100 Arena (3v3) matches in Warlords Season 1", module="data", category="Feats of Strength", name="Primal Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Warlords Season 1", points=15, type=37}}
+A{"unknown", 9238, criterion=25353, side="alliance", trivia={criteria="Win 40 Rated Battleground Matches in Warlords Season 1", module="data", category="Feats of Strength", name="Primal Combatant", description="Win 100 Arena (3v3) or 40 Rated Battlegrounds in Warlords Season 1", points=15, type=130}}
+
+-- Garrisons/Followers: Item Level Force
+A{"unknown", 9243, trivia={module="data", category="Garrisons/Followers", name="Item Level Force", description="Raise 20 followers' item level to 650.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Invasions: Invasions Are Better with Friends
+A{"unknown", 9244, trivia={module="data", category="Garrisons/Invasions", name="Invasions Are Better with Friends", description="Successfully complete a garrison invasion in a party of 3 players.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Monuments: Master Draenor Crafter
+A{"unknown", 9246, criterion=25375, trivia={module="data", category="Garrisons/Monuments", name="Master Draenor Crafter", description="Craft 50 Epic items with an item level of at least 600.", points=10, parent="Garrisons"}}
+
+-- Garrisons/Monuments: Defender of Draenor
+A{"unknown", 9248, criterion=25376, side="horde", trivia={criteria="Get 5000 honorable kills in Draenor.", module="data", category="Garrisons/Monuments", name="Defender of Draenor", description="Get 5000 honorable kills in Draenor.", points=10, parent="Garrisons", type="battle"}}
+
+-- Garrisons/Monuments: Mythic Draenor Raider
+A{"unknown", 9255, criterion=25393, side="horde", trivia={criteria="Mythic: Iron Maidens", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25394, side="horde", trivia={criteria="Mythic: Blackhand's Crucible", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25395, side="horde", trivia={criteria="Mythic: Oregorger", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25396, side="horde", trivia={criteria="Mythic: Operator Thogar", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25397, side="horde", trivia={criteria="Mythic: Kromog", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25398, side="horde", trivia={criteria="Mythic: Hans'gar and Franzok", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25399, side="horde", trivia={criteria="Mythic: Gruul", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25400, side="horde", trivia={criteria="Mythic: Flamebender Ka'graz", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25401, side="horde", trivia={criteria="Mythic: Beastlord Darmac", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25402, side="horde", trivia={criteria="Mythic: Blast Furnace", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25403, side="horde", trivia={criteria="Mythic: Kargath Bladefist", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25404, side="horde", trivia={criteria="Mythic: The Butcher", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25405, side="horde", trivia={criteria="Mythic: Tectus", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25406, side="horde", trivia={criteria="Mythic: Brackenspore", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25407, side="horde", trivia={criteria="Mythic: Twin Ogron", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25408, side="horde", trivia={criteria="Mythic: Ko'ragh", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9255, criterion=25409, side="horde", trivia={criteria="Mythic: Imperator's Fall", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+
+-- Garrisons/Monuments: Draenor Pet Brawler
+A{"unknown", 9264, criterion=25818, trivia={module="data", category="Garrisons/Monuments", name="Draenor Pet Brawler", description="Win 2000 pet battles in Draenor.", points=10, parent="Garrisons"}}
+
+-- Garrisons/Monuments: Master of Apexis
+A{"unknown", 9265, criterion=25419, trivia={module="data", category="Garrisons/Monuments", name="Master of Apexis", description="Collect 100,000 Apexis Crystals.", points=10, parent="Garrisons"}}
+
+-- Dungeons & Raids: Draenor Dungeon Hero
+A{"unknown", 9391, criterion=25538, trivia={criteria="Heroic: Upper Blackrock Spire", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25530, trivia={criteria="Heroic: Bloodmaul Slag Mines", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25532, trivia={criteria="Heroic: Iron Docks", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25533, trivia={criteria="Heroic: Auchindoun", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25534, trivia={criteria="Heroic: Skyreach", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25535, trivia={criteria="Heroic: The Everbloom", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25536, trivia={criteria="Heroic: Grimrail Depot", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 9391, criterion=25537, trivia={criteria="Heroic: Shadowmoon Burial Grounds", module="data", category="Dungeons & Raids", name="Draenor Dungeon Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=20, type="achievement"}}
+
+-- Dungeons & Raids: Glory of the Draenor Hero
+A{"unknown", 9396, criterion=25546, trivia={criteria="Is Draenor on Fire?", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25547, trivia={criteria="Miltaristic, Expansionist", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25548, trivia={criteria="Expert Timing", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25549, trivia={criteria="Take Cover!", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25550, trivia={criteria="...They All Fall Down", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25551, trivia={criteria="Ready for Raiding IV", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25552, trivia={criteria="Magnify... Enhance", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25553, trivia={criteria="I Saw Solis", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25554, trivia={criteria="Monomania", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25543, trivia={criteria="Draenor Dungeon Hero", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25544, trivia={criteria="A Gift of Earth and Fire", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25545, trivia={criteria="Come With Me If You Want to Live", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25555, trivia={criteria="This Is Why We Can't Have Nice Things", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25556, trivia={criteria="No Ticket", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25557, trivia={criteria="Water Management", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25558, trivia={criteria="Weed Whacker", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25559, trivia={criteria="What's Your Sign?", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25560, trivia={criteria="Icky Ichors", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25561, trivia={criteria="Souls of the Lost", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25562, trivia={criteria="Magnets, How Do They Work?", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25563, trivia={criteria="Leeeeeeeeeeeeeroy...?", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25564, trivia={criteria="Bridge Over Troubled Fire", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 9396, criterion=25565, trivia={criteria="Dragonmaw? More Like Dragonfall!", module="data", category="Dungeons & Raids", name="Glory of the Draenor Hero", description="Complete the Draenor Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+
+-- Garrisons/Buildings: Working Some Orders
+A{"unknown", 9405, trivia={module="data", category="Garrisons/Buildings", name="Working Some Orders", description="Complete 125 Work Orders at your garrison.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Buildings: Working More Orders
+A{"unknown", 9406, trivia={module="data", category="Garrisons/Buildings", name="Working More Orders", description="Complete 250 Work Orders at your garrison.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Buildings: Working Many Orders
+A{"unknown", 9407, trivia={module="data", category="Garrisons/Buildings", name="Working Many Orders", description="Complete 750 Work Orders at your garrison.", points=5, parent="Garrisons"}}
+
+-- Professions/Archaeology: Draenor Archaeologist
+A{"unknown", 9409, trivia={module="data", category="Professions/Archaeology", name="Draenor Archaeologist", description="Obtain 700 skill points in archaeology.", points=10, parent="Professions"}}
+
+-- Professions/Archaeology: Unite the Clans
+A{"unknown", 9410, criterion=25634, trivia={criteria="Pristine Fang-Scarred Frostwolf Axe", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25635, trivia={criteria="Pristine Frostwolf Ancestry Scrimshaw", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25636, trivia={criteria="Pristine Wolfskin Snowshoes", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25637, trivia={criteria="Pristine Warsinger's Drums", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25638, trivia={criteria="Pristine Screaming Bullroarer", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25639, trivia={criteria="Pristine Warsong Ceremonial Pike", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25640, trivia={criteria="Pristine Metalworker's Hammer", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25641, trivia={criteria="Pristine Elemental Bellows", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25642, trivia={criteria="Pristine Blackrock Razor", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25643, trivia={criteria="Pristine Weighted Chopping Axe", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25644, trivia={criteria="Pristine Hooked Dagger", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25645, trivia={criteria="Pristine Barbed Fishing Hook", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25646, trivia={criteria="Pristine Calcified Eye In A Jar", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25647, trivia={criteria="Pristine Ceremonial Tattoo Needles", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25648, trivia={criteria="Pristine Ancestral Talisman", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25649, trivia={criteria="Pristine Cracked Ivory Idol", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25650, trivia={criteria="Pristine Flask of Blazegrease", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25651, trivia={criteria="Pristine Gronn-Tooth Necklace", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9410, criterion=25652, trivia={criteria="Pristine Doomsday Prophecy", module="data", category="Professions/Archaeology", name="Unite the Clans", description="Restore and display pristine versions of all Draenor Clans artifacts.", points=15, parent="Professions", type="quest"}}
+
+-- Professions/Archaeology: Highmaul Historian
+A{"unknown", 9411, criterion=25653, trivia={criteria="Pristine Stonemaul Succession Stone", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25654, trivia={criteria="Pristine Stone Manacles", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25655, trivia={criteria="Pristine Ogre Figurine", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25656, trivia={criteria="Pristine Pictogram Carving", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25657, trivia={criteria="Pristine Gladiator's Shield", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25658, trivia={criteria="Pristine Mortar and Pestle", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25659, trivia={criteria="Pristine Eye of Har'guun", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25660, trivia={criteria="Pristine Stone Dentures", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25661, trivia={criteria="Pristine Rylak Riding Harness", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9411, criterion=25662, trivia={criteria="Pristine Imperial Decree Stele", module="data", category="Professions/Archaeology", name="Highmaul Historian", description="Restore and display pristine versions of all Ogre artifacts.", points=15, parent="Professions", type="quest"}}
+
+-- Professions/Archaeology: Arakkoa Archivist
+A{"unknown", 9412, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25664, trivia={criteria="Pristine Burial Urn", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25665, trivia={criteria="Pristine Decree Scrolls", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25666, trivia={criteria="Pristine Solar Orb", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25667, trivia={criteria="Pristine Sundial", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25668, trivia={criteria="Pristine Talonpriest Mask", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25669, trivia={criteria="Pristine Outcast Dreamcatcher", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25670, trivia={criteria="Pristine Apexis Crystal", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25671, trivia={criteria="Pristine Apexis Heiroglyph", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+A{"unknown", 9412, criterion=25672, trivia={criteria="Pristine Apexis Scroll", module="data", category="Professions/Archaeology", name="Arakkoa Archivist", description="Restore and display pristine versions of all Arakkoa artifacts.", points=15, parent="Professions", type="quest"}}
+
+-- Professions/Archaeology: Strength and Honor
+A{"unknown", 9413, criterion=25673, trivia={criteria="Quilen Statuette", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25674, trivia={criteria="Barbed Fishing Hook", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25675, trivia={criteria="Blackrock Razor", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25676, trivia={criteria="Calcified Eye In a Jar", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25677, trivia={criteria="Ceremonial Tattoo Needles", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25678, trivia={criteria="Cracked Ivory Idol", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25679, trivia={criteria="Doomsday Prophecy", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25680, trivia={criteria="Elemental Bellows", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25681, trivia={criteria="Fang-Scarred Frostwolf Axe", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25682, trivia={criteria="Flask of Blazegrease", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25683, trivia={criteria="Frostwolf Ancestry Scrimshaw", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25684, trivia={criteria="Gronn-Tooth Necklace", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25685, trivia={criteria="Hooked Dagger", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25686, trivia={criteria="Metalworker's Hammer", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25687, trivia={criteria="Screaming Bullroarer", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25688, trivia={criteria="Warsinger's Drums", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25689, trivia={criteria="Warsong Ceremonial Pike", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25690, trivia={criteria="Weighted Chopping Axe", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9413, criterion=25691, trivia={criteria="Wolfskin Snowshoes", module="data", category="Professions/Archaeology", name="Strength and Honor", description="Discover the following Draenor Clans artifacts.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: Ogre Observer
+A{"unknown", 9414, criterion=25692, trivia={criteria="Eye of Har'gunn the Blind", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25693, trivia={criteria="Gladiator's Shield", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25694, trivia={criteria="Imperial Decree Stele", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25695, trivia={criteria="Mortar and Pestle", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25696, trivia={criteria="Ogre Figurine", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25697, trivia={criteria="Pictogram Carving", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25698, trivia={criteria="Rylak Riding Harness", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25699, trivia={criteria="Stone Dentures", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25700, trivia={criteria="Stone Manacles", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9414, criterion=25701, trivia={criteria="Stonemaul Succession Stone", module="data", category="Professions/Archaeology", name="Ogre Observer", description="Discover the following Ogre artifacts.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: Secrets of Skettis
+A{"unknown", 9415, criterion=25702, trivia={criteria="Dreamcatcher", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25703, trivia={criteria="Burial Urn", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25704, trivia={criteria="Decree Scrolls", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25705, trivia={criteria="Solar Orb", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25706, trivia={criteria="Sundial", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25707, trivia={criteria="Talonpriest Mask", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25708, trivia={criteria="Outcast Dreamcatcher", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25709, trivia={criteria="Apexis Crystal", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25710, trivia={criteria="Apexis Heiroglyph", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+A{"unknown", 9415, criterion=25711, trivia={criteria="Apexis Scroll", module="data", category="Professions/Archaeology", name="Secrets of Skettis", description="Discover the following Arakkoa artifacts.", points=10, parent="Professions", type=36}}
+
+-- Professions/Archaeology: Draenor Curator
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25664, trivia={criteria="Pristine Burial Urn", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25665, trivia={criteria="Pristine Decree Scrolls", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25666, trivia={criteria="Pristine Solar Orb", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25667, trivia={criteria="Pristine Sundial", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25668, trivia={criteria="Pristine Talonpriest Mask", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25669, trivia={criteria="Pristine Outcast Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25670, trivia={criteria="Pristine Apexis Crystal", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25671, trivia={criteria="Pristine Apexis Heiroglyph", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25672, trivia={criteria="Pristine Apexis Scroll", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25663, trivia={criteria="Pristine Dreamcatcher", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25634, trivia={criteria="Pristine Fang-Scarred Frostwolf Axe", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25635, trivia={criteria="Pristine Frostwolf Ancestry Scrimshaw", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25636, trivia={criteria="Pristine Wolfskin Snowshoes", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25637, trivia={criteria="Pristine Warsinger's Drums", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25638, trivia={criteria="Pristine Screaming Bullroarer", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25639, trivia={criteria="Pristine Warsong Ceremonial Pike", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25640, trivia={criteria="Pristine Metalworker's Hammer", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25641, trivia={criteria="Pristine Elemental Bellows", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25642, trivia={criteria="Pristine Blackrock Razor", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25643, trivia={criteria="Pristine Weighted Chopping Axe", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25644, trivia={criteria="Pristine Hooked Dagger", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25645, trivia={criteria="Pristine Barbed Fishing Hook", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25646, trivia={criteria="Pristine Calcified Eye In a Jar", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25647, trivia={criteria="Pristine Ceremonial Tattoo Needles", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25648, trivia={criteria="Pristine Ancestral Talisman", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25649, trivia={criteria="Pristine Cracked Ivory Idol", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25650, trivia={criteria="Pristine Flask of Blazegrease", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25651, trivia={criteria="Pristine Gronn-Tooth Necklace", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25652, trivia={criteria="Pristine Doomsday Prophecy", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25653, trivia={criteria="Pristine Stonemaul Succession Stone", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25654, trivia={criteria="Pristine Stone Manacles", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25655, trivia={criteria="Pristine Ogre Figurine", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25656, trivia={criteria="Pristine Pictogram Carving", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25657, trivia={criteria="Pristine Gladiator's Shield", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25658, trivia={criteria="Pristine Mortar and Pestle", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25659, trivia={criteria="Pristine Eye of Har'guun the Blind", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25660, trivia={criteria="Pristine Stone Dentures", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25661, trivia={criteria="Pristine Rylak Riding Harness", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+A{"unknown", 9419, criterion=25662, trivia={criteria="Pristine Imperial Decree Stele", module="data", category="Professions/Archaeology", name="Draenor Curator", description="Restore and display pristine versions of all Draenor artifacts.", points=25, parent="Professions", type="quest"}}
+
+-- Professions/Archaeology: The Search For Fact, Not Truth
+A{"unknown", 9422, criterion=16194, trivia={criteria="Find 30 rare artifacts.", module="data", category="Professions/Archaeology", name="The Search For Fact, Not Truth", description="Find 30 rare artifacts.", points=10, parent="Professions", type=3}}
+
+-- Dungeons & Raids/Draenor Raid: So Grossly Incandescent
+A{"unknown", 9425, trivia={module="data", category="Dungeons & Raids/Draenor Raid", name="So Grossly Incandescent", description="Defeat Rukhmar in Spires of Arak.", points=10, parent="Dungeons & Raids"}}
+
+-- World Events: To The Afterlife
+A{"unknown", 9426, trivia={module="data", category="World Events", name="To The Afterlife", description="Defeat a contender while wearing a contender's outfit purchased during Day of the Dead.", points=5}}
+
+-- World Events: Vientos!
+A{"unknown", 9427, criterion=25730, trivia={criteria="Contenders Defeated", module="data", category="World Events", name="Vientos!", description="Defeat 20 contenders while wearing a contender's outfit purchased during Day of the Dead.", points=5, type=29}}
+
+-- World Events: Calavera
+A{"unknown", 9428, criterion=25730, trivia={criteria="Contenders Defeated", module="data", category="World Events", name="Calavera", description="Defeat 50 contenders while wearing a contender's outfit purchased during Day of the Dead.", points=10, type=29}}
+
+-- Garrisons/Buildings: Upgrading the Mill
+A{"unknown", 9429, criterion=25174, trivia={criteria="Place 75 Work Orders at the Lumber Mill.", module="data", category="Garrisons/Buildings", name="Upgrading the Mill", description="Place 75 Work Orders at the Lumber Mill and complete the quests listed below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9429, criterion=25733, trivia={criteria="Legacy of the Ancients", module="data", category="Garrisons/Buildings", name="Upgrading the Mill", description="Place 75 Work Orders at the Lumber Mill and complete the quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9429, criterion=0, trivia={criteria="Reduction in Force", module="data", category="Garrisons/Buildings", name="Upgrading the Mill", description="Place 75 Work Orders at the Lumber Mill and complete the quests listed below.", points=5, parent="Garrisons", type="quest"}}
+
+-- Quests/Draenor: Would You Like a Pamphlet?
+A{"unknown", 9432, trivia={module="data", category="Quests/Draenor", name="Would You Like a Pamphlet?", description="Have all three incantations found in Forbidden Tomes active at once in the Shadowmoon Enclave.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: A-VOID-ance
+A{"unknown", 9433, trivia={module="data", category="Quests/Draenor", name="A-VOID-ance", description="Defeat Kenos without using Void Implosion to slay any Coalesced Void Fragments in the Shadowmoon Enclave.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: One of Us! One of Us!
+A{"unknown", 9434, trivia={module="data", category="Quests/Draenor", name="One of Us! One of Us!", description="Gain Power Overwhelming while inside the realm of the void in the Shadowmoon Enclave.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Take From Them Everything
+A{"unknown", 9435, trivia={module="data", category="Quests/Draenor", name="Take From Them Everything", description="Maintain one of the beneficial effects from destroying Sargerei supplies for 10 minutes in Socrethar's Rise.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: It's the Stones!
+A{"unknown", 9436, criterion=25749, trivia={criteria="Destroy 5 Draenic Darkstones in Socrethar's Rise.", module="data", category="Quests/Draenor", name="It's the Stones!", description="Destroy 5 Draenic Darkstones in Socrethar's Rise.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: A Demidos of Reality
+A{"unknown", 9437, trivia={module="data", category="Quests/Draenor", name="A Demidos of Reality", description="Defeat Demidos, Devourer of Lights in Socrethar's Rise.", points=10, parent="Quests"}}
+
+-- Garrisons/Buildings: The Trap Game
+A{"unknown", 9450, trivia={module="data", category="Garrisons/Buildings", name="The Trap Game", description="Place 50 Work Orders at the Barn by trapping creatures in the world.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Buildings: Trapper's Delight
+A{"unknown", 9451, trivia={module="data", category="Garrisons/Buildings", name="Trapper's Delight", description="Place 250 Work Orders at the Barn by trapping creatures in the world.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Buildings: Trap Superstar
+A{"unknown", 9452, trivia={module="data", category="Garrisons/Buildings", name="Trap Superstar", description="Place 500 Work Orders at the Barn by trapping creatures in the world.", points=5, parent="Garrisons"}}
+
+-- Professions: Draenic Stone Collector
+A{"unknown", 9453, criterion=25794, trivia={criteria="Loot Draenic Stone", module="data", category="Professions", name="Draenic Stone Collector", description="Collect 500 Draenic Stones.", points=5, type=42}}
+
+-- Professions: Draenic Seed Collector
+A{"unknown", 9454, criterion=25795, trivia={criteria="Loot Draenic Seeds", module="data", category="Professions", name="Draenic Seed Collector", description="Collect 500 Draenic Seeds.", points=5, type=42}}
+
+-- Professions/Fishing: Fire Ammonite Angler
+A{"unknown", 9455, criterion=25804, trivia={criteria="Loot Enormous Fire Ammonite", module="data", category="Professions/Fishing", name="Fire Ammonite Angler", description="Catch 100 Enormous Fire Ammonite fish in Draenor.", points=5, parent="Professions", type=42}}
+
+-- Professions/Fishing: Blackwater Whiptail Angler
+A{"unknown", 9457, criterion=25806, trivia={criteria="Loot Enormous Blackwater Whiptail", module="data", category="Professions/Fishing", name="Blackwater Whiptail Angler", description="Catch 100 Enormous Blackwater Whiptail fish in Draenor.", points=5, parent="Professions", type=42}}
+
+-- Professions/Fishing: Blind Lake Sturgeon Angler
+A{"unknown", 9458, criterion=25807, trivia={criteria="Loot Enormous Blind Lake Sturgeon", module="data", category="Professions/Fishing", name="Blind Lake Sturgeon Angler", description="Catch 100 Enormous Blind Lake Sturgeon fish in Draenor.", points=5, parent="Professions", type=42}}
+
+-- Professions/Fishing: Fat Sleeper Angler
+A{"unknown", 9459, criterion=25808, trivia={criteria="Loot Enormous Fat Sleeper", module="data", category="Professions/Fishing", name="Fat Sleeper Angler", description="Catch 100 Enormous Fat Sleeper fish in Draenor.", points=5, parent="Professions", type=42}}
+
+-- Professions/Fishing: Jawless Skulker Angler
+A{"unknown", 9460, criterion=25809, trivia={criteria="Loot Enormous Jawless Skulker", module="data", category="Professions/Fishing", name="Jawless Skulker Angler", description="Catch 100 Enormous Jawless Skulker fish in Draenor.", points=5, parent="Professions", type=42}}
+
+-- Professions/Fishing: Sea Scorpion Angler
+A{"unknown", 9461, criterion=25810, trivia={criteria="Loot Enormous Sea Scorpion", module="data", category="Professions/Fishing", name="Sea Scorpion Angler", description="Catch 100 Enormous Sea Scorpion fish in Draenor.", points=5, parent="Professions", type=42}}
+
+-- Professions/Fishing: Draenor Angler
+A{"unknown", 9462, criterion=25811, trivia={criteria="Sea Scorpion Angler", module="data", category="Professions/Fishing", name="Draenor Angler", description="Complete the Angler achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 9462, criterion=25812, trivia={criteria="Jawless Skulker Angler", module="data", category="Professions/Fishing", name="Draenor Angler", description="Complete the Angler achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 9462, criterion=25813, trivia={criteria="Fat Sleeper Angler", module="data", category="Professions/Fishing", name="Draenor Angler", description="Complete the Angler achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 9462, criterion=25814, trivia={criteria="Blind Lake Sturgeon Angler", module="data", category="Professions/Fishing", name="Draenor Angler", description="Complete the Angler achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 9462, criterion=25815, trivia={criteria="Blackwater Whiptail Angler", module="data", category="Professions/Fishing", name="Draenor Angler", description="Complete the Angler achievements listed below.", points=10, parent="Professions", type="achievement"}}
+A{"unknown", 9462, criterion=25817, trivia={criteria="Fire Ammonite Angler", module="data", category="Professions/Fishing", name="Draenor Angler", description="Complete the Angler achievements listed below.", points=10, parent="Professions", type="achievement"}}
+
+-- Garrisons/Buildings: Salvaging Pays Off
+A{"unknown", 9468, trivia={module="data", category="Garrisons/Buildings", name="Salvaging Pays Off", description="Open 100 pieces of Salvage from missions.", points=5, parent="Garrisons"}}
+
+-- Quests/Draenor: You Can't Make a Giant Omelette...
+A{"unknown", 9479, trivia={module="data", category="Quests/Draenor", name="You Can't Make a Giant Omelette...", description="Break the Giant Rylak Egg in Darktide Roost.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: You Have Been Rylakinated!
+A{"unknown", 9481, criterion=25833, trivia={criteria="Darkwing Adolescents defeated whithin 3 minutes while driving a Rylakinator-3000 in Darktide Roost.", module="data", category="Quests/Draenor", name="You Have Been Rylakinated!", description="Defeat 10 Darkwing Adolescents within 3 minutes while driving a Rylakinator-3000 in Darktide Roost.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Draenor: I Was Framed!
+A{"unknown", 9483, trivia={module="data", category="Quests/Draenor", name="I Was Framed!", description="Bait Darkwing Matron into ambushing a Darktide Rylakinator-3000 in Darktide Roost.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Goodness Gracious
+A{"unknown", 9486, trivia={module="data", category="Quests/Draenor", name="Goodness Gracious", description="Activate 12 different Fel Runes within 6 seconds and live to tell the tale in Shattrath City.", points=10, parent="Quests"}}
+
+-- General: Got My Mind On My Draenor Money
+A{"unknown", 9487, criterion=25853, trivia={criteria="Loot 10,000 gold", module="data", category="General", name="Got My Mind On My Draenor Money", description="Loot 10,000 gold in Draenor.", points=10, type="battle"}}
+
+-- Quests/Draenor: The Garrison Campaign
+A{"unknown", 9491, criterion=0, side="alliance", trivia={criteria="The Warlord's Council", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25857, side="alliance", trivia={criteria="The Sargerei", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25858, side="alliance", trivia={criteria="Darktide Roost", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25859, side="alliance", trivia={criteria="Iron Siegeworks", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25860, side="alliance", trivia={criteria="The Ring of Blood", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25861, side="alliance", trivia={criteria="Heart of the Breakers", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25862, side="alliance", trivia={criteria="A Strike at the Heart", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25863, side="alliance", trivia={criteria="The Fall of Shattrath", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25864, side="alliance", trivia={criteria="Bloodmaul Compound", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=27305, side="alliance", trivia={criteria="Broken Precipice", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25866, side="alliance", trivia={criteria="The Exarch's Call", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9491, criterion=25867, side="alliance", trivia={criteria="Primal Fury", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+
+-- Quests/Draenor: The Garrison Campaign
+A{"unknown", 9492, criterion=25871, side="horde", trivia={criteria="The Sargerei", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25858, side="horde", trivia={criteria="Darktide Roost", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25872, side="horde", trivia={criteria="Iron Siegeworks", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25873, side="horde", trivia={criteria="The Ring of Blood", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25874, side="horde", trivia={criteria="Heart of the Breakers", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25875, side="horde", trivia={criteria="A Strike at the Heart", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=27442, side="horde", trivia={criteria="The Fall of Shattrath", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25876, side="horde", trivia={criteria="Bloodmaul Compound", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=27306, side="horde", trivia={criteria="Broken Precipice", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=24518, side="horde", trivia={criteria="Ours is the Fury", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=25878, side="horde", trivia={criteria="Primal Fury", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9492, criterion=0, side="horde", trivia={criteria="The Warlord's Council", module="data", category="Quests/Draenor", name="The Garrison Campaign", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+
+-- Garrisons/Followers: Commander
+A{"unknown", 9494, criterion=25256, trivia={criteria="Recruit 40 followers.", module="data", category="Garrisons/Followers", name="Commander", description="Recruit 40 followers.", points=5, parent="Garrisons", type=175}}
+
+-- Garrisons/Buildings: The Bone Collector
+A{"unknown", 9495, criterion=25886, trivia={module="data", category="Garrisons/Buildings", name="The Bone Collector", description="Collect Broken Bones from other players in Player versus Player combat across Draenor.", points=5, parent="Garrisons"}}
+
+-- Feats of Strength: Warlord's Deathwheel
+A{"unknown", 9496, trivia={module="data", category="Feats of Strength", name="Warlord's Deathwheel", description="Qualified to receive the winning entry in the Azeroth Choppers competition.", points=0}}
+
+-- Garrisons/Buildings: Finding Your Waystones
+A{"unknown", 9497, criterion=25888, trivia={criteria="Loot Ogre Waystone", module="data", category="Garrisons/Buildings", name="Finding Your Waystones", description="Loot 500 Ogre Waystones.", points=5, parent="Garrisons", type=42}}
+
+-- Garrisons/Buildings: Wingman
+A{"unknown", 9498, trivia={module="data", category="Garrisons/Buildings", name="Wingman", description="Become a Personal Wingman with one of your Barracks Bodyguards.", points=5, parent="Garrisons"}}
+
+-- Professions/Cooking: The Draenor Gourmet
+A{"unknown", 9501, trivia={module="data", category="Professions/Cooking", name="The Draenor Gourmet", description="Cook 20 of the Draenor recipes listed below.", points=10, parent="Professions"}}
+
+-- General: Draenor Cuisine
+A{"unknown", 9502, criterion=25933, trivia={criteria="Blackrock Barbecue", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25934, trivia={criteria="Blackrock Ham", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25935, trivia={criteria="Braised Riverbeast", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25936, trivia={criteria="Calamari Crepes", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25937, trivia={criteria="Clefthoof Sausages", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25938, trivia={criteria="Fat Sleeper Cakes", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25939, trivia={criteria="Fiery Calamari", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25940, trivia={criteria="Frosty Stew", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25941, trivia={criteria="Gorgrond Chowder", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25942, trivia={criteria="Grilled Gulper", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25943, trivia={criteria="Grilled Saberfish", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25944, trivia={criteria="Hearty Elekk Steak", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25945, trivia={criteria="Pan-Seared Talbuk", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25946, trivia={criteria="Rylak Crepes", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25947, trivia={criteria="Saberfish Broth", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25948, trivia={criteria="Skulker Chowder", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25949, trivia={criteria="Sleeper Surprise", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25950, trivia={criteria="Steamed Scorpion", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25951, trivia={criteria="Sturgeon Stew", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+A{"unknown", 9502, criterion=25952, trivia={criteria="Talador Surf and Turf", module="data", category="General", name="Draenor Cuisine", description="Sample the following Draenor foods.", points=10, type=41}}
+
+-- Garrisons/Buildings: Warlord of Draenor
+A{"unknown", 9508, criterion=25959, side="horde", trivia={criteria="Nemesis: Worgen Hunter", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25958, side="horde", trivia={criteria="Nemesis: Terror of Tushui", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25957, side="horde", trivia={criteria="Nemesis: Scourge of the Kaldorei", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25956, side="horde", trivia={criteria="Nemesis: Manslayer", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25955, side="horde", trivia={criteria="Nemesis: Gnomebane", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25954, side="horde", trivia={criteria="Nemesis: Dwarfstalker", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25953, side="horde", trivia={criteria="Nemesis: Draenei Destroyer", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, side="horde", trivia={criteria="Fight, Kill, Salute!", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25959, side="horde", trivia={criteria="Nemesis: Worgen Hunter", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25958, side="horde", trivia={criteria="Nemesis: Terror of Tushui", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25957, side="horde", trivia={criteria="Nemesis: Scourge of the Kaldorei", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25956, side="horde", trivia={criteria="Nemesis: Manslayer", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25955, side="horde", trivia={criteria="Nemesis: Gnomebane", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25954, side="horde", trivia={criteria="Nemesis: Dwarfstalker", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9508, criterion=25953, side="horde", trivia={criteria="Nemesis: Draenei Destroyer", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+
+-- Garrisons/Buildings: Nemesis: Draenei Destroyer
+A{"unknown", 9509, criterion=25973, side="horde", trivia={criteria="Nemesis: Draenei Destroyer", module="data", category="Garrisons/Buildings", name="Nemesis: Draenei Destroyer", description="Complete the quest Nemesis: Draenei Destroyer at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Dwarfstalker
+A{"unknown", 9510, criterion=26590, side="horde", trivia={criteria="Nemesis: Dwarfstalker", module="data", category="Garrisons/Buildings", name="Nemesis: Dwarfstalker", description="Complete the quest Nemesis: Dwarfstalker at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Gnomebane
+A{"unknown", 9511, criterion=25975, side="horde", trivia={criteria="Nemesis: Gnomebane", module="data", category="Garrisons/Buildings", name="Nemesis: Gnomebane", description="Complete the quest Nemesis: Gnomebane at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Manslayer
+A{"unknown", 9512, criterion=25976, side="horde", trivia={criteria="Nemesis: Manslayer", module="data", category="Garrisons/Buildings", name="Nemesis: Manslayer", description="Complete the quest Nemesis: Manslayer at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Scourge of the Kaldorei
+A{"unknown", 9513, criterion=25977, side="horde", trivia={criteria="Nemesis: Scourge of the Kaldorei", module="data", category="Garrisons/Buildings", name="Nemesis: Scourge of the Kaldorei", description="Complete the quest Nemesis: Scourge of the Kaldorei at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Terror of the Tushui
+A{"unknown", 9514, criterion=25978, side="horde", trivia={criteria="Nemesis: Terror of the Tushui", module="data", category="Garrisons/Buildings", name="Nemesis: Terror of the Tushui", description="Complete the quest Nemesis: Terror of the Tushui at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Worgen Hunter
+A{"unknown", 9515, criterion=25979, side="horde", trivia={criteria="Nemesis: Worgen Hunter", module="data", category="Garrisons/Buildings", name="Nemesis: Worgen Hunter", description="Complete the quest Nemesis: Worgen Hunter at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Slayer of Sin'dorei
+A{"unknown", 9516, criterion=25974, side="alliance", trivia={criteria="Nemesis: Slayer of Sin'dorei", module="data", category="Garrisons/Buildings", name="Nemesis: Slayer of Sin'dorei", description="Complete the quest Nemesis: Slayer of Sin'dorei at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Death Stalker
+A{"unknown", 9517, criterion=25967, side="alliance", trivia={criteria="Nemesis: Deathstalker", module="data", category="Garrisons/Buildings", name="Nemesis: Death Stalker", description="Complete the quest Nemesis: Death Stalker at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Killer of Kezan
+A{"unknown", 9518, criterion=25968, side="alliance", trivia={criteria="Nemesis: Killer of Kezan", module="data", category="Garrisons/Buildings", name="Nemesis: Killer of Kezan", description="Complete the quest Nemesis: Killer of Kezan at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Orcslayer
+A{"unknown", 9519, criterion=25969, side="alliance", trivia={criteria="Nemesis: Orcslayer", module="data", category="Garrisons/Buildings", name="Nemesis: Orcslayer", description="Complete the quest Nemesis: Orcslayer at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Huojin's Fall
+A{"unknown", 9520, criterion=25970, side="alliance", trivia={criteria="Nemesis: Huojin's Fall", module="data", category="Garrisons/Buildings", name="Nemesis: Huojin's Fall", description="Complete the quest Nemesis: Huojin's Fall at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: The Butcher
+A{"unknown", 9521, criterion=25971, side="alliance", trivia={criteria="Nemesis: The Butcher", module="data", category="Garrisons/Buildings", name="Nemesis: The Butcher", description="Complete the quest Nemesis: The Butcher at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Nemesis: Troll Hunter
+A{"unknown", 9522, criterion=25972, side="alliance", trivia={criteria="Nemesis: Troll Hunter", module="data", category="Garrisons/Buildings", name="Nemesis: Troll Hunter", description="Complete the quest Nemesis: Troll Hunter at the Gladiator's Sanctum.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Missions: Patrolling Draenor
+A{"unknown", 9523, criterion=25271, trivia={criteria="Complete 50 garrison patrol missions.", module="data", category="Garrisons/Missions", name="Patrolling Draenor", description="Complete 50 garrison patrol missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Missions: Treasure Master
+A{"unknown", 9524, criterion=25338, trivia={criteria="Complete 50 garrison treasure missions.", module="data", category="Garrisons/Missions", name="Treasure Master", description="Complete 50 garrison treasure missions.", points=5, parent="Garrisons", type=173}}
+
+-- Garrisons/Buildings: Master of Mounts
+A{"unknown", 9526, criterion="Wolf Trained", trivia={criteria="Wolf Trained", module="data", category="Garrisons/Buildings", name="Master of Mounts", description="Fully train all six mounts at your Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9526, criterion="Talbuk Trained", trivia={criteria="Talbuk Trained", module="data", category="Garrisons/Buildings", name="Master of Mounts", description="Fully train all six mounts at your Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9526, criterion="Clefthoof Trained", trivia={criteria="Clefthoof Trained", module="data", category="Garrisons/Buildings", name="Master of Mounts", description="Fully train all six mounts at your Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9526, criterion="Boar Trained", trivia={criteria="Boar Trained", module="data", category="Garrisons/Buildings", name="Master of Mounts", description="Fully train all six mounts at your Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9526, criterion="Riverbeast Trained", trivia={criteria="Riverbeast Trained", module="data", category="Garrisons/Buildings", name="Master of Mounts", description="Fully train all six mounts at your Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9526, criterion="Elekk Trained", trivia={criteria="Elekk Trained", module="data", category="Garrisons/Buildings", name="Master of Mounts", description="Fully train all six mounts at your Stables.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Terrific Technology
+A{"unknown", 9527, criterion=26627, trivia={criteria="Robo-Rooster", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=26628, trivia={criteria="Sticky Grenade Launcher", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=0, trivia={criteria="Pneumatic Power Gauntlet", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=26631, trivia={criteria="\"Skyterror\" Personal Delivery System", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=26632, trivia={criteria="GG-117 Micro-Jetpack", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=26633, trivia={criteria="XD-57 \"Bullseye\" Guided Rocket Kit", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=26634, trivia={criteria="N.U.K.U.L.A.R. Target Painter", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=26635, trivia={criteria="Sentry Turret Dispensor", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+A{"unknown", 9527, criterion=0, trivia={criteria="Prototype Motorcycle", module="data", category="Garrisons/Buildings", name="Terrific Technology", description="Use at least 6 of the inventions available at the Workshop specified below.", points=5, parent="Garrisons", type=29}}
+
+-- Quests/Draenor: Writing in the Snow
+A{"unknown", 9530, side="alliance", trivia={module="data", category="Quests/Draenor", name="Writing in the Snow", description="Find Bodrick Grey's tattered journal page in the Bloodmaul Stronghold.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Writing in the Snow
+A{"unknown", 9531, side="horde", trivia={module="data", category="Quests/Draenor", name="Writing in the Snow", description="Find Shadow Hunter Bwu'ja's tattered journal page in the Bloodmaul Stronghold.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Breaker of Chains
+A{"unknown", 9533, criterion=27300, trivia={criteria="Slaves Freed", module="data", category="Quests/Draenor", name="Breaker of Chains", description="Free 50 slaves from captivity in the Bloodmaul Stronghold.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: Delectable Ogre Delicacies
+A{"unknown", 9534, trivia={module="data", category="Quests/Draenor", name="Delectable Ogre Delicacies", description="Gain the well fed effects from Toasted Roach Crunchies, Pickled Rat Skewers, and Charred Boar Chops at the same time in the Bloodmaul Stronghold.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: That Was Entirely Unnecessary
+A{"unknown", 9535, criterion=26349, trivia={criteria="Goren punted", module="data", category="Quests/Draenor", name="That Was Entirely Unnecessary", description="Punt 100 Goren Eggs in Magnarok.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: Slagnarok
+A{"unknown", 9536, criterion=26348, trivia={criteria="Defeat Slagged Enemies", module="data", category="Quests/Draenor", name="Slagnarok", description="Defeat 20 creatures after slagging them with goren acid in Magnarok.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: By Fire Be... Merged?
+A{"unknown", 9537, trivia={module="data", category="Quests/Draenor", name="By Fire Be... Merged?", description="Complete the quest \"Rekindling an Old Flame\" without using a Kindling Flame to rekindle the essence in Magnarok.", points=10, parent="Quests"}}
+
+-- Garrisons/Buildings: Intro to Husbandry
+A{"unknown", 9538, criterion="Wrangling a Wolf", trivia={criteria="Wrangling a Wolf", module="data", category="Garrisons/Buildings", name="Intro to Husbandry", description="Complete all of the capture quests at the Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9538, criterion="Taming a Talbuk", trivia={criteria="Taming a Talbuk", module="data", category="Garrisons/Buildings", name="Intro to Husbandry", description="Complete all of the capture quests at the Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9538, criterion="Capturing a Clefthoof", trivia={criteria="Capturing a Clefthoof", module="data", category="Garrisons/Buildings", name="Intro to Husbandry", description="Complete all of the capture quests at the Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9538, criterion="Besting a Boar", trivia={criteria="Besting a Boar", module="data", category="Garrisons/Buildings", name="Intro to Husbandry", description="Complete all of the capture quests at the Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9538, criterion="Requisition a Riverbeast", trivia={criteria="Requisition a Riverbeast", module="data", category="Garrisons/Buildings", name="Intro to Husbandry", description="Complete all of the capture quests at the Stables.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9538, criterion="Entangling an Elekk", trivia={criteria="Entangling an Elekk", module="data", category="Garrisons/Buildings", name="Intro to Husbandry", description="Complete all of the capture quests at the Stables.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Advanced Husbandry
+A{"unknown", 9539, criterion="Maimclaw Killed", side="alliance", trivia={criteria="Maimclaw Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9539, criterion="Beast-Lasher Killed", side="alliance", trivia={criteria="Beast-Lasher Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9539, criterion="Moth of Wrath Killed", side="alliance", trivia={criteria="Moth of Wrath Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9539, criterion="Thundercall Killed", side="alliance", trivia={criteria="Thundercall Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9539, criterion="Ironbore Killed", side="alliance", trivia={criteria="Ironbore Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9539, criterion="Karak Killed", side="alliance", trivia={criteria="Karak Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+
+-- Garrisons/Buildings: The Stable Master
+A{"unknown", 9540, criterion="Beast-Lasher Killed", side="alliance", trivia={criteria="Beast-Lasher Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9540, criterion="Moth of Wrath Killed", side="alliance", trivia={criteria="Moth of Wrath Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9540, criterion="Thundercall Killed", side="alliance", trivia={criteria="Thundercall Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9540, criterion="Ironbore Killed", side="alliance", trivia={criteria="Ironbore Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9540, criterion="Karak Killed", side="alliance", trivia={criteria="Karak Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9540, criterion="Maimclaw Killed", side="alliance", trivia={criteria="Maimclaw Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+
+-- Quests/Draenor: The Song of Silence
+A{"unknown", 9541, criterion=26140, trivia={criteria="Karosh Blackwind", module="data", category="Quests/Draenor", name="The Song of Silence", description="Defeat the elite Warsong of Mok'gol Watchpost.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9541, criterion=26141, trivia={criteria="Brutag Grimblade", module="data", category="Quests/Draenor", name="The Song of Silence", description="Defeat the elite Warsong of Mok'gol Watchpost.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9541, criterion=26142, trivia={criteria="Krahl Deadeye", module="data", category="Quests/Draenor", name="The Song of Silence", description="Defeat the elite Warsong of Mok'gol Watchpost.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9541, criterion=26143, trivia={criteria="Gortag Steelgrip", module="data", category="Quests/Draenor", name="The Song of Silence", description="Defeat the elite Warsong of Mok'gol Watchpost.", points=10, parent="Quests", type="slay"}}
+
+-- Garrisons/Invasions: Invasion? What Invasion?
+A{"unknown", 9543, criterion=0, trivia={criteria="Invasions completed", module="data", category="Garrisons/Invasions", name="Invasion? What Invasion?", description="Successfully complete 50 garrison invasions.", points=5, parent="Garrisons", type=28}}
+
+-- Garrisons: More Plots
+A{"unknown", 9545, side="horde", trivia={module="data", category="Garrisons", name="More Plots", description="Upgrade your garrison to tier 2.", points=5}}
+
+-- Garrisons: Even More Plots
+A{"unknown", 9546, side="horde", trivia={module="data", category="Garrisons", name="Even More Plots", description="Upgrade your garrison to tier 3.", points=5}}
+
+-- General: Everything Is Awesome!
+A{"unknown", 9547, criterion=26144, trivia={criteria="Use Awesomefish", module="data", category="General", name="Everything Is Awesome!", description="Throw 20 Awesomefish.", points=10, type=41}}
+
+-- Quests/Draenor: Buried Treasures
+A{"unknown", 9548, criterion=26145, trivia={criteria="Garrosh's Shackles", module="data", category="Quests/Draenor", name="Buried Treasures", description="Find all of the Warsong objects within Mok'gol Watchpost", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9548, criterion=26146, trivia={criteria="Warsong Relics", module="data", category="Quests/Draenor", name="Buried Treasures", description="Find all of the Warsong objects within Mok'gol Watchpost", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9548, criterion=26147, trivia={criteria="Warsong Remains", module="data", category="Quests/Draenor", name="Buried Treasures", description="Find all of the Warsong objects within Mok'gol Watchpost", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9548, criterion=26148, trivia={criteria="Stolen Draenei Tome", module="data", category="Quests/Draenor", name="Buried Treasures", description="Find all of the Warsong objects within Mok'gol Watchpost", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9548, criterion=26149, trivia={criteria="Wolf Pup Remains", module="data", category="Quests/Draenor", name="Buried Treasures", description="Find all of the Warsong objects within Mok'gol Watchpost", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9548, criterion=26150, trivia={criteria="Gnarled Bone", module="data", category="Quests/Draenor", name="Buried Treasures", description="Find all of the Warsong objects within Mok'gol Watchpost", points=10, parent="Quests", type="quest"}}
+
+-- Dungeons & Raids/Draenor Dungeon: Demon's Souls
+A{"unknown", 9551, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="Demon's Souls", description="Defeat Azzakel in Auchindoun on Heroic difficulty without killing any other demons during the encounter.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Draenor Dungeon: No Tag-backs!
+A{"unknown", 9552, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="No Tag-backs!", description="Defeat Teron'gor in Auchindoun on Heroic difficulty while under the effects of Curtain of Flame.", points=10, parent="Dungeons & Raids"}}
+
+-- Quests/Draenor: Securing Draenor
+A{"unknown", 9562, criterion=26225, side="horde", trivia={criteria="Assault on the Iron Siegeworks", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26226, side="horde", trivia={criteria="Assault on Stonefury Cliffs", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26228, side="horde", trivia={criteria="Assault on Magnarok", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26229, side="horde", trivia={criteria="Assault on the Pit", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26232, side="horde", trivia={criteria="Assault on the Everbloom Wilds", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26233, side="horde", trivia={criteria="Assault on the Broken Precipice", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26237, side="horde", trivia={criteria="Assault on Mok'gol Watchpost", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26238, side="horde", trivia={criteria="Assault on Socrethar's Rise", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26239, side="horde", trivia={criteria="Assault on Darktide Roost", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26240, side="horde", trivia={criteria="Assault on Pillars of Fate", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26242, side="horde", trivia={criteria="Assault on Shattrath Harbor", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9562, criterion=26243, side="horde", trivia={criteria="Assault on Skettis", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+
+-- Quests/Draenor: Securing Draenor
+A{"unknown", 9564, criterion=26244, side="alliance", trivia={criteria="Assault on the Iron Siegeworks", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26245, side="alliance", trivia={criteria="Assault on Stonefury Cliffs", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26247, side="alliance", trivia={criteria="Assault on Magnarok", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26248, side="alliance", trivia={criteria="Assault on the Pit", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26249, side="alliance", trivia={criteria="Assault on the Everbloom Wilds", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26250, side="alliance", trivia={criteria="Assault on the Broken Precipice", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26252, side="alliance", trivia={criteria="Assault on Mok'gol Watchpost", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26253, side="alliance", trivia={criteria="Assault on Socrethar's Rise", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26254, side="alliance", trivia={criteria="Assault on Darktide Roost", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26255, side="alliance", trivia={criteria="Assault on Skettis", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26256, side="alliance", trivia={criteria="Assault on Pillars of Fate", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9564, criterion=26258, side="alliance", trivia={criteria="Assault on Shattrath Harbor", module="data", category="Quests/Draenor", name="Securing Draenor", description="Complete the Draenor bonus objectives listed below.", points=10, parent="Quests", type="quest"}}
+
+-- Garrisons/Buildings: Master Trapper
+A{"unknown", 9565, trivia={module="data", category="Garrisons/Buildings", name="Master Trapper", description="Place 125 Work Orders at the Barn by trapping creatures in the world.", points=5, parent="Garrisons"}}
+
+-- Quests/Draenor: Broke Back Precipice
+A{"unknown", 9571, criterion=26318, trivia={criteria="Durg Spinecrusher", module="data", category="Quests/Draenor", name="Broke Back Precipice", description="Defeat the powerful foes within Broken Precipice.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9571, criterion=26319, trivia={criteria="Bonebreaker", module="data", category="Quests/Draenor", name="Broke Back Precipice", description="Defeat the powerful foes within Broken Precipice.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9571, criterion=26320, trivia={criteria="Pit Slayer", module="data", category="Quests/Draenor", name="Broke Back Precipice", description="Defeat the powerful foes within Broken Precipice.", points=10, parent="Quests", type="slay"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Bronze Damage
+A{"unknown", 9572, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Bronze Damage", description="Successfully complete the Basic Damage (Bronze) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Silver Damage
+A{"unknown", 9573, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Silver Damage", description="Successfully complete the Basic Damage (Silver) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Gold Damage
+A{"unknown", 9574, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Gold Damage", description="Successfully complete the Basic Damage (Gold) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Damage (Wave 10)
+A{"unknown", 9575, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Damage (Wave 10)", description="Successfully complete Wave 10 of the Basic Damage (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Damage (Wave 20)
+A{"unknown", 9576, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Damage (Wave 20)", description="Successfully complete Wave 20 of the Basic Damage (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Damage (Wave 30)
+A{"unknown", 9577, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Damage (Wave 30)", description="Successfully complete Wave 30 of the Basic Damage (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Bronze Tank
+A{"unknown", 9578, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Bronze Tank", description="Successfully complete the Basic Tank (Bronze) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Silver Tank
+A{"unknown", 9579, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Silver Tank", description="Successfully complete the Basic Tank (Silver) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Gold Tank
+A{"unknown", 9580, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Gold Tank", description="Successfully complete the Basic Tank (Gold) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Tank (Wave 10)
+A{"unknown", 9581, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Tank (Wave 10)", description="Successfully complete Wave 10 of the Basic Tank (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Tank (Wave 20)
+A{"unknown", 9582, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Tank (Wave 20)", description="Successfully complete Wave 20 of the Basic Tank (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Tank (Wave 30)
+A{"unknown", 9583, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Tank (Wave 30)", description="Successfully complete Wave 30 of the Basic Tank (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Bronze Healer
+A{"unknown", 9584, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Bronze Healer", description="Successfully complete the Basic Healer (Bronze) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Silver Healer
+A{"unknown", 9585, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Silver Healer", description="Successfully complete the Basic Healer (Silver) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Gold Healer
+A{"unknown", 9586, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Gold Healer", description="Successfully complete the Basic Healer (Gold) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Healer (Wave 10)
+A{"unknown", 9587, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Healer (Wave 10)", description="Successfully complete Wave 10 of the Basic Healer (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Healer (Wave 20)
+A{"unknown", 9588, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Healer (Wave 20)", description="Successfully complete Wave 20 of the Basic Healer (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: Proving Yourself: Endless Healer (Wave 30)
+A{"unknown", 9589, trivia={module="data", category="Scenarios/Proving Grounds", name="Proving Yourself: Endless Healer (Wave 30)", description="Successfully complete Wave 30 of the Basic Healer (Endless) trial at the Proving Grounds.", points=10, parent="Scenarios"}}
+
+-- Scenarios/Proving Grounds: You're Doing it Wrong
+A{"unknown", 9590, trivia={module="data", category="Scenarios/Proving Grounds", name="You're Doing it Wrong", description="Successfully complete any of the Basic (Silver) trials at the Proving Grounds, while in a specialization not suited for it.", points=10, parent="Scenarios"}}
+
+-- Feats of Strength: You're Really Doing It Wrong
+A{"unknown", 9597, trivia={module="data", category="Feats of Strength", name="You're Really Doing It Wrong", description="Successfully complete any of the Basic (Gold) trials at the Proving Grounds, while in a specialization not suited for it.", points=0}}
+
+-- Quests/Draenor: Monster Mash
+A{"unknown", 9600, criterion=26372, trivia={criteria="Shadow Hulk", module="data", category="Quests/Draenor", name="Monster Mash", description="Successfully complete both of the following evolutions within the Lost Veil Anzu:", points=10, parent="Quests", type=28}}
+A{"unknown", 9600, criterion=26371, trivia={criteria="Gluttonous Giant", module="data", category="Quests/Draenor", name="Monster Mash", description="Successfully complete both of the following evolutions within the Lost Veil Anzu:", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: King of the Monsters
+A{"unknown", 9601, criterion=26368, trivia={criteria="Morphed Sentient", module="data", category="Quests/Draenor", name="King of the Monsters", description="Defeat each of the following creatures while evolved in the Lost Veil Anzu.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9601, criterion=27429, trivia={criteria="Giga Sentinel", module="data", category="Quests/Draenor", name="King of the Monsters", description="Defeat each of the following creatures while evolved in the Lost Veil Anzu.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9601, criterion=27428, trivia={criteria="Shadow Hulk", module="data", category="Quests/Draenor", name="King of the Monsters", description="Defeat each of the following creatures while evolved in the Lost Veil Anzu.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9601, criterion=27427, trivia={criteria="Mecha Plunderer", module="data", category="Quests/Draenor", name="King of the Monsters", description="Defeat each of the following creatures while evolved in the Lost Veil Anzu.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9601, criterion=27426, trivia={criteria="Gluttonous Giant", module="data", category="Quests/Draenor", name="King of the Monsters", description="Defeat each of the following creatures while evolved in the Lost Veil Anzu.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Draenor: History of Violence
+A{"unknown", 9610, criterion=26397, trivia={criteria="Krog the Dominator's Hammer", module="data", category="Quests/Draenor", name="History of Violence", description="Unearth all the ancient ogre relics within Broken Precipice.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9610, criterion=26399, trivia={criteria="Thak the Conqueror's Bust", module="data", category="Quests/Draenor", name="History of Violence", description="Unearth all the ancient ogre relics within Broken Precipice.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9610, criterion=26400, trivia={criteria="Thurg the Slave Lord's Necklace", module="data", category="Quests/Draenor", name="History of Violence", description="Unearth all the ancient ogre relics within Broken Precipice.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9610, criterion=26404, trivia={criteria="Gorg the Subjugator's Idol", module="data", category="Quests/Draenor", name="History of Violence", description="Unearth all the ancient ogre relics within Broken Precipice.", points=10, parent="Quests", type="quest"}}
+
+-- Quests/Draenor: Eggs in One Basket
+A{"unknown", 9612, trivia={module="data", category="Quests/Draenor", name="Eggs in One Basket", description="Escort Arakkoa Outcasts to an Outcast Darkscryer with a total of 100 morale during Operation: Skettis Ruins.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Fish Gotta Swim, Birds Gotta Eat
+A{"unknown", 9613, trivia={module="data", category="Quests/Draenor", name="Fish Gotta Swim, Birds Gotta Eat", description="Steal a fish from a Kaliri before it successfully eats it and consume it yourself in Skettis Ruins.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Making the Cut
+A{"unknown", 9617, criterion=26429, trivia={criteria="Krud the Eviscerator", module="data", category="Quests/Draenor", name="Making the Cut", description="Defeat Krud the Eviscerator within Gorian Proving Grounds.", points=10, parent="Quests", type="slay"}}
+
+-- Feats of Strength: The Iron Invasion
+A{"unknown", 9618, criterion=26437, trivia={criteria="Report to the King", module="data", category="Feats of Strength", name="The Iron Invasion", description="Complete the Blasted Lands invasion quests before the Assault on the Dark Portal begins.", points=0, type="quest"}}
+A{"unknown", 9618, criterion=26438, trivia={criteria="Warning the Warchief", module="data", category="Feats of Strength", name="The Iron Invasion", description="Complete the Blasted Lands invasion quests before the Assault on the Dark Portal begins.", points=0, type="quest"}}
+
+-- Dungeons & Raids: Savage Hero
+A{"unknown", 9619, criterion=26439, trivia={criteria="Gug'rokk (Bloodmaul Slag Mines)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26446, trivia={criteria="Teron'gor (Auchindoun)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26440, trivia={criteria="Skulloc, Son of Gruul (Iron Docks)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26441, trivia={criteria="Warlord Zaela (Upper Blackrock Spire)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26442, trivia={criteria="Yalnu (The Everbloom)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26443, trivia={criteria="Skylord Tovra (Grimrail Depot)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26444, trivia={criteria="High Sage Viryx (Skyreach)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26445, trivia={criteria="Ner'zhul (Shadowmoon Burial Grounds)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26447, trivia={criteria="Imperator Mar'gok (Highmaul)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+A{"unknown", 9619, criterion=26448, trivia={criteria="Warlord Blackhand (Blackrock Foundry)", module="data", category="Dungeons & Raids", name="Savage Hero", description="Defeat the following Draenor dungeon and raid bosses on Heroic difficulty or higher.", points=10, type=165}}
+
+-- Garrisons/Monuments: Defender of Draenor
+A{"unknown", 9630, criterion=25376, side="alliance", trivia={criteria="Get 5000 honorable kills in Draenor.", module="data", category="Garrisons/Monuments", name="Defender of Draenor", description="Get 5000 honorable kills in Draenor.", points=10, parent="Garrisons", type="battle"}}
+
+-- Garrisons/Monuments: Mythic Draenor Raider
+A{"unknown", 9631, criterion=25407, side="alliance", trivia={criteria="Mythic: Twin Ogron", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25408, side="alliance", trivia={criteria="Mythic: Ko'ragh", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25409, side="alliance", trivia={criteria="Mythic: Imperator's Fall", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25393, side="alliance", trivia={criteria="Mythic: Iron Maidens", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25394, side="alliance", trivia={criteria="Mythic: Blackhand's Crucible", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25395, side="alliance", trivia={criteria="Mythic: Oregorger", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25396, side="alliance", trivia={criteria="Mythic: Operator Thogar", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25397, side="alliance", trivia={criteria="Mythic: Kromog", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25398, side="alliance", trivia={criteria="Mythic: Hans'gar and Franzok", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25399, side="alliance", trivia={criteria="Mythic: Gruul", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25400, side="alliance", trivia={criteria="Mythic: Flamebender Ka'graz", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25401, side="alliance", trivia={criteria="Mythic: Beastlord Darmac", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25402, side="alliance", trivia={criteria="Mythic: Blast Furnace", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25403, side="alliance", trivia={criteria="Mythic: Kargath Bladefist", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25404, side="alliance", trivia={criteria="Mythic: The Butcher", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25405, side="alliance", trivia={criteria="Mythic: Tectus", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9631, criterion=25406, side="alliance", trivia={criteria="Mythic: Brackenspore", module="data", category="Garrisons/Monuments", name="Mythic Draenor Raider", description="Complete the Mythic raiding achievements listed below.", points=10, parent="Garrisons", type="achievement"}}
+
+-- Quests/Draenor: The Power Is Yours
+A{"unknown", 9632, trivia={module="data", category="Quests/Draenor", name="The Power Is Yours", description="Combine the effects of all three types of Rune Crystals in Shattrath City.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Cut off the Head
+A{"unknown", 9633, criterion=26465, trivia={criteria="Bombardier Gu'gok", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26466, trivia={criteria="Gug'tol", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26467, trivia={criteria="Haakun the All-Consuming", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26468, trivia={criteria="Felfire Consort", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26469, trivia={criteria="Avatar of Socrethar", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26470, trivia={criteria="Sargerei War Council", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26579, trivia={criteria="Legion Vanguard", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9633, criterion=26580, trivia={criteria="Xothear, the Destroyer", module="data", category="Quests/Draenor", name="Cut off the Head", description="Defeat all of the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Draenor: Charged Up
+A{"unknown", 9634, criterion=26474, trivia={criteria="Shadow Council members defeated", module="data", category="Quests/Draenor", name="Charged Up", description="Defeat 30 Shadow Council members while under the effects of Arkonite Empowerment in Shattrath City.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: Bobbing for Orcs
+A{"unknown", 9635, criterion=26472, trivia={criteria="Floating orcs burned", module="data", category="Quests/Draenor", name="Bobbing for Orcs", description="Dispose of 40 floating orcs in Shattrath City.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: United We Stand
+A{"unknown", 9636, criterion=26473, trivia={criteria="Captured guards freed", module="data", category="Quests/Draenor", name="United We Stand", description="Free 10 captured guards in Shattrath City.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: Poor Communication
+A{"unknown", 9637, criterion=26475, trivia={criteria="Sargerei Missives burned", module="data", category="Quests/Draenor", name="Poor Communication", description="Burn 30 Sargerei Missives in Shattrath City.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Draenor: Heralds of the Legion
+A{"unknown", 9638, criterion=26476, trivia={criteria="Orumo the Observer", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9638, criterion=26477, trivia={criteria="Lord Korinak", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9638, criterion=26478, trivia={criteria="Lady Demlash", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9638, criterion=26479, trivia={criteria="Shadowflame Terrorwalker", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9638, criterion=26480, trivia={criteria="Kurlosh Doomfang", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9638, criterion=26481, trivia={criteria="Matron of Sin", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9638, criterion=26582, trivia={criteria="Vigilant Paarthos", module="data", category="Quests/Draenor", name="Heralds of the Legion", description="Defeat all the rare creatures in Shattrath City listed below.", points=10, parent="Quests", type="slay"}}
+
+-- Garrisons/Buildings: Fight, Kill, Salute!
+A{"unknown", 9639, criterion=26482, trivia={criteria="Fight, Kill, Salute!", module="data", category="Garrisons/Buildings", name="Fight, Kill, Salute!", description="Complete the quest Fight, Kill, Salute at the Highmaul Coliseum.", points=10, parent="Garrisons", type="quest"}}
+
+-- Quests/Draenor: Chapter I: Call of the Archmage
+A{"unknown", 9640, criterion=26485, trivia={criteria="Complete Quest \"Tarnished Bronze.\"", module="data", category="Quests/Draenor", name="Chapter I: Call of the Archmage", description="Begin Khadgar's legendary quest and prove yourself raid-ready by defeating the spirit of Kairozdormu.", points=25, parent="Quests", type="quest"}}
+
+-- Quests/Draenor: Mean and Green
+A{"unknown", 9654, trivia={module="data", category="Quests/Draenor", name="Mean and Green", description="Reach 10 stacks of Mutagen in the Everbloom Wilds.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Fight the Power
+A{"unknown", 9655, criterion=26542, trivia={criteria="Maniacal Madgard", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9655, criterion=26543, trivia={criteria="Defector Dazgo", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9655, criterion=26544, trivia={criteria="Durp the Hated", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9655, criterion=26545, trivia={criteria="Inventor Blammo", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9655, criterion=26548, trivia={criteria="Horgg", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9655, criterion=26550, trivia={criteria="Blademaster Ro'gor", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9655, criterion=26551, trivia={criteria="Morgo Kain", module="data", category="Quests/Draenor", name="Fight the Power", description="Defeat all of the rare creatures in The Pit listed below.", points=10, parent="Quests", type="slay"}}
+
+-- Quests/Draenor: In Plain Sight
+A{"unknown", 9656, criterion=27301, trivia={criteria="Find the Iron Horde Attack Plans in The Pit.", module="data", category="Quests/Draenor", name="In Plain Sight", description="Find the Iron Horde Attack Plans in The Pit.", points=10, parent="Quests", type=68}}
+
+-- Quests/Draenor: Pillars of Draenor
+A{"unknown", 9658, trivia={module="data", category="Quests/Draenor", name="Pillars of Draenor", description="Hold the power of all 3 pillars of power in the Everbloom Wilds simultaneously.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Iron Wings
+A{"unknown", 9659, criterion=27302, trivia={criteria="Use the Iron Troop Launcher in The Pit to get launched through four rings in 3 minutes.", module="data", category="Quests/Draenor", name="Iron Wings", description="Use the Iron Troop Launcher in The Pit to get launched through four rings in 3 minutes.", points=10, parent="Quests", type=28}}
+
+-- Quests/Draenor: Picky Palate
+A{"unknown", 9663, trivia={module="data", category="Quests/Draenor", name="Picky Palate", description="Benefit from the effects of a Lovely Coconut, a Prickly Guava and a Handful of Gorgraberries simultaneously in the Everbloom Wilds.", points=10, parent="Quests"}}
+
+-- Quests/Draenor: Burn It to the Ground
+A{"unknown", 9667, criterion=26587, trivia={criteria="Trees ignited", module="data", category="Quests/Draenor", name="Burn It to the Ground", description="Burn 100 trees in the Everbloom Wilds.", points=10, parent="Quests", type=29}}
+
+-- Collections/Toy Box: Toying Around
+A{"unknown", 9670, criterion=26801, trivia={criteria="Collect 25 Toys", module="data", category="Collections/Toy Box", name="Toying Around", description="Collect 25 toys.", points=10, parent="Collections", type=186}}
+
+-- Collections/Toy Box: Having A Ball
+A{"unknown", 9671, criterion=26801, trivia={criteria="Collect 50 Toys", module="data", category="Collections/Toy Box", name="Having A Ball", description="Collect 50 toys.", points=10, parent="Collections", type=186}}
+
+-- Collections/Toy Box: Tons of Toys
+A{"unknown", 9672, criterion=26801, trivia={criteria="Collect 100 Toys", module="data", category="Collections/Toy Box", name="Tons of Toys", description="Collect 100 toys.", points=10, parent="Collections", type=186}}
+
+-- Collections/Toy Box: The Toymaster
+A{"unknown", 9673, criterion=26801, trivia={criteria="Collect 150 Toys", module="data", category="Collections/Toy Box", name="The Toymaster", description="Collect 150 toys.", points=10, parent="Collections", type=186}}
+
+-- Quests/Draenor: Ancient No More
+A{"unknown", 9678, criterion=26593, trivia={criteria="Swift Onyx Flayer", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26594, trivia={criteria="Mogamago", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26595, trivia={criteria="Protectors of the Grove", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26596, trivia={criteria="Venolasix", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26597, trivia={criteria="Alkali", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26598, trivia={criteria="Depthroot", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26599, trivia={criteria="Firestarter Grash", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26600, trivia={criteria="Grove Warden Yal", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+A{"unknown", 9678, criterion=26606, trivia={criteria="Hunter Bal'ra", module="data", category="Quests/Draenor", name="Ancient No More", description="Defeat all of the rare creatures in the Everbloom Wilds listed below.", points=10, parent="Quests", type="slay"}}
+
+-- Feats of Strength: Time is a Flat Circle
+A{"unknown", 9680, trivia={module="data", category="Feats of Strength", name="Time is a Flat Circle", description="Defeat Archimonde on Normal difficulty or higher, prior to the release of the next tier of content.", points=0}}
+
+-- Garrisons/Buildings: Stay Awhile and Listen
+A{"unknown", 9703, criterion=26607, trivia={criteria="Cro's Revenge", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26608, trivia={criteria="Time-Lost Vikings", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26609, trivia={criteria="Feeling A Bit Morose", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26610, trivia={criteria="The Brass Compass", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26611, trivia={criteria="The Soulcutter", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26612, trivia={criteria="The Cure for Death", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26613, trivia={criteria="Gloriously Incandescent", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26614, trivia={criteria="Aviana's Request", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26615, trivia={criteria="Family Traditions", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26616, trivia={criteria="Damsels and Dragons", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26617, trivia={criteria="Shadowy Secrets", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26618, trivia={criteria="The Huntresses", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26619, trivia={criteria="Cenarion Concerns", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26620, trivia={criteria="Titanic Evolution", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26621, trivia={criteria="And No Maces!", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26622, trivia={criteria="Cleaving Time", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26623, trivia={criteria="Oralius' Adventure", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26624, trivia={criteria="The Void-Gate", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26625, trivia={criteria="For the Birds", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 9703, criterion=26626, trivia={criteria="Cold Steel", module="data", category="Garrisons/Buildings", name="Stay Awhile and Listen", description="Complete at least 10 of the Inn quests listed below.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Buildings: Advanced Husbandry
+A{"unknown", 9705, criterion="Beast-Lasher Killed", side="horde", trivia={criteria="Beast-Lasher Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9705, criterion="Moth of Wrath Killed", side="horde", trivia={criteria="Moth of Wrath Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9705, criterion="Thundercall Killed", side="horde", trivia={criteria="Thundercall Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9705, criterion="Ironbore Killed", side="horde", trivia={criteria="Ironbore Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9705, criterion="Karak Killed", side="horde", trivia={criteria="Karak Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9705, criterion="Maimclaw Killed", side="horde", trivia={criteria="Maimclaw Killed", module="data", category="Garrisons/Buildings", name="Advanced Husbandry", description="Defeat all mount-in-training targets in Nagrand while carrying the Black Claw of Sethe.", points=10, parent="Garrisons", type=28}}
+
+-- Garrisons/Buildings: The Stable Master
+A{"unknown", 9706, criterion="Karak Killed", side="horde", trivia={criteria="Karak Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9706, criterion="Maimclaw Killed", side="horde", trivia={criteria="Maimclaw Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9706, criterion="Beast-Lasher Killed", side="horde", trivia={criteria="Beast-Lasher Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9706, criterion="Moth of Wrath Killed", side="horde", trivia={criteria="Moth of Wrath Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9706, criterion="Thundercall Killed", side="horde", trivia={criteria="Thundercall Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+A{"unknown", 9706, criterion="Ironbore Killed", side="horde", trivia={criteria="Ironbore Killed", module="data", category="Garrisons/Buildings", name="The Stable Master", description="Defeat all mount-in-training targets in Nagrand while carrying the Garn-Tooth Necklace.", points=10, parent="Garrisons", type=28}}
+
+-- Quests/Draenor: Poisoning the Well
+A{"unknown", 9710, criterion=26674, trivia={criteria="Poison 10 Kegs of Impaler Ale", module="data", category="Quests/Draenor", name="Poisoning the Well", description="Poison 10 Kegs of Impaler Ale in Iron Siegeworks.", points=10, parent="Quests", type=68}}
+
+-- Quests/Draenor: Planned to Fail
+A{"unknown", 9711, criterion=26675, trivia={criteria="Destroy 10 Secret Warplans", module="data", category="Quests/Draenor", name="Planned to Fail", description="Destroy 10 Secret Warplans in Iron Siegeworks.", points=10, parent="Quests", type=68}}
+
+-- Feats of Strength: The Last of Us
+A{"unknown", 9725, trivia={module="data", category="Feats of Strength", name="The Last of Us", description="Become the last gladiator standing at the Highmaul Coliseum.", points=0}}
+
+-- Exploration/Draenor: Treasure Hunter
+A{"unknown", 9726, trivia={module="data", category="Exploration/Draenor", name="Treasure Hunter", description="Discover 10 treasures of Draenor (excluding Tanaan Jungle).", points=10, parent="Exploration"}}
+
+-- Exploration/Draenor: Expert Treasure Hunter
+A{"unknown", 9727, trivia={module="data", category="Exploration/Draenor", name="Expert Treasure Hunter", description="Discover 50 treasures of Draenor (excluding Tanaan Jungle).", points=10, parent="Exploration"}}
+
+-- Exploration/Draenor: Grand Treasure Hunter
+A{"unknown", 9728, trivia={module="data", category="Exploration/Draenor", name="Grand Treasure Hunter", description="Discover 200 treasures of Draenor (excluding Tanaan Jungle).", points=10, parent="Exploration"}}
+
+-- Feats of Strength: Victory in Hillsbrad
+A{"unknown", 9729, side="alliance", trivia={module="data", category="Feats of Strength", name="Victory in Hillsbrad", description="Win a battle in the 10th Anniversary battleground, Southshore vs. Tarren Mill.", points=0}}
+
+-- Garrisons/Buildings: Warlord of Draenor
+A{"unknown", 9738, criterion=25966, side="alliance", trivia={criteria="Nemesis: Troll Hunter", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9738, criterion=25965, side="alliance", trivia={criteria="Nemesis: The Butcher", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9738, criterion=25964, side="alliance", trivia={criteria="Nemesis: Huojin's Fall", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9738, criterion=25963, side="alliance", trivia={criteria="Nemesis: Orcslayer", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9738, criterion=25962, side="alliance", trivia={criteria="Nemesis: Killer of Kezan", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9738, criterion=25960, side="alliance", trivia={criteria="Nemesis: Slayer of Sin'dorei", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+A{"unknown", 9738, side="alliance", trivia={criteria="Fight, Kill, Salute!", module="data", category="Garrisons/Buildings", name="Warlord of Draenor", description="Complete all of the Nemesis quests at the Gladiator's Sanctum and the quest Fight, Kill, Salute! at the Highmaul Coliseum.", points=10, parent="Garrisons", type="achievement"}}
+
+-- Feats of Strength: Grommloc
+A{"unknown", 9763, criterion=27993, trivia={module="data", category="Feats of Strength", name="Grommloc", description="Proud owner of Grommloc from the 2014 BlizzCon.", points=0}}
+
+-- Quests/Draenor: Master Relic Hunter
+A{"unknown", 9825, criterion=27580, side="alliance", trivia={criteria="Breaching the Barrier", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9825, criterion=27579, side="alliance", trivia={criteria="The Blessing of Beasts", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9825, criterion=27581, side="alliance", trivia={criteria="The Apexis Device", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9825, criterion=27582, side="alliance", trivia={criteria="The Spirit Forge", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9825, criterion=27584, side="alliance", trivia={criteria="Taking from the Taker", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9825, criterion=27599, side="alliance", trivia={criteria="The Crystal Reborn", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+
+-- Garrisons/Invasions: Platinum Defender
+A{"unknown", 9826, criterion=27587, trivia={criteria="Goren", module="data", category="Garrisons/Invasions", name="Platinum Defender", description="Successfully complete a garrison invasion with a Platinum rating.", points=5, parent="Garrisons", type=152}}
+A{"unknown", 9826, criterion=27588, trivia={criteria="Iron Horde", module="data", category="Garrisons/Invasions", name="Platinum Defender", description="Successfully complete a garrison invasion with a Platinum rating.", points=5, parent="Garrisons", type=152}}
+A{"unknown", 9826, criterion=27589, trivia={criteria="Ogre", module="data", category="Garrisons/Invasions", name="Platinum Defender", description="Successfully complete a garrison invasion with a Platinum rating.", points=5, parent="Garrisons", type=152}}
+A{"unknown", 9826, criterion=27590, trivia={criteria="Shadow Council", module="data", category="Garrisons/Invasions", name="Platinum Defender", description="Successfully complete a garrison invasion with a Platinum rating.", points=5, parent="Garrisons", type=152}}
+A{"unknown", 9826, criterion=27591, trivia={criteria="Shadowmoon", module="data", category="Garrisons/Invasions", name="Platinum Defender", description="Successfully complete a garrison invasion with a Platinum rating.", points=5, parent="Garrisons", type=152}}
+A{"unknown", 9826, criterion=27586, trivia={criteria="Botani", module="data", category="Garrisons/Invasions", name="Platinum Defender", description="Successfully complete a garrison invasion with a Platinum rating.", points=5, parent="Garrisons", type=152}}
+
+-- Garrisons/Invasions: Impervious Defender
+A{"unknown", 9827, criterion=27590, trivia={criteria="Shadow Council", module="data", category="Garrisons/Invasions", name="Impervious Defender", description="Earn a Platinum rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9827, criterion=27591, trivia={criteria="Shadowmoon", module="data", category="Garrisons/Invasions", name="Impervious Defender", description="Earn a Platinum rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9827, criterion=27586, trivia={criteria="Botani", module="data", category="Garrisons/Invasions", name="Impervious Defender", description="Earn a Platinum rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9827, criterion=27587, trivia={criteria="Goren", module="data", category="Garrisons/Invasions", name="Impervious Defender", description="Earn a Platinum rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9827, criterion=27588, trivia={criteria="Iron Horde", module="data", category="Garrisons/Invasions", name="Impervious Defender", description="Earn a Platinum rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+A{"unknown", 9827, criterion=27589, trivia={criteria="Ogres", module="data", category="Garrisons/Invasions", name="Impervious Defender", description="Earn a Platinum rating in each max-level invasion.", points=10, parent="Garrisons", type=152}}
+
+-- Quests/Draenor: Master Relic Hunter
+A{"unknown", 9836, criterion=27605, side="horde", trivia={criteria="The Crystal Reborn", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9836, criterion=27603, side="horde", trivia={criteria="The Spirit Forge", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9836, criterion=27604, side="horde", trivia={criteria="Taking from the Taker", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9836, criterion=27601, side="horde", trivia={criteria="Breaching the Barrier", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9836, criterion=27600, side="horde", trivia={criteria="The Blessing of Beasts", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 9836, criterion=27602, side="horde", trivia={criteria="The Apexis Device", module="data", category="Quests/Draenor", name="Master Relic Hunter", description="Complete all 6 Relic Hunter Quests offered by Harrison Jones in your Garrison.", points=10, parent="Quests", type="quest"}}
+
+-- Garrisons/Invasions: Master and Commander
+A{"unknown", 9858, criterion=27704, trivia={criteria="Teluur", module="data", category="Garrisons/Invasions", name="Master and Commander", description="Defeat all of the summonable Garrison raid bosses.", points=10, parent="Garrisons", type="slay"}}
+A{"unknown", 9858, criterion=27705, trivia={criteria="Gaur", module="data", category="Garrisons/Invasions", name="Master and Commander", description="Defeat all of the summonable Garrison raid bosses.", points=10, parent="Garrisons", type="slay"}}
+A{"unknown", 9858, criterion=27706, trivia={criteria="Commander Dro'gan", module="data", category="Garrisons/Invasions", name="Master and Commander", description="Defeat all of the summonable Garrison raid bosses.", points=10, parent="Garrisons", type="slay"}}
+A{"unknown", 9858, criterion=27707, trivia={criteria="Mage Lord Gogg'nathog", module="data", category="Garrisons/Invasions", name="Master and Commander", description="Defeat all of the summonable Garrison raid bosses.", points=10, parent="Garrisons", type="slay"}}
+A{"unknown", 9858, criterion=27708, trivia={criteria="Lady Fleshsear", module="data", category="Garrisons/Invasions", name="Master and Commander", description="Defeat all of the summonable Garrison raid bosses.", points=10, parent="Garrisons", type="slay"}}
+A{"unknown", 9858, criterion=27709, trivia={criteria="Annihilon", module="data", category="Garrisons/Invasions", name="Master and Commander", description="Defeat all of the summonable Garrison raid bosses.", points=10, parent="Garrisons", type="slay"}}
+
+-- Garrisons/Missions: Exploration Mission Master
+A{"unknown", 9900, criterion=27777, trivia={criteria="Exploration: Oshu'gun Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27778, trivia={criteria="Exploration: Razed Warsong Outpost Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27779, trivia={criteria="Exploration: Stonecrag Excavation Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27780, trivia={criteria="Exploration: Sethekk Hollow Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27781, trivia={criteria="Exploration: Apexis Excavation Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27782, trivia={criteria="Exploration: Ango'rosh Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27783, trivia={criteria="Exploration: Veil Shadar Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27784, trivia={criteria="Exploration: Overlook Ruins Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27785, trivia={criteria="Exploration: The Broken Spine Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27786, trivia={criteria="Exploration: Daggermaw Flows Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27787, trivia={criteria="Exploration: Colossal's Fall Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27788, trivia={criteria="Exploration: Burial Fields", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 9900, criterion=27789, trivia={criteria="Exploration: Umbrafen Dig Site", module="data", category="Garrisons/Missions", name="Exploration Mission Master", description="Complete all of the garrison exploration missions listed below.", points=10, parent="Garrisons", type=174}}
+
+-- Garrisons: Don't Call Me Junior
+A{"unknown", 9901, criterion=27800, side="horde", trivia={criteria="Master Relic Hunter", module="data", category="Garrisons", name="Don't Call Me Junior", description="Complete the achievements listed below:", points=10, type="achievement"}}
+
+-- Collections: Alt-ernative Lifestyle
+A{"unknown", 9906, criterion=27840, trivia={criteria="Collect 5 Heirlooms", module="data", category="Collections", name="Alt-ernative Lifestyle", description="Collect 5 Heirlooms.", points=10, type=189}}
+
+-- Collections: Ready for Powerleveling
+A{"unknown", 9908, criterion=27840, trivia={criteria="Collect 15 Heirlooms", module="data", category="Collections", name="Ready for Powerleveling", description="Collect 15 Heirlooms.", points=10, type=189}}
+
+-- Collections: Heirloom Hoarder
+A{"unknown", 9909, criterion=27840, trivia={criteria="Collect 35 Heirlooms", module="data", category="Collections", name="Heirloom Hoarder", description="Collect 35 Heirlooms.", points=10, type=189}}
+
+-- Collections: Where's the Mailbox?
+A{"unknown", 9911, trivia={module="data", category="Collections", name="Where's the Mailbox?", description="Collect a Heirloom item.", points=5}}
+
+-- Feats of Strength: Friends In Places Yet Even Higher Than That
+A{"unknown", 9925, trivia={module="data", category="Feats of Strength", name="Friends In Places Yet Even Higher Than That", description="Obtain a Cindermane Charger mount through the Recruit-a-Friend program.", points=0}}
+
+-- Feats of Strength: Hero of the Storm
+A{"unknown", 9926, trivia={module="data", category="Feats of Strength", name="Hero of the Storm", description="Owner of the Graves pet from the Heroes of the Storm promotion.", points=0}}
+
+-- Garrisons: Don't Call Me Junior
+A{"unknown", 9928, criterion=27801, side="alliance", trivia={criteria="Master Relic Hunter", module="data", category="Garrisons", name="Don't Call Me Junior", description="Complete the achievements listed below:", points=10, type="achievement"}}
+
+-- Garrisons/Shipyard: Naval Bonus Specialist
+A{"unknown", 10017, trivia={module="data", category="Garrisons/Shipyard", name="Naval Bonus Specialist", description="Complete 10 Naval Bonus Missions.", points=5, parent="Garrisons"}}
+
+-- Exploration/Draenor: Draenor Pathfinder
+A{"unknown", 10018, criterion=28066, trivia={criteria="Explore Draenor", module="data", category="Exploration/Draenor", name="Draenor Pathfinder", description="Complete the Draenor achievements listed below:", points=25, parent="Exploration", type="achievement"}}
+A{"unknown", 10018, criterion=27594, trivia={criteria="Loremaster of Draenor", module="data", category="Exploration/Draenor", name="Draenor Pathfinder", description="Complete the Draenor achievements listed below:", points=25, parent="Exploration", type="achievement"}}
+A{"unknown", 10018, criterion=28975, trivia={criteria="Securing Draenor", module="data", category="Exploration/Draenor", name="Draenor Pathfinder", description="Complete the Draenor achievements listed below:", points=25, parent="Exploration", type="achievement"}}
+A{"unknown", 10018, criterion=28977, trivia={criteria="Master Treasure Hunter", module="data", category="Exploration/Draenor", name="Draenor Pathfinder", description="Complete the Draenor achievements listed below:", points=25, parent="Exploration", type="achievement"}}
+
+-- Quests/Draenor: Chapter IV: Darkness Incarnate
+A{"unknown", 10021, criterion=28403, side="alliance", trivia={criteria="Complete quest \"Light Be With You.\"", module="data", category="Quests/Draenor", name="Chapter IV: Darkness Incarnate", description="Acquire your legendary ring by completing Khadgar's quests.", points=25, parent="Quests", type="quest"}}
+
+-- Garrisons/Shipyard: Naval Bonus Expert
+A{"unknown", 10036, criterion=28513, trivia={module="data", category="Garrisons/Shipyard", name="Naval Bonus Expert", description="Complete 25 Naval Bonus Missions.", points=5, parent="Garrisons"}}
+
+-- Feats of Strength: Ahead of the Curve: The Black Gate
+A{"unknown", 10044, trivia={module="data", category="Feats of Strength", name="Ahead of the Curve: The Black Gate", description="Defeat Archimonde on Heroic difficulty or higher, prior to the release of the next tier of content.", points=0}}
+
+-- Feats of Strength: Cutting Edge: The Black Gate
+A{"unknown", 10045, trivia={module="data", category="Feats of Strength", name="Cutting Edge: The Black Gate", description="Defeat Archimonde on Mythic difficulty, prior to the release of the next tier of content.", points=0}}
+
+-- Professions: Learn A Primary Profession
+A{"unknown", 10050, trivia={module="data", category="Professions", name="Learn A Primary Profession", points=0}}
+
+-- Professions: Learn Two Primary Professions
+A{"unknown", 10051, trivia={module="data", category="Professions", name="Learn Two Primary Professions", points=0}}
+
+-- Collections: I Found Pepe!
+A{"unknown", 10053, criterion=28185, trivia={criteria="Pirate Pepe", module="data", category="Collections", name="I Found Pepe!", description="Find Pepe wearing his viking, ninja, knight, and pirate outfits.", points=10, type=29}}
+A{"unknown", 10053, criterion=28184, trivia={criteria="Viking Pepe", module="data", category="Collections", name="I Found Pepe!", description="Find Pepe wearing his viking, ninja, knight, and pirate outfits.", points=10, type=29}}
+A{"unknown", 10053, criterion=28183, trivia={criteria="Knight Pepe", module="data", category="Collections", name="I Found Pepe!", description="Find Pepe wearing his viking, ninja, knight, and pirate outfits.", points=10, type=29}}
+A{"unknown", 10053, criterion=28182, trivia={criteria="Ninja Pepe", module="data", category="Collections", name="I Found Pepe!", description="Find Pepe wearing his viking, ninja, knight, and pirate outfits.", points=10, type=29}}
+
+-- Garrisons/Followers: <DND> Follower Raid iLevel - Foundry
+A{"unknown", 10055, trivia={module="data", category="Garrisons/Followers", name="<DND> Follower Raid iLevel - Foundry", points=0, parent="Garrisons"}}
+
+-- Garrisons/Followers: <DND> Follower Raid iLevel - Highmaul
+A{"unknown", 10056, trivia={module="data", category="Garrisons/Followers", name="<DND> Follower Raid iLevel - Highmaul", points=0, parent="Garrisons"}}
+
+-- Quests/Draenor: In Pursuit of Gul'dan
+A{"unknown", 10067, criterion=28291, side="alliance", trivia={criteria="All Hands On Deck", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10067, criterion=28292, side="alliance", trivia={criteria="The Invasion of Tanaan", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10067, criterion=28293, side="alliance", trivia={criteria="Bane of the Bleeding Hollow", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10067, criterion=28295, side="alliance", trivia={criteria="Dark Ascension", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10067, criterion=28296, side="alliance", trivia={criteria="The Fate of Teron'gor", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10067, criterion=28408, side="alliance", trivia={criteria="The Cipher of Damnation", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+
+-- Quests/Draenor: In Pursuit of Gul'dan
+A{"unknown", 10074, criterion=28306, side="horde", trivia={criteria="All Hands On Deck", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10074, criterion=28305, side="horde", trivia={criteria="The Cipher of Damnation", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10074, criterion=28293, side="horde", trivia={criteria="Bane of the Bleeding Hollow", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10074, criterion=28308, side="horde", trivia={criteria="The Fate of Teron'gor", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10074, criterion=28295, side="horde", trivia={criteria="Dark Ascension", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+A{"unknown", 10074, criterion=28307, side="horde", trivia={criteria="The Invasion of Tanaan", module="data", category="Quests/Draenor", name="In Pursuit of Gul'dan", description="Complete the Garrison Campaign chapters listed below.", points=10, parent="Quests", type="quest"}}
+
+-- Dungeons & Raids/Draenor Dungeon: Mythic Dungeoneer
+A{"unknown", 10077, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="Mythic Dungeoneer", points=0, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Draenor Dungeon: Mythic: Auchindoun
+A{"unknown", 10080, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="Mythic: Auchindoun", description="Defeat Teron'gor in Auchindoun on Mythic difficulty.", points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids/Draenor Dungeon: Mythic: The Everbloom
+A{"unknown", 10083, trivia={module="data", category="Dungeons & Raids/Draenor Dungeon", name="Mythic: The Everbloom", description="Defeat Yalnu in The Everbloom on Mythic difficulty.", points=10, parent="Dungeons & Raids"}}
+
+-- Feats of Strength: Gladiator: Warlords Season 3
+A{"unknown", 10110, trivia={module="data", category="Feats of Strength", name="Gladiator: Warlords Season 3", description="End Warlords PvP season 3 in the top 0.5% of the arena ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Duelist: Warlords Season 3
+A{"unknown", 10111, trivia={module="data", category="Feats of Strength", name="Duelist: Warlords Season 3", description="End Warlords PvP season 3 in the top 3% of the arena ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Rival: Warlords Season 3
+A{"unknown", 10112, trivia={module="data", category="Feats of Strength", name="Rival: Warlords Season 3", description="End Warlords PvP season 3 in the top 10% of the arena ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Challenger: Warlords Season 3
+A{"unknown", 10113, trivia={module="data", category="Feats of Strength", name="Challenger: Warlords Season 3", description="End Warlords PvP season 3 in the top 35% of the arena ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Hero of the Alliance: Warmongering
+A{"unknown", 10114, side="alliance", trivia={module="data", category="Feats of Strength", name="Hero of the Alliance: Warmongering", description="End Warlords PvP season 3 in the top 0.5% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Hero of the Horde: Warmongering
+A{"unknown", 10115, side="horde", trivia={module="data", category="Feats of Strength", name="Hero of the Horde: Warmongering", description="End Warlords PvP season 3 in the top 0.5% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Guardian of the Alliance: Warlords Season 3
+A{"unknown", 10116, side="alliance", trivia={module="data", category="Feats of Strength", name="Guardian of the Alliance: Warlords Season 3", description="End Warlords PvP season 3 in the top 3% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Guardian of the Horde: Warlords Season 3
+A{"unknown", 10117, side="horde", trivia={module="data", category="Feats of Strength", name="Guardian of the Horde: Warlords Season 3", description="End Warlords PvP season 3 in the top 3% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Defender of the Alliance: Warlords Season 3
+A{"unknown", 10118, side="alliance", trivia={module="data", category="Feats of Strength", name="Defender of the Alliance: Warlords Season 3", description="End Warlords PvP season 3 in the top 10% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Defender of the Horde: Warlords Season 3
+A{"unknown", 10119, side="horde", trivia={module="data", category="Feats of Strength", name="Defender of the Horde: Warlords Season 3", description="End Warlords PvP season 3 in the top 10% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Soldier of the Alliance: Warlords Season 3
+A{"unknown", 10120, side="alliance", trivia={module="data", category="Feats of Strength", name="Soldier of the Alliance: Warlords Season 3", description="End Warlords PvP season 3 in the top 35% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Soldier of the Horde: Warlords Season 3
+A{"unknown", 10121, side="horde", trivia={module="data", category="Feats of Strength", name="Soldier of the Horde: Warlords Season 3", description="End Warlords PvP season 3 in the top 35% of the rated battleground ladder (requires 50 games won in Warlords Season 3).", points=0}}
+
+-- Feats of Strength: Warmongering Gladiator's Felblood Gronnling
+A{"unknown", 10146, criterion=28400, trivia={criteria="Warmongering Gladiator's Felblood Gronnling", module="data", category="Feats of Strength", name="Warmongering Gladiator's Felblood Gronnling", description="Obtain the Warmongering Gladiator's Felblood Gronnling from Warlords of Draenor Arena Season 3", points=0, type=34}}
+
+-- Quests/Draenor: Chapter IV: Darkness Incarnate
+A{"unknown", 10148, criterion=28404, side="horde", trivia={criteria="Complete quest \"Draenor's Blessing.\"", module="data", category="Quests/Draenor", name="Chapter IV: Darkness Incarnate", description="Acquire your legendary ring by completing Khadgar's quests.", points=25, parent="Quests", type="quest"}}
+
+-- Garrisons/Shipyard: Naval Combat Expert
+A{"unknown", 10154, criterion=28511, trivia={module="data", category="Garrisons/Shipyard", name="Naval Combat Expert", description="Complete 50 Naval Combat Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Siege Expert
+A{"unknown", 10155, criterion=28509, trivia={module="data", category="Garrisons/Shipyard", name="Naval Siege Expert", description="Complete 25 Naval Siege Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Combat Specialist
+A{"unknown", 10156, trivia={module="data", category="Garrisons/Shipyard", name="Naval Combat Specialist", description="Complete 25 Naval Combat Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Treasure Specialist
+A{"unknown", 10159, trivia={module="data", category="Garrisons/Shipyard", name="Naval Treasure Specialist", description="Complete 25 Naval Treasure Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Treasure Expert
+A{"unknown", 10160, criterion=28514, trivia={module="data", category="Garrisons/Shipyard", name="Naval Treasure Expert", description="Complete 50 Naval Treasure Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Siege Specialist
+A{"unknown", 10161, trivia={module="data", category="Garrisons/Shipyard", name="Naval Siege Specialist", description="Complete 10 Naval Siege Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Training Specialist
+A{"unknown", 10162, trivia={module="data", category="Garrisons/Shipyard", name="Naval Training Specialist", description="Complete 10 Naval Training Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Training Expert
+A{"unknown", 10163, criterion=28057, trivia={module="data", category="Garrisons/Shipyard", name="Naval Training Expert", description="Complete 25 Naval Training Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Master of the Seas
+A{"unknown", 10164, criterion=28515, trivia={criteria="Naval Combat Expert", module="data", category="Garrisons/Shipyard", name="Master of the Seas", description="Complete the naval mission achievments listed below.", points=5, parent="Garrisons", type="achievement"}}
+A{"unknown", 10164, criterion=28516, trivia={criteria="Naval Training Expert", module="data", category="Garrisons/Shipyard", name="Master of the Seas", description="Complete the naval mission achievments listed below.", points=5, parent="Garrisons", type="achievement"}}
+A{"unknown", 10164, criterion=28517, trivia={criteria="Naval Treasure Expert", module="data", category="Garrisons/Shipyard", name="Master of the Seas", description="Complete the naval mission achievments listed below.", points=5, parent="Garrisons", type="achievement"}}
+A{"unknown", 10164, criterion=28518, trivia={criteria="Naval Bonus Expert", module="data", category="Garrisons/Shipyard", name="Master of the Seas", description="Complete the naval mission achievments listed below.", points=5, parent="Garrisons", type="achievement"}}
+A{"unknown", 10164, criterion=28519, trivia={criteria="Naval Siege Expert", module="data", category="Garrisons/Shipyard", name="Master of the Seas", description="Complete the naval mission achievments listed below.", points=5, parent="Garrisons", type="achievement"}}
+
+-- Garrisons/Shipyard: Ironsides
+A{"unknown", 10165, criterion=28520, trivia={criteria="Destroyer", module="data", category="Garrisons/Shipyard", name="Ironsides", description="Upgrade a ship of every type to Epic quality.", points=5, parent="Garrisons", type=187}}
+A{"unknown", 10165, criterion=28521, trivia={criteria="Submarine", module="data", category="Garrisons/Shipyard", name="Ironsides", description="Upgrade a ship of every type to Epic quality.", points=5, parent="Garrisons", type=187}}
+A{"unknown", 10165, criterion=28522, trivia={criteria="Carrier", module="data", category="Garrisons/Shipyard", name="Ironsides", description="Upgrade a ship of every type to Epic quality.", points=5, parent="Garrisons", type=187}}
+A{"unknown", 10165, criterion=28523, trivia={criteria="Transport", module="data", category="Garrisons/Shipyard", name="Ironsides", description="Upgrade a ship of every type to Epic quality.", points=5, parent="Garrisons", type=187}}
+A{"unknown", 10165, criterion=28524, trivia={criteria="Battleship", module="data", category="Garrisons/Shipyard", name="Ironsides", description="Upgrade a ship of every type to Epic quality.", points=5, parent="Garrisons", type=187}}
+
+-- Garrisons/Shipyard: Naval Mechanics
+A{"unknown", 10166, criterion=29190, trivia={criteria="Felsmoke Launchers", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: Exploring the High Seas
+A{"unknown", 10167, criterion=29701, side="alliance", trivia={criteria="The House Always Wins", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10167, criterion=28544, side="alliance", trivia={criteria="Orphaned Aquatic Animal Rescue", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10167, criterion=29703, side="alliance", trivia={criteria="For Hate's Sake", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10167, criterion=29704, side="alliance", trivia={criteria="It's a Boat, It's a Plane, It's... Just a Riverbeast.", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10167, criterion=29702, side="alliance", trivia={criteria="The Wave Mistress", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10167, criterion=28543, side="alliance", trivia={criteria="Black Market Journal", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+
+-- Garrisons/Shipyard: Naval Mechanics
+A{"unknown", 10166, criterion=29194, trivia={criteria="Ghostly Spyglass", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29195, trivia={criteria="Gyroscopic Internal Stabilizer", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29196, trivia={criteria="Ice Cutter", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29197, trivia={criteria="True Iron Rudder", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29198, trivia={criteria="Tuskarr Fishing Net", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29299, trivia={criteria="Unsinkable", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29120, trivia={criteria="High Intensity Fog Lights", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29121, trivia={criteria="Trained Shark Tank", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+A{"unknown", 10166, criterion=29122, trivia={criteria="Bilge Pump", module="data", category="Garrisons/Shipyard", name="Naval Mechanics", description="Obtain all of the naval equpment blueprints listed below.", points=5, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: Naval Armada
+A{"unknown", 10168, trivia={module="data", category="Garrisons/Shipyard", name="Naval Armada", description="Upgrade your shipyard to level 3.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Naval Fleet
+A{"unknown", 10169, trivia={module="data", category="Garrisons/Shipyard", name="Naval Fleet", description="Upgrade your shipyard to level 2.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Seaman
+A{"unknown", 10170, trivia={module="data", category="Garrisons/Shipyard", name="Seaman", description="Complete 50 Naval Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Petty Officer
+A{"unknown", 10172, side="alliance", trivia={module="data", category="Garrisons/Shipyard", name="Petty Officer", description="Complete 100 Naval Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Fleet Commander
+A{"unknown", 10173, criterion=28567, side="alliance", trivia={module="data", category="Garrisons/Shipyard", name="Fleet Commander", description="Complete 500 Naval Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Admiral
+A{"unknown", 10174, criterion=28567, side="alliance", trivia={module="data", category="Garrisons/Shipyard", name="Admiral", description="Complete 1000 Naval Missions.", points=10, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Set Sail!
+A{"unknown", 10177, trivia={module="data", category="Garrisons/Shipyard", name="Set Sail!", description="Construct a shipyard for your garrison.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Petty Officer
+A{"unknown", 10255, side="horde", trivia={module="data", category="Garrisons/Shipyard", name="Petty Officer", description="Complete 100 Naval Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Charting a Course
+A{"unknown", 10256, criterion=29701, side="alliance", trivia={criteria="The House Always Wins", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10256, criterion=29703, side="alliance", trivia={criteria="For Hate's Sake", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10256, criterion=28543, side="alliance", trivia={criteria="Black Market Journal", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10256, criterion=28544, side="alliance", trivia={criteria="Orphaned Aquatic Animal Rescue", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10256, criterion=29702, side="alliance", trivia={criteria="The Wave Mistress", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10256, criterion=29704, side="alliance", trivia={criteria="It's a boat, it's a plane, it's... just a riverbeast.", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+
+-- Garrisons/Shipyard: Charting a Course
+A{"unknown", 10258, criterion=29701, side="horde", trivia={criteria="The House Always Wins", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10258, criterion=28544, side="horde", trivia={criteria="Orphaned Aquatic Animal Rescue", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10258, criterion=29703, side="horde", trivia={criteria="For Hate's Sake", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10258, criterion=29704, side="horde", trivia={criteria="It's a boat, it's a plane, it's... just a riverbeast.", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10258, criterion=29702, side="horde", trivia={criteria="The Wave Mistress", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10258, criterion=28543, side="horde", trivia={criteria="Black Market Journal", module="data", category="Garrisons/Shipyard", name="Charting a Course", description="Complete three of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+
+-- Exploration/Draenor: Jungle Treasure Hunter
+A{"unknown", 10261, trivia={module="data", category="Exploration/Draenor", name="Jungle Treasure Hunter", description="Discover 20 treasures in Tanaan Jungle.", points=5, parent="Exploration"}}
+
+-- Exploration/Draenor: Jungle Treasure Master
+A{"unknown", 10262, trivia={module="data", category="Exploration/Draenor", name="Jungle Treasure Master", description="Discover all of the treasures in Tanaan Jungle.", points=5, parent="Exploration"}}
+
+-- Garrisons/Shipyard: Fleet Commander
+A{"unknown", 10275, criterion=28567, side="horde", trivia={module="data", category="Garrisons/Shipyard", name="Fleet Commander", description="Complete 500 Naval Missions.", points=5, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Admiral
+A{"unknown", 10276, criterion=28567, side="horde", trivia={module="data", category="Garrisons/Shipyard", name="Admiral", description="Complete 1000 Naval Missions.", points=10, parent="Garrisons"}}
+
+-- Garrisons/Followers: <DND> Item Level Army - Account Wide
+A{"unknown", 10278, trivia={module="data", category="Garrisons/Followers", name="<DND> Item Level Army - Account Wide", description="Raise 10 followers' item level to 650.", points=0, parent="Garrisons"}}
+
+-- Garrisons/Shipyard: Exploring the High Seas
+A{"unknown", 10307, criterion=28543, side="horde", trivia={criteria="Black Market Journal", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10307, criterion=29703, side="horde", trivia={criteria="For Hate's Sake", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10307, criterion=29702, side="horde", trivia={criteria="The Wave Mistress", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10307, criterion=28544, side="horde", trivia={criteria="Orphaned Aquatic Animal Rescue", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10307, criterion=29701, side="horde", trivia={criteria="The House Always Wins", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+A{"unknown", 10307, criterion=29704, side="horde", trivia={criteria="It's a Boat, It's a Plane, It's... Just a Riverbeast.", module="data", category="Garrisons/Shipyard", name="Exploring the High Seas", description="Complete all of the Rare Naval Missions listed below.", points=10, parent="Garrisons", type=174}}
+
+-- Feats of Strength: Collector's Edition: Zeradar
+A{"unknown", 10309, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Zeradar", description="Owner of the Legacy of the Void Collector's Edition archon pet, Zeradar.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Illidari Felstalker
+A{"unknown", 10320, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Illidari Felstalker", description="Owner of the Legion Collector's Edition Illidari Felstalker mount.", points=0}}
+
+-- Feats of Strength: Collector's Edition: Nibbles
+A{"unknown", 10321, trivia={module="data", category="Feats of Strength", name="Collector's Edition: Nibbles", description="Owner of the Legion Collector's Edition felstalker pet, Nibbles.", points=0}}
+
+-- Feats of Strength: Murkidan
+A{"unknown", 10322, trivia={module="data", category="Feats of Strength", name="Murkidan", description="Proud owner of Murkidan from the 2015 BlizzCon.", points=0}}
+
+-- Feats of Strength: Did Someone Say...?
+A{"unknown", 10335, trivia={module="data", category="Feats of Strength", name="Did Someone Say...?", description="Wielded Inflatable Thunderfury, Blessed Blade of the Windseeker.", points=0}}
+
+-- Feats of Strength: Crashin' Thrashin' Flamer
+A{"unknown", 10337, trivia={module="data", category="Feats of Strength", name="Crashin' Thrashin' Flamer", description="Proud owner of the 2015 Vintage Winter Veil gift, the Crashin' Thrashin' Flamer.", points=0}}
+
+-- Exploration/Draenor: Master Treasure Hunter
+A{"unknown", 10348, trivia={module="data", category="Exploration/Draenor", name="Master Treasure Hunter", description="Discover 100 treasures of Draenor (excluding Tanaan Jungle).", points=10, parent="Exploration"}}
+
+-- Collections/Toy Box: Crashin' Thrashin' Commander
+A{"unknown", 10354, criterion=26801, trivia={criteria="Collect 200 Toys", module="data", category="Collections/Toy Box", name="Crashin' Thrashin' Commander", description="Collect 200 toys.", points=10, parent="Collections", type=186}}
+
+-- Collections/Mounts: Lord of the Reins
+A{"unknown", 10355, criterion=4787, side="horde", trivia={criteria="Obtain 300 mounts", module="data", category="Collections/Mounts", name="Lord of the Reins", description="Obtain 300 mounts.", points=10, parent="Collections", type=75}}
+
+-- Collections/Mounts: Lord of the Reins
+A{"unknown", 10356, criterion=4787, side="alliance", trivia={criteria="Obtain 300 mounts", module="data", category="Collections/Mounts", name="Lord of the Reins", description="Obtain 300 mounts.", points=10, parent="Collections", type=75}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Blige Pump
+A{"unknown", 10372, criterion=28540, trivia={criteria="Equipment Blueprint: Bilge Pump", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Blige Pump", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Felsmoke
+A{"unknown", 10373, criterion=28529, trivia={criteria="Equipment Blueprint: Felsmoke Launchers", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Felsmoke", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Fog Lights
+A{"unknown", 10374, criterion=28538, trivia={criteria="Equipment Blueprint: High Intensity Fog Lights", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Fog Lights", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Ghostly Spyglass
+A{"unknown", 10375, criterion=28530, trivia={criteria="Equipment Blueprint: Ghostly Spyglass", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Ghostly Spyglass", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Gyroscopic Internal Stabilizer
+A{"unknown", 10376, criterion=28531, trivia={criteria="Equipment Blueprint: Gyroscopic Internal Stabilizer", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Gyroscopic Internal Stabilizer", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Ice Cutter
+A{"unknown", 10377, criterion=28532, trivia={criteria="Equipment Blueprint: Ice Cutter", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Ice Cutter", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned Trained Shark Tank
+A{"unknown", 10378, criterion=28539, trivia={criteria="Equipment Blueprint: Trained Shark Tank", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned Trained Shark Tank", points=0, parent="Garrisons", type="quest"}}
+
+-- Garrisons/Shipyard: <DND> Player has learned True Iron Rudder
+A{"unknown", 10379, criterion=28535, trivia={criteria="Equipment Blueprint: True Iron Rudder", module="data", category="Garrisons/Shipyard", name="<DND> Player has learned True Iron Rudder", points=0, parent="Garrisons", type="quest"}}
+
+-- none: undefined
+A{"unknown", nil, trivia={module="data", category="none"}}
 
 -- General: To All the Squirrels I Once Caressed?
 A{"ValeofEternalBlossoms", 6350, 0.7260, 0.2540, criterion="Gilded Moth", note="zone exclusive", trivia={criteria="Gilded Moth", module="data", category="General", name="To All the Squirrels I Once Caressed?", description="There are even more critters in Pandaria. They also need /love.", mapID="ValeOfEternalBlossoms", uiMapID=390, points=10, type=54}}

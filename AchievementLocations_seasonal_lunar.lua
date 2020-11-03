@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -169,6 +167,44 @@ A{"Undercity", 914, 0.6700, 0.3900, criterion=1993, season="Lunar Festival", tri
 
 -- World Events/Lunar Festival: Elders of Kalimdor
 A{"UngoroCrater", 911, 0.5000, 0.7600, criterion=1962, season="Lunar Festival", trivia={criteria="Elder Thunderhorn in Un'Goro", module="seasonal_lunar", category="World Events/Lunar Festival", name="Elders of Kalimdor", description="Honor the Elders which are located in Kalimdor.", mapID="UnGoroCrater", uiMapID=78, points=10, parent="World Events", type="quest"}}
+
+-- World Events/Lunar Festival: A Coin of Ancestry
+A{"unknown", 605, criterion=472, season="Lunar Festival", trivia={module="seasonal_lunar", category="World Events/Lunar Festival", name="A Coin of Ancestry", description="Receive a Coin of Ancestry.", points=10, parent="World Events"}}
+
+-- World Events/Lunar Festival: 5 Coins of Ancestry
+A{"unknown", 606, criterion=472, season="Lunar Festival", trivia={criteria="Receive 5 Coins of Ancestry", module="seasonal_lunar", category="World Events/Lunar Festival", name="5 Coins of Ancestry", description="Receive 5 Coins of Ancestry.", points=10, parent="World Events", type=36}}
+
+-- World Events/Lunar Festival: 10 Coins of Ancestry
+A{"unknown", 607, criterion=472, season="Lunar Festival", trivia={criteria="Receive 10 Coins of Ancestry", module="seasonal_lunar", category="World Events/Lunar Festival", name="10 Coins of Ancestry", description="Receive 10 Coins of Ancestry.", points=10, parent="World Events", type=36}}
+
+-- World Events/Lunar Festival: 25 Coins of Ancestry
+A{"unknown", 608, criterion=472, season="Lunar Festival", trivia={criteria="Receive 25 Coins of Ancestry", module="seasonal_lunar", category="World Events/Lunar Festival", name="25 Coins of Ancestry", description="Receive 25 Coins of Ancestry.", points=10, parent="World Events", type=36}}
+
+-- World Events/Lunar Festival: 50 Coins of Ancestry
+A{"unknown", 609, criterion=472, season="Lunar Festival", trivia={criteria="Receive 50 Coins of Ancestry", module="seasonal_lunar", category="World Events/Lunar Festival", name="50 Coins of Ancestry", description="Receive 50 Coins of Ancestry.", points=10, parent="World Events", type=36}}
+
+-- World Events/Lunar Festival: Lunar Festival Finery
+A{"unknown", 626, season="Lunar Festival", trivia={module="seasonal_lunar", category="World Events/Lunar Festival", name="Lunar Festival Finery", description="Purchase a festive pant suit or festive dress with Coins of Ancestry.", points=10, parent="World Events"}}
+
+-- World Events: To Honor One's Elders
+A{"unknown", 913, criterion=1936, season="Lunar Festival", trivia={criteria="Elders of the Dungeons", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=1934, season="Lunar Festival", trivia={criteria="Elders of Eastern Kingdoms", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=2001, season="Lunar Festival", trivia={criteria="Elders of the Alliance", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=6286, season="Lunar Festival", trivia={criteria="50 Coins of Ancestry", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=6288, season="Lunar Festival", trivia={criteria="The Rocket's Red Glare", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=5162, season="Lunar Festival", trivia={criteria="Elders of Northrend", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=6289, season="Lunar Festival", trivia={criteria="Frenzied Firecracker", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=1935, season="Lunar Festival", trivia={criteria="Elders of Kalimdor", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=2000, season="Lunar Festival", trivia={criteria="Elders of the Horde", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=6290, season="Lunar Festival", trivia={criteria="Elune's Blessing", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=6287, season="Lunar Festival", trivia={criteria="Lunar Festival Finery", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+A{"unknown", 913, criterion=18220, season="Lunar Festival", trivia={criteria="Elders of Cataclysm", module="seasonal_lunar", category="World Events", name="To Honor One's Elders", description="Complete the Lunar Festival achievements listed below.", points=30, type="achievement"}}
+
+-- World Events/Lunar Festival: The Rocket's Red Glare
+A{"unknown", 1281, criterion=3932, season="Lunar Festival", trivia={criteria="Shoot off 10 Red Rocket Clusters in 25 seconds or less", module="seasonal_lunar", category="World Events/Lunar Festival", name="The Rocket's Red Glare", description="Shoot off 10 Red Rocket Clusters in 25 seconds or less.", points=10, parent="World Events", type=41}}
+
+-- World Events/Lunar Festival: Frenzied Firecracker
+A{"unknown", 1552, criterion=5755, season="Lunar Festival", trivia={criteria="Shoot off 10 Festival Firecrackers in 30 seconds or less", module="seasonal_lunar", category="World Events/Lunar Festival", name="Frenzied Firecracker", description="Shoot off 10 Festival Firecrackers in 30 seconds or less.", points=10, parent="World Events", type=41}}
 
 -- World Events/Lunar Festival: Elders of the Dungeons
 A{"UtgardeKeep", 910, 0.4740, 0.7000, criterion=5259, season="Lunar Festival", trivia={criteria="Elder Jarten in Utgarde Keep", module="seasonal_lunar", category="World Events/Lunar Festival", name="Elders of the Dungeons", description="Honor the Elders which are located inside the dungeons.", mapID="UtgardeKeep_NjorndirPreparation", uiMapID=133, points=10, parent="World Events", type="quest"}}

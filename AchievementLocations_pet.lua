@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -1595,6 +1593,407 @@ A{"UngoroCrater", 6585, 0.3500, 0.6600, criterion=21750, note="zone exclusive", 
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"UngoroCrater", 6612, criterion=21466, trivia={criteria="Un'Goro Crater", module="pet", category="Pet Battles/Collect", name="Kalimdor Tamer", description="Capture a battle pet in each of the Kalimdor zones listed below.", mapID="UnGoroCrater", uiMapID=78, points=5, parent="Pet Battles", type="battle"}}
+
+-- Pet Battles/Collect: Plenty of Pets
+A{"unknown", 15, criterion=19598, trivia={criteria="Obtain 15 unique companion pets", module="pet", category="Pet Battles/Collect", name="Plenty of Pets", description="Collect 15 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Can I Keep Him?
+A{"unknown", 1017, criterion=19598, trivia={criteria="Obtain a companion pet", module="pet", category="Pet Battles/Collect", name="Can I Keep Him?", description="Obtain a pet.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Plethora of Pets
+A{"unknown", 1248, criterion=19598, trivia={criteria="Obtain 25 unique companion pets", module="pet", category="Pet Battles/Collect", name="Plethora of Pets", description="Collect 25 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Shop Smart, Shop Pet...Smart
+A{"unknown", 1250, criterion=19598, trivia={criteria="Obtain 50 unique companion pets", module="pet", category="Pet Battles/Collect", name="Shop Smart, Shop Pet...Smart", description="Collect 50 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Lil' Game Hunter
+A{"unknown", 2516, criterion=19598, trivia={criteria="Collect 75 unique pets.", module="pet", category="Pet Battles/Collect", name="Lil' Game Hunter", description="Collect 75 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Littlest Pet Shop
+A{"unknown", 5875, criterion=19598, trivia={criteria="Collect 150 unique pets.", module="pet", category="Pet Battles/Collect", name="Littlest Pet Shop", description="Collect 150 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Petting Zoo
+A{"unknown", 5876, criterion=19598, trivia={criteria="Collect 100 unique pets.", module="pet", category="Pet Battles/Collect", name="Petting Zoo", description="Collect 100 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Menagerie
+A{"unknown", 5877, criterion=19598, trivia={criteria="Collect 125 unique pets.", module="pet", category="Pet Battles/Collect", name="Menagerie", description="Collect 125 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Battle: Master Pet Battler
+A{"unknown", 6462, criterion=19724, trivia={module="pet", category="Pet Battles/Battle", name="Master Pet Battler", description="Win 250 pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: He's Mine!
+A{"unknown", 6554, trivia={module="pet", category="Pet Battles/Collect", name="He's Mine!", description="Capture 10 pets in pet battle.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: Building a Team
+A{"unknown", 6555, trivia={module="pet", category="Pet Battles/Collect", name="Building a Team", description="Capture 25 pets in pet battle.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: Going to Need More Traps
+A{"unknown", 6556, trivia={module="pet", category="Pet Battles/Collect", name="Going to Need More Traps", description="Capture 50 pets in a pet battle.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: Master Pet Hunter
+A{"unknown", 6557, trivia={module="pet", category="Pet Battles/Collect", name="Master Pet Hunter", description="Capture 100 pets in pet battle.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Just a Pup
+A{"unknown", 6566, trivia={module="pet", category="Pet Battles/Level", name="Just a Pup", description="Raise a pet to level 5.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Growing Up
+A{"unknown", 6567, trivia={module="pet", category="Pet Battles/Level", name="Growing Up", description="Raise a pet to level 10.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Time for a Leash
+A{"unknown", 6568, trivia={module="pet", category="Pet Battles/Level", name="Time for a Leash", description="Raise a pet to level 15.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Old Timer
+A{"unknown", 6569, trivia={module="pet", category="Pet Battles/Level", name="Old Timer", description="Raise a pet to level 20.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: All Growns Up!
+A{"unknown", 6570, trivia={module="pet", category="Pet Battles/Level", name="All Growns Up!", description="Raise a pet to level 25.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: That Was Close!
+A{"unknown", 6571, trivia={module="pet", category="Pet Battles/Collect", name="That Was Close!", description="Capture a battle pet at less than 5% health.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Pro Pet Group
+A{"unknown", 6578, criterion=19856, trivia={module="pet", category="Pet Battles/Level", name="Pro Pet Group", description="Raise 15 pets to level 25.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Rookie Pet Group
+A{"unknown", 6579, criterion=19853, trivia={module="pet", category="Pet Battles/Level", name="Rookie Pet Group", description="Raise 15 pets to level 10.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Rookie Pet Crew
+A{"unknown", 6580, trivia={module="pet", category="Pet Battles/Level", name="Rookie Pet Crew", description="Raise 30 pets to level 10.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Pro Pet Crew
+A{"unknown", 6581, trivia={module="pet", category="Pet Battles/Level", name="Pro Pet Crew", description="Raise 30 pets to level 25.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Pro Pet Mob
+A{"unknown", 6582, trivia={module="pet", category="Pet Battles/Level", name="Pro Pet Mob", description="Raise 75 pets to level 25.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Rookie Pet Mob
+A{"unknown", 6583, trivia={module="pet", category="Pet Battles/Level", name="Rookie Pet Mob", description="Raise 75 pets to level 10.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: Kalimdor Safari
+A{"unknown", 6585, criterion=21615, trivia={criteria="Beetle", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21514, trivia={criteria="Maggot", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21516, trivia={criteria="Rat", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21517, trivia={criteria="Roach", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21522, trivia={criteria="Squirrel", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21659, trivia={criteria="Strand Crab", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21646, trivia={criteria="Toad", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21508, trivia={criteria="Rabbit", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21633, trivia={criteria="Skunk", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21521, trivia={criteria="Spider", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21651, trivia={criteria="Red-Tailed Chipmunk", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21629, trivia={criteria="Chicken", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21637, trivia={criteria="Infected Fawn", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21638, trivia={criteria="Infected Squirrel", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21518, trivia={criteria="Small Frog", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21509, trivia={criteria="Adder", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21612, trivia={criteria="Hare", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21511, trivia={criteria="Black Rat", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21684, trivia={criteria="Twilight Spider", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21631, trivia={criteria="Mouse", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21519, trivia={criteria="Snake", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21635, trivia={criteria="Bat", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21621, trivia={criteria="Fire Beetle", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21699, trivia={criteria="Rock Viper", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21700, trivia={criteria="Twilight Beetle", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21613, trivia={criteria="Prairie Dog", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21619, trivia={criteria="Spiky Lizard", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21688, trivia={criteria="Mountain Skunk", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21617, trivia={criteria="Rattlesnake", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21640, trivia={criteria="Sea Gull", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21620, trivia={criteria="Stripe-Tailed Scorpid", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21622, trivia={criteria="Scorpid", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21625, trivia={criteria="Cockroach", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21513, trivia={criteria="Long-Tailed Mole", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21657, trivia={criteria="Parrot", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21660, trivia={criteria="Tree Python", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21510, trivia={criteria="Alpine Hare", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21702, trivia={criteria="Forest Moth", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21704, trivia={criteria="Rabid Nut Varmint 5000", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21705, trivia={criteria="Robo-Chick", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21706, trivia={criteria="Shore Crab", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21712, trivia={criteria="Desert Spider", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21713, trivia={criteria="Elfin Rabbit", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21718, trivia={criteria="Topaz Shale Hatchling", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21719, trivia={criteria="Dung Beetle", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21720, trivia={criteria="Spiny Lizard", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21721, trivia={criteria="Spawn of Onyxia", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21723, trivia={criteria="Tainted Cockroach", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21727, trivia={criteria="Silky Moth", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21728, trivia={criteria="Alpine Chipmunk", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21729, trivia={criteria="Ash Lizard", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21738, trivia={criteria="Emerald Boa", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21741, trivia={criteria="Sidewinder", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21616, trivia={criteria="Gold Beetle", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21756, trivia={criteria="Spotted Bell Frog", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6585, criterion=21661, trivia={criteria="Water Snake", module="pet", category="Pet Battles/Collect", name="Kalimdor Safari", description="Catch every battle pet in Kalimdor.", points=5, parent="Pet Battles", type="catch"}}
+
+-- Pet Battles/Collect: Outland Safari
+A{"unknown", 6587, criterion=21674, trivia={criteria="Brown Marmot", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21716, trivia={criteria="Rock Viper", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21622, trivia={criteria="Scorpid", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21509, trivia={criteria="Adder", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21613, trivia={criteria="Prairie Dog", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21516, trivia={criteria="Rat", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21610, trivia={criteria="Cat", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21522, trivia={criteria="Squirrel", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21519, trivia={criteria="Snake", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21631, trivia={criteria="Mouse", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21624, trivia={criteria="Ash Viper", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21764, trivia={criteria="Fel Flame", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21723, trivia={criteria="Tainted Cockroach", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21633, trivia={criteria="Skunk", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21620, trivia={criteria="Stripe-Tailed Scorpid", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21518, trivia={criteria="Small Frog", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6587, criterion=21646, trivia={criteria="Toad", module="pet", category="Pet Battles/Collect", name="Outland Safari", description="Catch every battle pet in Outland.", points=5, parent="Pet Battles", type="catch"}}
+
+-- Pet Battles/Collect: Northrend Safari
+A{"unknown", 6588, criterion=21767, trivia={criteria="Arctic Hare", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21522, trivia={criteria="Squirrel", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21629, trivia={criteria="Chicken", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21659, trivia={criteria="Strand Crab", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21508, trivia={criteria="Rabbit", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21516, trivia={criteria="Rat", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21639, trivia={criteria="Fawn", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21706, trivia={criteria="Shore Crab", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21679, trivia={criteria="Grizzly Squirrel", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21631, trivia={criteria="Mouse", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21688, trivia={criteria="Mountain Skunk", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21514, trivia={criteria="Maggot", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21517, trivia={criteria="Roach", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21633, trivia={criteria="Skunk", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21519, trivia={criteria="Snake", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21521, trivia={criteria="Spider", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21625, trivia={criteria="Cockroach", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21770, trivia={criteria="Tundra Penguin", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21646, trivia={criteria="Toad", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21649, trivia={criteria="Huge Toad", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6588, criterion=21773, trivia={criteria="Devouring Maggot", module="pet", category="Pet Battles/Collect", name="Northrend Safari", description="Catch every battle pet in Northrend.", points=5, parent="Pet Battles", type="catch"}}
+
+-- Pet Battles/Collect: Pandaria Safari
+A{"unknown", 6589, criterion=21789, trivia={criteria="Leopard Tree Frog", module="pet", category="Pet Battles/Collect", name="Pandaria Safari", description="Catch every battle pet in Pandaria.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6589, criterion=21800, trivia={criteria="Malayan Quillrat", module="pet", category="Pet Battles/Collect", name="Pandaria Safari", description="Catch every battle pet in Pandaria.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6589, criterion=21640, trivia={criteria="Sea Gull", module="pet", category="Pet Battles/Collect", name="Pandaria Safari", description="Catch every battle pet in Pandaria.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6589, criterion=21706, trivia={criteria="Shore Crab", module="pet", category="Pet Battles/Collect", name="Pandaria Safari", description="Catch every battle pet in Pandaria.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6589, criterion=21837, trivia={criteria="Yakrat", module="pet", category="Pet Battles/Collect", name="Pandaria Safari", description="Catch every battle pet in Pandaria.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 6589, criterion=21795, trivia={criteria="Silkbead Snail", module="pet", category="Pet Battles/Collect", name="Pandaria Safari", description="Catch every battle pet in Pandaria.", points=5, parent="Pet Battles", type="catch"}}
+
+-- Pet Battles/Collect: World Safari
+A{"unknown", 6590, criterion=19409, trivia={criteria="Eastern Kingdoms Safari", module="pet", category="Pet Battles/Collect", name="World Safari", description="Complete the Pet Safari achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6590, criterion=19410, trivia={criteria="Kalimdor Safari", module="pet", category="Pet Battles/Collect", name="World Safari", description="Complete the Pet Safari achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6590, criterion=19411, trivia={criteria="Northrend Safari", module="pet", category="Pet Battles/Collect", name="World Safari", description="Complete the Pet Safari achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6590, criterion=19412, trivia={criteria="Outland Safari", module="pet", category="Pet Battles/Collect", name="World Safari", description="Complete the Pet Safari achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6590, criterion=19416, trivia={criteria="Pandaria Safari", module="pet", category="Pet Battles/Collect", name="World Safari", description="Complete the Pet Safari achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+
+-- Pet Battles/Battle: Grand Master Pet Battler
+A{"unknown", 6591, criterion=19724, trivia={module="pet", category="Pet Battles/Battle", name="Grand Master Pet Battler", description="Win 1000 pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Legendary Pet Battler
+A{"unknown", 6592, trivia={module="pet", category="Pet Battles/Battle", name="Legendary Pet Battler", description="Win 5000 pet battles.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Experienced Pet Battler
+A{"unknown", 6593, trivia={module="pet", category="Pet Battles/Battle", name="Experienced Pet Battler", description="Win 50 pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Cat Fight!
+A{"unknown", 6594, trivia={module="pet", category="Pet Battles/Battle", name="Cat Fight!", description="Win 10 pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Pet Brawler
+A{"unknown", 6595, criterion=21525, trivia={module="pet", category="Pet Battles/Battle", name="Pet Brawler", description="Win 10 PvP pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Experienced Pet Brawler
+A{"unknown", 6596, trivia={module="pet", category="Pet Battles/Battle", name="Experienced Pet Brawler", description="Win 50 PvP pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Master Pet Brawler
+A{"unknown", 6597, trivia={module="pet", category="Pet Battles/Battle", name="Master Pet Brawler", description="Win 250 PvP pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Grand Master Pet Brawler
+A{"unknown", 6598, trivia={module="pet", category="Pet Battles/Battle", name="Grand Master Pet Brawler", description="Win 1000 PvP pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Legendary Pet Brawler
+A{"unknown", 6599, trivia={module="pet", category="Pet Battles/Battle", name="Legendary Pet Brawler", description="Win 5000 PvP pet battles.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles: Ultimate Trainer
+A{"unknown", 6600, criterion=21256, trivia={module="pet", category="Pet Battles", name="Ultimate Trainer", description="Earn 300 pet battle achievement points.", points=5}}
+
+-- Pet Battles: Taming the Wild
+A{"unknown", 6601, trivia={module="pet", category="Pet Battles", name="Taming the Wild", description="Defeat a master pet tamer.", points=5}}
+
+-- Pet Battles: Taming Azeroth
+A{"unknown", 6607, criterion=19421, trivia={criteria="Taming Outland", module="pet", category="Pet Battles", name="Taming Azeroth", description="Complete all of the Taming achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 6607, criterion=19420, trivia={criteria="Taming Northrend", module="pet", category="Pet Battles", name="Taming Azeroth", description="Complete all of the Taming achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 6607, criterion=19422, trivia={criteria="Taming Pandaria", module="pet", category="Pet Battles", name="Taming Azeroth", description="Complete all of the Taming achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 6607, criterion=21862, trivia={criteria="Taming Cataclsym", module="pet", category="Pet Battles", name="Taming Azeroth", description="Complete all of the Taming achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 6607, criterion=19418, side="alliance", trivia={criteria="Taming Eastern Kingdoms", module="pet", category="Pet Battles", name="Taming Azeroth", description="Complete all of the Taming achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 6607, criterion=19419, side="horde", trivia={criteria="Taming Kalimdor", module="pet", category="Pet Battles", name="Taming Azeroth", description="Complete all of the Taming achievements listed below.", points=10, type="achievement"}}
+
+-- Pet Battles/Collect: Family Reunion
+A{"unknown", 6608, criterion=19750, trivia={criteria="Humanoid", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19751, trivia={criteria="Dragonkin", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19753, trivia={criteria="Flying", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19752, trivia={criteria="Undead", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19754, trivia={criteria="Critter", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19755, trivia={criteria="Magic", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19756, trivia={criteria="Elemental", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19757, trivia={criteria="Beast", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19758, trivia={criteria="Aquatic", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+A{"unknown", 6608, criterion=19759, trivia={criteria="Mechanical", module="pet", category="Pet Battles/Collect", name="Family Reunion", description="Capture a battle pet from each family.", points=10, parent="Pet Battles", type=157}}
+
+-- Pet Battles/Level: No Favorites
+A{"unknown", 6609, criterion=21360, trivia={criteria="Aquatic", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21361, trivia={criteria="Beast", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21362, trivia={criteria="Critter", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21363, trivia={criteria="Dragonkin", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21364, trivia={criteria="Elemental", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21365, trivia={criteria="Flying", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21366, trivia={criteria="Humanoid", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21367, trivia={criteria="Mechanical", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21368, trivia={criteria="Magic", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+A{"unknown", 6609, criterion=21369, trivia={criteria="Undead", module="pet", category="Pet Battles/Level", name="No Favorites", description="Raise a pet of every family to level 10.", points=5, parent="Pet Battles", type=160}}
+
+-- Pet Battles/Level: All Pets Allowed
+A{"unknown", 6610, criterion=21370, trivia={criteria="Aquatic", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21371, trivia={criteria="Beast", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21372, trivia={criteria="Critter", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21373, trivia={criteria="Dragonkin", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21374, trivia={criteria="Elemental", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21375, trivia={criteria="Flying", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21376, trivia={criteria="Humanoid", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21377, trivia={criteria="Mechanical", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21378, trivia={criteria="Magic", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+A{"unknown", 6610, criterion=21379, trivia={criteria="Undead", module="pet", category="Pet Battles/Level", name="All Pets Allowed", description="Raise a pet of every family to level 25.", points=10, parent="Pet Battles", type=160}}
+
+-- Pet Battles/Collect: Continental Tamer
+A{"unknown", 6611, criterion=19429, trivia={criteria="Eastern Kingdoms Pet Mauler", module="pet", category="Pet Battles/Collect", name="Continental Tamer", description="Complete all of the pet battle tamer achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6611, criterion=19430, trivia={criteria="Kalimdor Pet Mauler", module="pet", category="Pet Battles/Collect", name="Continental Tamer", description="Complete all of the pet battle tamer achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6611, criterion=19431, trivia={criteria="Outland Pet Mauler", module="pet", category="Pet Battles/Collect", name="Continental Tamer", description="Complete all of the pet battle tamer achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6611, criterion=19432, trivia={criteria="Northrend Pet Mauler", module="pet", category="Pet Battles/Collect", name="Continental Tamer", description="Complete all of the pet battle tamer achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6611, criterion=19433, trivia={criteria="Pandaria Pet Mauler", module="pet", category="Pet Battles/Collect", name="Continental Tamer", description="Complete all of the pet battle tamer achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+
+-- Pet Battles/Battle: On A Roll
+A{"unknown", 6618, trivia={module="pet", category="Pet Battles/Battle", name="On A Roll", description="Win 10 consecutive pet battles.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Win Streak
+A{"unknown", 6619, criterion=21527, trivia={module="pet", category="Pet Battles/Battle", name="Win Streak", description="Win 25 consecutive pet battles.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: No Time To Heal
+A{"unknown", 6620, criterion=22225, trivia={module="pet", category="Pet Battles/Battle", name="No Time To Heal", description="Win 5 consecutive PvP pet battles without letting a pet die.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Big City Pet Brawler
+A{"unknown", 6622, criterion=19435, trivia={criteria="Big City Pet Brawlin' - Alliance", module="pet", category="Pet Battles/Battle", name="Big City Pet Brawler", description="Complete each of the Big City Pet Brawlin' achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+A{"unknown", 6622, criterion=19436, trivia={criteria="Big City Pet Brawlin' - Horde", module="pet", category="Pet Battles/Battle", name="Big City Pet Brawler", description="Complete each of the Big City Pet Brawlin' achievements listed below.", points=10, parent="Pet Battles", type="achievement"}}
+
+-- Pet Battles/Battle: Take 'Em All On!
+A{"unknown", 6851, criterion=19835, trivia={criteria="Aquatic", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19836, trivia={criteria="Beast", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19837, trivia={criteria="Critter", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19838, trivia={criteria="Dragonkin", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19839, trivia={criteria="Elemental", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19840, trivia={criteria="Flying", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19841, trivia={criteria="Humanoid", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19842, trivia={criteria="Magic", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19843, trivia={criteria="Mechanical", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+A{"unknown", 6851, criterion=19844, trivia={criteria="Undead", module="pet", category="Pet Battles/Battle", name="Take 'Em All On!", description="Win a solo pet battle against a pet of every family.", points=10, parent="Pet Battles", type=158}}
+
+-- Pet Battles/Level: Newbie
+A{"unknown", 7433, trivia={module="pet", category="Pet Battles/Level", name="Newbie", description="Raise a pet to level 3.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: Zen Pet Hunter
+A{"unknown", 7436, criterion=19749, trivia={module="pet", category="Pet Battles/Collect", name="Zen Pet Hunter", description="Capture 200 pets in pet battle.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: A Rare Catch
+A{"unknown", 7462, trivia={module="pet", category="Pet Battles/Collect", name="A Rare Catch", description="Capture a rare quality battle pet.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: High Quality
+A{"unknown", 7463, trivia={module="pet", category="Pet Battles/Collect", name="High Quality", description="Capture 10 rare quality battle pets.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: Quality & Quantity
+A{"unknown", 7464, criterion=21238, trivia={module="pet", category="Pet Battles/Collect", name="Quality & Quantity", description="Capture 50 rare quality battle pets.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: An Uncommon Find
+A{"unknown", 7465, trivia={module="pet", category="Pet Battles/Collect", name="An Uncommon Find", description="Capture an uncommon quality battle pet.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles: Trainer Extraordinaire
+A{"unknown", 7482, trivia={module="pet", category="Pet Battles", name="Trainer Extraordinaire", description="Earn 100 pet battle achievement points.", points=5}}
+
+-- Pet Battles: Battle Master
+A{"unknown", 7483, trivia={module="pet", category="Pet Battles", name="Battle Master", description="Earn 200 pet battle achievement points.", points=5}}
+
+-- Pet Battles: Taming the Great Outdoors
+A{"unknown", 7498, trivia={module="pet", category="Pet Battles", name="Taming the Great Outdoors", description="Defeat 15 master pet tamers.", points=5}}
+
+-- Pet Battles: Taming the World
+A{"unknown", 7499, trivia={module="pet", category="Pet Battles", name="Taming the World", description="Defeat 40 master pet tamers.", points=10}}
+
+-- Pet Battles/Collect: Going to Need More Leashes
+A{"unknown", 7500, criterion=19598, trivia={criteria="Collect 250 unique pets.", module="pet", category="Pet Battles/Collect", name="Going to Need More Leashes", description="Collect 250 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: That's a Lot of Pet Food
+A{"unknown", 7501, criterion=19598, trivia={criteria="Collect 400 unique pets.", module="pet", category="Pet Battles/Collect", name="That's a Lot of Pet Food", description="Collect 400 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles: Time to Open a Pet Store
+A{"unknown", 7521, criterion=21256, trivia={module="pet", category="Pet Battles", name="Time to Open a Pet Store", description="Earn 400 pet battle achievement points.", points=10}}
+
+-- Pet Battles: I Choose You
+A{"unknown", 7908, trivia={module="pet", category="Pet Battles", name="I Choose You", description="Complete the Grand Master Aki quest.", points=5}}
+
+-- Pet Battles: Pandaren Spirit Tamer
+A{"unknown", 7936, trivia={module="pet", category="Pet Battles", name="Pandaren Spirit Tamer", description="Complete the Pandaren Spirit Tamer quest.", points=5}}
+
+-- Pet Battles: Fabled Pandaren Tamer
+A{"unknown", 8080, trivia={module="pet", category="Pet Battles", name="Fabled Pandaren Tamer", description="Complete the Beasts of Fable quest.", points=5}}
+
+-- Pet Battles/Battle: Merciless Pet Brawler
+A{"unknown", 8297, criterion=23306, trivia={criteria="PvP Pet Battles Won", module="pet", category="Pet Battles/Battle", name="Merciless Pet Brawler", description="Win 10 PvP pet battles through Find Battle with a full team of level 25 pets.", points=10, parent="Pet Battles", type=158}}
+
+-- Pet Battles/Battle: Vengeful Pet Brawler
+A{"unknown", 8298, criterion=23306, trivia={criteria="PvP Pet Battles Won", module="pet", category="Pet Battles/Battle", name="Vengeful Pet Brawler", description="Win 50 PvP pet battles through Find Battle with a full team of level 25 pets.", points=10, parent="Pet Battles", type=158}}
+
+-- Pet Battles/Battle: Brutal Pet Brawler
+A{"unknown", 8300, criterion=23306, trivia={criteria="PvP Pet Battles Won", module="pet", category="Pet Battles/Battle", name="Brutal Pet Brawler", description="Win 250 PvP pet battles through Find Battle with a full team of level 25 pets.", points=10, parent="Pet Battles", type=158}}
+
+-- Pet Battles/Battle: Deadly Pet Brawler
+A{"unknown", 8301, criterion=23306, trivia={criteria="PvP Pet Battles Won", module="pet", category="Pet Battles/Battle", name="Deadly Pet Brawler", description="Win 1000 PvP pet battles through Find Battle with a full team of level 25 pets.", points=10, parent="Pet Battles", type=158}}
+
+-- Pet Battles/Collect: Crazy for Cats
+A{"unknown", 8397, criterion=23596, note="purchased in Blizzard Pet Store", trivia={criteria="Cinder Kitten", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+A{"unknown", 8397, criterion=23586, note="achievement reward from Raiding with Leashes", trivia={criteria="Mr. Bigglesworth", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+A{"unknown", 8397, criterion=23597, note="redemed from TCG", trivia={criteria="Nightsaber Cub", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+A{"unknown", 8397, criterion=23590, note="crafted by Jewelcrafting", trivia={criteria="Sapphire Cub", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+A{"unknown", 8397, criterion=23599, note="promotion from Battle.Net world championship 2012", trivia={criteria="Spectral Cub", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+A{"unknown", 8397, criterion=23598, note="redemed from TCG", trivia={criteria="Spectral Tiger Cub", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+A{"unknown", 8397, criterion=23740, note="purchased in Blizzard Pet Store.  no longer for sale.", trivia={criteria="Guardian Cub", module="pet", category="Pet Battles/Collect", name="Crazy for Cats", description="Obtain 20 of the cats listed below.", points=10, parent="Pet Battles", type=96}}
+
+-- Pet Battles/Battle: The Celestial Tournament
+A{"unknown", 8410, trivia={module="pet", category="Pet Battles/Battle", name="The Celestial Tournament", description="Complete the Celestial Tournament scenario.", points=10, parent="Pet Battles"}}
+
+-- Pet Battles/Level: Overstuffed
+A{"unknown", 9070, trivia={module="pet", category="Pet Battles/Level", name="Overstuffed", description="Raise an Elekk Plushie to level 25.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Battle: Draenic Pet Battler
+A{"unknown", 9463, criterion=25818, trivia={module="pet", category="Pet Battles/Battle", name="Draenic Pet Battler", description="Win 150 pet battles in Draenor.", points=5, parent="Pet Battles"}}
+
+-- Pet Battles/Collect: So. Many. Pets.
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+A{"unknown", 9643, criterion=19598, trivia={module="pet", category="Pet Battles/Collect", name="So. Many. Pets.", description="Collect 600 unique pets.", points=10, parent="Pet Battles", type=156}}
+
+-- Pet Battles/Collect: Draenor Safari
+A{"unknown", 9685, criterion=27247, trivia={criteria="Mud Jumper", module="pet", category="Pet Battles/Collect", name="Draenor Safari", description="Catch every battle pet in Draenor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 9685, criterion=27255, trivia={criteria="Twilight Wasp", module="pet", category="Pet Battles/Collect", name="Draenor Safari", description="Catch every battle pet in Draenor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 9685, criterion=27269, trivia={criteria="Royal Moth", module="pet", category="Pet Battles/Collect", name="Draenor Safari", description="Catch every battle pet in Draenor.", points=5, parent="Pet Battles", type="catch"}}
+A{"unknown", 9685, criterion=27274, trivia={criteria="Waterfly", module="pet", category="Pet Battles/Collect", name="Draenor Safari", description="Catch every battle pet in Draenor.", points=5, parent="Pet Battles", type="catch"}}
+
+-- Pet Battles: Pet Charmer
+A{"unknown", 9712, criterion=26682, trivia={module="pet", category="Pet Battles", name="Pet Charmer", description="Earn 500 Pet Charms.", points=5}}
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"ValeOfEternalBlossomsScenario", 6558, criterion=21593, trivia={criteria="Vale of Eternal Blossoms", module="pet", category="Pet Battles/Battle", name="Local Pet Mauler", description="Win a pet battle in 10 different zones.", mapID="ValeOfEternalBlossoms", uiMapID=390, points=5, parent="Pet Battles", type="battle"}}

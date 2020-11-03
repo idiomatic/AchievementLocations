@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -584,6 +582,55 @@ A{"UngoroCrater", 1029, 0.5660, 0.6580, criterion=23477, side="alliance", season
 
 -- World Events/Midsummer: Extinguishing Kalimdor
 A{"UngoroCrater", 1032, 0.6000, 0.6290, criterion=23515, side="horde", season="Midsummer Fire Festival", trivia={criteria="Un'Goro Crater", module="seasonal_mid", category="World Events/Midsummer", name="Extinguishing Kalimdor", description="Desecrate the Alliance's bonfires in Kalimdor.", mapID="UnGoroCrater", uiMapID=78, points=10, parent="World Events", type="quest"}}
+
+-- World Events/Midsummer: Burning Hot Pole Dance
+A{"unknown", 271, season="Midsummer Fire Festival", trivia={module="seasonal_mid", category="World Events/Midsummer", name="Burning Hot Pole Dance", description="Dance at the ribbon pole for 60 seconds while wearing completed Midsummer set.", points=10, parent="World Events"}}
+
+-- World Events/Midsummer: Torch Juggler
+A{"unknown", 272, criterion=6937, season="Midsummer Fire Festival", trivia={criteria="40 torches", module="seasonal_mid", category="World Events/Midsummer", name="Torch Juggler", description="Juggle 40 torches in 15 seconds in Dalaran.", points=10, parent="World Events", type=110}}
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"unknown", 1034, criterion=18218, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Flame Warden of Cataclysm", module="seasonal_mid", category="World Events/Midsummer", name="The Fires of Azeroth", description="Complete the Flame Warden achievements.", points=10, parent="World Events", type="achievement"}}
+
+-- World Events/Midsummer: Desecration of the Horde
+A{"unknown", 1035, criterion=18214, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Extinguishing the Cataclysm", module="seasonal_mid", category="World Events/Midsummer", name="Desecration of the Horde", description="Complete all Extinguishing achievements.", points=10, parent="World Events", type="achievement"}}
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"unknown", 1036, criterion=18216, side="horde", season="Midsummer Fire Festival", trivia={criteria="Flame Keeper of Cataclysm", module="seasonal_mid", category="World Events/Midsummer", name="The Fires of Azeroth", description="Complete the Flame Keeper achievements.", points=10, parent="World Events", type="achievement"}}
+
+-- World Events/Midsummer: Desecration of the Alliance
+A{"unknown", 1037, criterion=18212, side="horde", season="Midsummer Fire Festival", trivia={criteria="Extinguishing the Cataclysm", module="seasonal_mid", category="World Events/Midsummer", name="Desecration of the Alliance", description="Complete all Extinguishing achievements.", points=10, parent="World Events", type="achievement"}}
+
+-- World Events: The Flame Warden
+A{"unknown", 1038, criterion=7338, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Burning Hot Pole Dance", module="seasonal_mid", category="World Events", name="The Flame Warden", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1038, criterion=7341, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Torch Juggler", module="seasonal_mid", category="World Events", name="The Flame Warden", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1038, criterion=7339, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Ice the Frost Lord", module="seasonal_mid", category="World Events", name="The Flame Warden", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1038, criterion=7340, side="alliance", season="Midsummer Fire Festival", trivia={criteria="King of the Fire Festival", module="seasonal_mid", category="World Events", name="The Flame Warden", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1038, criterion=3206, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Desecration of the Horde/Alliance", module="seasonal_mid", category="World Events", name="The Flame Warden", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1038, criterion=3205, side="alliance", season="Midsummer Fire Festival", trivia={criteria="The Fires of Azeroth", module="seasonal_mid", category="World Events", name="The Flame Warden", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+
+-- World Events: The Flame Keeper
+A{"unknown", 1039, criterion=7338, side="horde", season="Midsummer Fire Festival", trivia={criteria="Burning Hot Pole Dance", module="seasonal_mid", category="World Events", name="The Flame Keeper", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1039, criterion=7341, side="horde", season="Midsummer Fire Festival", trivia={criteria="Torch Juggler", module="seasonal_mid", category="World Events", name="The Flame Keeper", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1039, criterion=7340, side="horde", season="Midsummer Fire Festival", trivia={criteria="King of the Fire Festival", module="seasonal_mid", category="World Events", name="The Flame Keeper", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1039, criterion=7339, side="horde", season="Midsummer Fire Festival", trivia={criteria="Ice the Frost Lord", module="seasonal_mid", category="World Events", name="The Flame Keeper", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1039, criterion=3206, side="horde", season="Midsummer Fire Festival", trivia={criteria="Desecration of the Alliance/Horde", module="seasonal_mid", category="World Events", name="The Flame Keeper", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+A{"unknown", 1039, criterion=3207, side="horde", season="Midsummer Fire Festival", trivia={criteria="The Fires of Azeroth", module="seasonal_mid", category="World Events", name="The Flame Keeper", description="Complete the Midsummer achievements listed below.", points=20, type="achievement"}}
+
+-- World Events/Midsummer: King of the Fire Festival
+A{"unknown", 1145, season="Midsummer Fire Festival", trivia={module="seasonal_mid", category="World Events/Midsummer", name="King of the Fire Festival", description="Complete the quest, \"A Thief's Reward\", by stealing the flames from your enemy's capital cities.", points=10, parent="World Events"}}
+
+-- World Events: What a Long, Strange Trip It's Been
+A{"unknown", 2144, criterion=7556, side="alliance", season="Midsummer Fire Festival", trivia={criteria="The Flame Warden", module="seasonal_mid", category="World Events", name="What a Long, Strange Trip It's Been", description="Complete the world events achievements listed below.", points=50, type="achievement"}}
+
+-- World Events/Midsummer: Flame Warden of Cataclysm
+A{"unknown", 6011, 0.6280, 0.2260, criterion=18198, side="alliance", season="Midsummer Fire Festival", trivia={criteria="Hyjal", module="seasonal_mid", category="World Events/Midsummer", name="Flame Warden of Cataclysm", description="Honor the flames of zones opened by the cataclysm.", points=10, parent="World Events", type="quest"}}
+
+-- World Events/Midsummer: Extinguishing Pandaria
+A{"unknown", 8042, side="alliance", season="Midsummer Fire Festival", trivia={module="seasonal_mid", category="World Events/Midsummer", name="Extinguishing Pandaria", description="Desecrate the Horde's bonfire in Pandaria's Vale of Eternal Blossoms.", points=10, parent="World Events"}}
+
+-- World Events/Midsummer: Extinguishing Pandaria
+A{"unknown", 8043, side="horde", season="Midsummer Fire Festival", trivia={module="seasonal_mid", category="World Events/Midsummer", name="Extinguishing Pandaria", description="Desecrate the Alliance's bonfire in Pandaria's Vale of Eternal Blossoms.", points=10, parent="World Events"}}
 
 -- World Events/Midsummer: Flame Keeper of Pandaria
 A{"ValeOfEternalBlossomsScenario", 8044, 0.7780, 0.3310, criterion=22693, side="horde", season="Midsummer Fire Festival", trivia={criteria="Vale of Eternal Blossoms", module="seasonal_mid", category="World Events/Midsummer", name="Flame Keeper of Pandaria", description="Honor the flames of Pandaria.", mapID="ValeOfEternalBlossoms", uiMapID=390, points=10, parent="World Events", type="quest"}}

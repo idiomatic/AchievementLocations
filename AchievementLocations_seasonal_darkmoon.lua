@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -204,3 +202,26 @@ A{"TheExodar", 6030, criterion=27725, note="buy from Boomie Sparks (48.4,71.9)",
 -- World Events/Darkmoon Faire: Taking the Show on the Road
 A{"ThunderBluff", 6031, criterion=27722, note="buy from Boomie Sparks (48.4,71.9)", side="horde", season="Darkmoon Faire", trivia={criteria="Thunder Bluff", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Taking the Show on the Road", description="Launch off Darkmoon Fireworks in every friendly capital city.", mapID="ThunderBluff", uiMapID=88, points=10, parent="World Events", type=29}}
 A{"Undercity", 6031, criterion=27723, note="buy from Boomie Sparks (48.4,71.9)", side="horde", season="Darkmoon Faire", trivia={criteria="Undercity", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Taking the Show on the Road", description="Launch off Darkmoon Fireworks in every friendly capital city.", mapID="Undercity", uiMapID=90, points=10, parent="World Events", type=29}}
+
+-- World Events/Darkmoon Faire: Darkmoon Dungeoneer
+A{"unknown", 6027, criterion=18648, season="Darkmoon Faire", trivia={criteria="Ornate Weapon", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Dungeoneer", description="Turn in all five dungeon Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6027, criterion=18644, season="Darkmoon Faire", trivia={criteria="A Treatise on Strategy", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Dungeoneer", description="Turn in all five dungeon Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6027, criterion=18646, season="Darkmoon Faire", trivia={criteria="Monstrous Egg", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Dungeoneer", description="Turn in all five dungeon Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6027, criterion=18645, season="Darkmoon Faire", trivia={criteria="Imbued Crystal", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Dungeoneer", description="Turn in all five dungeon Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6027, criterion=18647, season="Darkmoon Faire", trivia={criteria="Mysterious Grimoire", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Dungeoneer", description="Turn in all five dungeon Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+
+-- World Events/Darkmoon Faire: Darkmoon Defender
+A{"unknown", 6028, criterion=18649, season="Darkmoon Faire", trivia={criteria="Adventurer's Journal", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Defender", description="Turn in all three battleground Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6028, criterion=18650, season="Darkmoon Faire", trivia={criteria="Banner of the Fallen", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Defender", description="Turn in all three battleground Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6028, criterion=18651, season="Darkmoon Faire", trivia={criteria="Captured Insignia", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Defender", description="Turn in all three battleground Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+
+-- World Events/Darkmoon Faire: Darkmoon Despoiler
+A{"unknown", 6029, criterion=18644, season="Darkmoon Faire", trivia={criteria="A Treatise on Strategy", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18645, season="Darkmoon Faire", trivia={criteria="Imbued Crystal", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18646, season="Darkmoon Faire", trivia={criteria="Monstrous Egg", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18647, season="Darkmoon Faire", trivia={criteria="Mysterious Grimoire", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18648, season="Darkmoon Faire", trivia={criteria="Ornate Weapon", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18649, season="Darkmoon Faire", trivia={criteria="Adventurer's Journal", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18650, season="Darkmoon Faire", trivia={criteria="Banner of the Fallen", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18651, season="Darkmoon Faire", trivia={criteria="Captured Insignia", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}
+A{"unknown", 6029, criterion=18287, season="Darkmoon Faire", trivia={criteria="Soothsayer's Runes", module="seasonal_darkmoon", category="World Events/Darkmoon Faire", name="Darkmoon Despoiler", description="Turn in all nine Darkmoon Artifacts.", points=10, parent="World Events", type="quest"}}

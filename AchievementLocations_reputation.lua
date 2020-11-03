@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -242,6 +240,289 @@ A{"TolBaradDailyArea", 6742, criterion=982, faction=1178, side="horde", trivia={
 A{"TwilightHighlands", 6742, criterion=982, faction=1172, side="horde", trivia={criteria="Dragonmaw Clan", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", mapID="TwilightHighlands", uiMapID=241, points=10, type="exalted"}}
 A{"TwilightHighlands", 6742, criterion=982, faction=1174, side="alliance", trivia={criteria="Wildhammer Clan", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", mapID="TwilightHighlands", uiMapID=241, points=10, type="exalted"}}
 A{"Uldum", 6742, criterion=982, faction=1173, trivia={criteria="Ramkahen", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", mapID="Uldum", uiMapID=249, points=10, type="exalted"}}
+
+-- Reputation: 30 Exalted Reputations
+A{"unknown", 518, criterion=982, trivia={criteria="30 reputations to Exalted", module="reputation", category="Reputation", name="30 Exalted Reputations", description="Raise 30 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 25 Exalted Reputations
+A{"unknown", 519, criterion=982, trivia={criteria="25 reputations to Exalted", module="reputation", category="Reputation", name="25 Exalted Reputations", description="Raise 25 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 20 Exalted Reputations
+A{"unknown", 520, criterion=982, trivia={criteria="20 reputations to Exalted", module="reputation", category="Reputation", name="20 Exalted Reputations", description="Raise 20 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 15 Exalted Reputations
+A{"unknown", 521, criterion=982, trivia={criteria="15 reputations to Exalted", module="reputation", category="Reputation", name="15 Exalted Reputations", description="Raise 15 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: Somebody Likes Me
+A{"unknown", 522, trivia={module="reputation", category="Reputation", name="Somebody Likes Me", description="Raise a reputation to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 5 Exalted Reputations
+A{"unknown", 523, criterion=982, trivia={criteria="5 reputations to Exalted", module="reputation", category="Reputation", name="5 Exalted Reputations", description="Raise 5 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 10 Exalted Reputations
+A{"unknown", 524, criterion=982, trivia={criteria="10 reputations to Exalted", module="reputation", category="Reputation", name="10 Exalted Reputations", description="Raise 10 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: Ambassador of the Horde
+A{"unknown", 762, criterion=5313, faction=530, side="horde", trivia={criteria="Exalted Darkspear Trolls", module="reputation", category="Reputation", name="Ambassador of the Horde", description="Earn Exalted reputation with all six Horde factions.", points=10, type=46}}
+A{"unknown", 762, criterion=5314, faction=76, side="horde", trivia={criteria="Exalted Orgrimmar", module="reputation", category="Reputation", name="Ambassador of the Horde", description="Earn Exalted reputation with all six Horde factions.", points=10, type=46}}
+A{"unknown", 762, criterion=5316, faction=68, side="horde", trivia={criteria="Exalted Undercity", module="reputation", category="Reputation", name="Ambassador of the Horde", description="Earn Exalted reputation with all six Horde factions.", points=10, type=46}}
+A{"unknown", 762, criterion=5317, faction=911, side="horde", trivia={criteria="Exalted Silvermoon City", module="reputation", category="Reputation", name="Ambassador of the Horde", description="Earn Exalted reputation with all six Horde factions.", points=10, type=46}}
+A{"unknown", 762, criterion=5315, faction=81, side="horde", trivia={criteria="Exalted Thunder Bluff", module="reputation", category="Reputation", name="Ambassador of the Horde", description="Earn Exalted reputation with all six Horde factions.", points=10, type=46}}
+A{"unknown", 762, criterion=16825, faction=1133, side="horde", trivia={criteria="Exalted Bilgewater Cartel", module="reputation", category="Reputation", name="Ambassador of the Horde", description="Earn Exalted reputation with all six Horde factions.", points=10, type=46}}
+
+-- Reputation/The Burning Crusade: The Burning Crusader
+A{"unknown", 763, criterion=4751, faction=942, side="horde", trivia={criteria="Cenarion Expedition", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 763, criterion=4759, faction=1011, side="horde", trivia={criteria="Lower City", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 763, criterion=4765, faction=989, side="horde", trivia={criteria="Keepers of Time", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 763, criterion=5322, faction=947, side="horde", trivia={criteria="Thrallmar", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 763, criterion=4764, faction=935, side="horde", trivia={criteria="The Sha'tar", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+
+-- Reputation/The Burning Crusade: The Burning Crusader
+A{"unknown", 764, criterion=5336, faction=946, side="alliance", trivia={criteria="Honor Hold", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 764, criterion=4764, faction=935, side="alliance", trivia={criteria="The Sha'tar", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 764, criterion=4759, faction=1011, side="alliance", trivia={criteria="Lower City", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 764, criterion=4751, faction=942, side="alliance", trivia={criteria="Cenarion Expedition", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+A{"unknown", 764, criterion=4765, faction=989, side="alliance", trivia={criteria="Keepers of Time", module="reputation", category="Reputation/The Burning Crusade", name="The Burning Crusader", description="Raise all of The Burning Crusade dungeon reputations to Exalted.", points=20, parent="Reputation", type=46}}
+
+-- Reputation/The Burning Crusade: Shattrath Divided
+A{"unknown", 903, faction=934, trivia={module="reputation", category="Reputation/The Burning Crusade", name="Shattrath Divided", description="Earn Exalted status with The Scryers or The Aldor.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation: The Diplomat
+A{"unknown", 942, 0.7400, 0.6700, criterion=5337, faction=978, side="alliance", trivia={criteria="Exalted with the Kurenai", module="reputation", category="Reputation", name="The Diplomat", description="Raise your reputation level from Unfriendly to Exalted with Timbermaw Hold, Sporeggar and the Kurenai.", points=25, type=46}}
+
+-- Reputation: The Diplomat
+A{"unknown", 943, criterion=5321, faction=941, side="horde", trivia={criteria="Exalted with the The Mag'har", module="reputation", category="Reputation", name="The Diplomat", description="Raise your reputation level from Unfriendly to Exalted with Timbermaw Hold, Sporeggar and The Mag'har.", points=25, type=46}}
+
+-- Reputation/Wrath of the Lich King: The Argent Crusade
+A{"unknown", 947, faction=1106, trivia={module="reputation", category="Reputation/Wrath of the Lich King", name="The Argent Crusade", description="Earn Exalted status with the Argent Crusade.", points=15, parent="Reputation", type="exalted"}}
+
+-- Reputation: Ambassador of the Alliance
+A{"unknown", 948, criterion=5332, faction=930, side="alliance", trivia={criteria="Exalted Exodar", module="reputation", category="Reputation", name="Ambassador of the Alliance", description="Earn Exalted reputation with all six Alliance factions.", points=10, type=46}}
+A{"unknown", 948, criterion=5331, faction=72, side="alliance", trivia={criteria="Exalted Stormwind", module="reputation", category="Reputation", name="Ambassador of the Alliance", description="Earn Exalted reputation with all six Alliance factions.", points=10, type=46}}
+A{"unknown", 948, criterion=5330, faction=47, side="alliance", trivia={criteria="Exalted Ironforge", module="reputation", category="Reputation", name="Ambassador of the Alliance", description="Earn Exalted reputation with all six Alliance factions.", points=10, type=46}}
+A{"unknown", 948, criterion=5329, faction=54, side="alliance", trivia={criteria="Exalted Gnomeregan Exiles", module="reputation", category="Reputation", name="Ambassador of the Alliance", description="Earn Exalted reputation with all six Alliance factions.", points=10, type=46}}
+A{"unknown", 948, criterion=5328, faction=69, side="alliance", trivia={criteria="Exalted Darnassus", module="reputation", category="Reputation", name="Ambassador of the Alliance", description="Earn Exalted reputation with all six Alliance factions.", points=10, type=46}}
+A{"unknown", 948, criterion=16826, faction=1134, side="alliance", trivia={criteria="Exalted Gilneas", module="reputation", category="Reputation", name="Ambassador of the Alliance", description="Earn Exalted reputation with all six Alliance factions.", points=10, type=46}}
+
+-- Reputation: Guardian of Cenarius
+A{"unknown", 953, criterion=2045, faction=609, trivia={criteria="Exalted with Cenarion Circle", module="reputation", category="Reputation", name="Guardian of Cenarius", description="Earn Exalted status with the Cenarion Circle and Cenarion Expedition.", points=25, type=46}}
+A{"unknown", 953, criterion=4751, faction=942, trivia={criteria="Exalted with Cenarion Expedition", module="reputation", category="Reputation", name="Guardian of Cenarius", description="Earn Exalted status with the Cenarion Circle and Cenarion Expedition.", points=25, type=46}}
+
+-- Legacy: Hero of the Zandalar Tribe
+A{"unknown", 957, faction=270, trivia={module="reputation", category="Legacy", name="Hero of the Zandalar Tribe", description="Earn exalted status with the Zandalar Tribe.", points=0, type="exalted"}}
+
+-- Reputation/Wrath of the Lich King: The Winds of the North
+A{"unknown", 1011, faction=1052, side="horde", trivia={module="reputation", category="Reputation/Wrath of the Lich King", name="The Winds of the North", description="Gain Exalted reputation with the Horde Expedition.", points=20, parent="Reputation", type="exalted"}}
+
+-- Reputation/Wrath of the Lich King: The Winds of the North
+A{"unknown", 1012, faction=1037, side="alliance", trivia={module="reputation", category="Reputation/Wrath of the Lich King", name="The Winds of the North", description="Gain Exalted reputation with the Alliance Vanguard.", points=20, parent="Reputation", type="exalted"}}
+
+-- Reputation: 35 Exalted Reputations
+A{"unknown", 1014, criterion=982, trivia={criteria="35 reputations to Exalted", module="reputation", category="Reputation", name="35 Exalted Reputations", description="Raise 35 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 40 Exalted Reputations
+A{"unknown", 1015, criterion=982, trivia={criteria="40 reputations to Exalted", module="reputation", category="Reputation", name="40 Exalted Reputations", description="Raise 40 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Feats of Strength: Hero of Shattrath
+A{"unknown", 1205, trivia={module="reputation", category="Feats of Strength", name="Hero of Shattrath", description="Gained exalted status with The Scryers and The Aldor.", points=0}}
+
+-- Feats of Strength: Insane in the Membrane
+A{"unknown", 2336, quest=21, trivia={criteria="Booty Bay", module="reputation", category="Feats of Strength", name="Insane in the Membrane", description="Raise your reputation to Honored with the Bloodsail Buccaneers, and Exalted with Booty Bay, Everlook, Gadgetzan, Ratchet, Darkmoon Faire, and Ravenholdt.", points=0, type="exalted"}}
+A{"unknown", 2336, quest=577, trivia={criteria="Everlook", module="reputation", category="Feats of Strength", name="Insane in the Membrane", description="Raise your reputation to Honored with the Bloodsail Buccaneers, and Exalted with Booty Bay, Everlook, Gadgetzan, Ratchet, Darkmoon Faire, and Ravenholdt.", points=0, type="exalted"}}
+A{"unknown", 2336, quest=369, trivia={criteria="Gadgetzan", module="reputation", category="Feats of Strength", name="Insane in the Membrane", description="Raise your reputation to Honored with the Bloodsail Buccaneers, and Exalted with Booty Bay, Everlook, Gadgetzan, Ratchet, Darkmoon Faire, and Ravenholdt.", points=0, type="exalted"}}
+A{"unknown", 2336, quest=470, trivia={criteria="Ratchet", module="reputation", category="Feats of Strength", name="Insane in the Membrane", description="Raise your reputation to Honored with the Bloodsail Buccaneers, and Exalted with Booty Bay, Everlook, Gadgetzan, Ratchet, Darkmoon Faire, and Ravenholdt.", points=0, type="exalted"}}
+
+-- Reputation/Wrath of the Lich King: The Ashen Verdict
+A{"unknown", 4598, faction=1156, trivia={module="reputation", category="Reputation/Wrath of the Lich King", name="The Ashen Verdict", description="Earn Exalted status with the Ashen Verdict.", points=15, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: The Earthen Ring
+A{"unknown", 4881, faction=1135, trivia={module="reputation", category="Reputation/Cataclysm", name="The Earthen Ring", description="Earn Exalted status with the Earthen Ring.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: The Guardians of Hyjal
+A{"unknown", 4882, faction=1158, trivia={module="reputation", category="Reputation/Cataclysm", name="The Guardians of Hyjal", description="Earn Exalted status with the Guardians of Hyjal.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: Therazane
+A{"unknown", 4883, faction=1171, trivia={module="reputation", category="Reputation/Cataclysm", name="Therazane", description="Earn Exalted status with Therazane.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: Ramkahen
+A{"unknown", 4884, faction=1173, trivia={module="reputation", category="Reputation/Cataclysm", name="Ramkahen", description="Earn Exalted status with the Ramkahen Tol'vir.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: Wildhammer Clan
+A{"unknown", 4885, faction=1174, side="alliance", trivia={module="reputation", category="Reputation/Cataclysm", name="Wildhammer Clan", description="Earn Exalted status with the Wildhammer Clan.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: Dragonmaw Clan
+A{"unknown", 4886, faction=1172, side="horde", trivia={module="reputation", category="Reputation/Cataclysm", name="Dragonmaw Clan", description="Earn Exalted status with the Dragonmaw Clan.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation: 45 Exalted Reputations
+A{"unknown", 5374, criterion=982, trivia={criteria="45 reputations to Exalted", module="reputation", category="Reputation", name="45 Exalted Reputations", description="Raise 45 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation/Cataclysm: Baradin's Wardens
+A{"unknown", 5375, faction=1177, side="alliance", trivia={module="reputation", category="Reputation/Cataclysm", name="Baradin's Wardens", description="Earn Exalted status with Baradin's Wardens.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Cataclysm: Hellscream's Reach
+A{"unknown", 5376, faction=1178, side="horde", trivia={module="reputation", category="Reputation/Cataclysm", name="Hellscream's Reach", description="Earn Exalted status with Hellscream's Reach.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation: 50 Exalted Reputations
+A{"unknown", 5723, criterion=982, trivia={criteria="50 reputations to Exalted", module="reputation", category="Reputation", name="50 Exalted Reputations", description="Raise 50 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation/Cataclysm: Avengers of Hyjal
+A{"unknown", 5827, faction=1204, trivia={module="reputation", category="Reputation/Cataclysm", name="Avengers of Hyjal", description="Earn Exalted status with the Avengers of Hyjal.", points=15, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Shado-Pan
+A{"unknown", 6366, faction=1270, trivia={module="reputation", category="Reputation/Pandaria", name="Shado-Pan", description="Earn Exalted status with the Shado-Pan.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: The August Celestials
+A{"unknown", 6543, faction=1341, trivia={module="reputation", category="Reputation/Pandaria", name="The August Celestials", description="Earn Exalted status with the August Celestials.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: The Tillers
+A{"unknown", 6544, faction=1272, trivia={module="reputation", category="Reputation/Pandaria", name="The Tillers", description="Earn Exalted status with the Tillers.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Klaxxi
+A{"unknown", 6545, faction=1337, trivia={module="reputation", category="Reputation/Pandaria", name="Klaxxi", description="Earn Exalted status with the Klaxxi.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: The Golden Lotus
+A{"unknown", 6546, faction=1269, trivia={module="reputation", category="Reputation/Pandaria", name="The Golden Lotus", description="Earn Exalted status with the Golden Lotus.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: The Anglers
+A{"unknown", 6547, faction=1302, trivia={module="reputation", category="Reputation/Pandaria", name="The Anglers", description="Earn Exalted status with the Anglers.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: The Lorewalkers
+A{"unknown", 6548, faction=1345, trivia={module="reputation", category="Reputation/Pandaria", name="The Lorewalkers", description="Earn Exalted status with the Lorewalkers.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Order of the Cloud Serpent
+A{"unknown", 6550, faction=1271, trivia={module="reputation", category="Reputation/Pandaria", name="Order of the Cloud Serpent", description="Earn Exalted status with the Order of the Cloud Serpent.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Friends on the Farm
+A{"unknown", 6552, criterion=19399, faction=1282, trivia={criteria="Fish Fellreed", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19402, faction=1273, trivia={criteria="Jogu the Drunk", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19398, faction=1283, trivia={criteria="Farmer Fung", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19400, faction=1281, trivia={criteria="Gina Mudclaw", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19401, faction=1279, trivia={criteria="Haohan Mudclaw", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19403, faction=1276, trivia={criteria="Old Hillpaw", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19404, faction=1278, trivia={criteria="Sho", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19397, faction=1275, trivia={criteria="Ella", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19405, faction=1280, trivia={criteria="Tina Mudclaw", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+A{"unknown", 6552, criterion=19396, faction=1277, trivia={criteria="Chee Chee", module="reputation", category="Reputation/Pandaria", name="Friends on the Farm", description="Become best friends with all of the characters at the Halfhill Market.", points=10, parent="Reputation", type=46}}
+
+-- Reputation: 60 Exalted Reputations
+A{"unknown", 6742, criterion=982, trivia={module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation: 55 Exalted Reputations
+A{"unknown", 6826, criterion=982, trivia={module="reputation", category="Reputation", name="55 Exalted Reputations", description="Raise 55 reputations to Exalted.", points=10, type="exalted"}}
+
+-- Reputation/Pandaria: Pandaren Ambassador
+A{"unknown", 6827, criterion=19388, faction=1341, side="horde", trivia={criteria="The August Celestials", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=18993, faction=1270, side="horde", trivia={criteria="Shado-Pan", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19389, faction=1269, side="horde", trivia={criteria="Golden Lotus", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19390, faction=1337, side="horde", trivia={criteria="The Klaxxi", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19393, faction=1345, side="horde", trivia={criteria="The Lorewalkers", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19392, faction=1302, side="horde", trivia={criteria="The Anglers", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19391, faction=1272, side="horde", trivia={criteria="The Tillers", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19395, faction=1271, side="horde", trivia={criteria="Order of the Cloud Serpent", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6827, criterion=19480, faction=1352, side="horde", trivia={criteria="Huojin Pandaren", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+
+-- Reputation/Pandaria: Pandaren Ambassador
+A{"unknown", 6828, criterion=19388, faction=1341, side="alliance", trivia={criteria="The August Celestials", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=18993, faction=1270, side="alliance", trivia={criteria="Shado-Pan", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19389, faction=1269, side="alliance", trivia={criteria="Golden Lotus", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19390, faction=1337, side="alliance", trivia={criteria="The Klaxxi", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19393, faction=1345, side="alliance", trivia={criteria="The Lorewalkers", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19392, faction=1302, side="alliance", trivia={criteria="The Anglers", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19391, faction=1272, side="alliance", trivia={criteria="The Tillers", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19395, faction=1271, side="alliance", trivia={criteria="Order of the Cloud Serpent", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+A{"unknown", 6828, criterion=19481, faction=1353, side="alliance", trivia={criteria="Tushui Pandaren", module="reputation", category="Reputation/Pandaria", name="Pandaren Ambassador", description="Earn Exalted with all of the pandaren reputations listed below.", points=20, parent="Reputation", type=46}}
+
+-- Reputation/Pandaria: Operation: Shieldwall
+A{"unknown", 8205, faction=1376, side="alliance", trivia={module="reputation", category="Reputation/Pandaria", name="Operation: Shieldwall", description="Earn Exalted status with Operation: Shieldwall.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Dominance Offensive
+A{"unknown", 8206, faction=1375, side="horde", trivia={module="reputation", category="Reputation/Pandaria", name="Dominance Offensive", description="Earn Exalted status with the Dominance Offensive.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Kirin Tor Offensive
+A{"unknown", 8208, faction=1387, side="alliance", trivia={module="reputation", category="Reputation/Pandaria", name="Kirin Tor Offensive", description="Earn Exalted status with the Kirin Tor Offensive.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Sunreaver Onslaught
+A{"unknown", 8209, faction=1124, side="horde", trivia={module="reputation", category="Reputation/Pandaria", name="Sunreaver Onslaught", description="Earn Exalted status with the Sunreaver Onslaught", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Shado-Pan Assault
+A{"unknown", 8210, faction=1435, trivia={module="reputation", category="Reputation/Pandaria", name="Shado-Pan Assault", description="Earn Exalted status with the Shado-Pan Assault.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Pandaria: Emperor Shaohao
+A{"unknown", 8715, faction=1492, trivia={module="reputation", category="Reputation/Pandaria", name="Emperor Shaohao", description="Earn Exalted status with Emperor Shaohao.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Arakkoa Outcasts
+A{"unknown", 9469, faction=1515, trivia={module="reputation", category="Reputation/Draenor", name="Arakkoa Outcasts", description="Earn Exalted status with the Arakkoa Outcasts.", points=5, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Council of Exarchs
+A{"unknown", 9470, faction=1731, side="alliance", trivia={module="reputation", category="Reputation/Draenor", name="Council of Exarchs", description="Earn Exalted status with the Council of Exarchs.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Frostwolf Orcs
+A{"unknown", 9471, faction=1445, side="horde", trivia={module="reputation", category="Reputation/Draenor", name="Frostwolf Orcs", description="Earn Exalted status with the Frostwolf Orcs.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Steamwheedle Preservation Society
+A{"unknown", 9472, faction=1711, trivia={module="reputation", category="Reputation/Draenor", name="Steamwheedle Preservation Society", description="Earn Exalted status with the Steamwheedle Preservation Society.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Vol'jin's Spear
+A{"unknown", 9473, faction=1681, side="horde", trivia={module="reputation", category="Reputation/Draenor", name="Vol'jin's Spear", description="Earn Exalted status with Vol'jin's Spear.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Wrynn's Vanguard
+A{"unknown", 9474, faction=1682, side="alliance", trivia={module="reputation", category="Reputation/Draenor", name="Wrynn's Vanguard", description="Earn Exalted status with Wrynn's Vanguard.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Laughing Skull Orcs
+A{"unknown", 9475, faction=1708, side="horde", trivia={module="reputation", category="Reputation/Draenor", name="Laughing Skull Orcs", description="Earn Exalted status with Laughing Skull Orcs.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Sha'tari Defense
+A{"unknown", 9476, faction=1710, side="alliance", trivia={module="reputation", category="Reputation/Draenor", name="Sha'tari Defense", description="Earn Exalted status with Sha'tari Defense.", points=10, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Savage Friends
+A{"unknown", 9477, side="horde", trivia={module="reputation", category="Reputation/Draenor", name="Savage Friends", description="Earn Exalted with 1 Draenor reputation.", points=5, parent="Reputation", type="exalted"}}
+
+-- Reputation/Draenor: Savage Friends
+A{"unknown", 9478, side="alliance", trivia={module="reputation", category="Reputation/Draenor", name="Savage Friends", description="Earn Exalted with 1 Draenor reputation.", points=5, parent="Reputation", type="exalted"}}
+
+-- Garrisons/Buildings: Wingmen
+A{"unknown", 9499, criterion=0, faction=1733, trivia={criteria="Delvar Ironfist or Vivianne", module="reputation", category="Garrisons/Buildings", name="Wingmen", description="Become a Personal Wingman with all of your Barracks Bodyguards.", points=5, parent="Garrisons", type=46}}
+A{"unknown", 9499, criterion=25894, faction=1737, trivia={criteria="Talonpriest Ishaal", module="reputation", category="Garrisons/Buildings", name="Wingmen", description="Become a Personal Wingman with all of your Barracks Bodyguards.", points=5, parent="Garrisons", type=46}}
+A{"unknown", 9499, criterion=25895, faction=1736, trivia={criteria="Tormmok", module="reputation", category="Garrisons/Buildings", name="Wingmen", description="Become a Personal Wingman with all of your Barracks Bodyguards.", points=5, parent="Garrisons", type=46}}
+A{"unknown", 9499, criterion=0, faction=1740, trivia={criteria="Aeda Brightdawn or Defender Illona", module="reputation", category="Garrisons/Buildings", name="Wingmen", description="Become a Personal Wingman with all of your Barracks Bodyguards.", points=5, parent="Garrisons", type=46}}
+A{"unknown", 9499, criterion=25890, faction=1741, trivia={criteria="Leorajh", module="reputation", category="Garrisons/Buildings", name="Wingmen", description="Become a Personal Wingman with all of your Barracks Bodyguards.", points=5, parent="Garrisons", type=46}}
+
+-- Reputation: 60 Exalted Reputations
+A{"unknown", 6742, criterion=982, faction=69, side="alliance", trivia={criteria="Darnassus", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=930, side="alliance", trivia={criteria="Exodar", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1134, side="alliance", trivia={criteria="Gilneas", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=54, side="alliance", trivia={criteria="Gnomeregan", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=47, side="alliance", trivia={criteria="Ironforge", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=72, side="alliance", trivia={criteria="Stormwind", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1353, side="alliance", trivia={criteria="Tushui Pandaren", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1133, side="alliance", trivia={criteria="Bilgewater Cartel", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=530, side="horde", trivia={criteria="Darkspear Trolls", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=76, side="horde", trivia={criteria="Orgrimmar", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=911, side="horde", trivia={criteria="Silvermoon City", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=81, side="horde", trivia={criteria="Thunder Bluff", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=68, side="horde", trivia={criteria="Undercity", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1352, side="horde", trivia={criteria="Huojin Pandaren", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1037, side="alliance", trivia={criteria="Alliance Vanguard", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1050, side="alliance", trivia={criteria="Valiance Expedition", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1106, trivia={criteria="Argent Crusade", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1052, side="horde", trivia={criteria="Horde Expedition", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1085, side="horde", trivia={criteria="Warsong Offensive", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1124, side="horde", trivia={criteria="The Sunreavers", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1341, trivia={criteria="The August Celestials", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1302, trivia={criteria="The Anglers", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1359, trivia={criteria="The Black Prince", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1269, trivia={criteria="Golden Lotus", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1337, trivia={criteria="The Klaxxi", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1345, trivia={criteria="The Lorewalkers", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1376, side="alliance", trivia={criteria="Operation: Shieldwall", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1375, side="horde", trivia={criteria="Dominance Offensive", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1271, trivia={criteria="Order of the Cloud Serpent", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1242, side="alliance", trivia={criteria="Pearlfin Jinyu", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1228, side="horde", trivia={criteria="Forest Hozen", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1492, trivia={criteria="Emperor Shaohao", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1270, trivia={criteria="Shado-Pan", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1435, trivia={criteria="Shado-Pan Assault", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
+A{"unknown", 6742, criterion=982, faction=1272, trivia={criteria="The Tillers", module="reputation", category="Reputation", name="60 Exalted Reputations", description="Raise 60 reputations to Exalted.", points=10, type="exalted"}}
 
 -- Reputation/Pandaria: Friend on the Farm
 A{"ValleyoftheFourWinds", 6551, criterion=19396, faction=1277, trivia={criteria="Chee Chee", module="reputation", category="Reputation/Pandaria", name="Friend on the Farm", description="Become best friends with one of the characters at the Halfhill Market.", mapID="ValleyOfTheFourWinds", uiMapID=376, points=10, parent="Reputation", type=46}}

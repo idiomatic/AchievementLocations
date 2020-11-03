@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -2882,6 +2880,23 @@ A{"Ulduar77", 2154, 0.8500, 0.7700, trivia={module="soloable", category="Dungeon
 
 -- Dungeons & Raids/Lich King Dungeon: Abuse the Ooze
 A{"Ulduar77", 2155, 0.5000, 0.1400, trivia={module="soloable", category="Dungeons & Raids/Lich King Dungeon", name="Abuse the Ooze", description="Defeat Sjonnir the Ironshaper in the Halls of Stone on Heroic Difficulty and kill 5 Iron Sludges during the encounter.", mapID="HallsOfStone", uiMapID=140, points=10, parent="Dungeons & Raids"}}
+
+-- Dungeons & Raids: Looking For More
+A{"unknown", 4476, trivia={module="soloable", category="Dungeons & Raids", name="Looking For More", description="Use the Dungeon Finder tool to finish random heroic dungeons until you have grouped with 10 random players total.", points=10}}
+
+-- Dungeons & Raids: Looking For Many
+A{"unknown", 4477, trivia={module="soloable", category="Dungeons & Raids", name="Looking For Many", description="Use the Dungeon Finder tool to finish random heroic dungeons until you have grouped with 50 random players total.", points=10}}
+
+-- Dungeons & Raids: Looking For Multitudes
+A{"unknown", 4478, criterion=13029, trivia={module="soloable", category="Dungeons & Raids", name="Looking For Multitudes", description="Use the Dungeon Finder tool to finish random heroic dungeons until you have grouped with 100 random players total.", points=10}}
+
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"unknown", 4845, criterion=16041, trivia={criteria="Ready for Raiding", module="soloable", category="Dungeons & Raids", name="Glory of the Cataclysm Hero", description="Complete the Cataclysm Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 4845, criterion=13554, trivia={criteria="Cataclysm Dungeon Hero", module="soloable", category="Dungeons & Raids", name="Glory of the Cataclysm Hero", description="Complete the Cataclysm Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"unknown", 6927, criterion=19914, trivia={criteria="Pandaria Dungeon Hero", module="soloable", category="Dungeons & Raids", name="Glory of the Pandaria Hero", description="Complete the Pandaria Heroic dungeon achievements listed below.", points=25, type="achievement"}}
+A{"unknown", 6927, criterion=19942, trivia={criteria="Polyformic Acid Science", module="soloable", category="Dungeons & Raids", name="Glory of the Pandaria Hero", description="Complete the Pandaria Heroic dungeon achievements listed below.", points=25, type="achievement"}}
 
 -- Dungeons & Raids/Lich King Dungeon: Utgarde Keep
 A{"UtgardeKeep", 477, 0.5870, 0.6200, criterion=5378, floor=2, trivia={criteria="Skarvald the Constructor", module="soloable", category="Dungeons & Raids/Lich King Dungeon", name="Utgarde Keep", description="Defeat the bosses in Utgarde Keep.", mapID="UtgardeKeep_DragonflayerAscent", uiMapID=134, points=10, parent="Dungeons & Raids", type="slay"}}

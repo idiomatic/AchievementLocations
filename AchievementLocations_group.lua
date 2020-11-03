@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -8,11 +6,18 @@ A{"BaradinHold", 5425, trivia={criteria="Argaloth slain", module="group", catego
 A{"BaradinHold", 5425, trivia={criteria="Occu'thar slain", module="group", category="Dungeons & Raids/Cataclysm Raid", name="Baradin Hold Guild Run", description="Defeat the bosses in Baradin Hold while in a guild group.", mapID="BaradinHold", uiMapID=282, points=10, parent="Dungeons & Raids"}}
 A{"BaradinHold", 5425, trivia={criteria="Alizabal slain", module="group", category="Dungeons & Raids/Cataclysm Raid", name="Baradin Hold Guild Run", description="Defeat the bosses in Baradin Hold while in a guild group.", mapID="BaradinHold", uiMapID=282, points=10, parent="Dungeons & Raids"}}
 
+-- none: Blackwing Descent Guild Run
+A{"BlackwingDescent", nil, trivia={module="group", category="none", name="Blackwing Descent Guild Run"}}
+A{"DragonSoul", nil, trivia={module="group", category="none", name="Dragon Soul Guild Run"}}
+
 -- Dungeons & Raids/Cataclysm Raid: Only the Penitent...
 A{"Firelands", 5799, 0.5000, 0.8200, floor=3, trivia={module="group", category="Dungeons & Raids/Cataclysm Raid", name="Only the Penitent...", description="Activate both of Fandral's Flames at once in Firelands without any raid member getting hit by Kneel to the Flame!", mapID="Firelands_SulfuronKeep", uiMapID=369, points=10, parent="Dungeons & Raids"}}
 
 -- Dungeons & Raids: Glory of the Firelands Raider
 A{"Firelands", 5828, 0.5000, 0.8200, criterion=17582, floor=3, trivia={criteria="Only the Penitent...", module="group", category="Dungeons & Raids", name="Glory of the Firelands Raider", description="Complete the Firelands raid achievements listed below.", mapID="Firelands_SulfuronKeep", uiMapID=369, points=25, type="achievement"}}
+
+-- none: Firelands Guild Run
+A{"Firelands", nil, 0.5070, 0.1530, trivia={module="group", category="none", name="Firelands Guild Run", mapID="Firelands_SulfuronKeep", uiMapID=369}}
 
 -- Dungeons & Raids: Glory of the Hero
 A{"Gundrak", 2136, 0.4650, 0.2700, criterion=7584, trivia={criteria="Share The Love", module="group", category="Dungeons & Raids", name="Glory of the Hero", description="Complete the Heroic dungeon achievements listed below.", mapID="Gundrak", uiMapID=154, points=25, type="achievement"}}
@@ -57,6 +62,14 @@ A{"TerraceOfEndlessSpring", 9914, 0.3900, 0.4800, criterion=27741, note="drop fr
 
 -- Garrisons: Full Discography
 A{"TerraceOfEndlessSpring", 10015, 0.3900, 0.4800, criterion=27741, note="drop from Sha of Fear", side="alliance", trivia={criteria="Heart of Pandaria", module="group", category="Garrisons", name="Full Discography", description="Collect all of the Music Rolls available for your garrison's jukebox.", mapID="TerraceOfEndlessSpring", uiMapID=456, points=5, type="quest"}}
+
+-- none: Heroic: Cho'gall Guild Run
+A{"TheBastionofTwilight", nil, trivia={module="group", category="none", name="Heroic: Cho'gall Guild Run"}}
+A{"TheBastionofTwilight", nil, 0.4880, 0.3370, floor=3, trivia={module="group", category="none", name="Heroic: Sinestra Guild Run", mapID="TheBastionOfTwilight_TheTwilightCaverns", uiMapID=296}}
+A{"TheBastionofTwilight", nil, trivia={module="group", category="none", name="The Bastion of Twilight Guild Run"}}
+
+-- none: Throne of the Four Winds Guild Run
+A{"ThroneoftheFourWinds", 4987, trivia={module="group", category="none", name="Throne of the Four Winds Guild Run", mapID="ThroneOfTheFourWinds", uiMapID=328}}
 
 -- Dungeons & Raids/Lich King Raid: Staying Buffed All Winter (10 player)
 A{"Ulduar", 2969, 0.6800, 0.6500, floor=3, trivia={module="group", category="Dungeons & Raids/Lich King Raid", name="Staying Buffed All Winter (10 player)", description="Possess the effects of Toasty Fire, Storm Power and Starlight at the same time in 10-player mode.", mapID="Ulduar_TheInnerSanctumOfUlduar", uiMapID=149, points=10, parent="Dungeons & Raids"}}

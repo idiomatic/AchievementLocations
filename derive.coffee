@@ -8,9 +8,7 @@ process = require 'process'
 app = "AchievementLocations"
 sheetID = '1_s6zu-xXIqjUelmZO3ZdWB_C2fj-MFAxxMJkUbBwjxU'
 achievementWorksheetId = 1492531208
-header = """-- this file is machine generated.  do not edit.
-
-local AL = LibStub:GetLibrary("AchievementLocations-1.0")
+header = """local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
 """
@@ -23,6 +21,13 @@ createModule = (module) ->
     out = fs.createWriteStream("#{app}_#{module}.lua", mode:0o644)
     out.write dosify header
     return out
+
+addDefaults = (row) ->
+    row.module or= 'data'
+    row.mapfile or= 'unknown'
+    row.category or= 'none'
+    row.achievement or= 'nil'
+    row
 
 do ->
     doc = new GoogleSpreadsheet(sheetID)
@@ -41,7 +46,8 @@ do ->
     outs = {}
     priorAchievementID = {}
 
-    rows = rows.filter (row) -> row.mapfile and row.category
+    rows = (addDefaults(row) for row in rows when row)
+
     rows.sort (a, b) ->
         ma = a.mapfile.toLowerCase()
         mb = b.mapfile.toLowerCase()

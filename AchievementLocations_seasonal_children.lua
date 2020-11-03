@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -38,6 +36,32 @@ A{"StormwindCity", 1788, 0.6140, 0.7480, criterion=6651, side="alliance", season
 
 -- World Events/Children's Week: Aw, Isn't It Cute?
 A{"StormwindCity", 1792, 0.5660, 0.5460, side="alliance", season="Children's Week", trivia={module="seasonal_children", category="World Events/Children's Week", name="Aw, Isn't It Cute?", description="Obtain one of the Children's Week reward pets through questing.", mapID="StormwindCity", uiMapID=84, points=10, parent="World Events"}}
+
+-- World Events/Children's Week: Bad Example
+A{"unknown", 1788, criterion=6654, note="buy off AH", season="Children's Week", trivia={criteria="Delicious Chocolate Cake", module="seasonal_children", category="World Events/Children's Week", name="Bad Example", description="Eat the sweets listed below while your orphan is watching.", points=10, parent="World Events", type=41}}
+A{"unknown", 1788, criterion=6652, note="buy off AH", season="Children's Week", trivia={criteria="Tasty Cupcake", module="seasonal_children", category="World Events/Children's Week", name="Bad Example", description="Eat the sweets listed below while your orphan is watching.", points=10, parent="World Events", type=41}}
+
+-- World Events/Children's Week: Daily Chores
+A{"unknown", 1789, criterion=12398, season="Children's Week", trivia={criteria="Complete five daily quests with your orphan out.", module="seasonal_children", category="World Events/Children's Week", name="Daily Chores", description="Complete five daily quests with your orphan out.", points=10, parent="World Events", type=14}}
+
+-- World Events/Children's Week: Home Alone
+A{"unknown", 1791, season="Children's Week", trivia={module="seasonal_children", category="World Events/Children's Week", name="Home Alone", description="Use your Hearthstone while your orphan is with you.", points=10, parent="World Events"}}
+
+-- World Events: For the Children
+A{"unknown", 1793, criterion=6674, season="Children's Week", trivia={criteria="Home Alone", module="seasonal_children", category="World Events", name="For the Children", description="Complete the Children's Week achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1793, criterion=6747, season="Children's Week", trivia={criteria="School of Hard Knocks", module="seasonal_children", category="World Events", name="For the Children", description="Complete the Children's Week achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1793, criterion=6744, season="Children's Week", trivia={criteria="Bad Example", module="seasonal_children", category="World Events", name="For the Children", description="Complete the Children's Week achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1793, criterion=6746, season="Children's Week", trivia={criteria="Aw, Isn't It Cute?", module="seasonal_children", category="World Events", name="For the Children", description="Complete the Children's Week achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1793, criterion=6745, season="Children's Week", trivia={criteria="Daily Chores", module="seasonal_children", category="World Events", name="For the Children", description="Complete the Children's Week achievements listed below.", points=10, type="achievement"}}
+
+-- World Events: What a Long, Strange Trip It's Been
+A{"unknown", 2144, criterion=7555, season="Children's Week", trivia={criteria="For The Children", module="seasonal_children", category="World Events", name="What a Long, Strange Trip It's Been", description="Complete the world events achievements listed below.", points=50, type="achievement"}}
+
+-- World Events/Children's Week: <DND> Account Has Curious Wolvar Pup
+A{"unknown", 10366, season="Children's Week", trivia={module="seasonal_children", category="World Events/Children's Week", name="<DND> Account Has Curious Wolvar Pup", description="Added for playercondition issues.", points=0, parent="World Events"}}
+
+-- World Events/Children's Week: <DND> Account Has Oracle Hatchling
+A{"unknown", 10367, season="Children's Week", trivia={module="seasonal_children", category="World Events/Children's Week", name="<DND> Account Has Oracle Hatchling", description="Added for playercondition issues.", points=0, parent="World Events"}}
 
 -- World Events/Children's Week: Hail To The King, Baby
 A{"UtgardePinnacle", 1790, 0.4150, 0.5340, floor=2, season="Children's Week", trivia={module="seasonal_children", category="World Events/Children's Week", name="Hail To The King, Baby", description="Defeat King Ymiron in Utgarde Pinnacle with your orphan out.", mapID="UtgardePinnacle_UpperPinnacle", uiMapID=137, points=10, parent="World Events"}}

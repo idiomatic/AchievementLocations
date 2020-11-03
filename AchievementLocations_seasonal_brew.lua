@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -74,3 +72,32 @@ A{"Orgrimmar", 1183, 0.5060, 0.7360, criterion=3525, side="horde", trivia={crite
 A{"Orgrimmar", 1183, 0.5060, 0.7360, criterion=3519, side="horde", trivia={criteria="Lord of Frost's Private Label", module="seasonal_brew", category="World Events/Brewfest", name="Brew of the Year", description="Sample 12 beers featured in the Brew of the Month club.", mapID="Orgrimmar", uiMapID=85, points=10, parent="World Events", type=28}}
 A{"Orgrimmar", 1183, 0.5060, 0.7360, criterion=3524, side="horde", trivia={criteria="Bartlett's Bitter Brew", module="seasonal_brew", category="World Events/Brewfest", name="Brew of the Year", description="Sample 12 beers featured in the Brew of the Month club.", mapID="Orgrimmar", uiMapID=85, points=10, parent="World Events", type=28}}
 A{"Orgrimmar", 1183, 0.5060, 0.7360, criterion=3515, side="horde", trivia={criteria="Wild Winter Pilsner", module="seasonal_brew", category="World Events/Brewfest", name="Brew of the Year", description="Sample 12 beers featured in the Brew of the Month club.", mapID="Orgrimmar", uiMapID=85, points=10, parent="World Events", type=28}}
+
+-- World Events/Brewfest: Have Keg, Will Travel
+A{"unknown", 303, season="Brewfest", trivia={module="seasonal_brew", category="World Events/Brewfest", name="Have Keg, Will Travel", description="Obtain a Brewfest mount, or transform yours into one using Brewfest Hops.", points=10, parent="World Events"}}
+
+-- World Events/Brewfest: Down With The Dark Iron
+A{"unknown", 1186, season="Brewfest", trivia={module="seasonal_brew", category="World Events/Brewfest", name="Down With The Dark Iron", description="Defend the Brewfest camp from the Dark Iron attack and complete the quest, \"This One Time, When I Was Drunk...\"", points=10, parent="World Events"}}
+
+-- World Events/Brewfest: Almost Blind Luck
+A{"unknown", 1260, season="Brewfest", trivia={module="seasonal_brew", category="World Events/Brewfest", name="Almost Blind Luck", description="Fall 65 yards without dying while wearing Synthebrew Goggles during the Brewfest Holiday.", points=10, parent="World Events"}}
+
+-- World Events: Brewmaster
+A{"unknown", 1683, criterion=8160, season="Brewfest", trivia={criteria="Have Keg, Will Travel", module="seasonal_brew", category="World Events", name="Brewmaster", description="Complete the Brewfest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1683, criterion=7235, season="Brewfest", trivia={criteria="Does Your Wolpertinger Linger?", module="seasonal_brew", category="World Events", name="Brewmaster", description="Complete the Brewfest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1683, criterion=6181, season="Brewfest", trivia={criteria="The Brewfest Diet", module="seasonal_brew", category="World Events", name="Brewmaster", description="Complete the Brewfest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1683, criterion=6184, season="Brewfest", trivia={criteria="Direbrewfest", module="seasonal_brew", category="World Events", name="Brewmaster", description="Complete the Brewfest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1683, criterion=6182, season="Brewfest", trivia={criteria="Brew of the Month", module="seasonal_brew", category="World Events", name="Brewmaster", description="Complete the Brewfest achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1683, criterion=6185, season="Brewfest", trivia={criteria="Down With The Dark Iron", module="seasonal_brew", category="World Events", name="Brewmaster", description="Complete the Brewfest achievements listed below.", points=10, type="achievement"}}
+
+-- World Events/Brewfest: Does Your Wolpertinger Linger?
+A{"unknown", 1936, season="Brewfest", trivia={module="seasonal_brew", category="World Events/Brewfest", name="Does Your Wolpertinger Linger?", description="Obtain a Wolpertinger pet from the Brewfest quest line.", points=10, parent="World Events"}}
+
+-- World Events: What a Long, Strange Trip It's Been
+A{"unknown", 2144, criterion=7564, season="Brewfest", trivia={criteria="Brewmaster", module="seasonal_brew", category="World Events", name="What a Long, Strange Trip It's Been", description="Complete the world events achievements listed below.", points=50, type="achievement"}}
+
+-- World Events/Brewfest: Brew of the Month
+A{"unknown", 2796, season="Brewfest", trivia={module="seasonal_brew", category="World Events/Brewfest", name="Brew of the Month", description="Join the Brew of the Month club.", points=10, parent="World Events"}}
+
+-- Feats of Strength: A Brew-FAST Mount
+A{"unknown", 3496, season="Brewfest", trivia={module="seasonal_brew", category="Feats of Strength", name="A Brew-FAST Mount", description="Obtain an epic Brewfest mount.", points=0}}

@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -112,3 +110,50 @@ A{"Undercity", 4436, 0.5780, 0.9160, criterion=12661, side="alliance", season="F
 
 -- World Events/Winter Veil: A-Caroling We Will Go
 A{"Undercity", 5853, criterion=17783, side="alliance", season="Feast of Winter Veil", trivia={criteria="Undercity", module="seasonal_winter", category="World Events/Winter Veil", name="A-Caroling We Will Go", description="Use your Gaudy Winter Veil Sweater to carol in enemy capital cities during the Feast of Winter Veil.", mapID="Undercity", uiMapID=90, points=10, parent="World Events", type=29}}
+
+-- World Events/Winter Veil: With a Little Helper from My Friends
+A{"unknown", 252, criterion=0, season="Feast of Winter Veil", trivia={criteria="Earn 50 honorable kills as a Little Helper from the Winter Wondervolt machine.", module="seasonal_winter", category="World Events/Winter Veil", name="With a Little Helper from My Friends", description="Earn 50 honorable kills as a Little Helper from the Winter Wondervolt machine.", points=10, parent="World Events"}}
+
+-- World Events/Winter Veil: Tis the Season
+A{"unknown", 277, season="Feast of Winter Veil", trivia={module="seasonal_winter", category="World Events/Winter Veil", name="Tis the Season", description="During the Feast of Winter Veil, wear 3 pieces of winter clothing and eat Graccu's Mince Meat Fruitcake.", points=10, parent="World Events"}}
+
+-- World Events/Winter Veil: Crashin' & Thrashin'
+A{"unknown", 1295, criterion=4090, season="Feast of Winter Veil", trivia={criteria="Gain 25 crashes with your Crashin' Thrashin' Racer", module="seasonal_winter", category="World Events/Winter Veil", name="Crashin' & Thrashin'", description="Gain 25 crashes with your Crashin' Thrashin' Racer during the Feast of Winter Veil.", points=10, parent="World Events", type=28}}
+
+-- World Events/Winter Veil: Let It Snow
+A{"unknown", 1687, criterion=6245, season="Feast of Winter Veil", trivia={criteria="Blood Elf Warlock", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6246, season="Feast of Winter Veil", trivia={criteria="Draenei Priest", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6237, season="Feast of Winter Veil", trivia={criteria="Orc Death Knight", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6241, season="Feast of Winter Veil", trivia={criteria="Undead Rogue", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6240, season="Feast of Winter Veil", trivia={criteria="Night Elf Druid", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6238, season="Feast of Winter Veil", trivia={criteria="Human Warrior", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6242, season="Feast of Winter Veil", trivia={criteria="Troll Hunter", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6243, season="Feast of Winter Veil", trivia={criteria="Gnome Mage", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6239, season="Feast of Winter Veil", trivia={criteria="Tauren Shaman", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+A{"unknown", 1687, criterion=6244, season="Feast of Winter Veil", trivia={criteria="Dwarf Paladin", module="seasonal_winter", category="World Events/Winter Veil", name="Let It Snow", description="During the Feast of Winter Veil, use a Handful of Snowflakes on each of the race/class combinations listed below.", points=10, parent="World Events", type=110}}
+
+-- World Events/Winter Veil: The Winter Veil Gourmet
+A{"unknown", 1688, criterion=6248, season="Feast of Winter Veil", trivia={criteria="Winter Veil Egg Nog", module="seasonal_winter", category="World Events/Winter Veil", name="The Winter Veil Gourmet", description="During the Feast of Winter Veil, use your culinary expertise to produce a Gingerbread Cookie, Winter Veil Egg Nog and Hot Apple Cider.", points=10, parent="World Events", type=29}}
+A{"unknown", 1688, criterion=6247, season="Feast of Winter Veil", trivia={criteria="Gingerbread Cookie", module="seasonal_winter", category="World Events/Winter Veil", name="The Winter Veil Gourmet", description="During the Feast of Winter Veil, use your culinary expertise to produce a Gingerbread Cookie, Winter Veil Egg Nog and Hot Apple Cider.", points=10, parent="World Events", type=29}}
+A{"unknown", 1688, criterion=6249, season="Feast of Winter Veil", trivia={criteria="Hot Apple Cider", module="seasonal_winter", category="World Events/Winter Veil", name="The Winter Veil Gourmet", description="During the Feast of Winter Veil, use your culinary expertise to produce a Gingerbread Cookie, Winter Veil Egg Nog and Hot Apple Cider.", points=10, parent="World Events", type=29}}
+
+-- World Events/Winter Veil: A Frosty Shake
+A{"unknown", 1690, season="Feast of Winter Veil", trivia={module="seasonal_winter", category="World Events/Winter Veil", name="A Frosty Shake", description="During the Feast of Winter Veil, use your Winter Veil Disguise kit to become a snowman and then dance with another snowman in Dalaran.", points=10, parent="World Events"}}
+
+-- World Events: Merrymaker
+A{"unknown", 1691, criterion=6262, season="Feast of Winter Veil", trivia={criteria="On Metzen!", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6266, season="Feast of Winter Veil", trivia={criteria="Tis the Season", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6269, season="Feast of Winter Veil", trivia={criteria="Let It Snow", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6271, season="Feast of Winter Veil", trivia={criteria="The Winter Veil Gourmet", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6272, season="Feast of Winter Veil", trivia={criteria="He Knows If You've Been Naughty", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6273, season="Feast of Winter Veil", trivia={criteria="A Frosty Shake", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6263, season="Feast of Winter Veil", trivia={criteria="With a Little Helper from My Friends", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6268, season="Feast of Winter Veil", trivia={criteria="Simply Abominable", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6264, season="Feast of Winter Veil", trivia={criteria="Scrooge", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+A{"unknown", 1691, criterion=6270, season="Feast of Winter Veil", trivia={criteria="Bros. Before Ho Ho Ho's", module="seasonal_winter", category="World Events", name="Merrymaker", description="Complete the Winter Veil achievements listed below.", points=10, type="achievement"}}
+
+-- World Events: What a Long, Strange Trip It's Been
+A{"unknown", 2144, criterion=7566, season="Feast of Winter Veil", trivia={criteria="Merrymaker", module="seasonal_winter", category="World Events", name="What a Long, Strange Trip It's Been", description="Complete the world events achievements listed below.", points=50, type="achievement"}}
+
+-- World Events/Winter Veil: The Danger Zone
+A{"unknown", 8699, season="Feast of Winter Veil", trivia={module="seasonal_winter", category="World Events/Winter Veil", name="The Danger Zone", description="Shoot down another player's Crashin' Thrashin' Flyer with yours.", points=10, parent="World Events"}}

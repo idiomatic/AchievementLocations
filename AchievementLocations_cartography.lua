@@ -1,5 +1,3 @@
--- this file is machine generated.  do not edit.
-
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
@@ -1438,6 +1436,9 @@ A{"UngoroCrater", 854, 0.5510, 0.6240, criterion=14120, trivia={criteria="Marsha
 A{"UngoroCrater", 854, 0.4340, 0.4140, criterion=14121, trivia={criteria="Mossy Pile", module="cartography", category="Exploration/Kalimdor", name="Explore Un'Goro Crater", description="Explore Un'Goro Crater, revealing the covered areas of the world map.", mapID="UnGoroCrater", uiMapID=78, points=10, parent="Exploration", type="explore"}}
 A{"UngoroCrater", 854, 0.6850, 0.3670, criterion=14122, trivia={criteria="The Roiling Gardens", module="cartography", category="Exploration/Kalimdor", name="Explore Un'Goro Crater", description="Explore Un'Goro Crater, revealing the covered areas of the world map.", mapID="UnGoroCrater", uiMapID=78, points=10, parent="Exploration", type="explore"}}
 A{"UngoroCrater", 854, 0.2990, 0.3710, criterion=14123, trivia={criteria="The Screaming Reaches", module="cartography", category="Exploration/Kalimdor", name="Explore Un'Goro Crater", description="Explore Un'Goro Crater, revealing the covered areas of the world map.", mapID="UnGoroCrater", uiMapID=78, points=10, parent="Exploration", type="explore"}}
+
+-- Exploration: World Explorer
+A{"unknown", 46, criterion=13600, trivia={criteria="Cataclysm", module="cartography", category="Exploration", name="World Explorer", description="Explore Eastern Kingdoms, Kalimdor, Outland, Northrend, the areas revealed by the Cataclysm, and Pandaria.", points=50, type="achievement"}}
 
 -- Exploration: Explore Pandaria
 A{"ValeOfEternalBlossomsScenario", 6974, criterion=20128, trivia={criteria="Vale of Eternal Blossoms", module="cartography", category="Exploration", name="Explore Pandaria", description="Explore the regions of Pandaria.", mapID="ValeOfEternalBlossoms", uiMapID=390, points=25, type="achievement"}}
