@@ -8,9 +8,7 @@ process = require 'process'
 app = "AchievementLocations"
 sheetID = '1_s6zu-xXIqjUelmZO3ZdWB_C2fj-MFAxxMJkUbBwjxU'
 achievementWorksheetId = 1492531208
-header = """-- this file is machine generated.  do not edit.
-
-local AL = LibStub:GetLibrary("AchievementLocations-1.0")
+header = """local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
 """
@@ -23,6 +21,13 @@ createModule = (module) ->
     out = fs.createWriteStream("#{app}_#{module}.lua", mode:0o644)
     out.write dosify header
     return out
+
+addDefaults = (row) ->
+    row.module or= 'data'
+    row.mapfile or= 'unknown'
+    row.category or= 'none'
+    row.achievement or= 'nil'
+    row
 
 do ->
     doc = new GoogleSpreadsheet(sheetID)
@@ -41,7 +46,8 @@ do ->
     outs = {}
     priorAchievementID = {}
 
-    rows = rows.filter (row) -> row.mapfile
+    rows = (addDefaults(row) for row in rows when row)
+
     rows.sort (a, b) ->
         ma = a.mapfile.toLowerCase()
         mb = b.mapfile.toLowerCase()
@@ -49,7 +55,7 @@ do ->
         return -1 if ma < mb
         return 1
 
-    for {module, mapfile, achievement, criterion, x, y, floor, action, item, quest, faction, note, criteria, name, category, side, season} in rows
+    for {module, mapfile, mapID, uiMapID, area, achievement, criterion, x, y, floor, item, quest, faction, note, criteria, name, category, description, points, side, parent, type, season, assetid} in rows
         module or= 'data'
         out = outs[module] or= createModule(module)
 
@@ -67,13 +73,22 @@ do ->
         out.write ", quest=#{quest}" if quest
         out.write ", faction=#{faction}" if faction
         out.write ", floor=#{floor}" if floor
-        out.write ", action=#{JSON.stringify action}" if action
         out.write ", item=#{JSON.stringify item}" if item
         out.write ", note=#{JSON.stringify note}" if note
         out.write ", side=#{JSON.stringify side}" if side and side isnt 'both'
         out.write ", season=#{JSON.stringify season}" if season
 
+        some = false
+        trivia = {criteria, module, category, name, description, mapID, uiMapID, area, points, parent, type, assetid}
+        for own key, value of trivia
+            if value
+                out.write if some then ", " else  ", trivia={"
+                some = true
+                # non-exponentiated number
+                value = JSON.stringify(value) unless /^[\+\-]?\d*\.?\d+$/.test(value)
+                out.write "#{key}=#{value}"
+        out.write "}" if some
+
         out.write "}"
-        out.write " -- #{criteria}" if criteria
         out.write dosify "\n"
 

@@ -1,6 +1,6 @@
 ## Interface: 90001
 ## Title: Lib AchievementLocations-1.0
-## Version: 0.5.0
+## Version: 0.6.0
 ## Author: idiomatiq
 ## X-License: Apache
 
